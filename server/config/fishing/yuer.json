@@ -1,0 +1,104 @@
+{
+  "description": "鱼饵配置。fail_reduction: 中钩率提升(比例)。rare_bonus: 幸运加成(比例)。duration: 持续竿数(0=永久直到卸下)。",
+  "baits": [
+    {
+      "name": "蚯蚓",
+      "rarity": 1,
+      "price": 10,
+      "fail_reduction": 0.02,
+      "rare_bonus": 0.0,
+      "description": "最普通的鱼饵，随处可挖。",
+      "emoji": "🪱"
+    },
+    {
+      "name": "面包饵",
+      "rarity": 1,
+      "price": 15,
+      "fail_reduction": 0.01,
+      "rare_bonus": 0.0,
+      "description": "面包屑捏成的饵，小鱼最爱。",
+      "emoji": "🍞"
+    },
+    {
+      "name": "红虫",
+      "rarity": 1,
+      "price": 25,
+      "fail_reduction": 0.03,
+      "rare_bonus": 0.02,
+      "description": "鱼类喜爱的活饵，鲜活诱鱼。",
+      "emoji": "🐛"
+    },
+    {
+      "name": "蟋蟀",
+      "rarity": 2,
+      "price": 40,
+      "fail_reduction": 0.06,
+      "rare_bonus": -0.02,
+      "description": "水面跳动吸引鱼群，但稀有鱼不爱。",
+      "emoji": "🦗"
+    },
+    {
+      "name": "虾饵",
+      "rarity": 2,
+      "price": 60,
+      "fail_reduction": 0.05,
+      "rare_bonus": 0.05,
+      "description": "新鲜虾肉，中型鱼最爱。",
+      "emoji": "🦐"
+    },
+    {
+      "name": "人工饵料",
+      "rarity": 2,
+      "price": 80,
+      "fail_reduction": 0.04,
+      "rare_bonus": 0.06,
+      "description": "精心调配的混合饵料，稳定高效。",
+      "emoji": "🟤"
+    },
+    {
+      "name": "发光鱼饵",
+      "rarity": 3,
+      "price": 200,
+      "fail_reduction": 0.08,
+      "rare_bonus": 0.1,
+      "description": "深水中发出微光，吸引稀有鱼类。",
+      "emoji": "✨"
+    },
+    {
+      "name": "特制鱼饵",
+      "rarity": 3,
+      "price": 350,
+      "fail_reduction": 0.07,
+      "rare_bonus": 0.12,
+      "description": "渔夫秘方调配，中钩与稀有兼得。",
+      "emoji": "🧪"
+    },
+    {
+      "name": "龙涎香",
+      "rarity": 4,
+      "price": 800,
+      "fail_reduction": 0.1,
+      "rare_bonus": 0.2,
+      "description": "传说中的香料，任何鱼为之疯狂。",
+      "emoji": "🐉"
+    },
+    {
+      "name": "鱼王饵",
+      "rarity": 4,
+      "price": 1500,
+      "fail_reduction": 0.05,
+      "rare_bonus": 0.25,
+      "description": "稀有鱼狂热者的终极选择。",
+      "emoji": "👑"
+    },
+    {
+      "name": "神秘鱼饵",
+      "rarity": 3,
+      "price": 500,
+      "fail_reduction": 0.12,
+      "rare_bonus": 0.08,
+      "description": "神秘商人处获得的特殊鱼饵，效果时好时坏。",
+      "emoji": "🎲"
+    }
+  ]
+}

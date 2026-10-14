@@ -1,0 +1,15 @@
+{
+  "description": "base_coins: 签到基础金币，[min, max] 表示随机范围，单个数字表示固定值。streak_bonus: 连续签到每天额外金币。streak_max_bonus: 连续签到额外金币上限。gem_rewards: 连续签到里程碑宝石奖励。",
+  "base_coins": [50, 100],
+  "streak_bonus": 10,
+  "streak_max_bonus": 70,
+  "gem_rewards": {
+    "milestones": [
+      { "streak": 3,  "count": 1, "min_rarity": 1, "max_rarity": 2 },
+      { "streak": 7,  "count": 1, "min_rarity": 2, "max_rarity": 2 },
+      { "streak": 14, "count": 2, "min_rarity": 2, "max_rarity": 3 },
+      { "streak": 21, "count": 2, "min_rarity": 3, "max_rarity": 4 },
+      { "streak": 30, "count": 3, "min_rarity": 3, "max_rarity": 4 }
+    ]
+  }
+}

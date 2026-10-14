@@ -1,0 +1,547 @@
+{
+  "description": "世界BOSS系统配置v2。全服玩家共同挑战，击杀后所有达标参与者平分奖励。",
+  "bosses": [
+    {
+      "name": "暗影巨龙",
+      "rarity": 3,
+      "hp": 180000,
+      "attack": 560,
+      "defense": 210,
+      "speed": 40,
+      "atk_speed": 14,
+      "min_level": 1,
+      "rewards": {
+        "coins": 100000,
+        "exp": 10000,
+        "items": [
+          {
+            "name": "神龙碎片",
+            "count": 20
+          },
+          {
+            "name": "龙之心",
+            "count": 8
+          },
+          {
+            "name": "奥金矿",
+            "count": 12
+          },
+          {
+            "name": "翡翠矿",
+            "count": 8
+          },
+          {
+            "name": "附魔石",
+            "count": 18
+          }
+        ],
+        "gems": [
+          {
+            "count": 2,
+            "min_rarity": 2,
+            "max_rarity": 3
+          }
+        ]
+      },
+      "spawn_chance": 0.06,
+      "cooldown_hours": 1,
+      "desc": "一头沉睡千年的巨龙被惊醒，它的怒火将吞噬一切！"
+    },
+    {
+      "name": "远古石巨人",
+      "rarity": 2,
+      "hp": 90000,
+      "attack": 350,
+      "defense": 350,
+      "speed": 11,
+      "atk_speed": 3,
+      "min_level": 1,
+      "rewards": {
+        "coins": 55000,
+        "exp": 5500,
+        "items": [
+          {
+            "name": "秘银矿",
+            "count": 18
+          },
+          {
+            "name": "石像碎片",
+            "count": 30
+          },
+          {
+            "name": "锻造精魂",
+            "count": 12
+          },
+          {
+            "name": "附魔石",
+            "count": 10
+          }
+        ],
+        "gems": [
+          {
+            "count": 1,
+            "min_rarity": 1,
+            "max_rarity": 3
+          }
+        ]
+      },
+      "spawn_chance": 0.1,
+      "cooldown_hours": 1,
+      "desc": "大地震颤，一个由岩石构成的巨人从山脉中站了起来！"
+    },
+    {
+      "name": "深渊海妖",
+      "rarity": 4,
+      "hp": 270000,
+      "attack": 800,
+      "defense": 170,
+      "speed": 60,
+      "atk_speed": 25,
+      "min_level": 5,
+      "rewards": {
+        "coins": 160000,
+        "exp": 16000,
+        "items": [
+          {
+            "name": "深海珍珠",
+            "count": 18
+          },
+          {
+            "name": "人鱼之歌",
+            "count": 8
+          },
+          {
+            "name": "奥金矿",
+            "count": 18
+          },
+          {
+            "name": "龙之心",
+            "count": 6
+          },
+          {
+            "name": "附魔石",
+            "count": 24
+          }
+        ],
+        "gems": [
+          {
+            "count": 2,
+            "min_rarity": 3,
+            "max_rarity": 4
+          }
+        ]
+      },
+      "spawn_chance": 0.04,
+      "cooldown_hours": 2,
+      "desc": "深海中传来古老的歌声，一只巨大的海妖浮出水面..."
+    },
+    {
+      "name": "混沌魔龙",
+      "rarity": 999,
+      "hp": 600000,
+      "attack": 1200,
+      "defense": 420,
+      "speed": 70,
+      "atk_speed": 30,
+      "min_level": 10,
+      "rewards": {
+        "coins": 400000,
+        "exp": 40000,
+        "items": [
+          {
+            "name": "神之碎片",
+            "count": 12
+          },
+          {
+            "name": "神龙碎片",
+            "count": 45
+          },
+          {
+            "name": "龙之心",
+            "count": 18
+          },
+          {
+            "name": "奥金矿",
+            "count": 30
+          },
+          {
+            "name": "附魔石",
+            "count": 45
+          },
+          {
+            "name": "星之碎片",
+            "count": 12
+          },
+          {
+            "name": "幻影晶核",
+            "count": 6
+          }
+        ],
+        "gems": [
+          {
+            "count": 3,
+            "min_rarity": 3,
+            "max_rarity": 999
+          }
+        ]
+      },
+      "spawn_chance": 0.015,
+      "cooldown_hours": 2,
+      "desc": "天空被撕裂，混沌的化身降临了！所有玩家团结起来！"
+    },
+    {
+      "name": "暗黑凤凰",
+      "rarity": 3,
+      "hp": 150000,
+      "attack": 530,
+      "defense": 180,
+      "speed": 75,
+      "atk_speed": 28,
+      "min_level": 3,
+      "rewards": {
+        "coins": 90000,
+        "exp": 9000,
+        "items": [
+          {
+            "name": "火焰之心",
+            "count": 15
+          },
+          {
+            "name": "堕落之羽",
+            "count": 12
+          },
+          {
+            "name": "狮鹫羽毛",
+            "count": 18
+          },
+          {
+            "name": "附魔石",
+            "count": 15
+          }
+        ],
+        "gems": [
+          {
+            "count": 2,
+            "min_rarity": 2,
+            "max_rarity": 3
+          }
+        ]
+      },
+      "spawn_chance": 0.07,
+      "cooldown_hours": 1,
+      "desc": "黑色的火焰划破天际，不死凤凰从灰烬中重生！"
+    },
+    {
+      "name": "冰霜巨人王",
+      "rarity": 2,
+      "hp": 100000,
+      "attack": 390,
+      "defense": 310,
+      "speed": 21,
+      "atk_speed": 11,
+      "min_level": 1,
+      "rewards": {
+        "coins": 60000,
+        "exp": 6000,
+        "items": [
+          {
+            "name": "寒冰核心",
+            "count": 15
+          },
+          {
+            "name": "秘银矿",
+            "count": 15
+          },
+          {
+            "name": "亡灵铁片",
+            "count": 22
+          },
+          {
+            "name": "附魔石",
+            "count": 12
+          }
+        ],
+        "gems": [
+          {
+            "count": 1,
+            "min_rarity": 1,
+            "max_rarity": 3
+          }
+        ]
+      },
+      "spawn_chance": 0.09,
+      "cooldown_hours": 1,
+      "desc": "雪山之巅，沉睡万年的冰霜巨人睁开了眼睛..."
+    },
+    {
+      "name": "虚空领主",
+      "rarity": 4,
+      "hp": 330000,
+      "attack": 870,
+      "defense": 250,
+      "speed": 55,
+      "atk_speed": 35,
+      "min_level": 8,
+      "rewards": {
+        "coins": 200000,
+        "exp": 20000,
+        "items": [
+          {
+            "name": "混沌之鳞",
+            "count": 12
+          },
+          {
+            "name": "暗影之尘",
+            "count": 22
+          },
+          {
+            "name": "恶魔之角",
+            "count": 15
+          },
+          {
+            "name": "死灵法典",
+            "count": 8
+          },
+          {
+            "name": "附魔石",
+            "count": 25
+          }
+        ],
+        "gems": [
+          {
+            "count": 2,
+            "min_rarity": 3,
+            "max_rarity": 4
+          }
+        ]
+      },
+      "spawn_chance": 0.03,
+      "cooldown_hours": 2,
+      "desc": "虚空裂开了一道口子，不可名状的存在凝视着这个世界..."
+    },
+    {
+      "name": "雷霆之龙",
+      "rarity": 999,
+      "hp": 750000,
+      "attack": 1350,
+      "defense": 490,
+      "speed": 90,
+      "atk_speed": 38,
+      "min_level": 15,
+      "rewards": {
+        "coins": 550000,
+        "exp": 55000,
+        "items": [
+          {
+            "name": "神龙碎片",
+            "count": 8
+          },
+          {
+            "name": "神之碎片",
+            "count": 15
+          },
+          {
+            "name": "神龙碎片",
+            "count": 60
+          },
+          {
+            "name": "龙之心",
+            "count": 22
+          },
+          {
+            "name": "奥金矿",
+            "count": 35
+          },
+          {
+            "name": "附魔石",
+            "count": 50
+          },
+          {
+            "name": "星之碎片",
+            "count": 15
+          },
+          {
+            "name": "神速之风",
+            "count": 6
+          }
+        ],
+        "gems": [
+          {
+            "count": 3,
+            "min_rarity": 3,
+            "max_rarity": 999
+          }
+        ]
+      },
+      "spawn_chance": 0.01,
+      "cooldown_hours": 2,
+      "desc": "万雷齐鸣，传说中的雷霆之龙撕裂云层俯冲而下！"
+    },
+    {
+      "name": "世界吞噬者",
+      "rarity": 9999,
+      "hp": 1500000,
+      "attack": 2200,
+      "defense": 700,
+      "speed": 110,
+      "atk_speed": 48,
+      "min_level": 25,
+      "rewards": {
+        "coins": 1200000,
+        "exp": 120000,
+        "items": [
+          {
+            "name": "神龙碎片",
+            "count": 18
+          },
+          {
+            "name": "神之碎片",
+            "count": 30
+          },
+          {
+            "name": "混沌之鳞",
+            "count": 22
+          },
+          {
+            "name": "龙之心",
+            "count": 35
+          },
+          {
+            "name": "奥创矿",
+            "count": 45
+          },
+          {
+            "name": "附魔石",
+            "count": 75
+          },
+          {
+            "name": "星之碎片",
+            "count": 30
+          },
+          {
+            "name": "皇家碎片",
+            "count": 15
+          }
+        ],
+        "gems": [
+          {
+            "count": 5,
+            "min_rarity": 3,
+            "max_rarity": 9999
+          }
+        ]
+      },
+      "spawn_chance": 0.005,
+      "cooldown_hours": 2,
+      "desc": "末日降临！世界吞噬者从深水区中苏醒，全服玩家必须联手才能对抗它！"
+    },
+    {
+      "name": "森林守护者",
+      "rarity": 1,
+      "hp": 45000,
+      "attack": 210,
+      "defense": 140,
+      "speed": 28,
+      "atk_speed": 17,
+      "min_level": 1,
+      "rewards": {
+        "coins": 28000,
+        "exp": 2800,
+        "items": [
+          {
+            "name": "食人花种子",
+            "count": 15
+          },
+          {
+            "name": "蜂蜜",
+            "count": 22
+          },
+          {
+            "name": "猫薄荷",
+            "count": 12
+          },
+          {
+            "name": "玫瑰花瓣",
+            "count": 18
+          }
+        ],
+        "gems": [
+          {
+            "count": 1,
+            "min_rarity": 1,
+            "max_rarity": 2
+          }
+        ]
+      },
+      "spawn_chance": 0.14,
+      "cooldown_hours": 2,
+      "desc": "古老的森林之灵被惊扰，它要保护自己的领地！"
+    }
+  ],
+  "attack_cooldown_seconds": 45,
+  "base_damage_min": 220,
+  "base_damage_max": 700,
+  "participation_min_damage": 800,
+  "max_active_bosses": 3,
+  "global_drops": [
+    {
+      "name": "初级强化石",
+      "chance": 0.25,
+      "count": [
+        1,
+        3
+      ],
+      "min_participation": 1
+    },
+    {
+      "name": "中级强化石",
+      "chance": 0.15,
+      "count": [
+        1,
+        2
+      ],
+      "min_participation": 1
+    },
+    {
+      "name": "高级强化石",
+      "chance": 0.08,
+      "count": 1,
+      "min_participation": 1
+    },
+    {
+      "name": "强化保护符",
+      "chance": 0.1,
+      "count": 1,
+      "min_participation": 1
+    },
+    {
+      "name": "幸运强化石",
+      "chance": 0.05,
+      "count": 1,
+      "min_participation": 1
+    },
+    {
+      "name": "混沌强化石",
+      "chance": 0.03,
+      "count": 1,
+      "min_participation": 1
+    },
+    {
+      "name": "突破强化石",
+      "chance": 0.04,
+      "count": 1,
+      "min_participation": 1
+    },
+    {
+      "name": "宝石",
+      "chance": 0.04,
+      "count": 1,
+      "type": "gem",
+      "gem_rarity": [
+        1,
+        3
+      ],
+      "min_participation": 1
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "description": "果树农场配置。果树每天只能收获一次（24小时冷却），产量高、价值稳定。",
+  "trees": [
+    {
+      "name": "苹果树苗",
+      "rarity": 1,
+      "type": "fruit_tree",
+      "price": 300,
+      "growth_time": 86400,
+      "harvest_product": "苹果",
+      "harvest_amount": [
+        5,
+        10
+      ],
+      "harvest_exp": 100,
+      "harvest_value": [
+        15,
+        25
+      ],
+      "max_cycles": 0,
+      "repeatable": true,
+      "byproducts": [
+        {
+          "name": "蜂蜜",
+          "chance": 0.2,
+          "count": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "name": "橙子树苗",
+      "rarity": 2,
+      "type": "fruit_tree",
+      "price": 600,
+      "growth_time": 86400,
+      "harvest_product": "橙子",
+      "harvest_amount": [
+        4,
+        8
+      ],
+      "harvest_exp": 150,
+      "harvest_value": [
+        25,
+        40
+      ],
+      "max_cycles": 0,
+      "repeatable": true,
+      "byproducts": [
+        {
+          "name": "蜂蜜",
+          "chance": 0.25,
+          "count": [
+            1,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "name": "樱桃树苗",
+      "rarity": 3,
+      "type": "fruit_tree",
+      "price": 1200,
+      "growth_time": 86400,
+      "harvest_product": "樱桃",
+      "harvest_amount": [
+        3,
+        7
+      ],
+      "harvest_exp": 250,
+      "harvest_value": [
+        40,
+        60
+      ],
+      "max_cycles": 0,
+      "repeatable": true,
+      "byproducts": [
+        {
+          "name": "神秘果实",
+          "chance": 0.05,
+          "count": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "魔力果树苗",
+      "rarity": 4,
+      "type": "fruit_tree",
+      "price": 3000,
+      "growth_time": 86400,
+      "harvest_product": "魔力果",
+      "harvest_amount": [
+        2,
+        5
+      ],
+      "harvest_exp": 400,
+      "harvest_value": [
+        80,
+        120
+      ],
+      "max_cycles": 0,
+      "repeatable": true,
+      "byproducts": [
+        {
+          "name": "星之碎片",
+          "chance": 0.08,
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "附魔石",
+          "chance": 0.15,
+          "count": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "name": "桃子树苗",
+      "rarity": 2,
+      "type": "fruit_tree",
+      "price": 500,
+      "growth_time": 86400,
+      "harvest_product": "桃子",
+      "harvest_amount": [
+        5,
+        10
+      ],
+      "harvest_exp": 120,
+      "harvest_value": [
+        20,
+        35
+      ],
+      "max_cycles": 0,
+      "repeatable": true,
+      "byproducts": [
+        {
+          "name": "蜂蜜",
+          "chance": 0.2,
+          "count": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "name": "柠檬树苗",
+      "rarity": 2,
+      "type": "fruit_tree",
+      "price": 450,
+      "growth_time": 86400,
+      "harvest_product": "柠檬",
+      "harvest_amount": [
+        4,
+        8
+      ],
+      "harvest_exp": 130,
+      "harvest_value": [
+        22,
+        38
+      ],
+      "max_cycles": 0,
+      "repeatable": true,
+      "byproducts": [
+        {
+          "name": "蜂蜜",
+          "chance": 0.2,
+          "count": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "name": "椰子树苗",
+      "rarity": 3,
+      "type": "fruit_tree",
+      "price": 1000,
+      "growth_time": 86400,
+      "harvest_product": "椰子",
+      "harvest_amount": [
+        3,
+        6
+      ],
+      "harvest_exp": 200,
+      "harvest_value": [
+        35,
+        55
+      ],
+      "max_cycles": 0,
+      "repeatable": true,
+      "byproducts": [
+        {
+          "name": "深海珍珠",
+          "chance": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "火龙果树苗",
+      "rarity": 4,
+      "type": "fruit_tree",
+      "price": 2500,
+      "growth_time": 86400,
+      "harvest_product": "火龙果",
+      "harvest_amount": [
+        2,
+        5
+      ],
+      "harvest_exp": 350,
+      "harvest_value": [
+        60,
+        100
+      ],
+      "max_cycles": 0,
+      "repeatable": true,
+      "byproducts": [
+        {
+          "name": "火焰之心",
+          "chance": 0.08,
+          "count": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "黄金果树苗",
+      "rarity": 5,
+      "type": "tree",
+      "price": 5000,
+      "growth_time": 7200,
+      "harvest_product": "黄金果实",
+      "harvest_amount": [
+        1,
+        1
+      ],
+      "harvest_value": [
+        800,
+        1500
+      ],
+      "harvest_exp": 200,
+      "repeatable": true,
+      "max_cycles": 999,
+      "byproducts": [],
+      "accumulate": true,
+      "plantable": true
+    }
+  ]
+}

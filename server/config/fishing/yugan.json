@@ -1,0 +1,72 @@
+{
+  "description": "鱼竿配置。default_rod: 默认鱼竿名称。base_wait: 基础等待秒数。wait_variance: 上下浮动秒数。min_wait: 最小等待秒数。fail_reduction: 中钩率提升(比例)。rare_bonus: 幸运加成(比例)。",
+  "default_rod": "竹竿",
+  "base_wait": 6,
+  "wait_variance": 4,
+  "min_wait": 2,
+  "rods": [
+    {
+      "name": "竹竿",
+      "rarity": 1,
+      "price": 0,
+      "fail_reduction": 0,
+      "rare_bonus": 0,
+      "description": "最基础的鱼竿，随处可见的竹制钓竿。",
+      "emoji": "🎣"
+    },
+    {
+      "name": "碳素鱼竿",
+      "rarity": 2,
+      "price": 500,
+      "fail_reduction": 0.05,
+      "rare_bonus": 0.05,
+      "description": "碳纤维材质，中钩率+5%，幸运+5%。",
+      "emoji": "🎣"
+    },
+    {
+      "name": "大师钓竿",
+      "rarity": 3,
+      "price": 2000,
+      "fail_reduction": 0.1,
+      "rare_bonus": 0.1,
+      "description": "精品钓竿，中钩率+10%，幸运+10%。",
+      "emoji": "🎣"
+    },
+    {
+      "name": "龙纹鱼竿",
+      "rarity": 4,
+      "price": 8000,
+      "fail_reduction": 0.15,
+      "rare_bonus": 0.2,
+      "description": "传说鱼竿，中钩率+15%，幸运+20%。",
+      "emoji": "🎣"
+    },
+    {
+      "name": "龙纹鱼竿",
+      "rarity": 5,
+      "price": 20000,
+      "fail_reduction": 0.18,
+      "rare_bonus": 0.3,
+      "description": "渔夫终极钓竿，中钩率+18%，幸运+30%（永久装备）。",
+      "emoji": "🌊"
+    },
+    {
+      "name": "龙纹鱼竿",
+      "rarity": 999,
+      "price": 50000,
+      "fail_reduction": 0.2,
+      "rare_bonus": 0.35,
+      "description": "蕴含水之力量，中钩率+20%，幸运+35%。",
+      "emoji": "🔱"
+    },
+    {
+      "name": "叶绿鱼竿",
+      "rarity": 4,
+      "price": 4000,
+      "fail_reduction": 1,
+      "rare_bonus": -0.3,
+      "description": "我说他能追踪鱼你信吗",
+      "emoji": "🎣"
+    }
+  ]
+}

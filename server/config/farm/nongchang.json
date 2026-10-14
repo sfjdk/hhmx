@@ -1,0 +1,770 @@
+{
+  "max_plots_default": 3,
+  "max_plots_max": 10,
+  "expand_cost_per_plot": 500,
+  "max_pens_default": 2,
+  "max_pens_max": 10,
+  "expand_cost_per_pen": 500,
+  "description": "byproducts: [{name,chance,amount},...] 可多个副产物，amount可为数字或[min,max]。",
+  "seeds": [
+    {
+      "name": "小麦种子",
+      "rarity": 1,
+      "type": "plant",
+      "price": 30,
+      "growth_time": 1800,
+      "harvest_product": "小麦",
+      "harvest_amount": [
+        1,
+        3
+      ],
+      "harvest_value": [
+        45,
+        75
+      ],
+      "harvest_exp": 10,
+      "repeatable": false,
+      "max_cycles": 1,
+      "byproducts": [
+        {
+          "name": "稻草",
+          "chance": 0.3,
+          "amount": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "小麦",
+          "chance": 0.1,
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "胡萝卜种子",
+      "rarity": 1,
+      "type": "plant",
+      "price": 20,
+      "growth_time": 1200,
+      "harvest_product": "胡萝卜",
+      "harvest_amount": [
+        2,
+        4
+      ],
+      "harvest_value": [
+        6,
+        12
+      ],
+      "harvest_exp": 6,
+      "repeatable": true,
+      "max_cycles": 0,
+      "accumulate": true,
+      "byproducts": []
+    },
+    {
+      "name": "玫瑰花种",
+      "rarity": 2,
+      "type": "plant",
+      "price": 40,
+      "growth_time": 2400,
+      "harvest_product": "玫瑰花束",
+      "harvest_amount": [
+        1,
+        2
+      ],
+      "harvest_value": [
+        60,
+        95
+      ],
+      "harvest_exp": 16,
+      "repeatable": false,
+      "max_cycles": 1,
+      "byproducts": [
+        {
+          "name": "玫瑰花瓣",
+          "chance": 0.25,
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "南瓜种子",
+      "rarity": 3,
+      "type": "plant",
+      "price": 60,
+      "growth_time": 3600,
+      "harvest_product": "大南瓜",
+      "harvest_amount": [
+        1,
+        2
+      ],
+      "harvest_value": [
+        38,
+        65
+      ],
+      "harvest_exp": 30,
+      "repeatable": true,
+      "max_cycles": 5,
+      "accumulate": true,
+      "byproducts": []
+    },
+    {
+      "name": "魔法蘑菇孢子",
+      "rarity": 4,
+      "type": "plant",
+      "price": 90,
+      "growth_time": 5400,
+      "harvest_product": "魔法蘑菇",
+      "harvest_amount": [
+        2,
+        5
+      ],
+      "harvest_value": [
+        25,
+        50
+      ],
+      "harvest_exp": 50,
+      "repeatable": true,
+      "max_cycles": 4,
+      "byproducts": [],
+      "accumulate": true,
+      "farmer_only": true
+    },
+    {
+      "name": "土豆",
+      "rarity": 3,
+      "type": "plant",
+      "price": 50,
+      "growth_time": 2800,
+      "harvest_product": "土豆",
+      "harvest_amount": [
+        1,
+        4
+      ],
+      "harvest_value": [
+        20,
+        40
+      ],
+      "harvest_exp": 30,
+      "repeatable": true,
+      "max_cycles": 5,
+      "byproducts": [
+        {
+          "name": "毒土豆",
+          "chance": 0.15,
+          "amount": 1
+        }
+      ],
+      "accumulate": true
+    },
+    {
+      "name": "番茄种子",
+      "rarity": 2,
+      "type": "plant",
+      "price": 25,
+      "growth_time": 3600,
+      "harvest_product": "番茄",
+      "harvest_amount": [
+        3,
+        4
+      ],
+      "harvest_value": [
+        19,
+        39
+      ],
+      "harvest_exp": 300,
+      "repeatable": true,
+      "max_cycles": 0,
+      "accumulate": true,
+      "byproducts": []
+    },
+    {
+      "name": "食人花种子",
+      "rarity": 3,
+      "type": "plant",
+      "price": 50,
+      "growth_time": 3600,
+      "harvest_product": "食人花",
+      "harvest_amount": 1,
+      "harvest_value": [
+        75,
+        120
+      ],
+      "harvest_exp": 10,
+      "byproducts": [],
+      "max_cycles": 2,
+      "repeatable": false,
+      "farmer_only": true
+    },
+    {
+      "name": "草莓种子",
+      "rarity": 2,
+      "type": "plant",
+      "price": 35,
+      "growth_time": 2700,
+      "harvest_product": "草莓",
+      "harvest_amount": [
+        2,
+        5
+      ],
+      "harvest_value": [
+        18,
+        30
+      ],
+      "harvest_exp": 20,
+      "repeatable": true,
+      "max_cycles": 5,
+      "byproducts": [],
+      "accumulate": true
+    },
+    {
+      "name": "玉米种子",
+      "rarity": 1,
+      "type": "plant",
+      "price": 25,
+      "growth_time": 2000,
+      "harvest_product": "玉米",
+      "harvest_amount": [
+        2,
+        4
+      ],
+      "harvest_value": [
+        38,
+        60
+      ],
+      "harvest_exp": 15,
+      "repeatable": false,
+      "max_cycles": 1,
+      "byproducts": [
+        {
+          "name": "稻草",
+          "chance": 0.4,
+          "amount": [
+            1,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "name": "辣椒种子",
+      "rarity": 2,
+      "type": "plant",
+      "price": 30,
+      "growth_time": 2400,
+      "harvest_product": "辣椒",
+      "harvest_amount": [
+        3,
+        6
+      ],
+      "harvest_value": [
+        12,
+        22
+      ],
+      "harvest_exp": 18,
+      "repeatable": true,
+      "max_cycles": 4,
+      "byproducts": [],
+      "accumulate": true
+    },
+    {
+      "name": "水稻种子",
+      "rarity": 1,
+      "type": "plant",
+      "price": 20,
+      "growth_time": 2100,
+      "harvest_product": "大米",
+      "harvest_amount": [
+        3,
+        6
+      ],
+      "harvest_value": [
+        32,
+        52
+      ],
+      "harvest_exp": 12,
+      "repeatable": false,
+      "max_cycles": 1,
+      "byproducts": [
+        {
+          "name": "稻草",
+          "chance": 0.5,
+          "amount": [
+            1,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "name": "大豆种子",
+      "rarity": 1,
+      "type": "plant",
+      "price": 15,
+      "growth_time": 1600,
+      "harvest_product": "大豆",
+      "harvest_amount": [
+        2,
+        5
+      ],
+      "harvest_value": [
+        8,
+        18
+      ],
+      "harvest_exp": 10,
+      "repeatable": true,
+      "max_cycles": 5,
+      "byproducts": [],
+      "accumulate": true
+    },
+    {
+      "name": "棉花种子",
+      "rarity": 2,
+      "type": "plant",
+      "price": 40,
+      "growth_time": 3000,
+      "harvest_product": "棉花",
+      "harvest_amount": [
+        2,
+        4
+      ],
+      "harvest_value": [
+        20,
+        35
+      ],
+      "harvest_exp": 22,
+      "repeatable": true,
+      "max_cycles": 4,
+      "byproducts": [],
+      "accumulate": true
+    },
+    {
+      "name": "葡萄种子",
+      "rarity": 3,
+      "type": "plant",
+      "price": 55,
+      "growth_time": 4200,
+      "harvest_product": "葡萄",
+      "harvest_amount": [
+        3,
+        6
+      ],
+      "harvest_value": [
+        25,
+        45
+      ],
+      "harvest_exp": 35,
+      "repeatable": true,
+      "max_cycles": 5,
+      "byproducts": [],
+      "accumulate": true
+    },
+    {
+      "name": "向日葵种子",
+      "rarity": 2,
+      "type": "plant",
+      "price": 35,
+      "growth_time": 2400,
+      "harvest_product": "葵花籽",
+      "harvest_amount": [
+        3,
+        7
+      ],
+      "harvest_value": [
+        15,
+        28
+      ],
+      "harvest_exp": 20,
+      "repeatable": true,
+      "max_cycles": 4,
+      "byproducts": [
+        {
+          "name": "葵花籽",
+          "chance": 0.15,
+          "amount": 2
+        }
+      ],
+      "accumulate": true
+    },
+    {
+      "name": "薄荷种子",
+      "rarity": 2,
+      "type": "plant",
+      "price": 30,
+      "growth_time": 1800,
+      "harvest_product": "薄荷",
+      "harvest_amount": [
+        2,
+        5
+      ],
+      "harvest_value": [
+        18,
+        30
+      ],
+      "harvest_exp": 18,
+      "repeatable": true,
+      "max_cycles": 6,
+      "byproducts": [],
+      "accumulate": true
+    },
+    {
+      "name": "可可种子",
+      "rarity": 3,
+      "type": "plant",
+      "price": 65,
+      "growth_time": 4800,
+      "harvest_product": "可可豆",
+      "harvest_amount": [
+        2,
+        4
+      ],
+      "harvest_value": [
+        30,
+        55
+      ],
+      "harvest_exp": 40,
+      "repeatable": true,
+      "max_cycles": 4,
+      "byproducts": [],
+      "accumulate": true
+    },
+    {
+      "name": "月光小麦种子",
+      "rarity": 2,
+      "type": "seed",
+      "price": 500,
+      "growth_time": 1800,
+      "harvest_product": "月光小麦",
+      "harvest_amount": [
+        1,
+        2
+      ],
+      "harvest_value": [
+        400,
+        600
+      ],
+      "harvest_exp": 50,
+      "repeatable": false,
+      "max_cycles": 1,
+      "byproducts": [],
+      "plantable": true,
+      "farmer_only": true
+    },
+    {
+      "name": "魔法浆果种子",
+      "rarity": 3,
+      "type": "seed",
+      "price": 2000,
+      "growth_time": 3600,
+      "harvest_product": "魔法浆果",
+      "harvest_amount": [
+        1,
+        3
+      ],
+      "harvest_value": [
+        200,
+        350
+      ],
+      "harvest_exp": 80,
+      "repeatable": false,
+      "max_cycles": 1,
+      "byproducts": [],
+      "plantable": true,
+      "farmer_only": true
+    }
+  ],
+  "animals": [
+    {
+      "name": "小鸡崽",
+      "rarity": 1,
+      "type": "animal",
+      "price": 40,
+      "growth_time": 2400,
+      "harvest_product": "鸡蛋",
+      "harvest_amount": [
+        1,
+        2
+      ],
+      "harvest_value": [
+        14,
+        25
+      ],
+      "harvest_exp": 12,
+      "repeatable": true,
+      "byproducts": [
+        {
+          "name": "羽毛",
+          "chance": 0.2,
+          "amount": 1
+        },
+        {
+          "name": "鸡蛋",
+          "chance": 0.08,
+          "amount": 1
+        }
+      ],
+      "accumulate": true,
+      "max_cycles": 0
+    },
+    {
+      "name": "小羊羔",
+      "rarity": 2,
+      "type": "animal",
+      "price": 60,
+      "growth_time": 3600,
+      "harvest_product": "羊毛",
+      "harvest_amount": [
+        1,
+        2
+      ],
+      "harvest_value": [
+        25,
+        48
+      ],
+      "harvest_exp": 25,
+      "repeatable": true,
+      "byproducts": [
+        {
+          "name": "羊蛋子",
+          "chance": 0.05,
+          "amount": [
+            1,
+            2
+          ]
+        }
+      ],
+      "accumulate": true,
+      "max_cycles": 0
+    },
+    {
+      "name": "小奶牛",
+      "rarity": 3,
+      "type": "animal",
+      "price": 90,
+      "growth_time": 5400,
+      "harvest_product": "牛奶",
+      "harvest_amount": [
+        2,
+        4
+      ],
+      "harvest_value": [
+        18,
+        35
+      ],
+      "harvest_exp": 40,
+      "repeatable": true,
+      "byproducts": [
+        {
+          "name": "奶酪",
+          "chance": 0.1,
+          "amount": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "牛奶",
+          "chance": 0.05,
+          "amount": 1
+        }
+      ],
+      "accumulate": true,
+      "max_cycles": 0
+    },
+    {
+      "name": "猫",
+      "rarity": 4,
+      "type": "animal",
+      "price": 150,
+      "growth_time": 9000,
+      "harvest_product": "猫毛",
+      "harvest_amount": [
+        1,
+        5
+      ],
+      "harvest_value": [
+        35,
+        65
+      ],
+      "harvest_exp": 90,
+      "repeatable": true,
+      "byproducts": [
+        {
+          "name": "猫薄荷",
+          "chance": 0.2,
+          "amount": 1
+        }
+      ],
+      "accumulate": true,
+      "max_cycles": 0,
+      "farmer_only": true
+    },
+    {
+      "name": "蜜蜂",
+      "rarity": 3,
+      "type": "animal",
+      "price": 90,
+      "growth_time": 4400,
+      "harvest_product": "蜂蜜",
+      "harvest_amount": [
+        1,
+        3
+      ],
+      "repeatable": true,
+      "harvest_value": [
+        17,
+        40
+      ],
+      "harvest_exp": 100,
+      "max_cycles": 0,
+      "byproducts": [
+        {
+          "name": "蜂王浆",
+          "chance": 0.1,
+          "amount": [
+            1,
+            2
+          ]
+        }
+      ],
+      "accumulate": true
+    },
+    {
+      "name": "小鸭子",
+      "rarity": 1,
+      "type": "animal",
+      "price": 35,
+      "growth_time": 2000,
+      "harvest_product": "鸭蛋",
+      "harvest_amount": [
+        1,
+        2
+      ],
+      "harvest_value": [
+        14,
+        24
+      ],
+      "harvest_exp": 12,
+      "repeatable": true,
+      "max_cycles": 0,
+      "byproducts": [
+        {
+          "name": "羽毛",
+          "chance": 0.2,
+          "amount": 1
+        }
+      ],
+      "accumulate": true
+    },
+    {
+      "name": "小猪",
+      "rarity": 2,
+      "type": "animal",
+      "price": 70,
+      "growth_time": 4800,
+      "harvest_product": "猪肉",
+      "harvest_amount": [
+        1,
+        3
+      ],
+      "harvest_value": [
+        30,
+        55
+      ],
+      "harvest_exp": 30,
+      "repeatable": true,
+      "max_cycles": 0,
+      "byproducts": [
+        {
+          "name": "皮革",
+          "chance": 0.15,
+          "amount": [
+            1,
+            2
+          ]
+        }
+      ],
+      "accumulate": true
+    },
+    {
+      "name": "小兔子",
+      "rarity": 1,
+      "type": "animal",
+      "price": 30,
+      "growth_time": 1800,
+      "harvest_product": "兔毛",
+      "harvest_amount": [
+        1,
+        3
+      ],
+      "harvest_value": [
+        15,
+        30
+      ],
+      "harvest_exp": 15,
+      "repeatable": true,
+      "max_cycles": 0,
+      "byproducts": [
+        {
+          "name": "兔脚",
+          "chance": 0.03,
+          "amount": 1
+        }
+      ],
+      "accumulate": true
+    },
+    {
+      "name": "蚕宝宝",
+      "rarity": 2,
+      "type": "animal",
+      "price": 50,
+      "growth_time": 3600,
+      "harvest_product": "蚕丝",
+      "harvest_amount": [
+        2,
+        5
+      ],
+      "harvest_value": [
+        30,
+        50
+      ],
+      "harvest_exp": 28,
+      "repeatable": true,
+      "max_cycles": 0,
+      "byproducts": [],
+      "accumulate": true
+    },
+    {
+      "name": "小马驹",
+      "rarity": 4,
+      "type": "animal",
+      "price": 200,
+      "growth_time": 7200,
+      "harvest_product": "马奶",
+      "harvest_amount": [
+        2,
+        5
+      ],
+      "harvest_value": [
+        40,
+        70
+      ],
+      "harvest_exp": 60,
+      "repeatable": true,
+      "max_cycles": 0,
+      "byproducts": [
+        {
+          "name": "皮革",
+          "chance": 0.1,
+          "amount": [
+            1,
+            3
+          ]
+        }
+      ],
+      "accumulate": true,
+      "farmer_only": true
+    }
+  ]
+}

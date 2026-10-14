@@ -1,0 +1,488 @@
+{
+  "description": "季节与节气系统配置",
+  "seasons": [
+    {
+      "id": "spring",
+      "name": "春天",
+      "icon": "🌸",
+      "desc": "万物复苏，生机勃勃",
+      "months": [
+        4,
+        5,
+        6
+      ],
+      "crops_bonus": 0.1,
+      "fish_bonus": 0.03,
+      "weather_pool": [
+        "春雨",
+        "春雾",
+        "春雷",
+        "春霖"
+      ],
+      "weather_effects": {
+        "春雨": {
+          "icon": "🌧️",
+          "desc": "细雨绵绵",
+          "fish_bonus": 0.05,
+          "adventure_drop": 0.02,
+          "farm_bonus": 0.05
+        },
+        "春雾": {
+          "icon": "🌫️",
+          "desc": "薄雾笼罩",
+          "fish_bonus": -0.02,
+          "ruins_find_bonus": 0.1
+        },
+        "春雷": {
+          "icon": "⛈️",
+          "desc": "雷声阵阵",
+          "rare_bonus": 0.05
+        },
+        "春霖": {
+          "icon": "🌦️",
+          "desc": "甘霖润物",
+          "farm_bonus": 0.1,
+          "fish_bonus": 0.02
+        }
+      }
+    },
+    {
+      "id": "summer",
+      "name": "夏天",
+      "icon": "☀️",
+      "desc": "烈日炎炎，热情似火",
+      "months": [
+        7,
+        8,
+        9
+      ],
+      "crops_bonus": 0.05,
+      "fish_bonus": -0.02,
+      "weather_pool": [
+        "酷暑",
+        "雷阵雨",
+        "梅雨",
+        "台风"
+      ],
+      "weather_effects": {
+        "酷暑": {
+          "icon": "🔥",
+          "desc": "热浪滚滚",
+          "fish_bonus": -0.05,
+          "adventure_monster_bonus": 0.1,
+          "forge_bonus": 0.05
+        },
+        "雷阵雨": {
+          "icon": "⛈️",
+          "desc": "雷阵雨",
+          "rare_bonus": 0.08
+        },
+        "梅雨": {
+          "icon": "🌧️",
+          "desc": "阴雨连绵",
+          "crops_bonus": 0.08,
+          "fish_bonus": 0.03
+        },
+        "台风": {
+          "icon": "🌀",
+          "desc": "狂风暴雨",
+          "rare_bonus": 0.15,
+          "boss_damage_bonus": 0.1
+        }
+      }
+    },
+    {
+      "id": "autumn",
+      "name": "秋天",
+      "icon": "🍂",
+      "desc": "金风送爽，丰收时节",
+      "months": [
+        10,
+        11,
+        12
+      ],
+      "crops_bonus": 0.2,
+      "fish_bonus": 0.05,
+      "weather_pool": [
+        "秋雨",
+        "秋霜",
+        "秋风",
+        "秋露"
+      ],
+      "weather_effects": {
+        "秋雨": {
+          "icon": "🌧️",
+          "desc": "秋雨绵绵",
+          "crops_bonus": 0.05
+        },
+        "秋霜": {
+          "icon": "🌫️",
+          "desc": "霜华满地",
+          "forge_bonus": 0.08
+        },
+        "秋风": {
+          "icon": "🍃",
+          "desc": "凉风习习",
+          "speed_bonus": 0.05
+        },
+        "秋露": {
+          "icon": "💧",
+          "desc": "朝露晶莹",
+          "lucky_bonus": 0.05,
+          "crops_bonus": 0.05
+        }
+      }
+    },
+    {
+      "id": "winter",
+      "name": "冬天",
+      "icon": "❄️",
+      "desc": "白雪皑皑，银装素裹",
+      "months": [
+        1,
+        2,
+        3
+      ],
+      "crops_bonus": -0.1,
+      "fish_bonus": -0.05,
+      "weather_pool": [
+        "暴雪",
+        "寒风",
+        "冰冻",
+        "冬雾"
+      ],
+      "weather_effects": {
+        "暴雪": {
+          "icon": "🌨️",
+          "desc": "大雪纷飞",
+          "rare_bonus": 0.1,
+          "ruins_find_bonus": 0.08
+        },
+        "寒风": {
+          "icon": "💨",
+          "desc": "寒风刺骨",
+          "adventure_monster_bonus": 0.15
+        },
+        "冰冻": {
+          "icon": "🧊",
+          "desc": "天寒地冻",
+          "forge_bonus": 0.1,
+          "crops_bonus": -0.05
+        },
+        "冬雾": {
+          "icon": "🌁",
+          "desc": "浓雾弥漫",
+          "ruins_find_bonus": 0.12
+        }
+      }
+    }
+  ],
+  "solar_terms": [
+    {
+      "month": 1,
+      "day": 1,
+      "name": "数九寒天",
+      "icon": "❄️",
+      "desc": "寒冬最冷的时节"
+    },
+    {
+      "month": 1,
+      "day": 16,
+      "name": "大雪封山",
+      "icon": "🏔️",
+      "desc": "大雪覆盖山川"
+    },
+    {
+      "month": 2,
+      "day": 1,
+      "name": "朔风凛冽",
+      "icon": "🌬️",
+      "desc": "北风呼啸而来"
+    },
+    {
+      "month": 2,
+      "day": 16,
+      "name": "万木凋零",
+      "icon": "🍂",
+      "desc": "万木凋零待春"
+    },
+    {
+      "month": 3,
+      "day": 1,
+      "name": "寒意渐深",
+      "icon": "🥶",
+      "desc": "寒意尚在徘徊"
+    },
+    {
+      "month": 3,
+      "day": 16,
+      "name": "辞旧迎新",
+      "icon": "🎊",
+      "desc": "辞别旧岁迎新春",
+      "activity": {
+        "title": "迎春祈福",
+        "desc": "领取新年好礼",
+        "reward": {
+          "coins": [
+            200,
+            800
+          ],
+          "exp": [
+            50,
+            200
+          ]
+        }
+      }
+    },
+    {
+      "month": 4,
+      "day": 1,
+      "name": "乍暖还寒",
+      "icon": "🌤️",
+      "desc": "春寒料峭，乍暖还寒"
+    },
+    {
+      "month": 4,
+      "day": 16,
+      "name": "草木萌动",
+      "icon": "🌱",
+      "desc": "草木抽出新芽"
+    },
+    {
+      "month": 5,
+      "day": 1,
+      "name": "春雷始鸣",
+      "icon": "⛈️",
+      "desc": "第一声春雷响起"
+    },
+    {
+      "month": 5,
+      "day": 16,
+      "name": "桃华初绽",
+      "icon": "🌸",
+      "desc": "桃花盛开如云霞"
+    },
+    {
+      "month": 6,
+      "day": 1,
+      "name": "细雨纷纷",
+      "icon": "🌧️",
+      "desc": "春雨绵绵润万物"
+    },
+    {
+      "month": 6,
+      "day": 16,
+      "name": "万物并秀",
+      "icon": "🌿",
+      "desc": "万物欣欣向荣"
+    },
+    {
+      "month": 7,
+      "day": 1,
+      "name": "暑气渐升",
+      "icon": "☀️",
+      "desc": "暑气渐升，夏日来临"
+    },
+    {
+      "month": 7,
+      "day": 16,
+      "name": "麦浪翻风",
+      "icon": "🌾",
+      "desc": "麦浪随风翻涌",
+      "activity": {
+        "title": "丰收祈福",
+        "desc": "领取夏日好礼",
+        "reward": {
+          "coins": [
+            300,
+            1000
+          ],
+          "exp": [
+            100,
+            300
+          ]
+        }
+      }
+    },
+    {
+      "month": 8,
+      "day": 1,
+      "name": "蝉声阵阵",
+      "icon": "🐛",
+      "desc": "蝉鸣声声入耳"
+    },
+    {
+      "month": 8,
+      "day": 16,
+      "name": "荷香满塘",
+      "icon": "🪷",
+      "desc": "荷花满塘飘香"
+    },
+    {
+      "month": 9,
+      "day": 1,
+      "name": "大暑连天",
+      "icon": "🔥",
+      "desc": "酷暑难耐，热浪滚滚"
+    },
+    {
+      "month": 9,
+      "day": 16,
+      "name": "晚夏余晖",
+      "icon": "🌅",
+      "desc": "夏末的最后一抹余晖"
+    },
+    {
+      "month": 10,
+      "day": 1,
+      "name": "秋风初起",
+      "icon": "🍃",
+      "desc": "秋风初起，凉意渐生"
+    },
+    {
+      "month": 10,
+      "day": 16,
+      "name": "天高云淡",
+      "icon": "☁️",
+      "desc": "秋高气爽，云淡风轻"
+    },
+    {
+      "month": 11,
+      "day": 1,
+      "name": "稻穗垂金",
+      "icon": "🌾",
+      "desc": "稻穗金黄，丰收在望",
+      "activity": {
+        "title": "秋收庆典",
+        "desc": "领取丰收大礼",
+        "reward": {
+          "coins": [
+            400,
+            1500
+          ],
+          "exp": [
+            150,
+            400
+          ]
+        }
+      }
+    },
+    {
+      "month": 11,
+      "day": 16,
+      "name": "露水渐浓",
+      "icon": "💧",
+      "desc": "秋露渐浓，寒意悄至"
+    },
+    {
+      "month": 12,
+      "day": 1,
+      "name": "霜叶红染",
+      "icon": "🍁",
+      "desc": "霜叶红于二月花"
+    },
+    {
+      "month": 12,
+      "day": 16,
+      "name": "雁阵南飞",
+      "icon": "🦅",
+      "desc": "大雁南飞过冬去"
+    }
+  ],
+  "seasonal_crops": {
+    "spring": [
+      "草莓种子",
+      "薄荷种子",
+      "玫瑰花种"
+    ],
+    "summer": [
+      "向日葵种子",
+      "辣椒种子",
+      "番茄种子"
+    ],
+    "autumn": [
+      "葡萄种子",
+      "南瓜种子",
+      "水稻种子"
+    ],
+    "winter": [
+      "土豆",
+      "可可种子",
+      "野蘑菇孢子"
+    ]
+  },
+  "seasonal_fish": {
+    "spring": [
+      "鲤鱼",
+      "小鲫鱼",
+      "鳊鱼",
+      "樱花鳟"
+    ],
+    "summer": [
+      "鲈鱼",
+      "鳜鱼",
+      "鲶鱼",
+      "热带鱼"
+    ],
+    "autumn": [
+      "草鱼",
+      "鲟鱼",
+      "石斑鱼",
+      "秋刀鱼"
+    ],
+    "winter": [
+      "鳕鱼",
+      "虹鳟鱼",
+      "河豚",
+      "冰鱼"
+    ]
+  },
+  "off_season_fish": {
+    "spring": [
+      "鳕鱼",
+      "虹鳟鱼",
+      "冰鱼"
+    ],
+    "summer": [
+      "河豚",
+      "冰鱼",
+      "秋刀鱼"
+    ],
+    "autumn": [
+      "热带鱼",
+      "樱花鳟",
+      "冰鱼"
+    ],
+    "winter": [
+      "鲶鱼",
+      "热带鱼",
+      "樱花鳟",
+      "秋刀鱼"
+    ]
+  },
+  "off_season_crops": {
+    "spring": [
+      "土豆",
+      "可可种子",
+      "野蘑菇孢子"
+    ],
+    "summer": [
+      "草莓种子",
+      "薄荷种子",
+      "野蘑菇孢子"
+    ],
+    "autumn": [
+      "草莓种子",
+      "向日葵种子",
+      "辣椒种子",
+      "可可种子"
+    ],
+    "winter": [
+      "番茄种子",
+      "辣椒种子",
+      "水稻种子",
+      "玫瑰花种",
+      "向日葵种子"
+    ]
+  }
+}

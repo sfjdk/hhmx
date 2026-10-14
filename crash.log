@@ -1,0 +1,101 @@
+2026-07-13T06:58:32.126Z uncaughtException: listen EADDRINUSE: address already in use :::3456
+Error: listen EADDRINUSE: address already in use :::3456
+    at Server.setupListenHandle [as _listen2] (node:net:2008:16)
+    at listenInCluster (node:net:2065:12)
+    at Server.listen (node:net:2170:7)
+    at Object.<anonymous> (C:\Users\sfjdk\Desktop\新建文件夹 (12) - 副本\server\index.js:9536:8)
+    at Module._compile (node:internal/modules/cjs/loader:1854:14)
+    at Object..js (node:internal/modules/cjs/loader:1985:10)
+    at Module.load (node:internal/modules/cjs/loader:1577:32)
+    at Module._load (node:internal/modules/cjs/loader:1379:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+
+2026-07-13T07:01:05.222Z uncaughtException: listen EADDRINUSE: address already in use :::3456
+Error: listen EADDRINUSE: address already in use :::3456
+    at Server.setupListenHandle [as _listen2] (node:net:2008:16)
+    at listenInCluster (node:net:2065:12)
+    at Server.listen (node:net:2170:7)
+    at Object.<anonymous> (C:\Users\sfjdk\Desktop\新建文件夹 (12) - 副本\server\index.js:9537:8)
+    at Module._compile (node:internal/modules/cjs/loader:1854:14)
+    at Object..js (node:internal/modules/cjs/loader:1985:10)
+    at Module.load (node:internal/modules/cjs/loader:1577:32)
+    at Module._load (node:internal/modules/cjs/loader:1379:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+
+2026-07-13T07:01:27.353Z uncaughtException: listen EADDRINUSE: address already in use :::3456
+Error: listen EADDRINUSE: address already in use :::3456
+    at Server.setupListenHandle [as _listen2] (node:net:2008:16)
+    at listenInCluster (node:net:2065:12)
+    at Server.listen (node:net:2170:7)
+    at Object.<anonymous> (C:\Users\sfjdk\Desktop\新建文件夹 (12) - 副本\server\index.js:9538:8)
+    at Module._compile (node:internal/modules/cjs/loader:1854:14)
+    at Object..js (node:internal/modules/cjs/loader:1985:10)
+    at Module.load (node:internal/modules/cjs/loader:1577:32)
+    at Module._load (node:internal/modules/cjs/loader:1379:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+
+2026-07-13T07:02:50.182Z uncaughtException: listen EADDRINUSE: address already in use :::3456
+Error: listen EADDRINUSE: address already in use :::3456
+    at Server.setupListenHandle [as _listen2] (node:net:2008:16)
+    at listenInCluster (node:net:2065:12)
+    at Server.listen (node:net:2170:7)
+    at Object.<anonymous> (C:\Users\sfjdk\Desktop\新建文件夹 (12) - 副本\server\index.js:9538:8)
+    at Module._compile (node:internal/modules/cjs/loader:1854:14)
+    at Object..js (node:internal/modules/cjs/loader:1985:10)
+    at Module.load (node:internal/modules/cjs/loader:1577:32)
+    at Module._load (node:internal/modules/cjs/loader:1379:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+
+2026-07-13T07:03:23.299Z uncaughtException: listen EADDRINUSE: address already in use :::3456
+Error: listen EADDRINUSE: address already in use :::3456
+    at Server.setupListenHandle [as _listen2] (node:net:2008:16)
+    at listenInCluster (node:net:2065:12)
+    at Server.listen (node:net:2170:7)
+    at Object.<anonymous> (C:\Users\sfjdk\Desktop\新建文件夹 (12) - 副本\server\index.js:9538:8)
+    at Module._compile (node:internal/modules/cjs/loader:1854:14)
+    at Object..js (node:internal/modules/cjs/loader:1985:10)
+    at Module.load (node:internal/modules/cjs/loader:1577:32)
+    at Module._load (node:internal/modules/cjs/loader:1379:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+
+2026-07-13T07:15:14.507Z unhandledRejection: ReferenceError: _acquireFileLock is not defined
+    at trySpawnBoss (C:\Users\sfjdk\Desktop\新建文件夹 (12) - 副本\server\index.js:8879:16)
+    at Timeout._onTimeout (C:\Users\sfjdk\Desktop\新建文件夹 (12) - 副本\server\index.js:9527:27)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7)
+
+2026-07-13T07:25:14.506Z unhandledRejection: ReferenceError: _acquireFileLock is not defined
+    at trySpawnBoss (C:\Users\sfjdk\Desktop\新建文件夹 (12) - 副本\server\index.js:8879:16)
+    at Timeout._onTimeout (C:\Users\sfjdk\Desktop\新建文件夹 (12) - 副本\server\index.js:9527:27)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7)
+
+2026-07-13T07:35:14.508Z unhandledRejection: ReferenceError: _acquireFileLock is not defined
+    at trySpawnBoss (C:\Users\sfjdk\Desktop\新建文件夹 (12) - 副本\server\index.js:8879:16)
+    at Timeout._onTimeout (C:\Users\sfjdk\Desktop\新建文件夹 (12) - 副本\server\index.js:9527:27)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7)
+
+2026-07-13T07:45:14.510Z unhandledRejection: ReferenceError: _acquireFileLock is not defined
+    at trySpawnBoss (C:\Users\sfjdk\Desktop\新建文件夹 (12) - 副本\server\index.js:8879:16)
+    at Timeout._onTimeout (C:\Users\sfjdk\Desktop\新建文件夹 (12) - 副本\server\index.js:9527:27)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7)
+
+2026-07-13T07:55:14.510Z unhandledRejection: ReferenceError: _acquireFileLock is not defined
+    at trySpawnBoss (C:\Users\sfjdk\Desktop\新建文件夹 (12) - 副本\server\index.js:8879:16)
+    at Timeout._onTimeout (C:\Users\sfjdk\Desktop\新建文件夹 (12) - 副本\server\index.js:9527:27)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7)
+
+2026-07-13T08:05:14.510Z unhandledRejection: ReferenceError: _acquireFileLock is not defined
+    at trySpawnBoss (C:\Users\sfjdk\Desktop\新建文件夹 (12) - 副本\server\index.js:8879:16)
+    at Timeout._onTimeout (C:\Users\sfjdk\Desktop\新建文件夹 (12) - 副本\server\index.js:9527:27)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7)
+

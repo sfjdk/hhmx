@@ -1,0 +1,90 @@
+{
+  "description": "萝莉同伴系统。觉醒路线：⭐1迷路→⭐2无家可归→⭐3神秘→💫4闪耀→👑神明。结婚可额外获得金币+材料加成，等级上限+30。",
+  "lolis": [
+    {
+      "name": "迷路孩童",
+      "rarity": 1,
+      "base_bonus": {
+        "coin": 0.05,
+        "drop": 0.4
+      },
+      "max_level": 15
+    },
+    {
+      "name": "流浪孩童",
+      "rarity": 2,
+      "base_bonus": {
+        "coin": 0.1,
+        "drop": 0.4
+      },
+      "max_level": 30
+    },
+    {
+      "name": "内向的小孩",
+      "rarity": 3,
+      "base_bonus": {
+        "coin": 0.15,
+        "drop": 0.4
+      },
+      "max_level": 50
+    },
+    {
+      "name": "活泼的小孩",
+      "rarity": 4,
+      "base_bonus": {
+        "coin": 0.2,
+        "drop": 0.4
+      },
+      "max_level": 80
+    },
+    {
+      "name": "聪慧孩童",
+      "rarity": 999,
+      "base_bonus": {
+        "coin": 0.25,
+        "drop": 0.4
+      },
+      "max_level": 100
+    }
+  ],
+  "feed_items": {
+    "萝莉糖果": {
+      "exp": 100,
+      "rarity": 1
+    },
+    "萝莉蛋糕": {
+      "exp": 500,
+      "rarity": 2
+    },
+    "萝莉宝石": {
+      "exp": 2000,
+      "rarity": 3
+    }
+  },
+  "level_bonus_per_level": {
+    "coin": 0.05,
+    "drop": 0.03
+  },
+  "married_bonus": {
+    "coin": 0.5,
+    "drop": 0.3
+  },
+  "max_dispatch_hours": 72,
+  "max_dispatch_per_day": 2,
+  "exp_per_hour_base": 10,
+  "max_level_map": {
+    "1": 15,
+    "2": 30,
+    "3": 50,
+    "4": 80,
+    "999": 100
+  },
+  "married_extra_levels": 30,
+  "base_coins_per_hour": {
+    "1": 80,
+    "2": 180,
+    "3": 350,
+    "4": 600,
+    "999": 1200
+  }
+}

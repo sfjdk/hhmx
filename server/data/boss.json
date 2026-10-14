@@ -1,0 +1,675 @@
+{
+  "active": [
+    {
+      "id": "31b90d3d",
+      "name": "虚空领主",
+      "rarity": 4,
+      "hp": 4330096,
+      "max_hp": 4438500,
+      "attack": 127078,
+      "defense": 3362,
+      "speed": 739,
+      "atk_speed": 470,
+      "min_level": 8,
+      "rewards": {
+        "coins": 200000,
+        "exp": 20000,
+        "items": [
+          {
+            "name": "混沌之鳞",
+            "count": 12
+          },
+          {
+            "name": "暗影之尘",
+            "count": 22
+          },
+          {
+            "name": "恶魔之角",
+            "count": 15
+          },
+          {
+            "name": "死灵法典",
+            "count": 8
+          },
+          {
+            "name": "附魔石",
+            "count": 25
+          }
+        ]
+      },
+      "spawn_chance": 0.03,
+      "cooldown_hours": 2,
+      "desc": "虚空裂开了一道口子，不可名状的存在凝视着这个世界...",
+      "participants": [
+        {
+          "id": "5817efe1",
+          "username": "IKUN11425",
+          "damage": 79882
+        },
+        {
+          "id": "cdd4d78fb66a958789427cb8f7fbed61",
+          "username": "IKUN11425",
+          "damage": 28522
+        }
+      ],
+      "last_attacks": {
+        "5817efe1": 1783339378202,
+        "cdd4d78fb66a958789427cb8f7fbed61": 1783926690309
+      },
+      "spawned_at": 1782445345753
+    },
+    {
+      "id": "5ff19088",
+      "name": "冰霜巨人王",
+      "rarity": 2,
+      "hp": 435470,
+      "max_hp": 516200,
+      "attack": 21863,
+      "defense": 1600,
+      "speed": 108,
+      "atk_speed": 56,
+      "min_level": 1,
+      "rewards": {
+        "coins": 60000,
+        "exp": 6000,
+        "items": [
+          {
+            "name": "寒冰核心",
+            "count": 15
+          },
+          {
+            "name": "秘银矿",
+            "count": 15
+          },
+          {
+            "name": "亡灵铁片",
+            "count": 22
+          },
+          {
+            "name": "附魔石",
+            "count": 12
+          }
+        ]
+      },
+      "spawn_chance": 0.09,
+      "cooldown_hours": 1,
+      "desc": "雪山之巅，沉睡万年的冰霜巨人睁开了眼睛...",
+      "participants": [
+        {
+          "id": "5817efe1",
+          "username": "IKUN11425",
+          "damage": 55856
+        },
+        {
+          "id": "cdd4d78fb66a958789427cb8f7fbed61",
+          "username": "IKUN11425",
+          "damage": 24874
+        }
+      ],
+      "last_attacks": {
+        "5817efe1": 1783339380482,
+        "cdd4d78fb66a958789427cb8f7fbed61": 1783926688928
+      },
+      "spawned_at": 1782445925929
+    },
+    {
+      "id": "6039df94",
+      "name": "远古石巨人",
+      "rarity": 2,
+      "hp": 400927,
+      "max_hp": 464580,
+      "attack": 19620,
+      "defense": 1806,
+      "speed": 56,
+      "atk_speed": 15,
+      "min_level": 1,
+      "rewards": {
+        "coins": 55000,
+        "exp": 5500,
+        "items": [
+          {
+            "name": "秘银矿",
+            "count": 18
+          },
+          {
+            "name": "石像碎片",
+            "count": 30
+          },
+          {
+            "name": "锻造精魂",
+            "count": 12
+          },
+          {
+            "name": "附魔石",
+            "count": 10
+          }
+        ]
+      },
+      "spawn_chance": 0.1,
+      "cooldown_hours": 1,
+      "desc": "大地震颤，一个由岩石构成的巨人从山脉中站了起来！",
+      "participants": [
+        {
+          "id": "5817efe1",
+          "username": "IKUN11425",
+          "damage": 50359
+        },
+        {
+          "id": "cdd4d78fb66a958789427cb8f7fbed61",
+          "username": "IKUN11425",
+          "damage": 13294
+        }
+      ],
+      "last_attacks": {
+        "5817efe1": 1783339382385,
+        "cdd4d78fb66a958789427cb8f7fbed61": 1783755318760
+      },
+      "spawned_at": 1782445945749
+    },
+    {
+      "id": "1c69d75b",
+      "name": "森林守护者",
+      "rarity": 1,
+      "hp": 0,
+      "max_hp": 30000,
+      "attack": 150,
+      "defense": 100,
+      "speed": 20,
+      "atk_speed": 12,
+      "min_level": 1,
+      "rewards": {
+        "coins": 20000,
+        "exp": 2000,
+        "items": [
+          {
+            "name": "食人花种子",
+            "count": 10
+          },
+          {
+            "name": "蜂蜜",
+            "count": 15
+          },
+          {
+            "name": "猫薄荷",
+            "count": 8
+          },
+          {
+            "name": "玫瑰花瓣",
+            "count": 12
+          }
+        ]
+      },
+      "spawn_chance": 0.14,
+      "cooldown_hours": 2,
+      "desc": "古老的森林之灵被惊扰，它要保护自己的领地！",
+      "participants": [
+        {
+          "id": "5817efe1",
+          "username": "IKUN11425",
+          "damage": 3051
+        },
+        {
+          "id": "f7319957",
+          "username": "北晨",
+          "damage": 1884
+        },
+        {
+          "id": "18727d79",
+          "username": "马忽悠",
+          "damage": 9099
+        },
+        {
+          "id": "f1d4f57a",
+          "username": "小凯",
+          "damage": 1710
+        },
+        {
+          "id": "3795615d",
+          "username": "iroxy",
+          "damage": 12898
+        },
+        {
+          "id": "990773ab",
+          "username": "晴白",
+          "damage": 699
+        },
+        {
+          "id": "07ebc9d9",
+          "username": "269",
+          "damage": 777
+        }
+      ],
+      "last_attacks": {
+        "5817efe1": 1781187448509,
+        "f7319957": 1781187412153,
+        "18727d79": 1781187410138,
+        "f1d4f57a": 1781187222201,
+        "3795615d": 1781187396777,
+        "990773ab": 1781187034500,
+        "07ebc9d9": 1781187283115
+      },
+      "spawned_at": 1781185362108,
+      "defeated_at": 1781187448509,
+      "rewards_distributed": true
+    },
+    {
+      "id": "2df2a9d9",
+      "name": "冰霜巨人王",
+      "rarity": 2,
+      "hp": 0,
+      "max_hp": 70000,
+      "attack": 280,
+      "defense": 220,
+      "speed": 15,
+      "atk_speed": 8,
+      "min_level": 1,
+      "rewards": {
+        "coins": 45000,
+        "exp": 4500,
+        "items": [
+          {
+            "name": "寒冰核心",
+            "count": 10
+          },
+          {
+            "name": "秘银矿",
+            "count": 10
+          },
+          {
+            "name": "亡灵铁片",
+            "count": 15
+          },
+          {
+            "name": "附魔石",
+            "count": 8
+          }
+        ]
+      },
+      "spawn_chance": 0.09,
+      "cooldown_hours": 1,
+      "desc": "雪山之巅，沉睡万年的冰霜巨人睁开了眼睛...",
+      "participants": [
+        {
+          "id": "715d10bb",
+          "username": "羽猫daze",
+          "damage": 184
+        },
+        {
+          "id": "5817efe1",
+          "username": "IKUN11425",
+          "damage": 9037
+        },
+        {
+          "id": "3795615d",
+          "username": "iroxy",
+          "damage": 40412
+        },
+        {
+          "id": "18727d79",
+          "username": "马忽悠",
+          "damage": 13741
+        },
+        {
+          "id": "07ebc9d9",
+          "username": "269",
+          "damage": 2805
+        },
+        {
+          "id": "990773ab",
+          "username": "晴白",
+          "damage": 1582
+        },
+        {
+          "id": "f1d4f57a",
+          "username": "小凯",
+          "damage": 1337
+        },
+        {
+          "id": "61670c26",
+          "username": "刚满18厘米",
+          "damage": 958
+        }
+      ],
+      "last_attacks": {
+        "715d10bb": 1781174666692,
+        "5817efe1": 1781180843806,
+        "3795615d": 1781181057645,
+        "18727d79": 1781181025252,
+        "07ebc9d9": 1781179081815,
+        "990773ab": 1781179292969,
+        "f1d4f57a": 1781180645660,
+        "61670c26": 1781180278835
+      },
+      "spawned_at": 1781164795102,
+      "defeated_at": 1781181057645,
+      "rewards_distributed": true
+    }
+  ],
+  "recent_kills": [
+    {
+      "name": "混沌魔龙",
+      "rarity": 999,
+      "players": 18,
+      "eligible": 18,
+      "coins_each": 22222,
+      "exp_each": 2222,
+      "drops": [
+        "神之碎片 x18",
+        "龙鳞 x45",
+        "龙之心 x18",
+        "奥金矿 x30",
+        "附魔石 x45",
+        "星之碎片 x18",
+        "幻影晶核 x18"
+      ],
+      "date": "2026/6/24 23:30:05",
+      "ts": 1782315005443
+    },
+    {
+      "name": "冰霜巨人王",
+      "rarity": 2,
+      "players": 4,
+      "eligible": 4,
+      "coins_each": 15000,
+      "exp_each": 1500,
+      "drops": [
+        "寒冰核心 x15",
+        "秘银矿 x15",
+        "亡灵铁片 x22",
+        "附魔石 x12"
+      ],
+      "date": "2026/6/24 21:45:29",
+      "ts": 1782308729874
+    },
+    {
+      "name": "暗黑凤凰",
+      "rarity": 3,
+      "players": 6,
+      "eligible": 6,
+      "coins_each": 15000,
+      "exp_each": 1500,
+      "drops": [
+        "火焰之心 x15",
+        "堕落之羽 x12",
+        "狮鹫羽毛 x18",
+        "附魔石 x15"
+      ],
+      "date": "2026/6/24 21:26:08",
+      "ts": 1782307568449
+    },
+    {
+      "name": "暗影巨龙",
+      "rarity": 3,
+      "players": 7,
+      "eligible": 7,
+      "coins_each": 14285,
+      "exp_each": 1428,
+      "drops": [
+        "龙鳞 x20",
+        "龙之心 x8",
+        "奥金矿 x12",
+        "翡翠矿 x8",
+        "附魔石 x18"
+      ],
+      "date": "2026/6/24 19:16:32",
+      "ts": 1782299792907
+    },
+    {
+      "name": "暗黑凤凰",
+      "rarity": 3,
+      "players": 4,
+      "eligible": 4,
+      "coins_each": 22500,
+      "exp_each": 2250,
+      "drops": [
+        "火焰之心 x15",
+        "堕落之羽 x12",
+        "狮鹫羽毛 x18",
+        "附魔石 x15"
+      ],
+      "date": "2026/6/24 19:06:37",
+      "ts": 1782299197129
+    },
+    {
+      "name": "冰霜巨人王",
+      "rarity": 2,
+      "players": 6,
+      "eligible": 6,
+      "coins_each": 10000,
+      "exp_each": 1000,
+      "drops": [
+        "寒冰核心 x15",
+        "秘银矿 x15",
+        "亡灵铁片 x22",
+        "附魔石 x12"
+      ],
+      "date": "2026/6/24 18:54:37",
+      "ts": 1782298477005
+    },
+    {
+      "name": "森林守护者",
+      "rarity": 1,
+      "players": 12,
+      "eligible": 12,
+      "coins_each": 2333,
+      "exp_each": 233,
+      "drops": [
+        "食人花种子 x15",
+        "蜂蜜 x22",
+        "猫薄荷 x12",
+        "玫瑰花瓣 x18"
+      ],
+      "date": "2026/6/24 18:02:50",
+      "ts": 1782295370239
+    },
+    {
+      "name": "冰霜巨人王",
+      "rarity": 2,
+      "players": 4,
+      "eligible": 4,
+      "coins_each": 15000,
+      "exp_each": 1500,
+      "drops": [
+        "寒冰核心 x15",
+        "秘银矿 x15",
+        "亡灵铁片 x22",
+        "附魔石 x12"
+      ],
+      "date": "2026/6/24 15:25:36",
+      "ts": 1782285936557
+    },
+    {
+      "name": "暗黑凤凰",
+      "rarity": 3,
+      "players": 4,
+      "eligible": 4,
+      "coins_each": 22500,
+      "exp_each": 2250,
+      "drops": [
+        "火焰之心 x15",
+        "堕落之羽 x12",
+        "狮鹫羽毛 x18",
+        "附魔石 x15"
+      ],
+      "date": "2026/6/24 14:46:41",
+      "ts": 1782283601716
+    },
+    {
+      "name": "森林守护者",
+      "rarity": 1,
+      "players": 4,
+      "eligible": 4,
+      "coins_each": 7000,
+      "exp_each": 700,
+      "drops": [
+        "食人花种子 x15",
+        "蜂蜜 x22",
+        "猫薄荷 x12",
+        "玫瑰花瓣 x18"
+      ],
+      "date": "2026/6/24 13:04:53",
+      "ts": 1782277493650
+    },
+    {
+      "name": "虚空领主",
+      "rarity": 4,
+      "players": 4,
+      "eligible": 4,
+      "coins_each": 50000,
+      "exp_each": 5000,
+      "drops": [
+        "混沌之鳞 x12",
+        "暗影之尘 x22",
+        "恶魔之角 x15",
+        "死灵法典 x8",
+        "附魔石 x25"
+      ],
+      "date": "2026/6/24 12:26:51",
+      "ts": 1782275211418
+    },
+    {
+      "name": "远古石巨人",
+      "rarity": 2,
+      "players": 2,
+      "eligible": 2,
+      "coins_each": 27500,
+      "exp_each": 2750,
+      "drops": [
+        "秘银矿 x18",
+        "石像碎片 x30",
+        "锻造精魂 x12",
+        "附魔石 x10"
+      ],
+      "date": "2026/6/24 11:17:55",
+      "ts": 1782271075514
+    },
+    {
+      "name": "森林守护者",
+      "rarity": 1,
+      "players": 3,
+      "eligible": 3,
+      "coins_each": 9333,
+      "exp_each": 933,
+      "drops": [
+        "食人花种子 x15",
+        "蜂蜜 x22",
+        "猫薄荷 x12",
+        "玫瑰花瓣 x18"
+      ],
+      "date": "2026/6/24 10:37:00",
+      "ts": 1782268620501
+    },
+    {
+      "name": "暗黑凤凰",
+      "rarity": 3,
+      "players": 3,
+      "eligible": 3,
+      "coins_each": 30000,
+      "exp_each": 3000,
+      "drops": [
+        "火焰之心 x15",
+        "堕落之羽 x12",
+        "狮鹫羽毛 x18",
+        "附魔石 x15"
+      ],
+      "date": "2026/6/24 09:00:41",
+      "ts": 1782262841895
+    },
+    {
+      "name": "暗黑凤凰",
+      "rarity": 3,
+      "players": 4,
+      "eligible": 4,
+      "coins_each": 22500,
+      "exp_each": 2250,
+      "drops": [
+        "火焰之心 x15",
+        "堕落之羽 x12",
+        "狮鹫羽毛 x18",
+        "附魔石 x15"
+      ],
+      "date": "2026/6/24 07:19:40",
+      "ts": 1782256780353
+    },
+    {
+      "name": "森林守护者",
+      "rarity": 1,
+      "players": 1,
+      "eligible": 1,
+      "coins_each": 28000,
+      "exp_each": 2800,
+      "drops": [
+        "食人花种子 x15",
+        "蜂蜜 x22",
+        "猫薄荷 x12",
+        "玫瑰花瓣 x18"
+      ],
+      "date": "2026/6/24 06:43:56",
+      "ts": 1782254636568
+    },
+    {
+      "name": "远古石巨人",
+      "rarity": 2,
+      "players": 1,
+      "eligible": 1,
+      "coins_each": 55000,
+      "exp_each": 5500,
+      "drops": [
+        "秘银矿 x18",
+        "石像碎片 x30",
+        "锻造精魂 x12",
+        "附魔石 x10"
+      ],
+      "date": "2026/6/24 06:15:57",
+      "ts": 1782252957602
+    },
+    {
+      "name": "远古石巨人",
+      "rarity": 2,
+      "players": 5,
+      "eligible": 5,
+      "coins_each": 11000,
+      "exp_each": 1100,
+      "drops": [
+        "秘银矿 x18",
+        "石像碎片 x30",
+        "锻造精魂 x12",
+        "附魔石 x10"
+      ],
+      "date": "2026/6/24 01:25:54",
+      "ts": 1782235554761
+    },
+    {
+      "name": "森林守护者",
+      "rarity": 1,
+      "players": 8,
+      "eligible": 8,
+      "coins_each": 3500,
+      "exp_each": 350,
+      "drops": [
+        "食人花种子 x15",
+        "蜂蜜 x22",
+        "猫薄荷 x12",
+        "玫瑰花瓣 x18"
+      ],
+      "date": "2026/6/24 00:23:22",
+      "ts": 1782231802291
+    },
+    {
+      "name": "远古石巨人",
+      "rarity": 2,
+      "players": 4,
+      "eligible": 4,
+      "coins_each": 13750,
+      "exp_each": 1375,
+      "drops": [
+        "秘银矿 x18",
+        "石像碎片 x30",
+        "锻造精魂 x12",
+        "附魔石 x10"
+      ],
+      "date": "2026/6/23 20:05:14",
+      "ts": 1782216314483
+    }
+  ]
+}

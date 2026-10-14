@@ -1,0 +1,68 @@
+{
+  "description": "宝石系统配置。镶嵌宝石到武器获得额外属性加成。",
+  "max_sockets": 3,
+  "gem_stat_range": {
+    "1": [
+      4,
+      12
+    ],
+    "2": [
+      6,
+      16
+    ],
+    "3": [
+      8,
+      20
+    ],
+    "4": [
+      12,
+      28
+    ],
+    "999": [
+      16,
+      36
+    ],
+    "9999": [
+      20,
+      48
+    ]
+  },
+  "gem_prefixes": [
+    "火焰",
+    "冰霜",
+    "雷电",
+    "暗影",
+    "神圣",
+    "自然",
+    "混沌",
+    "风暴",
+    "大地",
+    "星辰",
+    "光明"
+  ],
+  "gem_suffixes": [
+    "宝石",
+    "结晶",
+    "精华",
+    "核心",
+    "魂金"
+  ],
+  "stat_names": [
+    "speed",
+    "attack",
+    "attack_speed",
+    "defense",
+    "dodge",
+    "hp"
+  ],
+  "rare_stat_names": [
+    "crit_rate",
+    "crit_dmg",
+    "lifesteal",
+    "counter",
+    "damage_reduce",
+    "exp_bonus",
+    "gold_bonus"
+  ],
+  "rare_stat_chance": 0.15
+}

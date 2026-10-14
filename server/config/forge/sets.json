@@ -1,0 +1,5367 @@
+{
+  "sets": [
+    {
+      "id": "goblin_den_set",
+      "name": "哥布林巢穴套装",
+      "ruins_id": "goblin_den",
+      "min_level": 5,
+      "pieces": {
+        "weapon": {
+          "name": "哥布林巢穴之刃",
+          "stats": {
+            "attack": 49,
+            "defense": 25,
+            "speed": 25,
+            "attack_speed": 25,
+            "dodge": 25,
+            "hp": 37
+          },
+          "materials": [
+            "铁矿x3",
+            "煤炭x2",
+            "古代银币x1"
+          ]
+        },
+        "helmet": {
+          "name": "哥布林巢穴头盔",
+          "stats": {
+            "attack": 36,
+            "defense": 12,
+            "speed": 36,
+            "attack_speed": 36,
+            "dodge": 36,
+            "hp": 109
+          },
+          "materials": [
+            "铁矿x2",
+            "稻草x3"
+          ]
+        },
+        "armor": {
+          "name": "哥布林巢穴护甲",
+          "stats": {
+            "attack": 32,
+            "defense": 43,
+            "speed": 32,
+            "attack_speed": 32,
+            "dodge": 32,
+            "hp": 98
+          },
+          "materials": [
+            "铁矿x3",
+            "煤炭x2",
+            "蜘蛛丝x2"
+          ]
+        },
+        "boots": {
+          "name": "哥布林巢穴靴子",
+          "stats": {
+            "attack": 15,
+            "defense": 15,
+            "speed": 31,
+            "attack_speed": 15,
+            "dodge": 12,
+            "hp": 23
+          },
+          "materials": [
+            "稻草x3",
+            "蜘蛛丝x2"
+          ]
+        },
+        "leggings": {
+          "name": "哥布林巢穴护腿",
+          "stats": {
+            "attack": 6,
+            "defense": 12,
+            "speed": 6,
+            "attack_speed": 15,
+            "dodge": 6,
+            "hp": 9
+          },
+          "materials": [
+            "铁矿x2",
+            "煤炭x2"
+          ]
+        },
+        "accessory": {
+          "name": "哥布林巢穴饰品",
+          "stats": {
+            "attack": 15,
+            "defense": 15,
+            "speed": 15,
+            "attack_speed": 15,
+            "dodge": 15,
+            "hp": 45
+          },
+          "materials": [
+            "古代银币x2",
+            "蜘蛛丝x1"
+          ]
+        }
+      },
+      "bonuses": {
+        "2": {
+          "desc": "攻击+5%",
+          "effects": {
+            "attack_pct": 0.06
+          }
+        },
+        "4": {
+          "desc": "全属性+8%",
+          "effects": {
+            "all_pct": 0.09
+          }
+        },
+        "6": {
+          "desc": "攻击+16%，暴击率+5%",
+          "effects": {
+            "attack_pct": 0.16,
+            "crit_rate": 0.05
+          }
+        }
+      }
+    },
+    {
+      "id": "ancient_tomb_set",
+      "name": "古代陵墓套装",
+      "ruins_id": "ancient_tomb",
+      "min_level": 10,
+      "pieces": {
+        "weapon": {
+          "name": "古代陵墓之刃",
+          "stats": {
+            "attack": 66,
+            "defense": 33,
+            "speed": 33,
+            "attack_speed": 33,
+            "dodge": 33,
+            "hp": 50
+          },
+          "materials": [
+            "铁矿x3",
+            "煤炭x2",
+            "古代银币x1"
+          ]
+        },
+        "helmet": {
+          "name": "古代陵墓头盔",
+          "stats": {
+            "attack": 51,
+            "defense": 18,
+            "speed": 51,
+            "attack_speed": 51,
+            "dodge": 51,
+            "hp": 158
+          },
+          "materials": [
+            "铁矿x2",
+            "稻草x3"
+          ]
+        },
+        "armor": {
+          "name": "古代陵墓护甲",
+          "stats": {
+            "attack": 45,
+            "defense": 60,
+            "speed": 45,
+            "attack_speed": 45,
+            "dodge": 45,
+            "hp": 135
+          },
+          "materials": [
+            "铁矿x3",
+            "煤炭x2",
+            "蜘蛛丝x2"
+          ]
+        },
+        "boots": {
+          "name": "古代陵墓靴子",
+          "stats": {
+            "attack": 24,
+            "defense": 24,
+            "speed": 48,
+            "attack_speed": 24,
+            "dodge": 21,
+            "hp": 36
+          },
+          "materials": [
+            "稻草x3",
+            "蜘蛛丝x2"
+          ]
+        },
+        "leggings": {
+          "name": "古代陵墓护腿",
+          "stats": {
+            "attack": 9,
+            "defense": 15,
+            "speed": 9,
+            "attack_speed": 18,
+            "dodge": 9,
+            "hp": 14
+          },
+          "materials": [
+            "铁矿x2",
+            "煤炭x2"
+          ]
+        },
+        "accessory": {
+          "name": "古代陵墓饰品",
+          "stats": {
+            "attack": 26,
+            "defense": 26,
+            "speed": 26,
+            "attack_speed": 26,
+            "dodge": 20,
+            "hp": 79
+          },
+          "materials": [
+            "古代银币x2",
+            "蜘蛛丝x1"
+          ]
+        }
+      },
+      "bonuses": {
+        "2": {
+          "desc": "攻击+6%",
+          "effects": {
+            "attack_pct": 0.06
+          }
+        },
+        "4": {
+          "desc": "全属性+9%",
+          "effects": {
+            "all_pct": 0.09
+          }
+        },
+        "6": {
+          "desc": "攻击+17%，暴击率+5%",
+          "effects": {
+            "attack_pct": 0.17,
+            "crit_rate": 0.06
+          }
+        }
+      }
+    },
+    {
+      "id": "crystal_cave_set",
+      "name": "水晶矿洞套装",
+      "ruins_id": "crystal_cave",
+      "min_level": 15,
+      "pieces": {
+        "weapon": {
+          "name": "水晶矿洞之刃",
+          "stats": {
+            "attack": 89,
+            "defense": 44,
+            "speed": 44,
+            "attack_speed": 44,
+            "dodge": 44,
+            "hp": 66
+          },
+          "materials": [
+            "铁矿x3",
+            "煤炭x3",
+            "古代银币x1"
+          ]
+        },
+        "helmet": {
+          "name": "水晶矿洞头盔",
+          "stats": {
+            "attack": 60,
+            "defense": 24,
+            "speed": 60,
+            "attack_speed": 60,
+            "dodge": 60,
+            "hp": 180
+          },
+          "materials": [
+            "铁矿x2",
+            "稻草x4"
+          ]
+        },
+        "armor": {
+          "name": "水晶矿洞护甲",
+          "stats": {
+            "attack": 52,
+            "defense": 57,
+            "speed": 52,
+            "attack_speed": 52,
+            "dodge": 52,
+            "hp": 156
+          },
+          "materials": [
+            "铁矿x4",
+            "煤炭x3",
+            "蜘蛛丝x2"
+          ]
+        },
+        "boots": {
+          "name": "水晶矿洞靴子",
+          "stats": {
+            "attack": 21,
+            "defense": 21,
+            "speed": 42,
+            "attack_speed": 21,
+            "dodge": 18,
+            "hp": 32
+          },
+          "materials": [
+            "稻草x4",
+            "蜘蛛丝x2"
+          ]
+        },
+        "leggings": {
+          "name": "水晶矿洞护腿",
+          "stats": {
+            "attack": 12,
+            "defense": 20,
+            "speed": 12,
+            "attack_speed": 24,
+            "dodge": 12,
+            "hp": 19
+          },
+          "materials": [
+            "铁矿x2",
+            "煤炭x3"
+          ]
+        },
+        "accessory": {
+          "name": "水晶矿洞饰品",
+          "stats": {
+            "attack": 36,
+            "defense": 36,
+            "speed": 36,
+            "attack_speed": 36,
+            "dodge": 24,
+            "hp": 113
+          },
+          "materials": [
+            "古代银币x2",
+            "蜘蛛丝x1"
+          ]
+        }
+      },
+      "bonuses": {
+        "2": {
+          "desc": "攻击+6%",
+          "effects": {
+            "attack_pct": 0.07
+          }
+        },
+        "4": {
+          "desc": "全属性+9%",
+          "effects": {
+            "all_pct": 0.1
+          }
+        },
+        "6": {
+          "desc": "攻击+18%，暴击率+5%",
+          "effects": {
+            "attack_pct": 0.18,
+            "crit_rate": 0.06
+          }
+        }
+      }
+    },
+    {
+      "id": "haunted_castle_set",
+      "name": "荒废古堡套装",
+      "ruins_id": "haunted_castle",
+      "min_level": 20,
+      "pieces": {
+        "weapon": {
+          "name": "荒废古堡之刃",
+          "stats": {
+            "attack": 97,
+            "defense": 48,
+            "speed": 48,
+            "attack_speed": 48,
+            "dodge": 48,
+            "hp": 72
+          },
+          "materials": [
+            "铁矿x4",
+            "煤炭x3",
+            "古代银币x1"
+          ]
+        },
+        "helmet": {
+          "name": "荒废古堡头盔",
+          "stats": {
+            "attack": 71,
+            "defense": 28,
+            "speed": 71,
+            "attack_speed": 71,
+            "dodge": 71,
+            "hp": 212
+          },
+          "materials": [
+            "铁矿x3",
+            "稻草x4"
+          ]
+        },
+        "armor": {
+          "name": "荒废古堡护甲",
+          "stats": {
+            "attack": 63,
+            "defense": 81,
+            "speed": 63,
+            "attack_speed": 63,
+            "dodge": 63,
+            "hp": 190
+          },
+          "materials": [
+            "铁矿x4",
+            "煤炭x3",
+            "蜘蛛丝x3"
+          ]
+        },
+        "boots": {
+          "name": "荒废古堡靴子",
+          "stats": {
+            "attack": 24,
+            "defense": 24,
+            "speed": 47,
+            "attack_speed": 24,
+            "dodge": 21,
+            "hp": 36
+          },
+          "materials": [
+            "稻草x4",
+            "蜘蛛丝x3"
+          ]
+        },
+        "leggings": {
+          "name": "荒废古堡护腿",
+          "stats": {
+            "attack": 15,
+            "defense": 24,
+            "speed": 15,
+            "attack_speed": 30,
+            "dodge": 15,
+            "hp": 23
+          },
+          "materials": [
+            "铁矿x3",
+            "煤炭x3"
+          ]
+        },
+        "accessory": {
+          "name": "荒废古堡饰品",
+          "stats": {
+            "attack": 36,
+            "defense": 36,
+            "speed": 36,
+            "attack_speed": 36,
+            "dodge": 30,
+            "hp": 113
+          },
+          "materials": [
+            "古代银币x2",
+            "蜘蛛丝x2"
+          ]
+        }
+      },
+      "bonuses": {
+        "2": {
+          "desc": "攻击+7%",
+          "effects": {
+            "attack_pct": 0.07
+          }
+        },
+        "4": {
+          "desc": "全属性+10%",
+          "effects": {
+            "all_pct": 0.11
+          }
+        },
+        "6": {
+          "desc": "攻击+19%，暴击率+6%",
+          "effects": {
+            "attack_pct": 0.19,
+            "crit_rate": 0.06
+          }
+        }
+      }
+    },
+    {
+      "id": "forgotten_temple_set",
+      "name": "荒凉庙宇套装",
+      "ruins_id": "forgotten_temple",
+      "min_level": 25,
+      "pieces": {
+        "weapon": {
+          "name": "荒凉庙宇之刃",
+          "stats": {
+            "attack": 105,
+            "defense": 51,
+            "speed": 51,
+            "attack_speed": 51,
+            "dodge": 51,
+            "hp": 77
+          },
+          "materials": [
+            "铁矿x4",
+            "煤炭x3",
+            "古代银币x1"
+          ]
+        },
+        "helmet": {
+          "name": "荒凉庙宇头盔",
+          "stats": {
+            "attack": 81,
+            "defense": 33,
+            "speed": 81,
+            "attack_speed": 81,
+            "dodge": 81,
+            "hp": 244
+          },
+          "materials": [
+            "铁矿x3",
+            "稻草x4"
+          ]
+        },
+        "armor": {
+          "name": "荒凉庙宇护甲",
+          "stats": {
+            "attack": 75,
+            "defense": 105,
+            "speed": 75,
+            "attack_speed": 75,
+            "dodge": 75,
+            "hp": 225
+          },
+          "materials": [
+            "铁矿x4",
+            "煤炭x3",
+            "蜘蛛丝x3"
+          ]
+        },
+        "boots": {
+          "name": "荒凉庙宇靴子",
+          "stats": {
+            "attack": 26,
+            "defense": 26,
+            "speed": 52,
+            "attack_speed": 26,
+            "dodge": 25,
+            "hp": 40
+          },
+          "materials": [
+            "稻草x4",
+            "蜘蛛丝x3"
+          ]
+        },
+        "leggings": {
+          "name": "荒凉庙宇护腿",
+          "stats": {
+            "attack": 27,
+            "defense": 42,
+            "speed": 27,
+            "attack_speed": 54,
+            "dodge": 27,
+            "hp": 50
+          },
+          "materials": [
+            "铁矿x3",
+            "煤炭x3"
+          ]
+        },
+        "accessory": {
+          "name": "荒凉庙宇饰品",
+          "stats": {
+            "attack": 46,
+            "defense": 46,
+            "speed": 46,
+            "attack_speed": 46,
+            "dodge": 30,
+            "hp": 143
+          },
+          "materials": [
+            "古代银币x3",
+            "蜘蛛丝x2"
+          ]
+        }
+      },
+      "bonuses": {
+        "2": {
+          "desc": "攻击+7%",
+          "effects": {
+            "attack_pct": 0.08
+          }
+        },
+        "4": {
+          "desc": "全属性+11%",
+          "effects": {
+            "all_pct": 0.11
+          }
+        },
+        "6": {
+          "desc": "攻击+20%，暴击率+6%",
+          "effects": {
+            "attack_pct": 0.2,
+            "crit_rate": 0.06
+          }
+        }
+      }
+    },
+    {
+      "id": "cursed_shipwreck_set",
+      "name": "沉船遗骸套装",
+      "ruins_id": "cursed_shipwreck",
+      "min_level": 40,
+      "pieces": {
+        "weapon": {
+          "name": "沉船遗骸之刃",
+          "stats": {
+            "attack": 165,
+            "defense": 81,
+            "speed": 81,
+            "attack_speed": 81,
+            "dodge": 81,
+            "hp": 122
+          },
+          "materials": [
+            "铁矿x5",
+            "煤炭x4",
+            "古代银币x2"
+          ]
+        },
+        "helmet": {
+          "name": "沉船遗骸头盔",
+          "stats": {
+            "attack": 114,
+            "defense": 45,
+            "speed": 114,
+            "attack_speed": 114,
+            "dodge": 114,
+            "hp": 341
+          },
+          "materials": [
+            "铁矿x4",
+            "稻草x5"
+          ]
+        },
+        "armor": {
+          "name": "沉船遗骸护甲",
+          "stats": {
+            "attack": 120,
+            "defense": 150,
+            "speed": 120,
+            "attack_speed": 120,
+            "dodge": 120,
+            "hp": 360
+          },
+          "materials": [
+            "铁矿x5",
+            "煤炭x4",
+            "蜘蛛丝x4"
+          ]
+        },
+        "boots": {
+          "name": "沉船遗骸靴子",
+          "stats": {
+            "attack": 34,
+            "defense": 34,
+            "speed": 68,
+            "attack_speed": 34,
+            "dodge": 35,
+            "hp": 51
+          },
+          "materials": [
+            "稻草x5",
+            "蜘蛛丝x4"
+          ]
+        },
+        "leggings": {
+          "name": "沉船遗骸护腿",
+          "stats": {
+            "attack": 62,
+            "defense": 94,
+            "speed": 62,
+            "attack_speed": 124,
+            "dodge": 62,
+            "hp": 132
+          },
+          "materials": [
+            "铁矿x4",
+            "煤炭x4"
+          ]
+        },
+        "accessory": {
+          "name": "沉船遗骸饰品",
+          "stats": {
+            "attack": 76,
+            "defense": 76,
+            "speed": 76,
+            "attack_speed": 76,
+            "dodge": 60,
+            "hp": 250
+          },
+          "materials": [
+            "古代银币x3",
+            "蜘蛛丝x3"
+          ]
+        }
+      },
+      "bonuses": {
+        "2": {
+          "desc": "攻击+9%",
+          "effects": {
+            "attack_pct": 0.09
+          }
+        },
+        "4": {
+          "desc": "全属性+13%",
+          "effects": {
+            "all_pct": 0.13
+          }
+        },
+        "6": {
+          "desc": "攻击+23%，暴击率+7%",
+          "effects": {
+            "attack_pct": 0.23,
+            "crit_rate": 0.07
+          }
+        }
+      }
+    },
+    {
+      "id": "dragon_ruins_set",
+      "name": "巨兽巢穴套装",
+      "ruins_id": "dragon_ruins",
+      "min_level": 55,
+      "pieces": {
+        "weapon": {
+          "name": "巨兽巢穴之刃",
+          "stats": {
+            "attack": 221,
+            "defense": 110,
+            "speed": 110,
+            "attack_speed": 110,
+            "dodge": 110,
+            "hp": 166
+          },
+          "materials": [
+            "铁矿x5",
+            "煤炭x5",
+            "古代银币x2"
+          ]
+        },
+        "helmet": {
+          "name": "巨兽巢穴头盔",
+          "stats": {
+            "attack": 138,
+            "defense": 95,
+            "speed": 138,
+            "attack_speed": 138,
+            "dodge": 138,
+            "hp": 488
+          },
+          "materials": [
+            "铁矿x4",
+            "稻草x6"
+          ]
+        },
+        "armor": {
+          "name": "巨兽巢穴护甲",
+          "stats": {
+            "attack": 165,
+            "defense": 206,
+            "speed": 165,
+            "attack_speed": 165,
+            "dodge": 165,
+            "hp": 495
+          },
+          "materials": [
+            "铁矿x6",
+            "煤炭x5",
+            "蜘蛛丝x4"
+          ]
+        },
+        "boots": {
+          "name": "巨兽巢穴靴子",
+          "stats": {
+            "attack": 58,
+            "defense": 58,
+            "speed": 140,
+            "attack_speed": 58,
+            "dodge": 85,
+            "hp": 106
+          },
+          "materials": [
+            "稻草x6",
+            "蜘蛛丝x4"
+          ]
+        },
+        "leggings": {
+          "name": "巨兽巢穴护腿",
+          "stats": {
+            "attack": 98,
+            "defense": 147,
+            "speed": 98,
+            "attack_speed": 195,
+            "dodge": 98,
+            "hp": 214
+          },
+          "materials": [
+            "铁矿x4",
+            "煤炭x5"
+          ]
+        },
+        "accessory": {
+          "name": "巨兽巢穴饰品",
+          "stats": {
+            "attack": 107,
+            "defense": 107,
+            "speed": 107,
+            "attack_speed": 107,
+            "dodge": 150,
+            "hp": 391
+          },
+          "materials": [
+            "古代银币x4",
+            "蜘蛛丝x3"
+          ]
+        }
+      },
+      "bonuses": {
+        "2": {
+          "desc": "攻击+10%",
+          "effects": {
+            "attack_pct": 0.11
+          }
+        },
+        "4": {
+          "desc": "全属性+14%",
+          "effects": {
+            "all_pct": 0.15
+          }
+        },
+        "6": {
+          "desc": "攻击+26%，暴击率+7%",
+          "effects": {
+            "attack_pct": 0.26,
+            "crit_rate": 0.08
+          }
+        }
+      }
+    },
+    {
+      "id": "void_rift_set",
+      "name": "地层裂隙套装",
+      "ruins_id": "void_rift",
+      "min_level": 75,
+      "pieces": {
+        "weapon": {
+          "name": "地层裂隙之刃",
+          "stats": {
+            "attack": 485,
+            "defense": 243,
+            "speed": 243,
+            "attack_speed": 243,
+            "dodge": 243,
+            "hp": 728
+          },
+          "materials": [
+            "铁矿x6",
+            "煤炭x7",
+            "古代银币x3"
+          ]
+        },
+        "helmet": {
+          "name": "地层裂隙头盔",
+          "stats": {
+            "attack": 148,
+            "defense": 259,
+            "speed": 148,
+            "attack_speed": 148,
+            "dodge": 148,
+            "hp": 818
+          },
+          "materials": [
+            "铁矿x5",
+            "稻草x8"
+          ]
+        },
+        "armor": {
+          "name": "地层裂隙护甲",
+          "stats": {
+            "attack": 225,
+            "defense": 450,
+            "speed": 225,
+            "attack_speed": 225,
+            "dodge": 225,
+            "hp": 975
+          },
+          "materials": [
+            "铁矿x8",
+            "煤炭x7",
+            "蜘蛛丝x5"
+          ]
+        },
+        "boots": {
+          "name": "地层裂隙靴子",
+          "stats": {
+            "attack": 132,
+            "defense": 132,
+            "speed": 388,
+            "attack_speed": 132,
+            "dodge": 257,
+            "hp": 292
+          },
+          "materials": [
+            "稻草x8",
+            "蜘蛛丝x5"
+          ]
+        },
+        "leggings": {
+          "name": "地层裂隙护腿",
+          "stats": {
+            "attack": 145,
+            "defense": 217,
+            "speed": 145,
+            "attack_speed": 289,
+            "dodge": 145,
+            "hp": 323
+          },
+          "materials": [
+            "铁矿x5",
+            "煤炭x7"
+          ]
+        },
+        "accessory": {
+          "name": "地层裂隙饰品",
+          "stats": {
+            "attack": 149,
+            "defense": 149,
+            "speed": 149,
+            "attack_speed": 149,
+            "dodge": 270,
+            "hp": 579
+          },
+          "materials": [
+            "古代银币x5",
+            "蜘蛛丝x4"
+          ]
+        }
+      },
+      "bonuses": {
+        "2": {
+          "desc": "攻击+12%",
+          "effects": {
+            "attack_pct": 0.12
+          }
+        },
+        "4": {
+          "desc": "全属性+17%",
+          "effects": {
+            "all_pct": 0.17
+          }
+        },
+        "6": {
+          "desc": "攻击+30%，暴击率+8%",
+          "effects": {
+            "attack_pct": 0.3,
+            "crit_rate": 0.09
+          }
+        }
+      }
+    },
+    {
+      "id": "time_ruins_set",
+      "name": "时光废墟套装",
+      "ruins_id": "time_ruins",
+      "min_level": 85,
+      "pieces": {
+        "weapon": {
+          "name": "时光废墟之刃",
+          "stats": {
+            "attack": 555,
+            "defense": 278,
+            "speed": 278,
+            "attack_speed": 278,
+            "dodge": 278,
+            "hp": 833
+          },
+          "materials": [
+            "铁矿x7",
+            "煤炭x7",
+            "古代银币x3"
+          ]
+        },
+        "helmet": {
+          "name": "时光废墟头盔",
+          "stats": {
+            "attack": 164,
+            "defense": 328,
+            "speed": 164,
+            "attack_speed": 164,
+            "dodge": 164,
+            "hp": 983
+          },
+          "materials": [
+            "铁矿x6",
+            "稻草x8"
+          ]
+        },
+        "armor": {
+          "name": "时光废墟护甲",
+          "stats": {
+            "attack": 255,
+            "defense": 510,
+            "speed": 255,
+            "attack_speed": 255,
+            "dodge": 255,
+            "hp": 1125
+          },
+          "materials": [
+            "铁矿x8",
+            "煤炭x7",
+            "蜘蛛丝x6"
+          ]
+        },
+        "boots": {
+          "name": "时光废墟靴子",
+          "stats": {
+            "attack": 171,
+            "defense": 171,
+            "speed": 512,
+            "attack_speed": 171,
+            "dodge": 341,
+            "hp": 385
+          },
+          "materials": [
+            "稻草x8",
+            "蜘蛛丝x6"
+          ]
+        },
+        "leggings": {
+          "name": "时光废墟护腿",
+          "stats": {
+            "attack": 168,
+            "defense": 252,
+            "speed": 168,
+            "attack_speed": 336,
+            "dodge": 168,
+            "hp": 378
+          },
+          "materials": [
+            "铁矿x6",
+            "煤炭x7"
+          ]
+        },
+        "accessory": {
+          "name": "时光废墟饰品",
+          "stats": {
+            "attack": 170,
+            "defense": 170,
+            "speed": 170,
+            "attack_speed": 170,
+            "dodge": 330,
+            "hp": 673
+          },
+          "materials": [
+            "古代银币x5",
+            "蜘蛛丝x5"
+          ]
+        }
+      },
+      "bonuses": {
+        "2": {
+          "desc": "攻击+13%",
+          "effects": {
+            "attack_pct": 0.14
+          }
+        },
+        "4": {
+          "desc": "全属性+18%",
+          "effects": {
+            "all_pct": 0.19
+          }
+        },
+        "6": {
+          "desc": "攻击+32%，暴击率+9%",
+          "effects": {
+            "attack_pct": 0.32,
+            "crit_rate": 0.09
+          }
+        }
+      }
+    },
+    {
+      "id": "dragon_god_ruins_set",
+      "name": "石殿残垣套装",
+      "ruins_id": "dragon_god_ruins",
+      "min_level": 100,
+      "pieces": {
+        "weapon": {
+          "name": "石殿残垣之刃",
+          "stats": {
+            "attack": 660,
+            "defense": 330,
+            "speed": 330,
+            "attack_speed": 330,
+            "dodge": 330,
+            "hp": 990
+          },
+          "materials": [
+            "铁矿x8",
+            "煤炭x8",
+            "古代银币x4"
+          ]
+        },
+        "helmet": {
+          "name": "石殿残垣头盔",
+          "stats": {
+            "attack": 205,
+            "defense": 410,
+            "speed": 205,
+            "attack_speed": 205,
+            "dodge": 205,
+            "hp": 1230
+          },
+          "materials": [
+            "铁矿x7",
+            "稻草x9"
+          ]
+        },
+        "armor": {
+          "name": "石殿残垣护甲",
+          "stats": {
+            "attack": 300,
+            "defense": 600,
+            "speed": 300,
+            "attack_speed": 300,
+            "dodge": 300,
+            "hp": 1350
+          },
+          "materials": [
+            "铁矿x9",
+            "煤炭x8",
+            "蜘蛛丝x7"
+          ]
+        },
+        "boots": {
+          "name": "石殿残垣靴子",
+          "stats": {
+            "attack": 233,
+            "defense": 233,
+            "speed": 698,
+            "attack_speed": 233,
+            "dodge": 465,
+            "hp": 524
+          },
+          "materials": [
+            "稻草x9",
+            "蜘蛛丝x7"
+          ]
+        },
+        "leggings": {
+          "name": "石殿残垣护腿",
+          "stats": {
+            "attack": 204,
+            "defense": 305,
+            "speed": 204,
+            "attack_speed": 407,
+            "dodge": 204,
+            "hp": 458
+          },
+          "materials": [
+            "铁矿x7",
+            "煤炭x8"
+          ]
+        },
+        "accessory": {
+          "name": "石殿残垣饰品",
+          "stats": {
+            "attack": 210,
+            "defense": 210,
+            "speed": 210,
+            "attack_speed": 210,
+            "dodge": 420,
+            "hp": 840
+          },
+          "materials": [
+            "古代银币x6",
+            "蜘蛛丝x6"
+          ]
+        }
+      },
+      "bonuses": {
+        "2": {
+          "desc": "攻击+15%",
+          "effects": {
+            "attack_pct": 0.15
+          }
+        },
+        "4": {
+          "desc": "全属性+20%",
+          "effects": {
+            "all_pct": 0.21
+          }
+        },
+        "6": {
+          "desc": "攻击+35%，暴击率+10%",
+          "effects": {
+            "attack_pct": 0.35,
+            "crit_rate": 0.1
+          }
+        }
+      }
+    },
+    {
+      "id": "chaos_relic_set",
+      "name": "乱石遗址套装",
+      "ruins_id": "chaos_relic",
+      "min_level": 120,
+      "pieces": {
+        "weapon": {
+          "name": "乱石遗址之刃",
+          "stats": {
+            "attack": 800,
+            "defense": 400,
+            "speed": 400,
+            "attack_speed": 400,
+            "dodge": 400,
+            "hp": 1200
+          },
+          "materials": [
+            "铁矿x9",
+            "煤炭x10",
+            "古代银币x5"
+          ]
+        },
+        "helmet": {
+          "name": "乱石遗址头盔",
+          "stats": {
+            "attack": 260,
+            "defense": 520,
+            "speed": 260,
+            "attack_speed": 260,
+            "dodge": 260,
+            "hp": 1560
+          },
+          "materials": [
+            "铁矿x8",
+            "稻草x11"
+          ]
+        },
+        "armor": {
+          "name": "乱石遗址护甲",
+          "stats": {
+            "attack": 360,
+            "defense": 720,
+            "speed": 360,
+            "attack_speed": 360,
+            "dodge": 360,
+            "hp": 1620
+          },
+          "materials": [
+            "铁矿x11",
+            "煤炭x10",
+            "蜘蛛丝x8"
+          ]
+        },
+        "boots": {
+          "name": "乱石遗址靴子",
+          "stats": {
+            "attack": 315,
+            "defense": 315,
+            "speed": 946,
+            "attack_speed": 315,
+            "dodge": 631,
+            "hp": 711
+          },
+          "materials": [
+            "稻草x11",
+            "蜘蛛丝x8"
+          ]
+        },
+        "leggings": {
+          "name": "乱石遗址护腿",
+          "stats": {
+            "attack": 251,
+            "defense": 376,
+            "speed": 251,
+            "attack_speed": 501,
+            "dodge": 251,
+            "hp": 564
+          },
+          "materials": [
+            "铁矿x8",
+            "煤炭x10"
+          ]
+        },
+        "accessory": {
+          "name": "乱石遗址饰品",
+          "stats": {
+            "attack": 270,
+            "defense": 270,
+            "speed": 270,
+            "attack_speed": 270,
+            "dodge": 540,
+            "hp": 1080
+          },
+          "materials": [
+            "古代银币x6",
+            "蜘蛛丝x7"
+          ]
+        }
+      },
+      "bonuses": {
+        "2": {
+          "desc": "攻击+17%",
+          "effects": {
+            "attack_pct": 0.17
+          }
+        },
+        "4": {
+          "desc": "全属性+23%",
+          "effects": {
+            "all_pct": 0.23
+          }
+        },
+        "6": {
+          "desc": "攻击+39%，暴击率+11%",
+          "effects": {
+            "attack_pct": 0.39,
+            "crit_rate": 0.11
+          }
+        }
+      }
+    },
+    {
+      "id": "fallen_god_ruins_set",
+      "name": "广袤废墟套装",
+      "ruins_id": "fallen_god_ruins",
+      "min_level": 145,
+      "pieces": {
+        "weapon": {
+          "name": "广袤废墟之刃",
+          "stats": {
+            "attack": 975,
+            "defense": 488,
+            "speed": 488,
+            "attack_speed": 488,
+            "dodge": 488,
+            "hp": 1463
+          },
+          "materials": [
+            "铁矿x10",
+            "煤炭x11",
+            "古代银币x5"
+          ]
+        },
+        "helmet": {
+          "name": "广袤废墟头盔",
+          "stats": {
+            "attack": 329,
+            "defense": 658,
+            "speed": 329,
+            "attack_speed": 329,
+            "dodge": 329,
+            "hp": 1973
+          },
+          "materials": [
+            "铁矿x9",
+            "稻草x12"
+          ]
+        },
+        "armor": {
+          "name": "广袤废墟护甲",
+          "stats": {
+            "attack": 435,
+            "defense": 870,
+            "speed": 435,
+            "attack_speed": 435,
+            "dodge": 435,
+            "hp": 1958
+          },
+          "materials": [
+            "铁矿x12",
+            "煤炭x11",
+            "蜘蛛丝x9"
+          ]
+        },
+        "boots": {
+          "name": "广袤废墟靴子",
+          "stats": {
+            "attack": 419,
+            "defense": 419,
+            "speed": 1256,
+            "attack_speed": 419,
+            "dodge": 837,
+            "hp": 943
+          },
+          "materials": [
+            "稻草x12",
+            "蜘蛛丝x9"
+          ]
+        },
+        "leggings": {
+          "name": "广袤废墟护腿",
+          "stats": {
+            "attack": 310,
+            "defense": 464,
+            "speed": 310,
+            "attack_speed": 619,
+            "dodge": 310,
+            "hp": 696
+          },
+          "materials": [
+            "铁矿x9",
+            "煤炭x11"
+          ]
+        },
+        "accessory": {
+          "name": "广袤废墟饰品",
+          "stats": {
+            "attack": 345,
+            "defense": 345,
+            "speed": 345,
+            "attack_speed": 345,
+            "dodge": 690,
+            "hp": 1380
+          },
+          "materials": [
+            "古代银币x7",
+            "蜘蛛丝x8"
+          ]
+        }
+      },
+      "bonuses": {
+        "2": {
+          "desc": "攻击+19%",
+          "effects": {
+            "attack_pct": 0.2
+          }
+        },
+        "4": {
+          "desc": "全属性+26%",
+          "effects": {
+            "all_pct": 0.26
+          }
+        },
+        "6": {
+          "desc": "攻击+40%，暴击率+12%",
+          "effects": {
+            "attack_pct": 0.4,
+            "crit_rate": 0.12
+          }
+        }
+      }
+    },
+    {
+      "id": "genesis_ruins_set",
+      "name": "远古遗址套装",
+      "ruins_id": "genesis_ruins",
+      "min_level": 170,
+      "pieces": {
+        "weapon": {
+          "name": "远古遗址之刃",
+          "stats": {
+            "attack": 1150,
+            "defense": 575,
+            "speed": 575,
+            "attack_speed": 575,
+            "dodge": 575,
+            "hp": 1725
+          },
+          "materials": [
+            "铁矿x11",
+            "煤炭x13",
+            "古代银币x6"
+          ]
+        },
+        "helmet": {
+          "name": "远古遗址头盔",
+          "stats": {
+            "attack": 398,
+            "defense": 795,
+            "speed": 398,
+            "attack_speed": 398,
+            "dodge": 398,
+            "hp": 2385
+          },
+          "materials": [
+            "铁矿x10",
+            "稻草x14"
+          ]
+        },
+        "armor": {
+          "name": "远古遗址护甲",
+          "stats": {
+            "attack": 510,
+            "defense": 1020,
+            "speed": 510,
+            "attack_speed": 510,
+            "dodge": 510,
+            "hp": 2295
+          },
+          "materials": [
+            "铁矿x14",
+            "煤炭x13",
+            "蜘蛛丝x10"
+          ]
+        },
+        "boots": {
+          "name": "远古遗址靴子",
+          "stats": {
+            "attack": 522,
+            "defense": 522,
+            "speed": 1566,
+            "attack_speed": 522,
+            "dodge": 1044,
+            "hp": 1176
+          },
+          "materials": [
+            "稻草x14",
+            "蜘蛛丝x10"
+          ]
+        },
+        "leggings": {
+          "name": "远古遗址护腿",
+          "stats": {
+            "attack": 368,
+            "defense": 553,
+            "speed": 368,
+            "attack_speed": 737,
+            "dodge": 368,
+            "hp": 829
+          },
+          "materials": [
+            "铁矿x10",
+            "煤炭x13"
+          ]
+        },
+        "accessory": {
+          "name": "远古遗址饰品",
+          "stats": {
+            "attack": 420,
+            "defense": 420,
+            "speed": 420,
+            "attack_speed": 420,
+            "dodge": 840,
+            "hp": 1680
+          },
+          "materials": [
+            "古代银币x8",
+            "蜘蛛丝x9"
+          ]
+        }
+      },
+      "bonuses": {
+        "2": {
+          "desc": "攻击+22%",
+          "effects": {
+            "attack_pct": 0.22
+          }
+        },
+        "4": {
+          "desc": "全属性+29%",
+          "effects": {
+            "all_pct": 0.29
+          }
+        },
+        "6": {
+          "desc": "攻击+40%，暴击率+13%",
+          "effects": {
+            "attack_pct": 0.4,
+            "crit_rate": 0.14
+          }
+        }
+      }
+    },
+    {
+      "id": "omega_ruins_set",
+      "name": "荒废遗迹套装",
+      "ruins_id": "omega_ruins",
+      "min_level": 200,
+      "pieces": {
+        "weapon": {
+          "name": "荒废遗迹之刃",
+          "stats": {
+            "attack": 1360,
+            "defense": 680,
+            "speed": 680,
+            "attack_speed": 680,
+            "dodge": 680,
+            "hp": 2040
+          },
+          "materials": [
+            "铁矿x13",
+            "煤炭x15",
+            "古代银币x7"
+          ]
+        },
+        "helmet": {
+          "name": "荒废遗迹头盔",
+          "stats": {
+            "attack": 480,
+            "defense": 960,
+            "speed": 480,
+            "attack_speed": 480,
+            "dodge": 480,
+            "hp": 2880
+          },
+          "materials": [
+            "铁矿x12",
+            "稻草x16"
+          ]
+        },
+        "armor": {
+          "name": "荒废遗迹护甲",
+          "stats": {
+            "attack": 600,
+            "defense": 1200,
+            "speed": 600,
+            "attack_speed": 600,
+            "dodge": 600,
+            "hp": 2700
+          },
+          "materials": [
+            "铁矿x16",
+            "煤炭x15",
+            "蜘蛛丝x12"
+          ]
+        },
+        "boots": {
+          "name": "荒废遗迹靴子",
+          "stats": {
+            "attack": 646,
+            "defense": 646,
+            "speed": 1938,
+            "attack_speed": 646,
+            "dodge": 1292,
+            "hp": 1456
+          },
+          "materials": [
+            "稻草x16",
+            "蜘蛛丝x12"
+          ]
+        },
+        "leggings": {
+          "name": "荒废遗迹护腿",
+          "stats": {
+            "attack": 440,
+            "defense": 659,
+            "speed": 440,
+            "attack_speed": 879,
+            "dodge": 440,
+            "hp": 989
+          },
+          "materials": [
+            "铁矿x12",
+            "煤炭x15"
+          ]
+        },
+        "accessory": {
+          "name": "荒废遗迹饰品",
+          "stats": {
+            "attack": 510,
+            "defense": 510,
+            "speed": 510,
+            "attack_speed": 510,
+            "dodge": 1020,
+            "hp": 2040
+          },
+          "materials": [
+            "古代银币x10",
+            "蜘蛛丝x11"
+          ]
+        }
+      },
+      "bonuses": {
+        "2": {
+          "desc": "攻击+25%",
+          "effects": {
+            "attack_pct": 0.25
+          }
+        },
+        "4": {
+          "desc": "全属性+30%",
+          "effects": {
+            "all_pct": 0.3
+          }
+        },
+        "6": {
+          "desc": "攻击+40%，暴击率+15%",
+          "effects": {
+            "attack_pct": 0.4,
+            "crit_rate": 0.15
+          }
+        }
+      }
+    },
+    {
+      "id": "sunken_temple_set",
+      "name": "滨海石殿套装",
+      "ruins_id": "sunken_temple",
+      "min_level": 35,
+      "pieces": {
+        "weapon": {
+          "name": "滨海石殿之刃",
+          "stats": {
+            "attack": 144,
+            "defense": 72,
+            "speed": 72,
+            "attack_speed": 72,
+            "dodge": 72,
+            "hp": 108
+          },
+          "materials": [
+            "铁矿x4",
+            "煤炭x4",
+            "古代银币x2"
+          ]
+        },
+        "helmet": {
+          "name": "滨海石殿头盔",
+          "stats": {
+            "attack": 103,
+            "defense": 41,
+            "speed": 103,
+            "attack_speed": 103,
+            "dodge": 103,
+            "hp": 309
+          },
+          "materials": [
+            "铁矿x3",
+            "稻草x5"
+          ]
+        },
+        "armor": {
+          "name": "滨海石殿护甲",
+          "stats": {
+            "attack": 105,
+            "defense": 135,
+            "speed": 105,
+            "attack_speed": 105,
+            "dodge": 105,
+            "hp": 315
+          },
+          "materials": [
+            "铁矿x5",
+            "煤炭x4",
+            "蜘蛛丝x3"
+          ]
+        },
+        "boots": {
+          "name": "滨海石殿靴子",
+          "stats": {
+            "attack": 31,
+            "defense": 31,
+            "speed": 63,
+            "attack_speed": 31,
+            "dodge": 32,
+            "hp": 47
+          },
+          "materials": [
+            "稻草x5",
+            "蜘蛛丝x3"
+          ]
+        },
+        "leggings": {
+          "name": "滨海石殿护腿",
+          "stats": {
+            "attack": 50,
+            "defense": 77,
+            "speed": 50,
+            "attack_speed": 101,
+            "dodge": 50,
+            "hp": 105
+          },
+          "materials": [
+            "铁矿x3",
+            "煤炭x4"
+          ]
+        },
+        "accessory": {
+          "name": "滨海石殿饰品",
+          "stats": {
+            "attack": 66,
+            "defense": 66,
+            "speed": 66,
+            "attack_speed": 66,
+            "dodge": 30,
+            "hp": 203
+          },
+          "materials": [
+            "古代银币x3",
+            "蜘蛛丝x2"
+          ]
+        }
+      },
+      "bonuses": {
+        "2": {
+          "desc": "攻击+8%",
+          "effects": {
+            "attack_pct": 0.09
+          }
+        },
+        "4": {
+          "desc": "全属性+12%",
+          "effects": {
+            "all_pct": 0.12
+          }
+        },
+        "6": {
+          "desc": "攻击+22%，暴击率+6%",
+          "effects": {
+            "attack_pct": 0.22,
+            "crit_rate": 0.07
+          }
+        }
+      }
+    },
+    {
+      "id": "elven_capital_set",
+      "name": "遗忘村落套装",
+      "ruins_id": "elven_capital",
+      "min_level": 50,
+      "pieces": {
+        "weapon": {
+          "name": "遗忘村落之刃",
+          "stats": {
+            "attack": 203,
+            "defense": 101,
+            "speed": 101,
+            "attack_speed": 101,
+            "dodge": 101,
+            "hp": 151
+          },
+          "materials": [
+            "铁矿x5",
+            "煤炭x5",
+            "古代银币x2"
+          ]
+        },
+        "helmet": {
+          "name": "遗忘村落头盔",
+          "stats": {
+            "attack": 135,
+            "defense": 54,
+            "speed": 135,
+            "attack_speed": 135,
+            "dodge": 135,
+            "hp": 405
+          },
+          "materials": [
+            "铁矿x4",
+            "稻草x6"
+          ]
+        },
+        "armor": {
+          "name": "遗忘村落护甲",
+          "stats": {
+            "attack": 150,
+            "defense": 188,
+            "speed": 150,
+            "attack_speed": 150,
+            "dodge": 150,
+            "hp": 450
+          },
+          "materials": [
+            "铁矿x6",
+            "煤炭x5",
+            "蜘蛛丝x4"
+          ]
+        },
+        "boots": {
+          "name": "遗忘村落靴子",
+          "stats": {
+            "attack": 39,
+            "defense": 39,
+            "speed": 78,
+            "attack_speed": 39,
+            "dodge": 42,
+            "hp": 59
+          },
+          "materials": [
+            "稻草x6",
+            "蜘蛛丝x4"
+          ]
+        },
+        "leggings": {
+          "name": "遗忘村落护腿",
+          "stats": {
+            "attack": 86,
+            "defense": 129,
+            "speed": 86,
+            "attack_speed": 171,
+            "dodge": 86,
+            "hp": 187
+          },
+          "materials": [
+            "铁矿x4",
+            "煤炭x5"
+          ]
+        },
+        "accessory": {
+          "name": "遗忘村落饰品",
+          "stats": {
+            "attack": 97,
+            "defense": 97,
+            "speed": 97,
+            "attack_speed": 97,
+            "dodge": 120,
+            "hp": 344
+          },
+          "materials": [
+            "古代银币x4",
+            "蜘蛛丝x3"
+          ]
+        }
+      },
+      "bonuses": {
+        "2": {
+          "desc": "攻击+10%",
+          "effects": {
+            "attack_pct": 0.1
+          }
+        },
+        "4": {
+          "desc": "全属性+14%",
+          "effects": {
+            "all_pct": 0.14
+          }
+        },
+        "6": {
+          "desc": "攻击+25%，暴击率+7%",
+          "effects": {
+            "attack_pct": 0.25,
+            "crit_rate": 0.08
+          }
+        }
+      }
+    },
+    {
+      "id": "meteor_crater_set",
+      "name": "天坑巨洞套装",
+      "ruins_id": "meteor_crater",
+      "min_level": 70,
+      "pieces": {
+        "weapon": {
+          "name": "天坑巨洞之刃",
+          "stats": {
+            "attack": 450,
+            "defense": 225,
+            "speed": 225,
+            "attack_speed": 225,
+            "dodge": 225,
+            "hp": 675
+          },
+          "materials": [
+            "铁矿x6",
+            "煤炭x6",
+            "古代银币x3"
+          ]
+        },
+        "helmet": {
+          "name": "天坑巨洞头盔",
+          "stats": {
+            "attack": 145,
+            "defense": 218,
+            "speed": 145,
+            "attack_speed": 145,
+            "dodge": 145,
+            "hp": 735
+          },
+          "materials": [
+            "铁矿x5",
+            "稻草x7"
+          ]
+        },
+        "armor": {
+          "name": "天坑巨洞护甲",
+          "stats": {
+            "attack": 210,
+            "defense": 420,
+            "speed": 210,
+            "attack_speed": 210,
+            "dodge": 210,
+            "hp": 900
+          },
+          "materials": [
+            "铁矿x7",
+            "煤炭x6",
+            "蜘蛛丝x5"
+          ]
+        },
+        "boots": {
+          "name": "天坑巨洞靴子",
+          "stats": {
+            "attack": 113,
+            "defense": 113,
+            "speed": 326,
+            "attack_speed": 113,
+            "dodge": 214,
+            "hp": 245
+          },
+          "materials": [
+            "稻草x7",
+            "蜘蛛丝x5"
+          ]
+        },
+        "leggings": {
+          "name": "天坑巨洞护腿",
+          "stats": {
+            "attack": 133,
+            "defense": 200,
+            "speed": 133,
+            "attack_speed": 266,
+            "dodge": 133,
+            "hp": 296
+          },
+          "materials": [
+            "铁矿x5",
+            "煤炭x6"
+          ]
+        },
+        "accessory": {
+          "name": "天坑巨洞饰品",
+          "stats": {
+            "attack": 139,
+            "defense": 139,
+            "speed": 139,
+            "attack_speed": 139,
+            "dodge": 240,
+            "hp": 532
+          },
+          "materials": [
+            "古代银币x4",
+            "蜘蛛丝x4"
+          ]
+        }
+      },
+      "bonuses": {
+        "2": {
+          "desc": "攻击+12%",
+          "effects": {
+            "attack_pct": 0.12
+          }
+        },
+        "4": {
+          "desc": "全属性+16%",
+          "effects": {
+            "all_pct": 0.17
+          }
+        },
+        "6": {
+          "desc": "攻击+29%，暴击率+8%",
+          "effects": {
+            "attack_pct": 0.29,
+            "crit_rate": 0.09
+          }
+        }
+      }
+    },
+    {
+      "id": "eternal_corridor_set",
+      "name": "无尽长廊套装",
+      "ruins_id": "eternal_corridor",
+      "min_level": 85,
+      "pieces": {
+        "weapon": {
+          "name": "无尽长廊之刃",
+          "stats": {
+            "attack": 555,
+            "defense": 278,
+            "speed": 278,
+            "attack_speed": 278,
+            "dodge": 278,
+            "hp": 833
+          },
+          "materials": [
+            "铁矿x7",
+            "煤炭x7",
+            "古代银币x3"
+          ]
+        },
+        "helmet": {
+          "name": "无尽长廊头盔",
+          "stats": {
+            "attack": 164,
+            "defense": 328,
+            "speed": 164,
+            "attack_speed": 164,
+            "dodge": 164,
+            "hp": 983
+          },
+          "materials": [
+            "铁矿x6",
+            "稻草x8"
+          ]
+        },
+        "armor": {
+          "name": "无尽长廊护甲",
+          "stats": {
+            "attack": 255,
+            "defense": 510,
+            "speed": 255,
+            "attack_speed": 255,
+            "dodge": 255,
+            "hp": 1125
+          },
+          "materials": [
+            "铁矿x8",
+            "煤炭x7",
+            "蜘蛛丝x6"
+          ]
+        },
+        "boots": {
+          "name": "无尽长廊靴子",
+          "stats": {
+            "attack": 171,
+            "defense": 171,
+            "speed": 512,
+            "attack_speed": 171,
+            "dodge": 341,
+            "hp": 385
+          },
+          "materials": [
+            "稻草x8",
+            "蜘蛛丝x6"
+          ]
+        },
+        "leggings": {
+          "name": "无尽长廊护腿",
+          "stats": {
+            "attack": 168,
+            "defense": 252,
+            "speed": 168,
+            "attack_speed": 336,
+            "dodge": 168,
+            "hp": 378
+          },
+          "materials": [
+            "铁矿x6",
+            "煤炭x7"
+          ]
+        },
+        "accessory": {
+          "name": "无尽长廊饰品",
+          "stats": {
+            "attack": 170,
+            "defense": 170,
+            "speed": 170,
+            "attack_speed": 170,
+            "dodge": 330,
+            "hp": 673
+          },
+          "materials": [
+            "古代银币x5",
+            "蜘蛛丝x5"
+          ]
+        }
+      },
+      "bonuses": {
+        "2": {
+          "desc": "攻击+13%",
+          "effects": {
+            "attack_pct": 0.14
+          }
+        },
+        "4": {
+          "desc": "全属性+18%",
+          "effects": {
+            "all_pct": 0.19
+          }
+        },
+        "6": {
+          "desc": "攻击+32%，暴击率+9%",
+          "effects": {
+            "attack_pct": 0.32,
+            "crit_rate": 0.09
+          }
+        }
+      }
+    },
+    {
+      "id": "dragon_graveyard_set",
+      "name": "巨兽坟场套装",
+      "ruins_id": "dragon_graveyard",
+      "min_level": 100,
+      "pieces": {
+        "weapon": {
+          "name": "巨兽坟场之刃",
+          "stats": {
+            "attack": 660,
+            "defense": 330,
+            "speed": 330,
+            "attack_speed": 330,
+            "dodge": 330,
+            "hp": 990
+          },
+          "materials": [
+            "铁矿x8",
+            "煤炭x8",
+            "古代银币x4"
+          ]
+        },
+        "helmet": {
+          "name": "巨兽坟场头盔",
+          "stats": {
+            "attack": 205,
+            "defense": 410,
+            "speed": 205,
+            "attack_speed": 205,
+            "dodge": 205,
+            "hp": 1230
+          },
+          "materials": [
+            "铁矿x7",
+            "稻草x9"
+          ]
+        },
+        "armor": {
+          "name": "巨兽坟场护甲",
+          "stats": {
+            "attack": 300,
+            "defense": 600,
+            "speed": 300,
+            "attack_speed": 300,
+            "dodge": 300,
+            "hp": 1350
+          },
+          "materials": [
+            "铁矿x9",
+            "煤炭x8",
+            "蜘蛛丝x7"
+          ]
+        },
+        "boots": {
+          "name": "巨兽坟场靴子",
+          "stats": {
+            "attack": 233,
+            "defense": 233,
+            "speed": 698,
+            "attack_speed": 233,
+            "dodge": 465,
+            "hp": 524
+          },
+          "materials": [
+            "稻草x9",
+            "蜘蛛丝x7"
+          ]
+        },
+        "leggings": {
+          "name": "巨兽坟场护腿",
+          "stats": {
+            "attack": 204,
+            "defense": 305,
+            "speed": 204,
+            "attack_speed": 407,
+            "dodge": 204,
+            "hp": 458
+          },
+          "materials": [
+            "铁矿x7",
+            "煤炭x8"
+          ]
+        },
+        "accessory": {
+          "name": "巨兽坟场饰品",
+          "stats": {
+            "attack": 210,
+            "defense": 210,
+            "speed": 210,
+            "attack_speed": 210,
+            "dodge": 420,
+            "hp": 840
+          },
+          "materials": [
+            "古代银币x6",
+            "蜘蛛丝x6"
+          ]
+        }
+      },
+      "bonuses": {
+        "2": {
+          "desc": "攻击+15%",
+          "effects": {
+            "attack_pct": 0.15
+          }
+        },
+        "4": {
+          "desc": "全属性+20%",
+          "effects": {
+            "all_pct": 0.21
+          }
+        },
+        "6": {
+          "desc": "攻击+35%，暴击率+10%",
+          "effects": {
+            "attack_pct": 0.35,
+            "crit_rate": 0.1
+          }
+        }
+      }
+    },
+    {
+      "id": "void_sanctum_set",
+      "name": "幽暗石殿套装",
+      "ruins_id": "void_sanctum",
+      "min_level": 120,
+      "pieces": {
+        "weapon": {
+          "name": "幽暗石殿之刃",
+          "stats": {
+            "attack": 800,
+            "defense": 400,
+            "speed": 400,
+            "attack_speed": 400,
+            "dodge": 400,
+            "hp": 1200
+          },
+          "materials": [
+            "铁矿x9",
+            "煤炭x10",
+            "古代银币x5"
+          ]
+        },
+        "helmet": {
+          "name": "幽暗石殿头盔",
+          "stats": {
+            "attack": 260,
+            "defense": 520,
+            "speed": 260,
+            "attack_speed": 260,
+            "dodge": 260,
+            "hp": 1560
+          },
+          "materials": [
+            "铁矿x8",
+            "稻草x11"
+          ]
+        },
+        "armor": {
+          "name": "幽暗石殿护甲",
+          "stats": {
+            "attack": 360,
+            "defense": 720,
+            "speed": 360,
+            "attack_speed": 360,
+            "dodge": 360,
+            "hp": 1620
+          },
+          "materials": [
+            "铁矿x11",
+            "煤炭x10",
+            "蜘蛛丝x8"
+          ]
+        },
+        "boots": {
+          "name": "幽暗石殿靴子",
+          "stats": {
+            "attack": 315,
+            "defense": 315,
+            "speed": 946,
+            "attack_speed": 315,
+            "dodge": 631,
+            "hp": 711
+          },
+          "materials": [
+            "稻草x11",
+            "蜘蛛丝x8"
+          ]
+        },
+        "leggings": {
+          "name": "幽暗石殿护腿",
+          "stats": {
+            "attack": 251,
+            "defense": 376,
+            "speed": 251,
+            "attack_speed": 501,
+            "dodge": 251,
+            "hp": 564
+          },
+          "materials": [
+            "铁矿x8",
+            "煤炭x10"
+          ]
+        },
+        "accessory": {
+          "name": "幽暗石殿饰品",
+          "stats": {
+            "attack": 270,
+            "defense": 270,
+            "speed": 270,
+            "attack_speed": 270,
+            "dodge": 540,
+            "hp": 1080
+          },
+          "materials": [
+            "古代银币x6",
+            "蜘蛛丝x7"
+          ]
+        }
+      },
+      "bonuses": {
+        "2": {
+          "desc": "攻击+17%",
+          "effects": {
+            "attack_pct": 0.17
+          }
+        },
+        "4": {
+          "desc": "全属性+23%",
+          "effects": {
+            "all_pct": 0.23
+          }
+        },
+        "6": {
+          "desc": "攻击+39%，暴击率+11%",
+          "effects": {
+            "attack_pct": 0.39,
+            "crit_rate": 0.11
+          }
+        }
+      }
+    },
+    {
+      "id": "celestial_forge_set",
+      "name": "古旧工坊套装",
+      "ruins_id": "celestial_forge",
+      "min_level": 145,
+      "pieces": {
+        "weapon": {
+          "name": "古旧工坊之刃",
+          "stats": {
+            "attack": 975,
+            "defense": 488,
+            "speed": 488,
+            "attack_speed": 488,
+            "dodge": 488,
+            "hp": 1463
+          },
+          "materials": [
+            "铁矿x10",
+            "煤炭x11",
+            "古代银币x5"
+          ]
+        },
+        "helmet": {
+          "name": "古旧工坊头盔",
+          "stats": {
+            "attack": 329,
+            "defense": 658,
+            "speed": 329,
+            "attack_speed": 329,
+            "dodge": 329,
+            "hp": 1973
+          },
+          "materials": [
+            "铁矿x9",
+            "稻草x12"
+          ]
+        },
+        "armor": {
+          "name": "古旧工坊护甲",
+          "stats": {
+            "attack": 435,
+            "defense": 870,
+            "speed": 435,
+            "attack_speed": 435,
+            "dodge": 435,
+            "hp": 1958
+          },
+          "materials": [
+            "铁矿x12",
+            "煤炭x11",
+            "蜘蛛丝x9"
+          ]
+        },
+        "boots": {
+          "name": "古旧工坊靴子",
+          "stats": {
+            "attack": 419,
+            "defense": 419,
+            "speed": 1256,
+            "attack_speed": 419,
+            "dodge": 837,
+            "hp": 943
+          },
+          "materials": [
+            "稻草x12",
+            "蜘蛛丝x9"
+          ]
+        },
+        "leggings": {
+          "name": "古旧工坊护腿",
+          "stats": {
+            "attack": 310,
+            "defense": 464,
+            "speed": 310,
+            "attack_speed": 619,
+            "dodge": 310,
+            "hp": 696
+          },
+          "materials": [
+            "铁矿x9",
+            "煤炭x11"
+          ]
+        },
+        "accessory": {
+          "name": "古旧工坊饰品",
+          "stats": {
+            "attack": 345,
+            "defense": 345,
+            "speed": 345,
+            "attack_speed": 345,
+            "dodge": 690,
+            "hp": 1380
+          },
+          "materials": [
+            "古代银币x7",
+            "蜘蛛丝x8"
+          ]
+        }
+      },
+      "bonuses": {
+        "2": {
+          "desc": "攻击+19%",
+          "effects": {
+            "attack_pct": 0.2
+          }
+        },
+        "4": {
+          "desc": "全属性+26%",
+          "effects": {
+            "all_pct": 0.26
+          }
+        },
+        "6": {
+          "desc": "攻击+40%，暴击率+12%",
+          "effects": {
+            "attack_pct": 0.4,
+            "crit_rate": 0.12
+          }
+        }
+      }
+    },
+    {
+      "id": "primordial_sea_set",
+      "name": "地下暗湖套装",
+      "ruins_id": "primordial_sea",
+      "min_level": 170,
+      "pieces": {
+        "weapon": {
+          "name": "地下暗湖之刃",
+          "stats": {
+            "attack": 1150,
+            "defense": 575,
+            "speed": 575,
+            "attack_speed": 575,
+            "dodge": 575,
+            "hp": 1725
+          },
+          "materials": [
+            "铁矿x11",
+            "煤炭x13",
+            "古代银币x6"
+          ]
+        },
+        "helmet": {
+          "name": "地下暗湖头盔",
+          "stats": {
+            "attack": 398,
+            "defense": 795,
+            "speed": 398,
+            "attack_speed": 398,
+            "dodge": 398,
+            "hp": 2385
+          },
+          "materials": [
+            "铁矿x10",
+            "稻草x14"
+          ]
+        },
+        "armor": {
+          "name": "地下暗湖护甲",
+          "stats": {
+            "attack": 510,
+            "defense": 1020,
+            "speed": 510,
+            "attack_speed": 510,
+            "dodge": 510,
+            "hp": 2295
+          },
+          "materials": [
+            "铁矿x14",
+            "煤炭x13",
+            "蜘蛛丝x10"
+          ]
+        },
+        "boots": {
+          "name": "地下暗湖靴子",
+          "stats": {
+            "attack": 522,
+            "defense": 522,
+            "speed": 1566,
+            "attack_speed": 522,
+            "dodge": 1044,
+            "hp": 1176
+          },
+          "materials": [
+            "稻草x14",
+            "蜘蛛丝x10"
+          ]
+        },
+        "leggings": {
+          "name": "地下暗湖护腿",
+          "stats": {
+            "attack": 368,
+            "defense": 553,
+            "speed": 368,
+            "attack_speed": 737,
+            "dodge": 368,
+            "hp": 829
+          },
+          "materials": [
+            "铁矿x10",
+            "煤炭x13"
+          ]
+        },
+        "accessory": {
+          "name": "地下暗湖饰品",
+          "stats": {
+            "attack": 420,
+            "defense": 420,
+            "speed": 420,
+            "attack_speed": 420,
+            "dodge": 840,
+            "hp": 1680
+          },
+          "materials": [
+            "古代银币x8",
+            "蜘蛛丝x9"
+          ]
+        }
+      },
+      "bonuses": {
+        "2": {
+          "desc": "攻击+22%",
+          "effects": {
+            "attack_pct": 0.22
+          }
+        },
+        "4": {
+          "desc": "全属性+29%",
+          "effects": {
+            "all_pct": 0.29
+          }
+        },
+        "6": {
+          "desc": "攻击+40%，暴击率+13%",
+          "effects": {
+            "attack_pct": 0.4,
+            "crit_rate": 0.14
+          }
+        }
+      }
+    },
+    {
+      "id": "omega_corridor_set",
+      "name": "幽暗回廊套装",
+      "ruins_id": "omega_corridor",
+      "min_level": 200,
+      "pieces": {
+        "weapon": {
+          "name": "幽暗回廊之刃",
+          "stats": {
+            "attack": 1360,
+            "defense": 680,
+            "speed": 680,
+            "attack_speed": 680,
+            "dodge": 680,
+            "hp": 2040
+          },
+          "materials": [
+            "铁矿x13",
+            "煤炭x15",
+            "古代银币x7"
+          ]
+        },
+        "helmet": {
+          "name": "幽暗回廊头盔",
+          "stats": {
+            "attack": 480,
+            "defense": 960,
+            "speed": 480,
+            "attack_speed": 480,
+            "dodge": 480,
+            "hp": 2880
+          },
+          "materials": [
+            "铁矿x12",
+            "稻草x16"
+          ]
+        },
+        "armor": {
+          "name": "幽暗回廊护甲",
+          "stats": {
+            "attack": 600,
+            "defense": 1200,
+            "speed": 600,
+            "attack_speed": 600,
+            "dodge": 600,
+            "hp": 2700
+          },
+          "materials": [
+            "铁矿x16",
+            "煤炭x15",
+            "蜘蛛丝x12"
+          ]
+        },
+        "boots": {
+          "name": "幽暗回廊靴子",
+          "stats": {
+            "attack": 646,
+            "defense": 646,
+            "speed": 1938,
+            "attack_speed": 646,
+            "dodge": 1292,
+            "hp": 1456
+          },
+          "materials": [
+            "稻草x16",
+            "蜘蛛丝x12"
+          ]
+        },
+        "leggings": {
+          "name": "幽暗回廊护腿",
+          "stats": {
+            "attack": 440,
+            "defense": 659,
+            "speed": 440,
+            "attack_speed": 879,
+            "dodge": 440,
+            "hp": 989
+          },
+          "materials": [
+            "铁矿x12",
+            "煤炭x15"
+          ]
+        },
+        "accessory": {
+          "name": "幽暗回廊饰品",
+          "stats": {
+            "attack": 510,
+            "defense": 510,
+            "speed": 510,
+            "attack_speed": 510,
+            "dodge": 1020,
+            "hp": 2040
+          },
+          "materials": [
+            "古代银币x10",
+            "蜘蛛丝x11"
+          ]
+        }
+      },
+      "bonuses": {
+        "2": {
+          "desc": "攻击+25%",
+          "effects": {
+            "attack_pct": 0.25
+          }
+        },
+        "4": {
+          "desc": "全属性+30%",
+          "effects": {
+            "all_pct": 0.3
+          }
+        },
+        "6": {
+          "desc": "攻击+40%，暴击率+15%",
+          "effects": {
+            "attack_pct": 0.4,
+            "crit_rate": 0.15
+          }
+        }
+      }
+    },
+    {
+      "id": "region_plains",
+      "name": "辽阔草原套装",
+      "ruins_id": null,
+      "min_level": 1,
+      "pieces": {
+        "weapon": {
+          "name": "辽阔草原之刃",
+          "stats": {
+            "attack": 36,
+            "defense": 18,
+            "speed": 18,
+            "attack_speed": 18,
+            "dodge": 18,
+            "hp": 27
+          },
+          "materials": [
+            "铁矿x3",
+            "煤炭x2"
+          ]
+        },
+        "armor": {
+          "name": "辽阔草原之甲",
+          "stats": {
+            "attack": 21,
+            "defense": 30,
+            "speed": 21,
+            "attack_speed": 21,
+            "dodge": 21,
+            "hp": 68
+          },
+          "materials": [
+            "铁矿x3",
+            "蜘蛛丝x2"
+          ]
+        },
+        "accessory": {
+          "name": "辽阔草原之证",
+          "stats": {
+            "attack": 15,
+            "defense": 15,
+            "speed": 15,
+            "attack_speed": 15,
+            "dodge": 15,
+            "hp": 45
+          },
+          "materials": [
+            "古代银币x2",
+            "蜘蛛丝x1"
+          ]
+        }
+      },
+      "bonuses": {
+        "3": {
+          "desc": "全属性+5%",
+          "effects": {
+            "all_pct": 0.05
+          }
+        }
+      },
+      "is_region_set": true,
+      "region_id": "plains"
+    },
+    {
+      "id": "region_forest",
+      "name": "茂密森林套装",
+      "ruins_id": null,
+      "min_level": 10,
+      "pieces": {
+        "weapon": {
+          "name": "茂密森林之刃",
+          "stats": {
+            "attack": 66,
+            "defense": 33,
+            "speed": 33,
+            "attack_speed": 33,
+            "dodge": 33,
+            "hp": 50
+          },
+          "materials": [
+            "铁矿x3",
+            "煤炭x2"
+          ]
+        },
+        "armor": {
+          "name": "茂密森林之甲",
+          "stats": {
+            "attack": 45,
+            "defense": 60,
+            "speed": 45,
+            "attack_speed": 45,
+            "dodge": 45,
+            "hp": 135
+          },
+          "materials": [
+            "铁矿x3",
+            "蜘蛛丝x2"
+          ]
+        },
+        "accessory": {
+          "name": "茂密森林之证",
+          "stats": {
+            "attack": 26,
+            "defense": 26,
+            "speed": 26,
+            "attack_speed": 26,
+            "dodge": 20,
+            "hp": 79
+          },
+          "materials": [
+            "古代银币x2",
+            "蜘蛛丝x1"
+          ]
+        }
+      },
+      "bonuses": {
+        "3": {
+          "desc": "全属性+5%",
+          "effects": {
+            "all_pct": 0.06
+          }
+        }
+      },
+      "is_region_set": true,
+      "region_id": "forest"
+    },
+    {
+      "id": "region_desert",
+      "name": "赤沙荒漠套装",
+      "ruins_id": null,
+      "min_level": 25,
+      "pieces": {
+        "weapon": {
+          "name": "赤沙荒漠之刃",
+          "stats": {
+            "attack": 105,
+            "defense": 51,
+            "speed": 51,
+            "attack_speed": 51,
+            "dodge": 51,
+            "hp": 77
+          },
+          "materials": [
+            "铁矿x4",
+            "煤炭x4"
+          ]
+        },
+        "armor": {
+          "name": "赤沙荒漠之甲",
+          "stats": {
+            "attack": 75,
+            "defense": 105,
+            "speed": 75,
+            "attack_speed": 75,
+            "dodge": 75,
+            "hp": 225
+          },
+          "materials": [
+            "铁矿x5",
+            "蜘蛛丝x3"
+          ]
+        },
+        "accessory": {
+          "name": "赤沙荒漠之证",
+          "stats": {
+            "attack": 46,
+            "defense": 46,
+            "speed": 46,
+            "attack_speed": 46,
+            "dodge": 30,
+            "hp": 143
+          },
+          "materials": [
+            "古代银币x3",
+            "蜘蛛丝x2"
+          ]
+        }
+      },
+      "bonuses": {
+        "3": {
+          "desc": "全属性+6%",
+          "effects": {
+            "all_pct": 0.07
+          }
+        }
+      },
+      "is_region_set": true,
+      "region_id": "desert"
+    },
+    {
+      "id": "region_snow_mountain",
+      "name": "雪山高地套装",
+      "ruins_id": null,
+      "min_level": 40,
+      "pieces": {
+        "weapon": {
+          "name": "雪山高地之刃",
+          "stats": {
+            "attack": 165,
+            "defense": 81,
+            "speed": 81,
+            "attack_speed": 81,
+            "dodge": 81,
+            "hp": 122
+          },
+          "materials": [
+            "铁矿x5",
+            "煤炭x5"
+          ]
+        },
+        "armor": {
+          "name": "雪山高地之甲",
+          "stats": {
+            "attack": 120,
+            "defense": 150,
+            "speed": 120,
+            "attack_speed": 120,
+            "dodge": 120,
+            "hp": 360
+          },
+          "materials": [
+            "铁矿x6",
+            "蜘蛛丝x4"
+          ]
+        },
+        "accessory": {
+          "name": "雪山高地之证",
+          "stats": {
+            "attack": 76,
+            "defense": 76,
+            "speed": 76,
+            "attack_speed": 76,
+            "dodge": 60,
+            "hp": 250
+          },
+          "materials": [
+            "古代银币x4",
+            "蜘蛛丝x3"
+          ]
+        }
+      },
+      "bonuses": {
+        "3": {
+          "desc": "全属性+7%",
+          "effects": {
+            "all_pct": 0.08
+          }
+        }
+      },
+      "is_region_set": true,
+      "region_id": "snow_mountain"
+    },
+    {
+      "id": "region_volcano",
+      "name": "热泉山谷套装",
+      "ruins_id": null,
+      "min_level": 55,
+      "pieces": {
+        "weapon": {
+          "name": "热泉山谷之刃",
+          "stats": {
+            "attack": 221,
+            "defense": 110,
+            "speed": 110,
+            "attack_speed": 110,
+            "dodge": 110,
+            "hp": 166
+          },
+          "materials": [
+            "铁矿x6",
+            "煤炭x6"
+          ]
+        },
+        "armor": {
+          "name": "热泉山谷之甲",
+          "stats": {
+            "attack": 165,
+            "defense": 206,
+            "speed": 165,
+            "attack_speed": 165,
+            "dodge": 165,
+            "hp": 495
+          },
+          "materials": [
+            "铁矿x7",
+            "蜘蛛丝x5"
+          ]
+        },
+        "accessory": {
+          "name": "热泉山谷之证",
+          "stats": {
+            "attack": 107,
+            "defense": 107,
+            "speed": 107,
+            "attack_speed": 107,
+            "dodge": 150,
+            "hp": 391
+          },
+          "materials": [
+            "古代银币x4",
+            "蜘蛛丝x4"
+          ]
+        }
+      },
+      "bonuses": {
+        "3": {
+          "desc": "全属性+8%",
+          "effects": {
+            "all_pct": 0.09
+          }
+        }
+      },
+      "is_region_set": true,
+      "region_id": "volcano"
+    },
+    {
+      "id": "region_abyss",
+      "name": "幽深裂谷套装",
+      "ruins_id": null,
+      "min_level": 80,
+      "pieces": {
+        "weapon": {
+          "name": "幽深裂谷之刃",
+          "stats": {
+            "attack": 520,
+            "defense": 260,
+            "speed": 260,
+            "attack_speed": 260,
+            "dodge": 260,
+            "hp": 780
+          },
+          "materials": [
+            "铁矿x8",
+            "煤炭x8"
+          ]
+        },
+        "armor": {
+          "name": "幽深裂谷之甲",
+          "stats": {
+            "attack": 240,
+            "defense": 480,
+            "speed": 240,
+            "attack_speed": 240,
+            "dodge": 240,
+            "hp": 1050
+          },
+          "materials": [
+            "铁矿x9",
+            "蜘蛛丝x7"
+          ]
+        },
+        "accessory": {
+          "name": "幽深裂谷之证",
+          "stats": {
+            "attack": 159,
+            "defense": 159,
+            "speed": 159,
+            "attack_speed": 159,
+            "dodge": 300,
+            "hp": 626
+          },
+          "materials": [
+            "古代银币x6",
+            "蜘蛛丝x5"
+          ]
+        }
+      },
+      "bonuses": {
+        "3": {
+          "desc": "全属性+10%",
+          "effects": {
+            "all_pct": 0.1
+          }
+        }
+      },
+      "is_region_set": true,
+      "region_id": "abyss"
+    },
+    {
+      "id": "region_royal_road",
+      "name": "古道套装",
+      "ruins_id": null,
+      "min_level": 45,
+      "pieces": {
+        "weapon": {
+          "name": "古道之刃",
+          "stats": {
+            "attack": 184,
+            "defense": 91,
+            "speed": 91,
+            "attack_speed": 91,
+            "dodge": 91,
+            "hp": 137
+          },
+          "materials": [
+            "铁矿x6",
+            "煤炭x5"
+          ]
+        },
+        "armor": {
+          "name": "古道之甲",
+          "stats": {
+            "attack": 135,
+            "defense": 169,
+            "speed": 135,
+            "attack_speed": 135,
+            "dodge": 135,
+            "hp": 405
+          },
+          "materials": [
+            "铁矿x6",
+            "蜘蛛丝x5"
+          ]
+        },
+        "accessory": {
+          "name": "古道之证",
+          "stats": {
+            "attack": 87,
+            "defense": 87,
+            "speed": 87,
+            "attack_speed": 87,
+            "dodge": 90,
+            "hp": 297
+          },
+          "materials": [
+            "古代银币x4",
+            "蜘蛛丝x3"
+          ]
+        }
+      },
+      "bonuses": {
+        "3": {
+          "desc": "全属性+8%",
+          "effects": {
+            "all_pct": 0.08
+          }
+        }
+      },
+      "is_region_set": true,
+      "region_id": "royal_road"
+    },
+    {
+      "id": "region_mine",
+      "name": "矿山区套装",
+      "ruins_id": null,
+      "min_level": 3,
+      "pieces": {
+        "weapon": {
+          "name": "矿山区之刃",
+          "stats": {
+            "attack": 43,
+            "defense": 21,
+            "speed": 21,
+            "attack_speed": 21,
+            "dodge": 21,
+            "hp": 32
+          },
+          "materials": [
+            "铁矿x3",
+            "煤炭x2"
+          ]
+        },
+        "armor": {
+          "name": "矿山区之甲",
+          "stats": {
+            "attack": 26,
+            "defense": 37,
+            "speed": 26,
+            "attack_speed": 26,
+            "dodge": 26,
+            "hp": 83
+          },
+          "materials": [
+            "铁矿x3",
+            "蜘蛛丝x2"
+          ]
+        },
+        "accessory": {
+          "name": "矿山区之证",
+          "stats": {
+            "attack": 15,
+            "defense": 15,
+            "speed": 15,
+            "attack_speed": 15,
+            "dodge": 15,
+            "hp": 45
+          },
+          "materials": [
+            "古代银币x2",
+            "蜘蛛丝x1"
+          ]
+        }
+      },
+      "bonuses": {
+        "3": {
+          "desc": "全属性+5%",
+          "effects": {
+            "all_pct": 0.05
+          }
+        }
+      },
+      "is_region_set": true,
+      "region_id": "mine"
+    },
+    {
+      "id": "region_golden_coast",
+      "name": "海湾沙滩套装",
+      "ruins_id": null,
+      "min_level": 35,
+      "pieces": {
+        "weapon": {
+          "name": "海湾沙滩之刃",
+          "stats": {
+            "attack": 144,
+            "defense": 72,
+            "speed": 72,
+            "attack_speed": 72,
+            "dodge": 72,
+            "hp": 108
+          },
+          "materials": [
+            "铁矿x5",
+            "煤炭x4"
+          ]
+        },
+        "armor": {
+          "name": "海湾沙滩之甲",
+          "stats": {
+            "attack": 105,
+            "defense": 135,
+            "speed": 105,
+            "attack_speed": 105,
+            "dodge": 105,
+            "hp": 315
+          },
+          "materials": [
+            "铁矿x5",
+            "蜘蛛丝x4"
+          ]
+        },
+        "accessory": {
+          "name": "海湾沙滩之证",
+          "stats": {
+            "attack": 66,
+            "defense": 66,
+            "speed": 66,
+            "attack_speed": 66,
+            "dodge": 30,
+            "hp": 203
+          },
+          "materials": [
+            "古代银币x3",
+            "蜘蛛丝x2"
+          ]
+        }
+      },
+      "bonuses": {
+        "3": {
+          "desc": "全属性+7%",
+          "effects": {
+            "all_pct": 0.07
+          }
+        }
+      },
+      "is_region_set": true,
+      "region_id": "golden_coast"
+    },
+    {
+      "id": "region_elven_deepwood",
+      "name": "幽静山谷套装",
+      "ruins_id": null,
+      "min_level": 50,
+      "pieces": {
+        "weapon": {
+          "name": "幽静山谷之刃",
+          "stats": {
+            "attack": 203,
+            "defense": 101,
+            "speed": 101,
+            "attack_speed": 101,
+            "dodge": 101,
+            "hp": 151
+          },
+          "materials": [
+            "铁矿x6",
+            "煤炭x6"
+          ]
+        },
+        "armor": {
+          "name": "幽静山谷之甲",
+          "stats": {
+            "attack": 150,
+            "defense": 188,
+            "speed": 150,
+            "attack_speed": 150,
+            "dodge": 150,
+            "hp": 450
+          },
+          "materials": [
+            "铁矿x7",
+            "蜘蛛丝x5"
+          ]
+        },
+        "accessory": {
+          "name": "幽静山谷之证",
+          "stats": {
+            "attack": 97,
+            "defense": 97,
+            "speed": 97,
+            "attack_speed": 97,
+            "dodge": 120,
+            "hp": 344
+          },
+          "materials": [
+            "古代银币x4",
+            "蜘蛛丝x3"
+          ]
+        }
+      },
+      "bonuses": {
+        "3": {
+          "desc": "全属性+8%",
+          "effects": {
+            "all_pct": 0.08
+          }
+        }
+      },
+      "is_region_set": true,
+      "region_id": "elven_deepwood"
+    },
+    {
+      "id": "standalone_冒险者之戒",
+      "name": "冒险者之戒",
+      "ruins_id": null,
+      "min_level": 10,
+      "pieces": {
+        "accessory": {
+          "name": "冒险者之戒",
+          "stats": {
+            "attack": 26,
+            "defense": 26,
+            "speed": 26,
+            "attack_speed": 26,
+            "dodge": 20,
+            "hp": 79
+          },
+          "materials": [
+            "银矿x5",
+            "古代银币x3",
+            "蜘蛛丝x2"
+          ]
+        }
+      },
+      "bonuses": {},
+      "is_standalone": true
+    },
+    {
+      "id": "standalone_猎人之弓",
+      "name": "猎人之弓",
+      "ruins_id": null,
+      "min_level": 15,
+      "pieces": {
+        "weapon": {
+          "name": "猎人之弓",
+          "stats": {
+            "attack": 89,
+            "defense": 44,
+            "speed": 44,
+            "attack_speed": 44,
+            "dodge": 44,
+            "hp": 66
+          },
+          "materials": [
+            "铁矿x8",
+            "蜘蛛丝x5",
+            "煤炭x4"
+          ]
+        }
+      },
+      "bonuses": {},
+      "is_standalone": true
+    },
+    {
+      "id": "standalone_矿工灯盔",
+      "name": "矿工灯盔",
+      "ruins_id": null,
+      "min_level": 8,
+      "pieces": {
+        "helmet": {
+          "name": "矿工灯盔",
+          "stats": {
+            "attack": 45,
+            "defense": 15,
+            "speed": 45,
+            "attack_speed": 45,
+            "dodge": 45,
+            "hp": 139
+          },
+          "materials": [
+            "铁矿x6",
+            "煤炭x5"
+          ]
+        }
+      },
+      "bonuses": {},
+      "is_standalone": true
+    },
+    {
+      "id": "standalone_渔夫雨衣",
+      "name": "渔夫雨衣",
+      "ruins_id": null,
+      "min_level": 12,
+      "pieces": {
+        "armor": {
+          "name": "渔夫雨衣",
+          "stats": {
+            "attack": 45,
+            "defense": 42,
+            "speed": 45,
+            "attack_speed": 45,
+            "dodge": 45,
+            "hp": 135
+          },
+          "materials": [
+            "稻草x8",
+            "蜘蛛丝x6"
+          ]
+        }
+      },
+      "bonuses": {},
+      "is_standalone": true
+    },
+    {
+      "id": "standalone_旅行者长靴",
+      "name": "旅行者长靴",
+      "ruins_id": null,
+      "min_level": 20,
+      "pieces": {
+        "boots": {
+          "name": "旅行者长靴",
+          "stats": {
+            "attack": 24,
+            "defense": 24,
+            "speed": 47,
+            "attack_speed": 24,
+            "dodge": 21,
+            "hp": 36
+          },
+          "materials": [
+            "稻草x10",
+            "蜘蛛丝x8",
+            "古代银币x2"
+          ]
+        }
+      },
+      "bonuses": {},
+      "is_standalone": true
+    },
+    {
+      "id": "standalone_山民护腿",
+      "name": "山民护腿",
+      "ruins_id": null,
+      "min_level": 10,
+      "pieces": {
+        "leggings": {
+          "name": "山民护腿",
+          "stats": {
+            "attack": 9,
+            "defense": 15,
+            "speed": 9,
+            "attack_speed": 18,
+            "dodge": 9,
+            "hp": 14
+          },
+          "materials": [
+            "铁矿x5",
+            "煤炭x4",
+            "稻草x3"
+          ]
+        }
+      },
+      "bonuses": {},
+      "is_standalone": true
+    },
+    {
+      "id": "standalone_商人戒指",
+      "name": "商人戒指",
+      "ruins_id": null,
+      "min_level": 30,
+      "pieces": {
+        "accessory": {
+          "name": "商人戒指",
+          "stats": {
+            "attack": 56,
+            "defense": 56,
+            "speed": 56,
+            "attack_speed": 56,
+            "dodge": 30,
+            "hp": 173
+          },
+          "materials": [
+            "金矿x8",
+            "古代金币x5",
+            "丝绸x3"
+          ]
+        }
+      },
+      "bonuses": {},
+      "is_standalone": true
+    },
+    {
+      "id": "standalone_佣兵大剑",
+      "name": "佣兵大剑",
+      "ruins_id": null,
+      "min_level": 35,
+      "pieces": {
+        "weapon": {
+          "name": "佣兵大剑",
+          "stats": {
+            "attack": 144,
+            "defense": 72,
+            "speed": 72,
+            "attack_speed": 72,
+            "dodge": 72,
+            "hp": 108
+          },
+          "materials": [
+            "金矿x10",
+            "铁矿x15",
+            "煤炭x8"
+          ]
+        }
+      },
+      "bonuses": {},
+      "is_standalone": true
+    },
+    {
+      "id": "standalone_将军头盔",
+      "name": "将军头盔",
+      "ruins_id": null,
+      "min_level": 45,
+      "pieces": {
+        "helmet": {
+          "name": "将军头盔",
+          "stats": {
+            "attack": 124,
+            "defense": 50,
+            "speed": 124,
+            "attack_speed": 124,
+            "dodge": 124,
+            "hp": 373
+          },
+          "materials": [
+            "金矿x12",
+            "秘银矿x5",
+            "古代金币x8"
+          ]
+        }
+      },
+      "bonuses": {},
+      "is_standalone": true
+    },
+    {
+      "id": "standalone_贤者之靴",
+      "name": "贤者之靴",
+      "ruins_id": null,
+      "min_level": 50,
+      "pieces": {
+        "boots": {
+          "name": "贤者之靴",
+          "stats": {
+            "attack": 39,
+            "defense": 39,
+            "speed": 78,
+            "attack_speed": 39,
+            "dodge": 42,
+            "hp": 59
+          },
+          "materials": [
+            "秘银矿x8",
+            "奥金矿x5",
+            "星之碎片x3"
+          ]
+        }
+      },
+      "bonuses": {},
+      "is_standalone": true
+    },
+    {
+      "id": "region_starfall_wastes",
+      "name": "砾石荒地套装",
+      "ruins_id": null,
+      "min_level": 70,
+      "pieces": {
+        "weapon": {
+          "name": "砾石荒地之刃",
+          "stats": {
+            "attack": 450,
+            "defense": 225,
+            "speed": 225,
+            "attack_speed": 225,
+            "dodge": 225,
+            "hp": 675
+          },
+          "materials": [
+            "奥金矿x6",
+            "秘银矿x5",
+            "古代金币x3"
+          ]
+        },
+        "armor": {
+          "name": "砾石荒地之甲",
+          "stats": {
+            "attack": 210,
+            "defense": 420,
+            "speed": 210,
+            "attack_speed": 210,
+            "dodge": 210,
+            "hp": 900
+          },
+          "materials": [
+            "奥金矿x8",
+            "秘银矿x6",
+            "蜘蛛丝x5"
+          ]
+        },
+        "accessory": {
+          "name": "砾石荒地之证",
+          "stats": {
+            "attack": 139,
+            "defense": 139,
+            "speed": 139,
+            "attack_speed": 139,
+            "dodge": 240,
+            "hp": 532
+          },
+          "materials": [
+            "古代金币x5",
+            "星之碎片x4",
+            "蜘蛛丝x4"
+          ]
+        }
+      },
+      "bonuses": {
+        "3": {
+          "desc": "全属性+9%",
+          "effects": {
+            "all_pct": 0.09
+          }
+        }
+      },
+      "is_region_set": true,
+      "region_id": "starfall_wastes"
+    },
+    {
+      "id": "region_time_rift",
+      "name": "地裂峡谷套装",
+      "ruins_id": null,
+      "min_level": 85,
+      "pieces": {
+        "weapon": {
+          "name": "地裂峡谷之刃",
+          "stats": {
+            "attack": 555,
+            "defense": 278,
+            "speed": 278,
+            "attack_speed": 278,
+            "dodge": 278,
+            "hp": 833
+          },
+          "materials": [
+            "奥金矿x7",
+            "秘银矿x6",
+            "古代金币x4"
+          ]
+        },
+        "armor": {
+          "name": "地裂峡谷之甲",
+          "stats": {
+            "attack": 255,
+            "defense": 510,
+            "speed": 255,
+            "attack_speed": 255,
+            "dodge": 255,
+            "hp": 1125
+          },
+          "materials": [
+            "奥金矿x9",
+            "秘银矿x7",
+            "蜘蛛丝x6"
+          ]
+        },
+        "accessory": {
+          "name": "地裂峡谷之证",
+          "stats": {
+            "attack": 170,
+            "defense": 170,
+            "speed": 170,
+            "attack_speed": 170,
+            "dodge": 330,
+            "hp": 673
+          },
+          "materials": [
+            "古代金币x6",
+            "星之碎片x5",
+            "神之碎片x1"
+          ]
+        }
+      },
+      "bonuses": {
+        "3": {
+          "desc": "全属性+10%",
+          "effects": {
+            "all_pct": 0.1
+          }
+        }
+      },
+      "is_region_set": true,
+      "region_id": "time_rift"
+    },
+    {
+      "id": "region_dragon_domain",
+      "name": "起伏丘陵套装",
+      "ruins_id": null,
+      "min_level": 100,
+      "pieces": {
+        "weapon": {
+          "name": "起伏丘陵之刃",
+          "stats": {
+            "attack": 660,
+            "defense": 330,
+            "speed": 330,
+            "attack_speed": 330,
+            "dodge": 330,
+            "hp": 990
+          },
+          "materials": [
+            "虚空晶矿x5",
+            "奥金矿x8",
+            "古代金币x5"
+          ]
+        },
+        "armor": {
+          "name": "起伏丘陵之甲",
+          "stats": {
+            "attack": 300,
+            "defense": 600,
+            "speed": 300,
+            "attack_speed": 300,
+            "dodge": 300,
+            "hp": 1350
+          },
+          "materials": [
+            "虚空晶矿x6",
+            "秘银矿x8",
+            "蜘蛛丝x7"
+          ]
+        },
+        "accessory": {
+          "name": "起伏丘陵之证",
+          "stats": {
+            "attack": 210,
+            "defense": 210,
+            "speed": 210,
+            "attack_speed": 210,
+            "dodge": 420,
+            "hp": 840
+          },
+          "materials": [
+            "古代金币x7",
+            "混沌之鳞x2",
+            "神之碎片x2"
+          ]
+        }
+      },
+      "bonuses": {
+        "3": {
+          "desc": "全属性+11%",
+          "effects": {
+            "all_pct": 0.11
+          }
+        }
+      },
+      "is_region_set": true,
+      "region_id": "dragon_domain"
+    },
+    {
+      "id": "region_chaos_abyss",
+      "name": "深邃谷地套装",
+      "ruins_id": null,
+      "min_level": 120,
+      "pieces": {
+        "weapon": {
+          "name": "深邃谷地之刃",
+          "stats": {
+            "attack": 800,
+            "defense": 400,
+            "speed": 400,
+            "attack_speed": 400,
+            "dodge": 400,
+            "hp": 1200
+          },
+          "materials": [
+            "混沌原矿x5",
+            "虚空晶矿x6",
+            "古代金币x6"
+          ]
+        },
+        "armor": {
+          "name": "深邃谷地之甲",
+          "stats": {
+            "attack": 360,
+            "defense": 720,
+            "speed": 360,
+            "attack_speed": 360,
+            "dodge": 360,
+            "hp": 1620
+          },
+          "materials": [
+            "混沌原矿x6",
+            "虚空晶矿x8",
+            "蜘蛛丝x8"
+          ]
+        },
+        "accessory": {
+          "name": "深邃谷地之证",
+          "stats": {
+            "attack": 270,
+            "defense": 270,
+            "speed": 270,
+            "attack_speed": 270,
+            "dodge": 540,
+            "hp": 1080
+          },
+          "materials": [
+            "古代金币x8",
+            "混沌之鳞x3",
+            "神之碎片x3"
+          ]
+        }
+      },
+      "bonuses": {
+        "3": {
+          "desc": "全属性+13%",
+          "effects": {
+            "all_pct": 0.13
+          }
+        }
+      },
+      "is_region_set": true,
+      "region_id": "chaos_abyss"
+    },
+    {
+      "id": "region_divine_border",
+      "name": "边陲地带套装",
+      "ruins_id": null,
+      "min_level": 145,
+      "pieces": {
+        "weapon": {
+          "name": "边陲地带之刃",
+          "stats": {
+            "attack": 975,
+            "defense": 488,
+            "speed": 488,
+            "attack_speed": 488,
+            "dodge": 488,
+            "hp": 1463
+          },
+          "materials": [
+            "创世结晶x4",
+            "混沌原矿x6",
+            "古代金币x7"
+          ]
+        },
+        "armor": {
+          "name": "边陲地带之甲",
+          "stats": {
+            "attack": 435,
+            "defense": 870,
+            "speed": 435,
+            "attack_speed": 435,
+            "dodge": 435,
+            "hp": 1958
+          },
+          "materials": [
+            "创世结晶x5",
+            "混沌原矿x8",
+            "蜘蛛丝x9"
+          ]
+        },
+        "accessory": {
+          "name": "边陲地带之证",
+          "stats": {
+            "attack": 345,
+            "defense": 345,
+            "speed": 345,
+            "attack_speed": 345,
+            "dodge": 690,
+            "hp": 1380
+          },
+          "materials": [
+            "古代金币x9",
+            "天使之泪x3",
+            "神之碎片x4"
+          ]
+        }
+      },
+      "bonuses": {
+        "3": {
+          "desc": "全属性+15%",
+          "effects": {
+            "all_pct": 0.15
+          }
+        }
+      },
+      "is_region_set": true,
+      "region_id": "divine_border"
+    },
+    {
+      "id": "region_creation_ruins",
+      "name": "创世遗迹套装",
+      "ruins_id": null,
+      "min_level": 170,
+      "pieces": {
+        "weapon": {
+          "name": "创世遗迹之刃",
+          "stats": {
+            "attack": 1150,
+            "defense": 575,
+            "speed": 575,
+            "attack_speed": 575,
+            "dodge": 575,
+            "hp": 1725
+          },
+          "materials": [
+            "创世结晶x6",
+            "混沌原矿x8",
+            "古代金币x8"
+          ]
+        },
+        "armor": {
+          "name": "创世遗迹之甲",
+          "stats": {
+            "attack": 510,
+            "defense": 1020,
+            "speed": 510,
+            "attack_speed": 510,
+            "dodge": 510,
+            "hp": 2295
+          },
+          "materials": [
+            "创世结晶x7",
+            "混沌原矿x10",
+            "龙鳞x10"
+          ]
+        },
+        "accessory": {
+          "name": "创世遗迹之证",
+          "stats": {
+            "attack": 420,
+            "defense": 420,
+            "speed": 420,
+            "attack_speed": 420,
+            "dodge": 840,
+            "hp": 1680
+          },
+          "materials": [
+            "古代金币x10",
+            "神之碎片x5",
+            "天使之泪x4"
+          ]
+        }
+      },
+      "bonuses": {
+        "3": {
+          "desc": "全属性+17%",
+          "effects": {
+            "all_pct": 0.17
+          }
+        }
+      },
+      "is_region_set": true,
+      "region_id": "creation_ruins"
+    },
+    {
+      "id": "region_final_realm",
+      "name": "苍茫荒原套装",
+      "ruins_id": null,
+      "min_level": 200,
+      "pieces": {
+        "weapon": {
+          "name": "苍茫荒原之刃",
+          "stats": {
+            "attack": 1360,
+            "defense": 680,
+            "speed": 680,
+            "attack_speed": 680,
+            "dodge": 680,
+            "hp": 2040
+          },
+          "materials": [
+            "创世结晶x8",
+            "混沌原矿x10",
+            "古代金币x10"
+          ]
+        },
+        "armor": {
+          "name": "苍茫荒原之甲",
+          "stats": {
+            "attack": 600,
+            "defense": 1200,
+            "speed": 600,
+            "attack_speed": 600,
+            "dodge": 600,
+            "hp": 2700
+          },
+          "materials": [
+            "创世结晶x10",
+            "混沌原矿x12",
+            "龙鳞x12"
+          ]
+        },
+        "accessory": {
+          "name": "苍茫荒原之证",
+          "stats": {
+            "attack": 510,
+            "defense": 510,
+            "speed": 510,
+            "attack_speed": 510,
+            "dodge": 1020,
+            "hp": 2040
+          },
+          "materials": [
+            "古代金币x12",
+            "神之碎片x6",
+            "觉醒之石x3"
+          ]
+        }
+      },
+      "bonuses": {
+        "3": {
+          "desc": "全属性+19%",
+          "effects": {
+            "all_pct": 0.19
+          }
+        }
+      },
+      "is_region_set": true,
+      "region_id": "final_realm"
+    },
+    {
+      "id": "phantom_labyrinth_set",
+      "name": "幻影迷宫套装",
+      "ruins_id": "phantom_labyrinth",
+      "min_level": 80,
+      "pieces": {
+        "weapon": {
+          "name": "幻影迷宫之刃",
+          "stats": {
+            "attack": 520,
+            "defense": 260,
+            "speed": 260,
+            "attack_speed": 260,
+            "dodge": 260,
+            "hp": 780
+          },
+          "materials": [
+            "奥金矿x5",
+            "秘银矿x4",
+            "古代金币x3"
+          ]
+        },
+        "helmet": {
+          "name": "幻影迷宫头盔",
+          "stats": {
+            "attack": 150,
+            "defense": 300,
+            "speed": 150,
+            "attack_speed": 150,
+            "dodge": 150,
+            "hp": 900
+          },
+          "materials": [
+            "秘银矿x5",
+            "龙鳞x4"
+          ]
+        },
+        "armor": {
+          "name": "幻影迷宫护甲",
+          "stats": {
+            "attack": 240,
+            "defense": 480,
+            "speed": 240,
+            "attack_speed": 240,
+            "dodge": 240,
+            "hp": 1050
+          },
+          "materials": [
+            "奥金矿x7",
+            "秘银矿x5",
+            "龙鳞x5"
+          ]
+        },
+        "boots": {
+          "name": "幻影迷宫靴子",
+          "stats": {
+            "attack": 150,
+            "defense": 150,
+            "speed": 450,
+            "attack_speed": 150,
+            "dodge": 300,
+            "hp": 338
+          },
+          "materials": [
+            "龙鳞x4",
+            "蜘蛛丝x5"
+          ]
+        },
+        "leggings": {
+          "name": "幻影迷宫护腿",
+          "stats": {
+            "attack": 156,
+            "defense": 235,
+            "speed": 156,
+            "attack_speed": 313,
+            "dodge": 156,
+            "hp": 350
+          },
+          "materials": [
+            "奥金矿x5",
+            "秘银矿x4"
+          ]
+        },
+        "accessory": {
+          "name": "幻影迷宫饰品",
+          "stats": {
+            "attack": 159,
+            "defense": 159,
+            "speed": 159,
+            "attack_speed": 159,
+            "dodge": 300,
+            "hp": 626
+          },
+          "materials": [
+            "古代金币x4",
+            "星之碎片x3"
+          ]
+        }
+      },
+      "bonuses": {
+        "2": {
+          "desc": "攻击+12%",
+          "effects": {
+            "attack_pct": 0.12
+          }
+        },
+        "4": {
+          "desc": "全属性+17%",
+          "effects": {
+            "all_pct": 0.17
+          }
+        },
+        "6": {
+          "desc": "攻击+30%，暴击率+8%",
+          "effects": {
+            "attack_pct": 0.3,
+            "crit_rate": 0.09
+          }
+        }
+      }
+    },
+    {
+      "id": "storm_eye_set",
+      "name": "风暴之眼套装",
+      "ruins_id": "storm_eye",
+      "min_level": 90,
+      "pieces": {
+        "weapon": {
+          "name": "风暴之眼之刃",
+          "stats": {
+            "attack": 590,
+            "defense": 295,
+            "speed": 295,
+            "attack_speed": 295,
+            "dodge": 295,
+            "hp": 885
+          },
+          "materials": [
+            "奥金矿x6",
+            "秘银矿x5",
+            "古代金币x4"
+          ]
+        },
+        "helmet": {
+          "name": "风暴之眼头盔",
+          "stats": {
+            "attack": 178,
+            "defense": 355,
+            "speed": 178,
+            "attack_speed": 178,
+            "dodge": 178,
+            "hp": 1065
+          },
+          "materials": [
+            "秘银矿x6",
+            "龙鳞x5"
+          ]
+        },
+        "armor": {
+          "name": "风暴之眼护甲",
+          "stats": {
+            "attack": 270,
+            "defense": 540,
+            "speed": 270,
+            "attack_speed": 270,
+            "dodge": 270,
+            "hp": 1200
+          },
+          "materials": [
+            "奥金矿x8",
+            "秘银矿x6",
+            "龙鳞x6"
+          ]
+        },
+        "boots": {
+          "name": "风暴之眼靴子",
+          "stats": {
+            "attack": 191,
+            "defense": 191,
+            "speed": 574,
+            "attack_speed": 191,
+            "dodge": 383,
+            "hp": 431
+          },
+          "materials": [
+            "龙鳞x5",
+            "天使之泪x2"
+          ]
+        },
+        "leggings": {
+          "name": "风暴之眼护腿",
+          "stats": {
+            "attack": 180,
+            "defense": 270,
+            "speed": 180,
+            "attack_speed": 360,
+            "dodge": 180,
+            "hp": 405
+          },
+          "materials": [
+            "奥金矿x6",
+            "秘银矿x5"
+          ]
+        },
+        "accessory": {
+          "name": "风暴之眼饰品",
+          "stats": {
+            "attack": 180,
+            "defense": 180,
+            "speed": 180,
+            "attack_speed": 180,
+            "dodge": 360,
+            "hp": 720
+          },
+          "materials": [
+            "古代金币x5",
+            "神之碎片x2"
+          ]
+        }
+      },
+      "bonuses": {
+        "2": {
+          "desc": "速度+18%",
+          "effects": {
+            "speed_pct": 0.18
+          }
+        },
+        "4": {
+          "desc": "全属性+16%，闪避+5%",
+          "effects": {
+            "all_pct": 0.16,
+            "dodge": 0.05
+          }
+        },
+        "6": {
+          "desc": "攻击+33%，暴击率+9%",
+          "effects": {
+            "attack_pct": 0.33,
+            "crit_rate": 0.1
+          }
+        }
+      }
+    },
+    {
+      "id": "frozen_throne_set",
+      "name": "冰封王座套装",
+      "ruins_id": "frozen_throne",
+      "min_level": 110,
+      "pieces": {
+        "weapon": {
+          "name": "冰封王座之刃",
+          "stats": {
+            "attack": 730,
+            "defense": 365,
+            "speed": 365,
+            "attack_speed": 365,
+            "dodge": 365,
+            "hp": 1095
+          },
+          "materials": [
+            "虚空晶矿x5",
+            "奥金矿x7",
+            "古代金币x5"
+          ]
+        },
+        "helmet": {
+          "name": "冰封王座头盔",
+          "stats": {
+            "attack": 233,
+            "defense": 465,
+            "speed": 233,
+            "attack_speed": 233,
+            "dodge": 233,
+            "hp": 1395
+          },
+          "materials": [
+            "龙鳞x8",
+            "神之碎片x3"
+          ]
+        },
+        "armor": {
+          "name": "冰封王座护甲",
+          "stats": {
+            "attack": 330,
+            "defense": 660,
+            "speed": 330,
+            "attack_speed": 330,
+            "dodge": 330,
+            "hp": 1485
+          },
+          "materials": [
+            "虚空晶矿x7",
+            "奥金矿x9",
+            "龙鳞x8"
+          ]
+        },
+        "boots": {
+          "name": "冰封王座靴子",
+          "stats": {
+            "attack": 274,
+            "defense": 274,
+            "speed": 822,
+            "attack_speed": 274,
+            "dodge": 548,
+            "hp": 617
+          },
+          "materials": [
+            "龙鳞x8",
+            "天使之泪x3"
+          ]
+        },
+        "leggings": {
+          "name": "冰封王座护腿",
+          "stats": {
+            "attack": 227,
+            "defense": 341,
+            "speed": 227,
+            "attack_speed": 454,
+            "dodge": 227,
+            "hp": 511
+          },
+          "materials": [
+            "虚空晶矿x6",
+            "奥金矿x7"
+          ]
+        },
+        "accessory": {
+          "name": "冰封王座饰品",
+          "stats": {
+            "attack": 240,
+            "defense": 240,
+            "speed": 240,
+            "attack_speed": 240,
+            "dodge": 480,
+            "hp": 960
+          },
+          "materials": [
+            "古代金币x6",
+            "混沌之鳞x2"
+          ]
+        }
+      },
+      "bonuses": {
+        "2": {
+          "desc": "防御+22%",
+          "effects": {
+            "defense_pct": 0.22
+          }
+        },
+        "4": {
+          "desc": "全属性+20%，减伤+6%",
+          "effects": {
+            "all_pct": 0.2,
+            "damage_reduce": 0.06
+          }
+        },
+        "6": {
+          "desc": "攻击+36%，暴击率+10%",
+          "effects": {
+            "attack_pct": 0.36,
+            "crit_rate": 0.11
+          }
+        }
+      }
+    },
+    {
+      "id": "molten_core_set",
+      "name": "熔火之心套装",
+      "ruins_id": "molten_core",
+      "min_level": 130,
+      "pieces": {
+        "weapon": {
+          "name": "熔火之心之刃",
+          "stats": {
+            "attack": 870,
+            "defense": 435,
+            "speed": 435,
+            "attack_speed": 435,
+            "dodge": 435,
+            "hp": 1305
+          },
+          "materials": [
+            "混沌原矿x5",
+            "虚空晶矿x6",
+            "古代金币x6"
+          ]
+        },
+        "helmet": {
+          "name": "熔火之心头盔",
+          "stats": {
+            "attack": 288,
+            "defense": 575,
+            "speed": 288,
+            "attack_speed": 288,
+            "dodge": 288,
+            "hp": 1725
+          },
+          "materials": [
+            "龙鳞x9",
+            "神之碎片x4"
+          ]
+        },
+        "armor": {
+          "name": "熔火之心护甲",
+          "stats": {
+            "attack": 390,
+            "defense": 780,
+            "speed": 390,
+            "attack_speed": 390,
+            "dodge": 390,
+            "hp": 1755
+          },
+          "materials": [
+            "混沌原矿x7",
+            "虚空晶矿x8",
+            "龙鳞x9"
+          ]
+        },
+        "boots": {
+          "name": "熔火之心靴子",
+          "stats": {
+            "attack": 357,
+            "defense": 357,
+            "speed": 1070,
+            "attack_speed": 357,
+            "dodge": 713,
+            "hp": 804
+          },
+          "materials": [
+            "龙鳞x9",
+            "火焰之心x3"
+          ]
+        },
+        "leggings": {
+          "name": "熔火之心护腿",
+          "stats": {
+            "attack": 275,
+            "defense": 412,
+            "speed": 275,
+            "attack_speed": 549,
+            "dodge": 275,
+            "hp": 618
+          },
+          "materials": [
+            "混沌原矿x7",
+            "虚空晶矿x8"
+          ]
+        },
+        "accessory": {
+          "name": "熔火之心饰品",
+          "stats": {
+            "attack": 300,
+            "defense": 300,
+            "speed": 300,
+            "attack_speed": 300,
+            "dodge": 600,
+            "hp": 1200
+          },
+          "materials": [
+            "古代金币x7",
+            "混沌之鳞x3"
+          ]
+        }
+      },
+      "bonuses": {
+        "2": {
+          "desc": "攻击+16%",
+          "effects": {
+            "attack_pct": 0.16
+          }
+        },
+        "4": {
+          "desc": "全属性+22%，暴击伤害+15%",
+          "effects": {
+            "all_pct": 0.22,
+            "crit_dmg": 0.15
+          }
+        },
+        "6": {
+          "desc": "攻击+38%，暴击率+11%",
+          "effects": {
+            "attack_pct": 0.38,
+            "crit_rate": 0.12
+          }
+        }
+      }
+    },
+    {
+      "id": "shadow_sanctum_set",
+      "name": "暗影圣殿套装",
+      "ruins_id": "shadow_sanctum",
+      "min_level": 155,
+      "pieces": {
+        "weapon": {
+          "name": "暗影圣殿之刃",
+          "stats": {
+            "attack": 1045,
+            "defense": 523,
+            "speed": 523,
+            "attack_speed": 523,
+            "dodge": 523,
+            "hp": 1568
+          },
+          "materials": [
+            "创世结晶x5",
+            "混沌原矿x7",
+            "古代金币x7"
+          ]
+        },
+        "helmet": {
+          "name": "暗影圣殿头盔",
+          "stats": {
+            "attack": 356,
+            "defense": 713,
+            "speed": 356,
+            "attack_speed": 356,
+            "dodge": 356,
+            "hp": 2138
+          },
+          "materials": [
+            "龙鳞x10",
+            "觉醒之石x3"
+          ]
+        },
+        "armor": {
+          "name": "暗影圣殿护甲",
+          "stats": {
+            "attack": 465,
+            "defense": 930,
+            "speed": 465,
+            "attack_speed": 465,
+            "dodge": 465,
+            "hp": 2093
+          },
+          "materials": [
+            "创世结晶x6",
+            "混沌原矿x8",
+            "龙鳞x10"
+          ]
+        },
+        "boots": {
+          "name": "暗影圣殿靴子",
+          "stats": {
+            "attack": 460,
+            "defense": 460,
+            "speed": 1380,
+            "attack_speed": 460,
+            "dodge": 920,
+            "hp": 1037
+          },
+          "materials": [
+            "龙鳞x10",
+            "天使之泪x4"
+          ]
+        },
+        "leggings": {
+          "name": "暗影圣殿护腿",
+          "stats": {
+            "attack": 333,
+            "defense": 500,
+            "speed": 333,
+            "attack_speed": 666,
+            "dodge": 333,
+            "hp": 749
+          },
+          "materials": [
+            "创世结晶x8",
+            "混沌原矿x9"
+          ]
+        },
+        "accessory": {
+          "name": "暗影圣殿饰品",
+          "stats": {
+            "attack": 375,
+            "defense": 375,
+            "speed": 375,
+            "attack_speed": 375,
+            "dodge": 750,
+            "hp": 1500
+          },
+          "materials": [
+            "古代金币x8",
+            "觉醒之石x3"
+          ]
+        }
+      },
+      "bonuses": {
+        "2": {
+          "desc": "攻击+18%",
+          "effects": {
+            "attack_pct": 0.18
+          }
+        },
+        "4": {
+          "desc": "全属性+24%",
+          "effects": {
+            "all_pct": 0.24
+          }
+        },
+        "6": {
+          "desc": "攻击+40%，暴击率+12%",
+          "effects": {
+            "attack_pct": 0.4,
+            "crit_rate": 0.13
+          }
+        }
+      }
+    },
+    {
+      "id": "dream_abyss_set",
+      "name": "梦境深渊套装",
+      "ruins_id": "dream_abyss",
+      "min_level": 180,
+      "pieces": {
+        "weapon": {
+          "name": "梦境深渊之刃",
+          "stats": {
+            "attack": 1220,
+            "defense": 610,
+            "speed": 610,
+            "attack_speed": 610,
+            "dodge": 610,
+            "hp": 1830
+          },
+          "materials": [
+            "创世结晶x7",
+            "混沌原矿x8",
+            "古代金币x8"
+          ]
+        },
+        "helmet": {
+          "name": "梦境深渊头盔",
+          "stats": {
+            "attack": 425,
+            "defense": 850,
+            "speed": 425,
+            "attack_speed": 425,
+            "dodge": 425,
+            "hp": 2550
+          },
+          "materials": [
+            "龙鳞x12",
+            "觉醒之石x4"
+          ]
+        },
+        "armor": {
+          "name": "梦境深渊护甲",
+          "stats": {
+            "attack": 540,
+            "defense": 1080,
+            "speed": 540,
+            "attack_speed": 540,
+            "dodge": 540,
+            "hp": 2430
+          },
+          "materials": [
+            "创世结晶x8",
+            "混沌原矿x10",
+            "龙鳞x12"
+          ]
+        },
+        "boots": {
+          "name": "梦境深渊靴子",
+          "stats": {
+            "attack": 563,
+            "defense": 563,
+            "speed": 1690,
+            "attack_speed": 563,
+            "dodge": 1127,
+            "hp": 1269
+          },
+          "materials": [
+            "龙鳞x12",
+            "神之碎片x6"
+          ]
+        },
+        "leggings": {
+          "name": "梦境深渊护腿",
+          "stats": {
+            "attack": 392,
+            "defense": 588,
+            "speed": 392,
+            "attack_speed": 784,
+            "dodge": 392,
+            "hp": 882
+          },
+          "materials": [
+            "创世结晶x9",
+            "混沌原矿x10"
+          ]
+        },
+        "accessory": {
+          "name": "梦境深渊饰品",
+          "stats": {
+            "attack": 450,
+            "defense": 450,
+            "speed": 450,
+            "attack_speed": 450,
+            "dodge": 900,
+            "hp": 1800
+          },
+          "materials": [
+            "古代金币x9",
+            "觉醒之石x4"
+          ]
+        }
+      },
+      "bonuses": {
+        "2": {
+          "desc": "攻击+20%",
+          "effects": {
+            "attack_pct": 0.2
+          }
+        },
+        "4": {
+          "desc": "全属性+27%",
+          "effects": {
+            "all_pct": 0.27
+          }
+        },
+        "6": {
+          "desc": "攻击+42%，暴击率+14%",
+          "effects": {
+            "attack_pct": 0.42,
+            "crit_rate": 0.14
+          }
+        }
+      }
+    },
+    {
+      "id": "celestial_spire_set",
+      "name": "苍穹之塔套装",
+      "ruins_id": "celestial_spire",
+      "min_level": 230,
+      "pieces": {
+        "weapon": {
+          "name": "苍穹之塔之刃",
+          "stats": {
+            "attack": 1570,
+            "defense": 785,
+            "speed": 785,
+            "attack_speed": 785,
+            "dodge": 785,
+            "hp": 2355
+          },
+          "materials": [
+            "创世结晶x18",
+            "混沌原矿x22",
+            "古代金币x18",
+            "大地核心x4"
+          ]
+        },
+        "helmet": {
+          "name": "苍穹之塔头盔",
+          "stats": {
+            "attack": 563,
+            "defense": 1125,
+            "speed": 563,
+            "attack_speed": 563,
+            "dodge": 563,
+            "hp": 3375
+          },
+          "materials": [
+            "创世结晶x16",
+            "龙鳞x20",
+            "觉醒之石x10"
+          ]
+        },
+        "armor": {
+          "name": "苍穹之塔护甲",
+          "stats": {
+            "attack": 690,
+            "defense": 1380,
+            "speed": 690,
+            "attack_speed": 690,
+            "dodge": 690,
+            "hp": 3105
+          },
+          "materials": [
+            "创世结晶x22",
+            "混沌原矿x26",
+            "龙鳞x22",
+            "大地核心x5"
+          ]
+        },
+        "boots": {
+          "name": "苍穹之塔靴子",
+          "stats": {
+            "attack": 770,
+            "defense": 770,
+            "speed": 2310,
+            "attack_speed": 770,
+            "dodge": 1540,
+            "hp": 1735
+          },
+          "materials": [
+            "龙鳞x18",
+            "觉醒之石x10",
+            "天使之泪x8"
+          ]
+        },
+        "leggings": {
+          "name": "苍穹之塔护腿",
+          "stats": {
+            "attack": 510,
+            "defense": 765,
+            "speed": 510,
+            "attack_speed": 1020,
+            "dodge": 510,
+            "hp": 1148
+          },
+          "materials": [
+            "创世结晶x16",
+            "混沌原矿x18",
+            "大地核心x3"
+          ]
+        },
+        "accessory": {
+          "name": "苍穹之塔饰品",
+          "stats": {
+            "attack": 600,
+            "defense": 600,
+            "speed": 600,
+            "attack_speed": 600,
+            "dodge": 1200,
+            "hp": 2400
+          },
+          "materials": [
+            "古代金币x16",
+            "觉醒之石x10",
+            "神之碎片x12"
+          ]
+        }
+      },
+      "bonuses": {
+        "2": {
+          "desc": "攻击+30%，全属性+10%",
+          "effects": {
+            "attack_pct": 0.3,
+            "all_pct": 0.1
+          }
+        },
+        "4": {
+          "desc": "全属性+42%",
+          "effects": {
+            "all_pct": 0.42
+          }
+        },
+        "6": {
+          "desc": "攻击+75%，暴击率+18%，暴击伤害+30%",
+          "effects": {
+            "attack_pct": 0.75,
+            "crit_rate": 0.18,
+            "crit_dmg": 0.3
+          }
+        }
+      }
+    },
+    {
+      "id": "abyssal_throne_set",
+      "name": "深渊王座套装",
+      "ruins_id": "abyssal_throne",
+      "min_level": 230,
+      "pieces": {
+        "weapon": {
+          "name": "深渊王座之刃",
+          "stats": {
+            "attack": 1570,
+            "defense": 785,
+            "speed": 785,
+            "attack_speed": 785,
+            "dodge": 785,
+            "hp": 2355
+          },
+          "materials": [
+            "创世结晶x18",
+            "混沌原矿x22",
+            "古代金币x18",
+            "觉醒之石x10"
+          ]
+        },
+        "helmet": {
+          "name": "深渊王座头盔",
+          "stats": {
+            "attack": 563,
+            "defense": 1125,
+            "speed": 563,
+            "attack_speed": 563,
+            "dodge": 563,
+            "hp": 3375
+          },
+          "materials": [
+            "龙鳞x20",
+            "大地核心x5",
+            "天使之泪x8"
+          ]
+        },
+        "armor": {
+          "name": "深渊王座护甲",
+          "stats": {
+            "attack": 690,
+            "defense": 1380,
+            "speed": 690,
+            "attack_speed": 690,
+            "dodge": 690,
+            "hp": 3105
+          },
+          "materials": [
+            "创世结晶x22",
+            "混沌原矿x26",
+            "龙鳞x22",
+            "觉醒之石x10"
+          ]
+        },
+        "boots": {
+          "name": "深渊王座靴子",
+          "stats": {
+            "attack": 770,
+            "defense": 770,
+            "speed": 2310,
+            "attack_speed": 770,
+            "dodge": 1540,
+            "hp": 1735
+          },
+          "materials": [
+            "龙鳞x18",
+            "大地核心x5",
+            "神之碎片x12"
+          ]
+        },
+        "leggings": {
+          "name": "深渊王座护腿",
+          "stats": {
+            "attack": 510,
+            "defense": 765,
+            "speed": 510,
+            "attack_speed": 1020,
+            "dodge": 510,
+            "hp": 1148
+          },
+          "materials": [
+            "创世结晶x16",
+            "混沌原矿x18",
+            "觉醒之石x8"
+          ]
+        },
+        "accessory": {
+          "name": "深渊王座饰品",
+          "stats": {
+            "attack": 600,
+            "defense": 600,
+            "speed": 600,
+            "attack_speed": 600,
+            "dodge": 1200,
+            "hp": 2400
+          },
+          "materials": [
+            "古代金币x16",
+            "大地核心x6",
+            "天使之泪x8"
+          ]
+        }
+      },
+      "bonuses": {
+        "2": {
+          "desc": "全属性+18%",
+          "effects": {
+            "all_pct": 0.18
+          }
+        },
+        "4": {
+          "desc": "防御+35%，生命+32%，减伤+12%",
+          "effects": {
+            "defense_pct": 0.35,
+            "hp_pct": 0.32,
+            "damage_reduce": 0.12
+          }
+        },
+        "6": {
+          "desc": "全属性+48%，反击+14%，吸血+10%",
+          "effects": {
+            "all_pct": 0.48,
+            "counter": 0.14,
+            "lifesteal": 0.1
+          }
+        }
+      }
+    },
+    {
+      "id": "thunder_canyon_set",
+      "name": "雷鸣峡谷套装",
+      "ruins_id": "thunder_canyon",
+      "min_level": 60,
+      "pieces": {
+        "weapon": {
+          "name": "雷鸣峡谷之刃",
+          "stats": {
+            "attack": 240,
+            "defense": 120,
+            "speed": 120,
+            "attack_speed": 120,
+            "dodge": 120,
+            "hp": 180
+          },
+          "materials": [
+            "奥金矿x5",
+            "金矿x8",
+            "古代金币x2"
+          ]
+        },
+        "helmet": {
+          "name": "雷鸣峡谷头盔",
+          "stats": {
+            "attack": 140,
+            "defense": 136,
+            "speed": 140,
+            "attack_speed": 140,
+            "dodge": 140,
+            "hp": 570
+          },
+          "materials": [
+            "金矿x6",
+            "秘银矿x4"
+          ]
+        },
+        "armor": {
+          "name": "雷鸣峡谷护甲",
+          "stats": {
+            "attack": 180,
+            "defense": 225,
+            "speed": 180,
+            "attack_speed": 180,
+            "dodge": 180,
+            "hp": 540
+          },
+          "materials": [
+            "奥金矿x6",
+            "金矿x8",
+            "龙鳞x4"
+          ]
+        },
+        "boots": {
+          "name": "雷鸣峡谷靴子",
+          "stats": {
+            "attack": 76,
+            "defense": 76,
+            "speed": 202,
+            "attack_speed": 76,
+            "dodge": 128,
+            "hp": 152
+          },
+          "materials": [
+            "金矿x5",
+            "蜘蛛丝x5"
+          ]
+        },
+        "leggings": {
+          "name": "雷鸣峡谷护腿",
+          "stats": {
+            "attack": 109,
+            "defense": 165,
+            "speed": 109,
+            "attack_speed": 219,
+            "dodge": 109,
+            "hp": 241
+          },
+          "materials": [
+            "奥金矿x4",
+            "金矿x6"
+          ]
+        },
+        "accessory": {
+          "name": "雷鸣峡谷饰品",
+          "stats": {
+            "attack": 118,
+            "defense": 118,
+            "speed": 118,
+            "attack_speed": 118,
+            "dodge": 180,
+            "hp": 438
+          },
+          "materials": [
+            "古代金币x4",
+            "星之碎片x3"
+          ]
+        }
+      },
+      "bonuses": {
+        "2": {
+          "desc": "攻击+13%",
+          "effects": {
+            "attack_pct": 0.13
+          }
+        },
+        "4": {
+          "desc": "全属性+18%",
+          "effects": {
+            "all_pct": 0.18
+          }
+        },
+        "6": {
+          "desc": "攻击+31%，暴击率+8%",
+          "effects": {
+            "attack_pct": 0.31,
+            "crit_rate": 0.09
+          }
+        }
+      }
+    },
+    {
+      "id": "crystal_mine_set",
+      "name": "水晶深矿套装",
+      "ruins_id": "crystal_mine",
+      "min_level": 65,
+      "pieces": {
+        "weapon": {
+          "name": "水晶深矿之刃",
+          "stats": {
+            "attack": 390,
+            "defense": 195,
+            "speed": 195,
+            "attack_speed": 195,
+            "dodge": 195,
+            "hp": 585
+          },
+          "materials": [
+            "奥金矿x6",
+            "金矿x10",
+            "古代金币x3"
+          ]
+        },
+        "helmet": {
+          "name": "水晶深矿头盔",
+          "stats": {
+            "attack": 143,
+            "defense": 177,
+            "speed": 143,
+            "attack_speed": 143,
+            "dodge": 143,
+            "hp": 653
+          },
+          "materials": [
+            "秘银矿x6",
+            "龙鳞x4"
+          ]
+        },
+        "armor": {
+          "name": "水晶深矿护甲",
+          "stats": {
+            "attack": 180,
+            "defense": 360,
+            "speed": 180,
+            "attack_speed": 180,
+            "dodge": 180,
+            "hp": 810
+          },
+          "materials": [
+            "奥金矿x8",
+            "金矿x10",
+            "龙鳞x5"
+          ]
+        },
+        "boots": {
+          "name": "水晶深矿靴子",
+          "stats": {
+            "attack": 95,
+            "defense": 95,
+            "speed": 264,
+            "attack_speed": 95,
+            "dodge": 171,
+            "hp": 199
+          },
+          "materials": [
+            "龙鳞x5",
+            "蜘蛛丝x5"
+          ]
+        },
+        "leggings": {
+          "name": "水晶深矿护腿",
+          "stats": {
+            "attack": 121,
+            "defense": 182,
+            "speed": 121,
+            "attack_speed": 242,
+            "dodge": 121,
+            "hp": 269
+          },
+          "materials": [
+            "奥金矿x5",
+            "金矿x7"
+          ]
+        },
+        "accessory": {
+          "name": "水晶深矿饰品",
+          "stats": {
+            "attack": 128,
+            "defense": 128,
+            "speed": 128,
+            "attack_speed": 128,
+            "dodge": 210,
+            "hp": 485
+          },
+          "materials": [
+            "古代金币x5",
+            "星之碎片x4"
+          ]
+        }
+      },
+      "bonuses": {
+        "2": {
+          "desc": "攻击+14%",
+          "effects": {
+            "attack_pct": 0.14
+          }
+        },
+        "4": {
+          "desc": "全属性+20%",
+          "effects": {
+            "all_pct": 0.2
+          }
+        },
+        "6": {
+          "desc": "攻击+32%，暴击率+9%",
+          "effects": {
+            "attack_pct": 0.32,
+            "crit_rate": 0.09
+          }
+        }
+      }
+    }
+  ]
+}

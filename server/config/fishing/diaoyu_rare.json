@@ -1,0 +1,147 @@
+{
+  "description": "钓鱼稀有宝物掉落配置。钓鱼时有极低概率获得这些稀有物品。",
+  "rare_treasures": [
+    {
+      "name": "古代金币",
+      "rarity": 3,
+      "chance": 0.008,
+      "desc": "一枚刻着古老符文的金币，闪烁着神秘的光芒。",
+      "value": 500,
+      "category": "special"
+    },
+    {
+      "name": "深海珍珠",
+      "rarity": 3,
+      "chance": 0.006,
+      "desc": "一颗璀璨的深海珍珠，据说是人鱼的眼泪。",
+      "value": 800,
+      "category": "material"
+    },
+    {
+      "name": "神龙碎片",
+      "rarity": 4,
+      "chance": 0.003,
+      "desc": "一片闪烁着五彩光芒的神龙碎片，蕴含着强大的魔力。",
+      "value": 2000,
+      "category": "material"
+    },
+    {
+      "name": "人鱼之歌",
+      "rarity": 4,
+      "chance": 0.002,
+      "desc": "一枚贝壳形状的乐器，吹奏时会发出天籁之音。",
+      "value": 3000,
+      "category": "special"
+    },
+    {
+      "name": "海神的三叉戟碎片",
+      "rarity": 999,
+      "chance": 0.001,
+      "desc": "传说中海神武器的碎片，蕴含着海洋的力量！",
+      "value": 10000,
+      "category": "special"
+    },
+    {
+      "name": "兔脚",
+      "rarity": 2,
+      "chance": 0.01,
+      "desc": "据说能带来好运的兔子脚。",
+      "value": 300,
+      "category": "material"
+    },
+    {
+      "name": "宝石碎片",
+      "rarity": 2,
+      "chance": 0.012,
+      "desc": "不知从何而来的宝石碎片，阳光下闪闪发光。",
+      "value": 200,
+      "category": "material"
+    },
+    {
+      "name": "神秘果实",
+      "rarity": 3,
+      "chance": 0.005,
+      "desc": "一种只在深海生长的神秘果实，据说能延年益寿。",
+      "value": 600,
+      "category": "consume"
+    },
+    {
+      "name": "初级强化石",
+      "rarity": 1,
+      "chance": 0.025,
+      "value": 200,
+      "category": "consume",
+      "desc": "强化装备的基石，可在锻造台使用"
+    },
+    {
+      "name": "中级强化石",
+      "rarity": 2,
+      "chance": 0.012,
+      "value": 600,
+      "category": "consume",
+      "desc": "更强大的强化石，成功率更高"
+    },
+    {
+      "name": "高级强化石",
+      "rarity": 3,
+      "chance": 0.005,
+      "value": 1500,
+      "category": "consume",
+      "desc": "珍稀的强化石，蕴含强大力量"
+    },
+    {
+      "name": "鱼骨碎片",
+      "rarity": 1,
+      "chance": 0.035,
+      "value": 50,
+      "category": "material",
+      "desc": "鱼骨碎片，可合成鱼骨武器"
+    },
+    {
+      "name": "深海鳞片",
+      "rarity": 2,
+      "chance": 0.015,
+      "value": 150,
+      "category": "material",
+      "desc": "深海鱼类的鳞片，可合成鳞甲装备"
+    },
+    {
+      "name": "幸运强化石",
+      "rarity": 3,
+      "chance": 0.003,
+      "value": 1000,
+      "category": "consume",
+      "desc": "100%成功的神奇强化石"
+    },
+    {
+      "name": "觉醒强化石",
+      "rarity": 4,
+      "chance": 0.002,
+      "value": 2500,
+      "category": "consume",
+      "desc": "蕴含觉醒之力的强化石"
+    },
+    {
+      "name": "混沌强化石",
+      "rarity": 5,
+      "chance": 0.001,
+      "value": 5000,
+      "category": "consume",
+      "desc": "充满混沌力量的强化石"
+    },
+    {
+      "name": "水底宝石",
+      "rarity": 3,
+      "chance": 0.003,
+      "desc": "从水底捞起一颗完整的宝石，闪耀着奇异的光芒！",
+      "value": 1000,
+      "category": "gem",
+      "gem_rarity": [
+        1,
+        3
+      ]
+    }
+  ],
+  "special_notification": true,
+  "notification_min_rarity": 3
+}

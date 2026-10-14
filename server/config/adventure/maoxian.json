@@ -1,0 +1,7557 @@
+{
+  "description": "冒险事件配置。type: combat=战斗事件, merchant=商人事件, treasure=宝箱事件。drops: 怪物掉落物品。rare_drop_chance: 稀有掉落概率。merchant_spawn_chance: 事件后神秘商人出现概率(覆盖全局设置)。",
+  "events": [
+    {
+      "name": "分岔路口",
+      "type": "choice",
+      "rarity": 1,
+      "required_regions": [
+        "plains",
+        "forest"
+      ],
+      "text": "冒险途中遇到一个分岔路口，你选择走哪边？",
+      "choices": [
+        {
+          "text": "🌳 幽静小路",
+          "desc": "看起来安全",
+          "outcome": "treasure",
+          "coins": [
+            30,
+            80
+          ],
+          "exp": 15,
+          "drops": [
+            {
+              "name": "蜂蜜",
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "text": "⚔️ 残破古道",
+          "desc": "可能有怪物",
+          "outcome": "combat",
+          "coins": [
+            40,
+            100
+          ],
+          "exp": 25,
+          "monster_name": "盗贼"
+        },
+        {
+          "text": "🏕️ 原地休息",
+          "desc": "保存体力",
+          "outcome": "nothing",
+          "exp": 8,
+          "text_result": "你坐下来休息了一会儿，感觉精神好多了"
+        }
+      ]
+    },
+    {
+      "name": "林间小溪",
+      "type": "fishing",
+      "rarity": 1,
+      "text": "冒险途中发现一处清澈的小溪，水中有鱼影游动...",
+      "exp": 10,
+      "coins": [
+        5,
+        15
+      ],
+      "required_regions": [
+        "plains",
+        "forest"
+      ]
+    },
+    {
+      "name": "山涧瀑布",
+      "type": "fishing",
+      "rarity": 2,
+      "text": "瀑布下的深潭中似乎有大鱼！",
+      "exp": 20,
+      "coins": [
+        10,
+        30
+      ],
+      "required_regions": [
+        "snow_mountain",
+        "mine"
+      ]
+    },
+    {
+      "name": "海岸垂钓",
+      "type": "fishing",
+      "rarity": 2,
+      "text": "一条小溪汇入大海，岸边是绝佳的钓点。",
+      "exp": 18,
+      "coins": [
+        10,
+        25
+      ],
+      "required_regions": [
+        "golden_coast",
+        "chaos_abyss"
+      ]
+    },
+    {
+      "name": "沙漠绿洲",
+      "type": "fishing",
+      "rarity": 3,
+      "text": "沙漠中的绿洲，水中有稀有的鱼类！",
+      "exp": 30,
+      "coins": [
+        20,
+        50
+      ],
+      "required_regions": [
+        "desert",
+        "starfall_wastes"
+      ],
+      "rare_bonus": 0.05
+    },
+    {
+      "name": "古旧石台",
+      "type": "choice",
+      "rarity": 2,
+      "required_regions": [
+        "desert",
+        "abyss"
+      ],
+      "text": "你发现了一座古旧石台，上面刻着模糊的文字...",
+      "choices": [
+        {
+          "text": "🙏 献上祭品",
+          "desc": "消耗100金币博取祝福",
+          "outcome": "treasure",
+          "coins": [
+            150,
+            400
+          ],
+          "exp": 30,
+          "drops": [
+            {
+              "name": "附魔石",
+              "count": [
+                1,
+                3
+              ]
+            }
+          ],
+          "cost": 100
+        },
+        {
+          "text": "📖 解读文字",
+          "desc": "尝试理解古老咒语",
+          "outcome": "treasure",
+          "coins": [
+            0,
+            0
+          ],
+          "exp": 60,
+          "drops": [
+            {
+              "name": "古代金币",
+              "count": [
+                3,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "💀 触碰祭坛",
+          "desc": "高风险高回报",
+          "outcome": "combat",
+          "coins": [
+            300,
+            800
+          ],
+          "exp": 80,
+          "monster_name": "石像鬼",
+          "elite": true,
+          "elite_chance": 0.5
+        }
+      ]
+    },
+    {
+      "name": "幽深洞穴",
+      "type": "choice",
+      "rarity": 3,
+      "required_regions": [
+        "forest",
+        "volcano",
+        "mine"
+      ],
+      "text": "山壁上有一个散发着微光的洞穴，阴风阵阵...",
+      "choices": [
+        {
+          "text": "🔦 深入探索",
+          "desc": "或许有宝物",
+          "outcome": "treasure",
+          "coins": [
+            200,
+            500
+          ],
+          "exp": 45,
+          "drops": [
+            {
+              "name": "秘银矿",
+              "count": [
+                1,
+                3
+              ]
+            },
+            {
+              "name": "金矿",
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🗡️ 战斗姿态进入",
+          "desc": "预防不测",
+          "outcome": "combat",
+          "coins": [
+            250,
+            600
+          ],
+          "exp": 60,
+          "monster_name": "暗影刺客",
+          "drops": [
+            {
+              "name": "星之碎片",
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🧪 采集矿石",
+          "desc": "洞口就有好矿",
+          "outcome": "treasure",
+          "coins": [
+            50,
+            100
+          ],
+          "exp": 20,
+          "drops": [
+            {
+              "name": "铁矿",
+              "count": [
+                3,
+                6
+              ]
+            },
+            {
+              "name": "铜矿",
+              "count": [
+                2,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🚶 绕道而行",
+          "desc": "安全第一",
+          "outcome": "nothing",
+          "exp": 5,
+          "text_result": "你选择绕开洞穴，继续赶路"
+        }
+      ]
+    },
+    {
+      "name": "旅者营地",
+      "type": "choice",
+      "rarity": 2,
+      "required_regions": [
+        "plains",
+        "forest",
+        "desert"
+      ],
+      "text": "路边有个简陋的营地，一位旅者正在篝火旁休息...",
+      "choices": [
+        {
+          "text": "🤝 与旅者交谈",
+          "desc": "也许能获得信息",
+          "outcome": "merchant",
+          "text_result": "旅者分享了他的商品，原来他是个商人！"
+        },
+        {
+          "text": "💰 交换物品",
+          "desc": "以物易物",
+          "outcome": "treasure",
+          "coins": [
+            60,
+            150
+          ],
+          "exp": 20,
+          "drops": [
+            {
+              "name": "饼干",
+              "count": [
+                2,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "😴 蹭个篝火",
+          "desc": "回复体力",
+          "outcome": "nothing",
+          "exp": 15,
+          "text_result": "你和旅者一起烤火，感觉身心都得到了休息"
+        }
+      ]
+    },
+    {
+      "name": "泥泞沼泽",
+      "type": "choice",
+      "rarity": 2,
+      "required_regions": [
+        "forest",
+        "desert"
+      ],
+      "text": "前方是一片浓雾笼罩的沼泽，泥泞不堪...",
+      "choices": [
+        {
+          "text": "🪵 踩着浮木过",
+          "desc": "小心谨慎",
+          "outcome": "treasure",
+          "coins": [
+            80,
+            180
+          ],
+          "exp": 22,
+          "drops": [
+            {
+              "name": "史莱姆粘液",
+              "count": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🏊 直接涉水",
+          "desc": "速战速决",
+          "outcome": "combat",
+          "coins": [
+            60,
+            150
+          ],
+          "exp": 30,
+          "monster_name": "水鬼"
+        },
+        {
+          "text": "🔍 在岸边搜寻",
+          "desc": "也许有遗落物",
+          "outcome": "treasure",
+          "coins": [
+            30,
+            70
+          ],
+          "exp": 12,
+          "drops": [
+            {
+              "name": "水草",
+              "count": [
+                2,
+                4
+              ]
+            },
+            {
+              "name": "蜘蛛丝",
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "废弃矿道",
+      "type": "choice",
+      "rarity": 3,
+      "required_regions": [
+        "mine",
+        "volcano"
+      ],
+      "text": "山体上有个废弃的矿道入口，里面黑漆漆的...",
+      "choices": [
+        {
+          "text": "⛏️ 开采矿石",
+          "desc": "矿道口就有好奥创矿脉",
+          "outcome": "treasure",
+          "coins": [
+            50,
+            120
+          ],
+          "exp": 25,
+          "drops": [
+            {
+              "name": "铁矿",
+              "count": [
+                5,
+                10
+              ]
+            },
+            {
+              "name": "铜矿",
+              "count": [
+                3,
+                6
+              ]
+            },
+            {
+              "name": "煤炭",
+              "count": [
+                4,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🔦 深入矿道",
+          "desc": "深处可能有好东西",
+          "outcome": "combat",
+          "coins": [
+            200,
+            500
+          ],
+          "exp": 50,
+          "monster_name": "奥创矿脉",
+          "drops": [
+            {
+              "name": "银矿",
+              "count": [
+                2,
+                5
+              ]
+            },
+            {
+              "name": "金矿",
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "text": "💎 搜寻宝石",
+          "desc": "据说这里出过宝石",
+          "outcome": "treasure",
+          "coins": [
+            100,
+            300
+          ],
+          "exp": 35,
+          "drops": [
+            {
+              "name": "宝石碎片",
+              "count": [
+                1,
+                3
+              ]
+            },
+            {
+              "name": "附魔石",
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "断桥",
+      "type": "choice",
+      "rarity": 1,
+      "required_regions": [
+        "forest",
+        "plains"
+      ],
+      "text": "一座古老的石桥从中断裂，下方是湍急的河流...",
+      "choices": [
+        {
+          "text": "🧗 攀爬岩壁绕行",
+          "desc": "安全但费力",
+          "outcome": "nothing",
+          "exp": 12,
+          "text_result": "你小心翼翼地攀过岩壁，虽然累了但安全到达对岸"
+        },
+        {
+          "text": "🪢 寻找藤蔓荡过去",
+          "desc": "需要一点运气",
+          "outcome": "treasure",
+          "coins": [
+            20,
+            60
+          ],
+          "exp": 18,
+          "drops": [
+            {
+              "name": "蜘蛛丝",
+              "count": [
+                2,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🏊 跳入河中游过去",
+          "desc": "冷水刺激",
+          "outcome": "combat",
+          "coins": [
+            30,
+            80
+          ],
+          "exp": 22,
+          "monster_name": "水鬼"
+        }
+      ]
+    },
+    {
+      "name": "千年古树",
+      "type": "choice",
+      "rarity": 3,
+      "required_regions": [
+        "forest",
+        "abyss"
+      ],
+      "text": "一棵巨大的古树横在路中央，树干上隐约可见一张苍老的面孔正在沉睡...",
+      "choices": [
+        {
+          "text": "🤫 悄悄绕过去",
+          "desc": "不打扰它",
+          "outcome": "nothing",
+          "exp": 10,
+          "text_result": "你蹑手蹑脚地从树精身边绕了过去"
+        },
+        {
+          "text": "🎵 用歌声唤醒",
+          "desc": "也许它会感激",
+          "outcome": "treasure",
+          "coins": [
+            100,
+            250
+          ],
+          "exp": 40,
+          "drops": [
+            {
+              "name": "魔法蘑菇",
+              "count": [
+                1,
+                3
+              ]
+            },
+            {
+              "name": "神秘果实",
+              "count": [
+                1,
+                1
+              ],
+              "chance": 0.2
+            }
+          ]
+        },
+        {
+          "text": "🪓 直接砍伐",
+          "desc": "主动出击",
+          "outcome": "combat",
+          "coins": [
+            200,
+            450
+          ],
+          "exp": 55,
+          "monster_name": "食人花",
+          "elite": true,
+          "elite_chance": 0.6,
+          "drops": [
+            {
+              "name": "食人花种子",
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "赌徒的邀请",
+      "type": "choice",
+      "rarity": 2,
+      "required_regions": [
+        "royal_road",
+        "plains",
+        "desert"
+      ],
+      "text": "路边一个戴着高帽的赌徒向你招手：\"来玩一把？赢了翻倍，输了归我！\"",
+      "choices": [
+        {
+          "text": "🎲 押50金币",
+          "desc": "50%概率赢得150金币",
+          "outcome": "treasure",
+          "coins": [
+            100,
+            200
+          ],
+          "exp": 10,
+          "cost": 50
+        },
+        {
+          "text": "🎰 押200金币",
+          "desc": "30%概率赢得800金币",
+          "outcome": "treasure",
+          "coins": [
+            500,
+            1000
+          ],
+          "exp": 15,
+          "cost": 200
+        },
+        {
+          "text": "🚫 拒绝邀请",
+          "desc": "不赌博最稳",
+          "outcome": "nothing",
+          "exp": 3,
+          "text_result": "你礼貌地拒绝了赌徒，继续赶路"
+        }
+      ]
+    },
+    {
+      "name": "受伤的野兽",
+      "type": "choice",
+      "rarity": 2,
+      "required_regions": [
+        "snow_mountain",
+        "forest"
+      ],
+      "text": "一只受伤的狮鹫幼崽蜷缩在路边，翅膀上有一道深深的伤口...",
+      "choices": [
+        {
+          "text": "💊 治疗伤口",
+          "desc": "用药品帮助它",
+          "outcome": "treasure",
+          "coins": [
+            0,
+            0
+          ],
+          "exp": 35,
+          "cost": 30,
+          "drops": [
+            {
+              "name": "狮鹫羽毛",
+              "count": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🍖 喂食肉干",
+          "desc": "给点吃的",
+          "outcome": "treasure",
+          "coins": [
+            0,
+            0
+          ],
+          "exp": 25,
+          "drops": [
+            {
+              "name": "狮鹫羽毛",
+              "count": [
+                1,
+                3
+              ]
+            },
+            {
+              "name": "皮革",
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "text": "⚔️ 趁虚而入",
+          "desc": "拿下这只幼崽",
+          "outcome": "combat",
+          "coins": [
+            150,
+            350
+          ],
+          "exp": 45,
+          "monster_name": "狮鹫",
+          "elite": true,
+          "elite_chance": 0.4,
+          "drops": [
+            {
+              "name": "狮鹫羽毛",
+              "count": [
+                2,
+                5
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "地下洞穴",
+      "type": "choice",
+      "rarity": 4,
+      "required_regions": [
+        "abyss",
+        "desert"
+      ],
+      "text": "你掉进了一个地下洞穴，四周是古老的石板墙壁，有三条通道...",
+      "choices": [
+        {
+          "text": "⬅️ 左侧通道",
+          "desc": "隐约有光",
+          "outcome": "treasure",
+          "coins": [
+            300,
+            600
+          ],
+          "exp": 50,
+          "drops": [
+            {
+              "name": "古代金币",
+              "count": [
+                5,
+                12
+              ]
+            },
+            {
+              "name": "秘银矿",
+              "count": [
+                2,
+                5
+              ]
+            },
+            {
+              "name": "翡翠矿",
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "text": "➡️ 右侧通道",
+          "desc": "有冷风吹来",
+          "outcome": "combat",
+          "coins": [
+            400,
+            900
+          ],
+          "exp": 80,
+          "monster_name": "死灵法师",
+          "elite": true,
+          "elite_chance": 0.7,
+          "drops": [
+            {
+              "name": "死灵法典",
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "text": "⬆️ 攀爬天井",
+          "desc": "向上可能有出口",
+          "outcome": "treasure",
+          "coins": [
+            150,
+            350
+          ],
+          "exp": 35,
+          "drops": [
+            {
+              "name": "星之碎片",
+              "count": [
+                1,
+                3
+              ]
+            },
+            {
+              "name": "神龙碎片",
+              "count": [
+                1,
+                1
+              ],
+              "chance": 0.3
+            }
+          ]
+        },
+        {
+          "text": "⏺️ 原地等待救援",
+          "desc": "安全但无聊",
+          "outcome": "nothing",
+          "exp": 5,
+          "text_result": "你在黑暗中等待了很久，终于听到冒险者同伴的呼喊声..."
+        }
+      ]
+    },
+    {
+      "name": "沙漠幻景",
+      "type": "choice",
+      "rarity": 3,
+      "required_regions": [
+        "desert",
+        "volcano"
+      ],
+      "text": "烈日下，远处出现了一片绿洲的幻象，但你知道那可能是海市蜃楼...",
+      "choices": [
+        {
+          "text": "🏃 冲向绿洲",
+          "desc": "万一是真的呢",
+          "outcome": "treasure",
+          "coins": [
+            80,
+            200
+          ],
+          "exp": 28,
+          "drops": [
+            {
+              "name": "可可豆",
+              "count": [
+                3,
+                6
+              ]
+            },
+            {
+              "name": "蜂蜜",
+              "count": [
+                2,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🧭 按地图走",
+          "desc": "相信自己",
+          "outcome": "merchant",
+          "text_result": "虽然没有绿洲，但你发现了一个沙漠商队！"
+        },
+        {
+          "text": "😵 无视幻象",
+          "desc": "保存体力",
+          "outcome": "nothing",
+          "exp": 8,
+          "text_result": "你擦了擦汗，继续按原路前进"
+        }
+      ],
+      "min_level": 28
+    },
+    {
+      "name": "铁匠的活计",
+      "type": "choice",
+      "rarity": 3,
+      "required_profession": "blacksmith",
+      "required_region": "mine",
+      "text": "一位老铁匠拦住你：\"年轻人，让我看看你的锻造手艺！\"",
+      "choices": [
+        {
+          "text": "🔨 展示锻造技巧",
+          "desc": "现场锻造一把武器",
+          "outcome": "treasure",
+          "coins": [
+            200,
+            500
+          ],
+          "exp": 45,
+          "drops": [
+            {
+              "name": "铁矿",
+              "count": [
+                5,
+                10
+              ]
+            },
+            {
+              "name": "煤炭",
+              "count": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "📖 请教锻造秘诀",
+          "desc": "向老铁匠学习",
+          "outcome": "treasure",
+          "coins": [
+            0,
+            0
+          ],
+          "exp": 80,
+          "drops": [
+            {
+              "name": "锻造精魂",
+              "count": [
+                1,
+                2
+              ]
+            },
+            {
+              "name": "附魔石",
+              "count": [
+                2,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "text": "⚔️ 比试锻造",
+          "desc": "切磋技艺",
+          "outcome": "combat",
+          "coins": [
+            300,
+            700
+          ],
+          "exp": 60,
+          "monster_name": "铠甲亡灵",
+          "drops": [
+            {
+              "name": "精炼铁矿",
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "奥创矿脉发现",
+      "type": "choice",
+      "rarity": 3,
+      "required_profession": "blacksmith",
+      "required_region": "volcano",
+      "text": "你的铁匠直觉告诉你，附近山体里有丰富的奥创矿脉！",
+      "choices": [
+        {
+          "text": "⛏️ 立即开采",
+          "desc": "亲自上阵",
+          "outcome": "treasure",
+          "coins": [
+            50,
+            100
+          ],
+          "exp": 30,
+          "drops": [
+            {
+              "name": "铁矿",
+              "count": [
+                8,
+                15
+              ]
+            },
+            {
+              "name": "铜矿",
+              "count": [
+                5,
+                10
+              ]
+            },
+            {
+              "name": "煤炭",
+              "count": [
+                4,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "💎 寻找稀有矿",
+          "desc": "深挖可能有惊喜",
+          "outcome": "treasure",
+          "coins": [
+            100,
+            300
+          ],
+          "exp": 40,
+          "drops": [
+            {
+              "name": "银矿",
+              "count": [
+                2,
+                5
+              ]
+            },
+            {
+              "name": "金矿",
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "渔夫的直觉",
+      "type": "choice",
+      "rarity": 3,
+      "required_profession": "fisherman",
+      "required_region": "forest",
+      "text": "你敏锐地察觉到附近有水源，隐约听到水流声...",
+      "choices": [
+        {
+          "text": "🎣 就地垂钓",
+          "desc": "说不定有好鱼",
+          "outcome": "treasure",
+          "coins": [
+            80,
+            200
+          ],
+          "exp": 35,
+          "drops": [
+            {
+              "name": "锦鲤",
+              "count": [
+                1,
+                2
+              ]
+            },
+            {
+              "name": "鲈鱼",
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🏊 潜入水中",
+          "desc": "水下可能有宝物",
+          "outcome": "treasure",
+          "coins": [
+            150,
+            400
+          ],
+          "exp": 45,
+          "drops": [
+            {
+              "name": "发光鱿鱼",
+              "count": [
+                1,
+                2
+              ]
+            },
+            {
+              "name": "深海珍珠",
+              "count": [
+                1,
+                1
+              ],
+              "chance": 0.3
+            }
+          ]
+        },
+        {
+          "text": "🔍 沿河岸搜索",
+          "desc": "搜集水边材料",
+          "outcome": "treasure",
+          "coins": [
+            30,
+            80
+          ],
+          "exp": 20,
+          "drops": [
+            {
+              "name": "蜘蛛丝",
+              "count": [
+                3,
+                6
+              ]
+            },
+            {
+              "name": "水草",
+              "count": [
+                2,
+                5
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "鱼群涌动",
+      "type": "choice",
+      "rarity": 3,
+      "required_profession": "fisherman",
+      "required_region": "forest",
+      "text": "水面突然泛起一片涟漪——一大群鱼正在经过！",
+      "choices": [
+        {
+          "text": "🎣 快速撒网",
+          "desc": "机不可失",
+          "outcome": "treasure",
+          "coins": [
+            100,
+            300
+          ],
+          "exp": 35,
+          "drops": [
+            {
+              "name": "鲤鱼",
+              "count": [
+                3,
+                6
+              ]
+            },
+            {
+              "name": "草鱼",
+              "count": [
+                2,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🪤 布置捕鱼笼",
+          "desc": "细水长流",
+          "outcome": "merchant",
+          "text_result": "你布置了捕鱼笼，引来了一个收鱼的商人！"
+        },
+        {
+          "text": "🦈 追寻大鱼",
+          "desc": "可能有巨物",
+          "outcome": "combat",
+          "coins": [
+            250,
+            600
+          ],
+          "exp": 55,
+          "monster_name": "水鬼",
+          "drops": [
+            {
+              "name": "石斑鱼",
+              "count": [
+                1,
+                2
+              ]
+            },
+            {
+              "name": "鲟鱼",
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "丰收庆典",
+      "type": "choice",
+      "rarity": 3,
+      "required_profession": "farmer",
+      "required_region": "plains",
+      "text": "你路过一个正在举办丰收庆典的村庄，村民们热情地招呼你...",
+      "choices": [
+        {
+          "text": "🌾 帮忙收割",
+          "desc": "助人为乐",
+          "outcome": "treasure",
+          "coins": [
+            60,
+            150
+          ],
+          "exp": 30,
+          "drops": [
+            {
+              "name": "小麦",
+              "count": [
+                5,
+                10
+              ]
+            },
+            {
+              "name": "稻草",
+              "count": [
+                3,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🍎 品尝农产品",
+          "desc": "村民们请你吃",
+          "outcome": "treasure",
+          "coins": [
+            0,
+            0
+          ],
+          "exp": 50,
+          "drops": [
+            {
+              "name": "苹果",
+              "count": [
+                3,
+                6
+              ]
+            },
+            {
+              "name": "胡萝卜",
+              "count": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "📦 交换种子",
+          "desc": "以物易物",
+          "outcome": "merchant",
+          "text_result": "村民热情地和你交换了各种农作物种子！"
+        }
+      ]
+    },
+    {
+      "name": "田野奇遇",
+      "type": "choice",
+      "rarity": 3,
+      "required_profession": "farmer",
+      "required_region": "forest",
+      "text": "田间小路上，你发现了一株散发着微光的奇异植物...",
+      "choices": [
+        {
+          "text": "🌱 小心采摘",
+          "desc": "可能很珍贵",
+          "outcome": "treasure",
+          "coins": [
+            100,
+            250
+          ],
+          "exp": 40,
+          "drops": [
+            {
+              "name": "魔法蘑菇",
+              "count": [
+                1,
+                3
+              ]
+            },
+            {
+              "name": "食人花种子",
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "text": "💧 浇水照料",
+          "desc": "让它继续生长",
+          "outcome": "nothing",
+          "exp": 20,
+          "text_result": "你给植物浇了水，它轻轻摇摆似乎在感谢你。第二天回来，发现旁边长出了新的幼苗..."
+        },
+        {
+          "text": "🔬 研究植物",
+          "desc": "了解它的特性",
+          "outcome": "treasure",
+          "coins": [
+            0,
+            0
+          ],
+          "exp": 60,
+          "drops": [
+            {
+              "name": "农夫之魂",
+              "count": [
+                1,
+                2
+              ]
+            },
+            {
+              "name": "蜂蜜",
+              "count": [
+                2,
+                4
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "厨艺比拼",
+      "type": "choice",
+      "rarity": 3,
+      "required_profession": "chef",
+      "required_region": "plains",
+      "text": "前方正在举办厨艺大赛！主持人看到你，眼睛一亮：\"来参赛吧！\"",
+      "choices": [
+        {
+          "text": "🍳 现场烹饪",
+          "desc": "展示厨艺",
+          "outcome": "treasure",
+          "coins": [
+            200,
+            500
+          ],
+          "exp": 50,
+          "drops": [
+            {
+              "name": "蜂蜜",
+              "count": [
+                3,
+                6
+              ]
+            },
+            {
+              "name": "秘制调味料",
+              "count": [
+                1,
+                1
+              ],
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "text": "📖 学习新技术",
+          "desc": "观摩其他厨师",
+          "outcome": "treasure",
+          "coins": [
+            0,
+            0
+          ],
+          "exp": 70,
+          "drops": [
+            {
+              "name": "厨师之魂",
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🥩 收集食材",
+          "desc": "为烹饪做准备",
+          "outcome": "treasure",
+          "coins": [
+            50,
+            120
+          ],
+          "exp": 25,
+          "drops": [
+            {
+              "name": "猪肉",
+              "count": [
+                2,
+                4
+              ]
+            },
+            {
+              "name": "鸡蛋",
+              "count": [
+                3,
+                6
+              ]
+            },
+            {
+              "name": "番茄",
+              "count": [
+                2,
+                5
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "珍稀食材",
+      "type": "choice",
+      "rarity": 3,
+      "required_profession": "chef",
+      "required_region": "forest",
+      "text": "在密林深处，你发现了一种从未见过的香料植物...",
+      "choices": [
+        {
+          "text": "👃 闻一闻",
+          "desc": "辨别香料品质",
+          "outcome": "treasure",
+          "coins": [
+            100,
+            250
+          ],
+          "exp": 35,
+          "drops": [
+            {
+              "name": "可可豆",
+              "count": [
+                3,
+                6
+              ]
+            },
+            {
+              "name": "薄荷",
+              "count": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🍲 现场试做",
+          "desc": "考验厨艺",
+          "outcome": "treasure",
+          "coins": [
+            150,
+            400
+          ],
+          "exp": 45,
+          "drops": [
+            {
+              "name": "秘制烤鱼",
+              "count": [
+                1,
+                1
+              ],
+              "chance": 0.4
+            },
+            {
+              "name": "大经验药水（强化）",
+              "count": [
+                1,
+                1
+              ],
+              "chance": 0.3
+            }
+          ]
+        },
+        {
+          "text": "📦 采集带走",
+          "desc": "回去慢慢研究",
+          "outcome": "nothing",
+          "exp": 15,
+          "text_result": "你小心地采集了香料样本，打算回去后好好试验"
+        }
+      ]
+    },
+    {
+      "name": "炼药台",
+      "type": "choice",
+      "rarity": 3,
+      "required_profession": "alchemist",
+      "required_region": "desert",
+      "text": "你在废弃的炼金实验室里发现了一个还能使用的炼药台...",
+      "choices": [
+        {
+          "text": "🧪 调配药剂",
+          "desc": "利用现有材料",
+          "outcome": "treasure",
+          "coins": [
+            150,
+            350
+          ],
+          "exp": 45,
+          "drops": [
+            {
+              "name": "经验药水",
+              "count": [
+                1,
+                2
+              ]
+            },
+            {
+              "name": "治疗药水",
+              "count": [
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "text": "📚 翻阅实验记录",
+          "desc": "学习前人智慧",
+          "outcome": "treasure",
+          "coins": [
+            0,
+            0
+          ],
+          "exp": 70,
+          "drops": [
+            {
+              "name": "药师之魂",
+              "count": [
+                1,
+                2
+              ]
+            },
+            {
+              "name": "史莱姆粘液",
+              "count": [
+                3,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "⚗️ 尝试危险配方",
+          "desc": "高风险高回报",
+          "outcome": "combat",
+          "coins": [
+            300,
+            800
+          ],
+          "exp": 65,
+          "monster_name": "炎魔",
+          "elite": true,
+          "elite_chance": 0.5,
+          "drops": [
+            {
+              "name": "火焰之心",
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "毒雾沼泽",
+      "type": "choice",
+      "rarity": 3,
+      "required_profession": "alchemist",
+      "required_region": "forest",
+      "text": "你的药师知识告诉你，这片毒雾沼泽中的蘑菇虽然危险但价值连城...",
+      "choices": [
+        {
+          "text": "🍄 采集食人花",
+          "desc": "药师不怕毒",
+          "outcome": "treasure",
+          "coins": [
+            200,
+            500
+          ],
+          "exp": 40,
+          "drops": [
+            {
+              "name": "蛇毒",
+              "count": [
+                3,
+                6
+              ]
+            },
+            {
+              "name": "毒土豆",
+              "count": [
+                2,
+                5
+              ]
+            },
+            {
+              "name": "魔法蘑菇",
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🧪 就地炼药",
+          "desc": "把毒物变良药",
+          "outcome": "treasure",
+          "coins": [
+            0,
+            0
+          ],
+          "exp": 55,
+          "drops": [
+            {
+              "name": "解毒药",
+              "count": [
+                1,
+                1
+              ],
+              "chance": 0.5
+            },
+            {
+              "name": "治疗药水",
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "矿工密道",
+      "type": "choice",
+      "rarity": 3,
+      "required_profession": "miner",
+      "required_region": "mine",
+      "text": "你的矿工经验让你在岩壁上发现了一个隐蔽的矿道入口...",
+      "choices": [
+        {
+          "text": "⛏️ 开挖矿道",
+          "desc": "可能有富奥创矿脉",
+          "outcome": "treasure",
+          "coins": [
+            100,
+            300
+          ],
+          "exp": 40,
+          "drops": [
+            {
+              "name": "铁矿",
+              "count": [
+                8,
+                16
+              ]
+            },
+            {
+              "name": "铜矿",
+              "count": [
+                5,
+                10
+              ]
+            },
+            {
+              "name": "煤炭",
+              "count": [
+                5,
+                10
+              ]
+            },
+            {
+              "name": "磁铁矿",
+              "count": [
+                1,
+                2
+              ],
+              "chance": 0.3
+            }
+          ]
+        },
+        {
+          "text": "💎 深入探寻",
+          "desc": "寻找宝石奥创矿脉",
+          "outcome": "treasure",
+          "coins": [
+            200,
+            500
+          ],
+          "exp": 50,
+          "drops": [
+            {
+              "name": "银矿",
+              "count": [
+                3,
+                6
+              ]
+            },
+            {
+              "name": "金矿",
+              "count": [
+                2,
+                4
+              ]
+            },
+            {
+              "name": "宝石碎片",
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🔍 探测奥创矿脉走向",
+          "desc": "用专业知识分析",
+          "outcome": "treasure",
+          "coins": [
+            0,
+            0
+          ],
+          "exp": 60,
+          "drops": [
+            {
+              "name": "矿工之魂",
+              "count": [
+                1,
+                2
+              ]
+            },
+            {
+              "name": "磁铁矿",
+              "count": [
+                1,
+                3
+              ]
+            },
+            {
+              "name": "秘银矿",
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🗺️ 绘制矿图",
+          "desc": "记录下来出售",
+          "outcome": "merchant",
+          "text_result": "你绘制的详细矿图吸引了一位路过的矿石商人！"
+        }
+      ]
+    },
+    {
+      "name": "洞穴勘探",
+      "type": "choice",
+      "rarity": 3,
+      "required_profession": "miner",
+      "required_region": "mine",
+      "text": "矿洞里传来奇怪的声响——是地质活动？还是什么别的东西？",
+      "choices": [
+        {
+          "text": "⛏️ 循声挖掘",
+          "desc": "跟着声音挖",
+          "outcome": "combat",
+          "coins": [
+            250,
+            600
+          ],
+          "exp": 50,
+          "monster_name": "奥创矿脉",
+          "drops": [
+            {
+              "name": "奥创矿",
+              "count": [
+                2,
+                5
+              ]
+            },
+            {
+              "name": "附魔石",
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🔍 安全探查",
+          "desc": "先检查再挖",
+          "outcome": "treasure",
+          "coins": [
+            100,
+            250
+          ],
+          "exp": 35,
+          "drops": [
+            {
+              "name": "秘银矿",
+              "count": [
+                2,
+                5
+              ]
+            },
+            {
+              "name": "翡翠矿",
+              "count": [
+                1,
+                2
+              ]
+            },
+            {
+              "name": "熔岩结晶",
+              "count": [
+                1,
+                1
+              ],
+              "chance": 0.2
+            },
+            {
+              "name": "煤炭",
+              "count": [
+                5,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🪨 加固矿道",
+          "desc": "安全第一",
+          "outcome": "nothing",
+          "exp": 15,
+          "text_result": "你加固了不稳定的矿道，虽然没收获但下次来会更安全"
+        }
+      ]
+    },
+    {
+      "name": "铁匠旧址",
+      "type": "choice",
+      "rarity": 4,
+      "required_profession": "blacksmith",
+      "required_region": "volcano",
+      "text": "你在山腹中发现了一座古老的铁匠旧址，锻造台还散发着余温...",
+      "choices": [
+        {
+          "text": "🔨 使用锻造台",
+          "desc": "借助神匠之力",
+          "outcome": "treasure",
+          "coins": [
+            300,
+            800
+          ],
+          "exp": 60,
+          "drops": [
+            {
+              "name": "锻造精魂",
+              "count": [
+                2,
+                4
+              ]
+            },
+            {
+              "name": "精炼金矿",
+              "count": [
+                1,
+                2
+              ]
+            },
+            {
+              "name": "附魔石",
+              "count": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "📜 抄录锻造秘方",
+          "desc": "记录神匠技艺",
+          "outcome": "treasure",
+          "coins": [
+            0,
+            0
+          ],
+          "exp": 100,
+          "drops": [
+            {
+              "name": "锻造精魂",
+              "count": [
+                2,
+                5
+              ]
+            },
+            {
+              "name": "铁匠锤",
+              "count": [
+                1,
+                1
+              ],
+              "chance": 0.3
+            }
+          ]
+        },
+        {
+          "text": "⚡ 注入神力",
+          "desc": "尝试激活遗迹之力",
+          "outcome": "combat",
+          "coins": [
+            500,
+            1200
+          ],
+          "exp": 80,
+          "monster_name": "炎魔",
+          "elite": true,
+          "elite_chance": 0.7,
+          "drops": [
+            {
+              "name": "奥金矿",
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "海岸奇遇",
+      "type": "choice",
+      "rarity": 4,
+      "required_profession": "fisherman",
+      "required_region": "abyss",
+      "text": "你的鱼竿突然被一股巨力拉动——水下有庞然大物！",
+      "choices": [
+        {
+          "text": "🎣 奋力搏斗",
+          "desc": "与巨物较量",
+          "outcome": "combat",
+          "coins": [
+            400,
+            1000
+          ],
+          "exp": 80,
+          "monster_name": "水鬼",
+          "elite": true,
+          "elite_chance": 0.8,
+          "drops": [
+            {
+              "name": "金枪鱼",
+              "count": [
+                1,
+                2
+              ]
+            },
+            {
+              "name": "大鲤鱼",
+              "count": [
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🪢 放出长线",
+          "desc": "耐心周旋",
+          "outcome": "treasure",
+          "coins": [
+            200,
+            500
+          ],
+          "exp": 50,
+          "drops": [
+            {
+              "name": "鲟鱼",
+              "count": [
+                1,
+                3
+              ]
+            },
+            {
+              "name": "石斑鱼",
+              "count": [
+                2,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🆘 呼叫帮手",
+          "desc": "团结力量大",
+          "outcome": "merchant",
+          "text_result": "附近的渔夫闻讯赶来帮忙，还带来了他们的渔获！"
+        }
+      ]
+    },
+    {
+      "name": "沃土良田",
+      "type": "choice",
+      "rarity": 4,
+      "required_profession": "farmer",
+      "required_region": "plains",
+      "text": "你发现了一片被遗忘的古老农田，土壤肥沃得发黑...",
+      "choices": [
+        {
+          "text": "🌱 播下稀有种子",
+          "desc": "试试能不能种",
+          "outcome": "treasure",
+          "coins": [
+            0,
+            0
+          ],
+          "exp": 80,
+          "drops": [
+            {
+              "name": "农夫之魂",
+              "count": [
+                2,
+                4
+              ]
+            },
+            {
+              "name": "神秘果实",
+              "count": [
+                1,
+                1
+              ],
+              "chance": 0.3
+            },
+            {
+              "name": "黄金果实",
+              "count": [
+                1,
+                1
+              ],
+              "chance": 0.2
+            }
+          ]
+        },
+        {
+          "text": "🔍 检查土壤",
+          "desc": "了解丰饶的秘密",
+          "outcome": "treasure",
+          "coins": [
+            100,
+            250
+          ],
+          "exp": 45,
+          "drops": [
+            {
+              "name": "高效肥料",
+              "count": [
+                1,
+                2
+              ]
+            },
+            {
+              "name": "超级肥料",
+              "count": [
+                1,
+                1
+              ],
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "text": "📦 采集样本",
+          "desc": "带回去研究",
+          "outcome": "nothing",
+          "exp": 25,
+          "text_result": "你采集了土壤和作物样本，回去后可以改良自家农田"
+        }
+      ]
+    },
+    {
+      "name": "旧式厨房",
+      "type": "choice",
+      "rarity": 4,
+      "required_profession": "chef",
+      "required_region": "royal_road",
+      "text": "一间废弃的林中小屋里竟然有全套的专业厨具！灶台还冒着热气...",
+      "choices": [
+        {
+          "text": "🍳 立即下厨",
+          "desc": "用随身食材烹饪",
+          "outcome": "treasure",
+          "coins": [
+            200,
+            500
+          ],
+          "exp": 60,
+          "drops": [
+            {
+              "name": "厨师之魂",
+              "count": [
+                2,
+                3
+              ]
+            },
+            {
+              "name": "秘制调味料",
+              "count": [
+                1,
+                2
+              ]
+            },
+            {
+              "name": "黄金调味料",
+              "count": [
+                1,
+                1
+              ],
+              "chance": 0.3
+            }
+          ]
+        },
+        {
+          "text": "📖 翻阅灶台笔记",
+          "desc": "学习前人的食谱",
+          "outcome": "treasure",
+          "coins": [
+            0,
+            0
+          ],
+          "exp": 90,
+          "drops": [
+            {
+              "name": "秘制烤鱼",
+              "count": [
+                1,
+                2
+              ]
+            },
+            {
+              "name": "特级寿司",
+              "count": [
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🔥 挑战极限料理",
+          "desc": "尝试前所未见的菜式",
+          "outcome": "combat",
+          "coins": [
+            400,
+            900
+          ],
+          "exp": 75,
+          "monster_name": "炎魔",
+          "drops": [
+            {
+              "name": "满汉全席",
+              "count": [
+                1,
+                1
+              ],
+              "chance": 0.2
+            },
+            {
+              "name": "火焰之心",
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "古老塔楼",
+      "type": "choice",
+      "rarity": 4,
+      "required_profession": "alchemist",
+      "required_region": "abyss",
+      "text": "一座破旧的法师塔矗立在荒野中，塔顶还有微弱的魔法光芒...",
+      "choices": [
+        {
+          "text": "🧪 使用炼金设备",
+          "desc": "塔里的设备还能用",
+          "outcome": "treasure",
+          "coins": [
+            250,
+            600
+          ],
+          "exp": 60,
+          "drops": [
+            {
+              "name": "药师之魂",
+              "count": [
+                2,
+                4
+              ]
+            },
+            {
+              "name": "大经验药水（强化）",
+              "count": [
+                1,
+                2
+              ]
+            },
+            {
+              "name": "贤者之石",
+              "count": [
+                1,
+                1
+              ],
+              "chance": 0.2
+            }
+          ]
+        },
+        {
+          "text": "📚 研读魔法书",
+          "desc": "书架上的古籍",
+          "outcome": "treasure",
+          "coins": [
+            0,
+            0
+          ],
+          "exp": 100,
+          "drops": [
+            {
+              "name": "经验圣水",
+              "count": [
+                1,
+                1
+              ],
+              "chance": 0.5
+            },
+            {
+              "name": "附魔石",
+              "count": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "⚗️ 激活魔法阵",
+          "desc": "试试塔里的装置",
+          "outcome": "combat",
+          "coins": [
+            500,
+            1200
+          ],
+          "exp": 85,
+          "monster_name": "死灵法师",
+          "elite": true,
+          "elite_chance": 0.6,
+          "drops": [
+            {
+              "name": "星之碎片",
+              "count": [
+                3,
+                8
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "深层奥创矿脉",
+      "type": "choice",
+      "rarity": 4,
+      "required_profession": "miner",
+      "required_region": "mine",
+      "text": "你挖到了一个从未见过的矿层，矿石散发着幽蓝色的光芒...",
+      "choices": [
+        {
+          "text": "⛏️ 全力开采",
+          "desc": "这绝对是稀有矿!",
+          "outcome": "treasure",
+          "coins": [
+            300,
+            700
+          ],
+          "exp": 60,
+          "drops": [
+            {
+              "name": "矿工之魂",
+              "count": [
+                2,
+                4
+              ]
+            },
+            {
+              "name": "奥金矿",
+              "count": [
+                1,
+                3
+              ]
+            },
+            {
+              "name": "秘银矿",
+              "count": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "💎 仔细筛选",
+          "desc": "可能有宝石",
+          "outcome": "treasure",
+          "coins": [
+            200,
+            500
+          ],
+          "exp": 50,
+          "drops": [
+            {
+              "name": "星辰矿",
+              "count": [
+                1,
+                2
+              ]
+            },
+            {
+              "name": "宝石碎片",
+              "count": [
+                2,
+                5
+              ]
+            },
+            {
+              "name": "附魔石",
+              "count": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🔬 分析矿石",
+          "desc": "研究这种新矿",
+          "outcome": "treasure",
+          "coins": [
+            100,
+            200
+          ],
+          "exp": 80,
+          "drops": [
+            {
+              "name": "虚空晶矿",
+              "count": [
+                1,
+                1
+              ],
+              "chance": 0.25
+            },
+            {
+              "name": "矿工之魂",
+              "count": [
+                3,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🗺️ 标记位置",
+          "desc": "记下来以后来",
+          "outcome": "nothing",
+          "exp": 30,
+          "text_result": "你在地图上标记了这个稀有奥创矿脉的位置，下次带更多工具来"
+        }
+      ]
+    },
+    {
+      "name": "铁匠集市",
+      "type": "choice",
+      "rarity": 2,
+      "required_profession": "blacksmith",
+      "required_region": "mine",
+      "text": "一群铁匠正在举办行业集市，各种锻造材料琳琅满目...",
+      "choices": [
+        {
+          "text": "💰 淘宝捡漏",
+          "desc": "说不定有便宜好货",
+          "outcome": "treasure",
+          "coins": [
+            0,
+            0
+          ],
+          "exp": 20,
+          "drops": [
+            {
+              "name": "煤炭",
+              "count": [
+                5,
+                12
+              ]
+            },
+            {
+              "name": "铁矿",
+              "count": [
+                3,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🤝 以物易物",
+          "desc": "交换材料",
+          "outcome": "merchant",
+          "text_result": "你和同行铁匠交换了各自不需要的材料，皆大欢喜！"
+        }
+      ]
+    },
+    {
+      "name": "海风轻吟",
+      "type": "choice",
+      "rarity": 4,
+      "required_profession": "fisherman",
+      "required_region": "abyss",
+      "text": "海面上传来悠扬的歌声，一条美丽的美人鱼正在礁石上唱歌...",
+      "choices": [
+        {
+          "text": "🎵 静静聆听",
+          "desc": "享受这美妙的时刻",
+          "outcome": "treasure",
+          "coins": [
+            0,
+            0
+          ],
+          "exp": 60,
+          "drops": [
+            {
+              "name": "月光水母",
+              "count": [
+                1,
+                2
+              ]
+            },
+            {
+              "name": "深海珍珠",
+              "count": [
+                1,
+                1
+              ],
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "text": "💬 尝试交流",
+          "desc": "也许能交个朋友",
+          "outcome": "merchant",
+          "text_result": "美人鱼送给你一些深海珍宝作为礼物！"
+        },
+        {
+          "text": "🎣 趁机钓鱼",
+          "desc": "歌声引来了鱼群",
+          "outcome": "treasure",
+          "coins": [
+            200,
+            500
+          ],
+          "exp": 45,
+          "drops": [
+            {
+              "name": "金龙鱼",
+              "count": [
+                1,
+                2
+              ]
+            },
+            {
+              "name": "金枪鱼",
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "史莱姆",
+      "type": "combat",
+      "rarity": 1,
+      "text": "草丛中跳出一只黏糊糊的史莱姆！",
+      "coins": [
+        30,
+        60
+      ],
+      "exp": 15,
+      "drops": [
+        "史莱姆粘液*1-5"
+      ],
+      "rare_drop_chance": 0.05,
+      "rare_drops": [
+        "铁矿*2"
+      ],
+      "min_power": 0,
+      "help_drops": [],
+      "min_level": 1
+    },
+    {
+      "name": "野狼",
+      "type": "combat",
+      "rarity": 1,
+      "text": "森林深处传来低吼，一头野狼拦住了去路。",
+      "coins": [
+        35,
+        70
+      ],
+      "exp": 18,
+      "drops": [
+        "狼牙*1-2"
+      ],
+      "rare_drop_chance": 0.05,
+      "rare_drops": [
+        "铜矿*1"
+      ],
+      "min_power": 10,
+      "help_drops": [],
+      "min_level": 1
+    },
+    {
+      "name": "哥布林",
+      "type": "combat",
+      "rarity": 1,
+      "text": "一群哥布林从洞穴中涌出，挥舞着木棒向你冲来！",
+      "coins": [
+        25,
+        55
+      ],
+      "exp": 16,
+      "drops": [
+        {
+          "name": "哥布林耳朵",
+          "min": 1,
+          "max": 3
+        }
+      ],
+      "rare_drop_chance": 0.1,
+      "rare_drops": [
+        {
+          "name": "铜矿",
+          "count": 2
+        },
+        {
+          "name": "铁矿",
+          "count": 2
+        },
+        "煤炭*1-3"
+      ],
+      "min_power": 10,
+      "merchant_spawn_chance": 1,
+      "help_drops": [],
+      "min_level": 2
+    },
+    {
+      "name": "巨型蜘蛛",
+      "type": "combat",
+      "rarity": 1,
+      "text": "头顶垂下蛛丝，一只巨型蜘蛛倒挂在你面前。",
+      "coins": [
+        30,
+        65
+      ],
+      "exp": 17,
+      "drops": [
+        "蜘蛛丝*1-2"
+      ],
+      "rare_drop_chance": 0.05,
+      "rare_drops": [
+        "铁矿*1"
+      ],
+      "min_power": 15,
+      "help_drops": [],
+      "min_level": 8
+    },
+    {
+      "name": "骷髅兵",
+      "type": "combat",
+      "rarity": 1,
+      "text": "墓地的泥土翻动，一具骷髅兵爬了出来。",
+      "coins": [
+        28,
+        58
+      ],
+      "exp": 16,
+      "drops": [
+        "骨片*1-2"
+      ],
+      "rare_drop_chance": 0.06,
+      "rare_drops": [
+        "铜矿*1",
+        "煤炭*1-2"
+      ],
+      "min_power": 15,
+      "help_drops": [],
+      "min_level": 10
+    },
+    {
+      "name": "野猪",
+      "type": "combat",
+      "rarity": 1,
+      "text": "灌木丛中冲出一头愤怒的野猪，獠牙闪着寒光。",
+      "coins": [
+        32,
+        68
+      ],
+      "exp": 19,
+      "drops": [
+        "野猪獠牙*1-2"
+      ],
+      "rare_drop_chance": 0.05,
+      "rare_drops": [
+        "铁矿*1"
+      ],
+      "min_power": 20,
+      "help_drops": [],
+      "min_level": 5
+    },
+    {
+      "name": "水鬼",
+      "type": "combat",
+      "rarity": 1,
+      "text": "河边传来哭声，一只水鬼从水中浮现。",
+      "coins": [
+        25,
+        60
+      ],
+      "exp": 15,
+      "drops": [
+        "水鬼之泪*1-2"
+      ],
+      "rare_drop_chance": 0.06,
+      "rare_drops": [
+        "银矿*1"
+      ],
+      "min_power": 20,
+      "help_drops": [],
+      "min_level": 20
+    },
+    {
+      "name": "石像鬼",
+      "type": "combat",
+      "rarity": 1,
+      "text": "废弃教堂的石像突然裂开，石像鬼嘶吼着扑来。",
+      "coins": [
+        35,
+        75
+      ],
+      "exp": 20,
+      "drops": [
+        "石像碎片*1-3"
+      ],
+      "rare_drop_chance": 0.1,
+      "rare_drops": [
+        "铜矿*1",
+        "煤炭*1-2"
+      ],
+      "min_power": 25,
+      "help_drops": [],
+      "min_level": 25
+    },
+    {
+      "name": "疯狂的兔子",
+      "type": "combat",
+      "rarity": 1,
+      "text": "一只看似可爱的兔子露出了锋利的牙齿...",
+      "coins": [
+        20,
+        40
+      ],
+      "exp": 10,
+      "drops": [
+        "兔毛*1-2"
+      ],
+      "rare_drop_chance": 0.02,
+      "rare_drops": [
+        "幸运兔脚*1"
+      ],
+      "min_power": 25,
+      "help_drops": [],
+      "min_level": 3
+    },
+    {
+      "name": "盗贼",
+      "type": "combat",
+      "rarity": 1,
+      "text": "路边的树后闪出一个黑影，手持匕首的盗贼盯上了你。",
+      "coins": [
+        30,
+        70
+      ],
+      "exp": 18,
+      "drops": [
+        "盗贼的匕首*1-2"
+      ],
+      "rare_drop_chance": 0.06,
+      "rare_drops": [
+        "银矿*1"
+      ],
+      "min_power": 30,
+      "help_drops": [],
+      "min_level": 12
+    },
+    {
+      "name": "草原宝箱",
+      "type": "treasure",
+      "rarity": 1,
+      "required_regions": [
+        "plains"
+      ],
+      "text": "草丛中露出一个藤编宝箱，里面装着草原常见的材料。",
+      "coins": [
+        50,
+        130
+      ],
+      "exp": 25,
+      "drops": [
+        "铁矿*1-3",
+        "蜂蜜*1-3",
+        "稻草*1-3",
+        "史莱姆粘液*1-2"
+      ],
+      "merchant_spawn_chance": 0.05,
+      "min_power": 0
+    },
+    {
+      "name": "矿石宝箱",
+      "type": "treasure",
+      "rarity": 1,
+      "required_regions": [
+        "mine"
+      ],
+      "text": "矿道角落里放着一个沾满煤灰的铁箱，里面是矿工遗留的矿石。",
+      "coins": [
+        60,
+        150
+      ],
+      "exp": 28,
+      "drops": [
+        "铁矿*2-5",
+        "铜矿*1-4",
+        {
+          "name": "银矿",
+          "chance": 0.25,
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "宝石碎片",
+          "chance": 0.1,
+          "count": 1
+        }
+      ],
+      "merchant_spawn_chance": 0.05,
+      "min_power": 0
+    },
+    {
+      "name": "森林宝箱",
+      "type": "treasure",
+      "rarity": 1,
+      "required_regions": [
+        "forest"
+      ],
+      "text": "树根旁藏着一个木质宝箱，覆满青苔，散发着森林的气息。",
+      "coins": [
+        65,
+        150
+      ],
+      "exp": 28,
+      "drops": [
+        "蜘蛛丝*1-3",
+        "魔法蘑菇*1-2",
+        "史莱姆粘液*1-3",
+        {
+          "name": "食人花种子",
+          "chance": 0.25,
+          "count": 1
+        }
+      ],
+      "merchant_spawn_chance": 0.05,
+      "min_power": 0
+    },
+    {
+      "name": "沙漠宝箱",
+      "type": "treasure",
+      "rarity": 1,
+      "required_regions": [
+        "desert"
+      ],
+      "text": "沙丘下露出一个被风沙打磨的铜箱，里面是古代商旅遗留的物品。",
+      "coins": [
+        70,
+        170
+      ],
+      "exp": 30,
+      "drops": [
+        "骨片*1-3",
+        "蜥蜴鳞片*1-2",
+        "古代银币*1-3",
+        {
+          "name": "蛇毒",
+          "chance": 0.2,
+          "count": 1
+        }
+      ],
+      "merchant_spawn_chance": 0.06,
+      "min_power": 0
+    },
+    {
+      "name": "雪山宝箱",
+      "type": "treasure",
+      "rarity": 1,
+      "required_regions": [
+        "snow_mountain"
+      ],
+      "text": "冰雪中冻着一个铁箱，敲开冰层后发现里面的物品保存完好。",
+      "coins": [
+        80,
+        190
+      ],
+      "exp": 32,
+      "drops": [
+        "寒冰碎片*1-3",
+        "骨片*1-3",
+        "冰块*1-2",
+        {
+          "name": "寒冰核心",
+          "chance": 0.12,
+          "count": 1
+        }
+      ],
+      "merchant_spawn_chance": 0.06,
+      "min_power": 0
+    },
+    {
+      "name": "海岸宝箱",
+      "type": "treasure",
+      "rarity": 1,
+      "required_regions": [
+        "golden_coast"
+      ],
+      "text": "潮水退去后沙滩上露出一个藤箱，里面装着被海浪冲来的珍品。",
+      "coins": [
+        85,
+        200
+      ],
+      "exp": 30,
+      "drops": [
+        "深海珍珠*1-2",
+        "水鬼之泪*1-2",
+        "贝壳*1-3",
+        "古代银币*1-2"
+      ],
+      "merchant_spawn_chance": 0.06,
+      "min_power": 0
+    },
+    {
+      "name": "商路宝箱",
+      "type": "treasure",
+      "rarity": 1,
+      "required_regions": [
+        "royal_road"
+      ],
+      "text": "古道旁的石缝里塞着一个皮箱，大概是某个商人藏在这里的。",
+      "coins": [
+        100,
+        250
+      ],
+      "exp": 35,
+      "drops": [
+        "古代银币*1-4",
+        "丝绸*1-2",
+        "香料*1-3",
+        {
+          "name": "诅咒金币",
+          "chance": 0.15,
+          "count": [
+            1,
+            2
+          ]
+        }
+      ],
+      "merchant_spawn_chance": 0.07,
+      "min_power": 0
+    },
+    {
+      "name": "山谷宝箱",
+      "type": "treasure",
+      "rarity": 1,
+      "required_regions": [
+        "elven_deepwood"
+      ],
+      "text": "山谷溪流旁放着一个精巧的木箱，上面雕刻着古老的花纹。",
+      "coins": [
+        90,
+        220
+      ],
+      "exp": 35,
+      "drops": [
+        "魔法蘑菇*1-3",
+        "蜂蜜*1-3",
+        "丝绸*1-2",
+        {
+          "name": "神秘果实",
+          "chance": 0.2,
+          "count": 1
+        }
+      ],
+      "merchant_spawn_chance": 0.07,
+      "min_power": 0
+    },
+    {
+      "name": "火山宝箱",
+      "type": "treasure",
+      "rarity": 2,
+      "required_regions": [
+        "volcano"
+      ],
+      "text": "火山岩中嵌着一个黑铁箱，通体散发着灼热的气息。",
+      "coins": [
+        100,
+        250
+      ],
+      "exp": 40,
+      "drops": [
+        "火焰之心*1-3",
+        "熔岩结晶*1-2",
+        "火石*1-2",
+        "煤炭*1-3"
+      ],
+      "merchant_spawn_chance": 0.08,
+      "min_power": 0,
+      "weapon_drops": [
+        {
+          "name": "🌋熔岩重靴",
+          "type": "boots",
+          "rarity": 3,
+          "chance": 0.06,
+          "stats": {
+            "attack": 81,
+            "defense": 81,
+            "speed": 214,
+            "attack_speed": 81,
+            "dodge": 136,
+            "hp": 161
+          },
+          "special": {
+            "fire_damage": 10
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "crit_rate",
+              0.05
+            ],
+            [
+              "crit_dmg",
+              0.12
+            ],
+            [
+              "lifesteal",
+              0.04
+            ],
+            [
+              "counter",
+              0.05
+            ],
+            [
+              "fire_damage",
+              10
+            ],
+            [
+              "exp_bonus",
+              0.08
+            ],
+            [
+              "extra_atk",
+              0.07
+            ]
+          ],
+          "rarity_variants": {
+            "1": {
+              "chance": 0.29100000000000004,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.3395,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.24250000000000002,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.09700000000000002,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "9999": {
+              "chance": 0.03,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "裂谷宝箱",
+      "type": "treasure",
+      "rarity": 2,
+      "required_regions": [
+        "abyss"
+      ],
+      "text": "裂谷岩壁上卡着一个锈迹斑斑的铁箱，里面竟是暗影能量的结晶。",
+      "coins": [
+        120,
+        300
+      ],
+      "exp": 45,
+      "drops": [
+        "暗影之尘*1-3",
+        "亡灵铁片*1-2",
+        "幽灵残渣*1-2",
+        {
+          "name": "附魔石",
+          "chance": 0.15,
+          "count": 1
+        }
+      ],
+      "merchant_spawn_chance": 0.08,
+      "min_power": 0,
+      "weapon_drops": [
+        {
+          "name": "🌑暗影斗篷",
+          "type": "armor",
+          "rarity": 3,
+          "chance": 0.06,
+          "stats": {
+            "attack": 239,
+            "defense": 477,
+            "speed": 239,
+            "attack_speed": 239,
+            "dodge": 239,
+            "hp": 1034
+          },
+          "special": {
+            "dmg_reduce": 0.06
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "crit_rate",
+              0.05
+            ],
+            [
+              "crit_dmg",
+              0.12
+            ],
+            [
+              "lifesteal",
+              0.04
+            ],
+            [
+              "counter",
+              0.05
+            ],
+            [
+              "fire_damage",
+              10
+            ],
+            [
+              "exp_bonus",
+              0.08
+            ],
+            [
+              "extra_atk",
+              0.07
+            ]
+          ],
+          "rarity_variants": {
+            "1": {
+              "chance": 0.29100000000000004,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.3395,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.24250000000000002,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.09700000000000002,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "9999": {
+              "chance": 0.03,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "陨星宝箱",
+      "type": "treasure",
+      "rarity": 2,
+      "required_regions": [
+        "starfall_wastes"
+      ],
+      "text": "陨石坑中发现了一个被陨铁包裹的宝箱，散发着星辉般的光芒。",
+      "coins": [
+        150,
+        350
+      ],
+      "exp": 50,
+      "drops": [
+        "星辰矿*1-3",
+        "星之碎片*1-3",
+        "陨石*1-2",
+        "古代金币*1-2"
+      ],
+      "merchant_spawn_chance": 0.08,
+      "min_power": 0,
+      "weapon_drops": [
+        {
+          "name": "⭐星辰头冠",
+          "type": "helmet",
+          "rarity": 3,
+          "chance": 0.06,
+          "stats": {
+            "attack": 159,
+            "defense": 318,
+            "speed": 159,
+            "attack_speed": 159,
+            "dodge": 159,
+            "hp": 954
+          },
+          "special": {
+            "crit_rate": 0.06
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "crit_rate",
+              0.05
+            ],
+            [
+              "crit_dmg",
+              0.12
+            ],
+            [
+              "lifesteal",
+              0.04
+            ],
+            [
+              "counter",
+              0.05
+            ],
+            [
+              "fire_damage",
+              10
+            ],
+            [
+              "exp_bonus",
+              0.08
+            ],
+            [
+              "extra_atk",
+              0.07
+            ]
+          ],
+          "rarity_variants": {
+            "1": {
+              "chance": 0.29100000000000004,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.3395,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.24250000000000002,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.09700000000000002,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "9999": {
+              "chance": 0.03,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "峡谷宝箱",
+      "type": "treasure",
+      "rarity": 2,
+      "required_regions": [
+        "time_rift"
+      ],
+      "text": "峡谷深处发现一个布满时光痕迹的古箱，里面的物品来自不同的时代。",
+      "coins": [
+        180,
+        400
+      ],
+      "exp": 55,
+      "drops": [
+        "大地结晶*1-3",
+        "星之碎片*1-3",
+        "古代金币*1-3",
+        "古代金币*1-2"
+      ],
+      "merchant_spawn_chance": 0.09,
+      "min_power": 0
+    },
+    {
+      "name": "龙骨宝箱",
+      "type": "treasure",
+      "rarity": 2,
+      "required_regions": [
+        "dragon_domain"
+      ],
+      "text": "巨兽骸骨旁放着一个由龙骨制成的宝箱，里面的宝物散发着古老的力量。",
+      "coins": [
+        250,
+        550
+      ],
+      "exp": 60,
+      "drops": [
+        "龙鳞碎片*1-3",
+        "骨片*2-5",
+        "古代金币*1-3",
+        {
+          "name": "龙鳞",
+          "chance": 0.1,
+          "count": 1
+        }
+      ],
+      "merchant_spawn_chance": 0.09,
+      "min_power": 0,
+      "weapon_drops": [
+        {
+          "name": "🐉龙鳞护手",
+          "type": "leggings",
+          "rarity": 3,
+          "chance": 0.08,
+          "stats": {
+            "attack": 229,
+            "defense": 342,
+            "speed": 229,
+            "attack_speed": 457,
+            "dodge": 229,
+            "hp": 514
+          },
+          "special": {
+            "crit_dmg": 0.15
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "crit_rate",
+              0.05
+            ],
+            [
+              "crit_dmg",
+              0.12
+            ],
+            [
+              "lifesteal",
+              0.04
+            ],
+            [
+              "counter",
+              0.05
+            ],
+            [
+              "fire_damage",
+              10
+            ],
+            [
+              "exp_bonus",
+              0.08
+            ],
+            [
+              "extra_atk",
+              0.07
+            ]
+          ],
+          "rarity_variants": {
+            "1": {
+              "chance": 0.28500000000000003,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.3325,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.23750000000000002,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.09500000000000001,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "9999": {
+              "chance": 0.05,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "混沌宝箱",
+      "type": "treasure",
+      "rarity": 3,
+      "required_regions": [
+        "chaos_abyss"
+      ],
+      "text": "迷雾中漂浮着一个暗紫色的宝箱，混沌能量在箱体表面流转。",
+      "coins": [
+        300,
+        650
+      ],
+      "exp": 65,
+      "drops": [
+        "暗影之尘*2-5",
+        "诅咒金币*1-3",
+        "古代金币*1-2",
+        {
+          "name": "混沌之鳞",
+          "chance": 0.1,
+          "count": 1
+        }
+      ],
+      "merchant_spawn_chance": 0.1,
+      "min_power": 0,
+      "weapon_drops": [
+        {
+          "name": "🌀混沌之环",
+          "type": "accessory",
+          "rarity": 4,
+          "chance": 0.06,
+          "stats": {
+            "attack": 336,
+            "defense": 336,
+            "speed": 336,
+            "attack_speed": 336,
+            "dodge": 672,
+            "hp": 1344
+          },
+          "special": {
+            "crit_rate": 0.08,
+            "crit_dmg": 0.2
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "crit_rate",
+              0.05
+            ],
+            [
+              "crit_dmg",
+              0.12
+            ],
+            [
+              "lifesteal",
+              0.04
+            ],
+            [
+              "counter",
+              0.05
+            ],
+            [
+              "fire_damage",
+              10
+            ],
+            [
+              "exp_bonus",
+              0.08
+            ],
+            [
+              "extra_atk",
+              0.07
+            ]
+          ],
+          "rarity_variants": {
+            "1": {
+              "chance": 0.19,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.285,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.266,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.1615,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "999": {
+              "chance": 0.0475,
+              "stat_mult": 1.12,
+              "special_count": [
+                2,
+                4
+              ]
+            },
+            "9999": {
+              "chance": 0.05,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "边陲宝箱",
+      "type": "treasure",
+      "rarity": 2,
+      "required_regions": [
+        "divine_border"
+      ],
+      "text": "废弃哨站中藏着一个军用铁箱，里面是边境守卫留下的珍贵物资。",
+      "coins": [
+        350,
+        750
+      ],
+      "exp": 70,
+      "drops": [
+        "皇家碎片*1-3",
+        "古代金币*1-3",
+        "附魔石*1-3",
+        "亡灵铁片*1-2"
+      ],
+      "merchant_spawn_chance": 0.1,
+      "min_power": 0,
+      "weapon_drops": [
+        {
+          "name": "🛡️皇家壁垒",
+          "type": "armor",
+          "rarity": 4,
+          "chance": 0.06,
+          "stats": {
+            "attack": 493,
+            "defense": 986,
+            "speed": 493,
+            "attack_speed": 493,
+            "dodge": 493,
+            "hp": 2219
+          },
+          "special": {
+            "dmg_reduce": 0.07,
+            "counter": 0.05
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "crit_rate",
+              0.05
+            ],
+            [
+              "crit_dmg",
+              0.12
+            ],
+            [
+              "lifesteal",
+              0.04
+            ],
+            [
+              "counter",
+              0.05
+            ],
+            [
+              "fire_damage",
+              10
+            ],
+            [
+              "exp_bonus",
+              0.08
+            ],
+            [
+              "extra_atk",
+              0.07
+            ]
+          ],
+          "rarity_variants": {
+            "1": {
+              "chance": 0.184,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.27599999999999997,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.2576,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.1564,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "999": {
+              "chance": 0.046,
+              "stat_mult": 1.12,
+              "special_count": [
+                2,
+                4
+              ]
+            },
+            "9999": {
+              "chance": 0.08,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "遗迹宝箱",
+      "type": "treasure",
+      "rarity": 3,
+      "required_regions": [
+        "creation_ruins"
+      ],
+      "text": "远古石柱下埋着一个金色宝箱，历经万年依然金光熠熠。",
+      "coins": [
+        400,
+        900
+      ],
+      "exp": 85,
+      "drops": [
+        "古代金币*2-5",
+        "星之碎片*1-4",
+        "神之碎屑*1-3",
+        {
+          "name": "神之碎片",
+          "chance": 0.08,
+          "count": 1
+        }
+      ],
+      "merchant_spawn_chance": 0.1,
+      "min_power": 0,
+      "weapon_drops": [
+        {
+          "name": "👑创世王冠",
+          "type": "helmet",
+          "rarity": 999,
+          "chance": 0.04,
+          "stats": {
+            "attack": 476,
+            "defense": 952,
+            "speed": 476,
+            "attack_speed": 476,
+            "dodge": 476,
+            "hp": 2856
+          },
+          "special": {
+            "exp_bonus": 0.15,
+            "coin_bonus": 0.1
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "crit_rate",
+              0.07
+            ],
+            [
+              "crit_dmg",
+              0.18
+            ],
+            [
+              "lifesteal",
+              0.05
+            ],
+            [
+              "fire_damage",
+              15
+            ],
+            [
+              "exp_bonus",
+              0.12
+            ],
+            [
+              "coin_bonus",
+              0.1
+            ],
+            [
+              "dmg_reduce",
+              0.06
+            ]
+          ],
+          "rarity_variants": {
+            "2": {
+              "chance": 0.15333333333333332,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.25555555555555554,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.25555555555555554,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "999": {
+              "chance": 0.25555555555555554,
+              "stat_mult": 1.12,
+              "special_count": [
+                2,
+                4
+              ]
+            },
+            "9999": {
+              "chance": 0.08,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        },
+        {
+          "name": "🌟创世神靴",
+          "type": "boots",
+          "rarity": 999,
+          "chance": 0.05,
+          "stats": {
+            "attack": 631,
+            "defense": 631,
+            "speed": 1893,
+            "attack_speed": 631,
+            "dodge": 1262,
+            "hp": 1421
+          },
+          "special": {
+            "exp_bonus": 0.15
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "crit_rate",
+              0.07
+            ],
+            [
+              "crit_dmg",
+              0.18
+            ],
+            [
+              "lifesteal",
+              0.05
+            ],
+            [
+              "fire_damage",
+              15
+            ],
+            [
+              "exp_bonus",
+              0.12
+            ],
+            [
+              "coin_bonus",
+              0.1
+            ],
+            [
+              "dmg_reduce",
+              0.06
+            ]
+          ],
+          "rarity_variants": {
+            "2": {
+              "chance": 0.15333333333333332,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.25555555555555554,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.25555555555555554,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "999": {
+              "chance": 0.25555555555555554,
+              "stat_mult": 1.12,
+              "special_count": [
+                2,
+                4
+              ]
+            },
+            "9999": {
+              "chance": 0.08,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "荒原宝箱",
+      "type": "treasure",
+      "rarity": 3,
+      "required_regions": [
+        "final_realm"
+      ],
+      "text": "苍茫荒原的尽头，一个由纯粹的星光构成的宝箱悬浮在空中。",
+      "coins": [
+        500,
+        1200
+      ],
+      "exp": 100,
+      "drops": [
+        "古代金币*3-8",
+        "神之碎屑*1-4",
+        {
+          "name": "亮碎片",
+          "chance": 0.25,
+          "count": [
+            1,
+            3
+          ]
+        },
+        {
+          "name": "混沌核心",
+          "chance": 0.06,
+          "count": 1
+        }
+      ],
+      "merchant_spawn_chance": 0.12,
+      "min_power": 0,
+      "weapon_drops": [
+        {
+          "name": "💫终焉之戒",
+          "type": "accessory",
+          "rarity": 999,
+          "chance": 0.04,
+          "stats": {
+            "attack": 605,
+            "defense": 605,
+            "speed": 605,
+            "attack_speed": 605,
+            "dodge": 1210,
+            "hp": 2419
+          },
+          "special": {
+            "crit_rate": 0.1,
+            "crit_dmg": 0.25,
+            "exp_bonus": 0.1
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "crit_rate",
+              0.07
+            ],
+            [
+              "crit_dmg",
+              0.18
+            ],
+            [
+              "lifesteal",
+              0.05
+            ],
+            [
+              "fire_damage",
+              15
+            ],
+            [
+              "exp_bonus",
+              0.12
+            ],
+            [
+              "coin_bonus",
+              0.1
+            ],
+            [
+              "dmg_reduce",
+              0.06
+            ]
+          ],
+          "rarity_variants": {
+            "2": {
+              "chance": 0.15,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.25,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.25,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "999": {
+              "chance": 0.25,
+              "stat_mult": 1.12,
+              "special_count": [
+                2,
+                4
+              ]
+            },
+            "9999": {
+              "chance": 0.1,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        },
+        {
+          "name": "🌌虚空神盔",
+          "type": "helmet",
+          "rarity": 9999,
+          "chance": 0.05,
+          "stats": {
+            "attack": 569,
+            "defense": 1137,
+            "speed": 569,
+            "attack_speed": 569,
+            "dodge": 569,
+            "hp": 3410
+          },
+          "special": {
+            "crit_rate": 0.1,
+            "dmg_reduce": 0.08
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "crit_rate",
+              0.1
+            ],
+            [
+              "crit_dmg",
+              0.25
+            ],
+            [
+              "lifesteal",
+              0.06
+            ],
+            [
+              "fire_damage",
+              20
+            ],
+            [
+              "exp_bonus",
+              0.15
+            ],
+            [
+              "coin_bonus",
+              0.12
+            ],
+            [
+              "dmg_reduce",
+              0.08
+            ],
+            [
+              "extra_atk",
+              0.1
+            ]
+          ],
+          "rarity_variants": {
+            "3": {
+              "chance": 0.19285714285714284,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.2571428571428572,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "999": {
+              "chance": 0.3214285714285714,
+              "stat_mult": 1.12,
+              "special_count": [
+                2,
+                4
+              ]
+            },
+            "9999": {
+              "chance": 0.1,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            },
+            "99999": {
+              "chance": 0.1285714285714286,
+              "stat_mult": 1.25,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "路遇宝箱",
+      "type": "treasure",
+      "rarity": 1,
+      "text": "路边草丛中露出一个破旧的宝箱。",
+      "coins": [
+        50,
+        120
+      ],
+      "exp": 25,
+      "drops": [
+        "铁矿*1-2",
+        "铜矿*1-2",
+        "史莱姆粘液*1-2",
+        "蜘蛛丝*1-2"
+      ],
+      "merchant_spawn_chance": 0.05,
+      "min_power": 0,
+      "rare_drops": [],
+      "help_drops": []
+    },
+    {
+      "name": "蜂蜜采集",
+      "type": "treasure",
+      "rarity": 1,
+      "text": "你发现了一个野生蜂巢，采集到了不少蜂蜜。",
+      "coins": [
+        20,
+        60
+      ],
+      "exp": 12,
+      "drops": [
+        "蜂蜜*1-3"
+      ],
+      "merchant_spawn_chance": 0.03,
+      "min_power": 0,
+      "rare_drops": [],
+      "help_drops": []
+    },
+    {
+      "name": "幽灵",
+      "type": "combat",
+      "rarity": 2,
+      "text": "废弃宅邸中飘荡着一团白色幽灵——一个怨灵显形了。",
+      "coins": [
+        50,
+        100
+      ],
+      "exp": 30,
+      "drops": [
+        "幽灵残渣*1-3"
+      ],
+      "rare_drop_chance": 0.1,
+      "rare_drops": [
+        "银矿*1-2"
+      ],
+      "min_power": 50,
+      "help_drops": [],
+      "min_level": 70
+    },
+    {
+      "name": "石化蜥蜴",
+      "type": "combat",
+      "rarity": 2,
+      "text": "岩石动了——那不是岩石，是一只石化蜥蜴！",
+      "coins": [
+        60,
+        120
+      ],
+      "exp": 35,
+      "drops": [
+        "蜥蜴鳞片*1-3"
+      ],
+      "rare_drop_chance": 0.1,
+      "rare_drops": [
+        "金矿*1-2"
+      ],
+      "min_power": 60,
+      "help_drops": [],
+      "min_level": 15
+    },
+    {
+      "name": "暗影刺客",
+      "type": "combat",
+      "rarity": 2,
+      "text": "空气中泛起涟漪，暗影刺客从虚空中跃出。",
+      "coins": [
+        55,
+        110
+      ],
+      "exp": 32,
+      "rare_drop_chance": 0.12,
+      "rare_drops": [
+        "暗影之尘*1-2",
+        "金矿*1-2"
+      ],
+      "min_power": 80,
+      "drops": [],
+      "help_drops": [],
+      "min_level": 55
+    },
+    {
+      "name": "食人花",
+      "type": "combat",
+      "rarity": 2,
+      "text": "一朵巨大的花张开血盆大口，藤蔓向你卷来。",
+      "coins": [
+        45,
+        95
+      ],
+      "exp": 28,
+      "drops": [
+        "食人花种子*1-3"
+      ],
+      "rare_drop_chance": 0.08,
+      "rare_drops": [
+        "银矿*1-2"
+      ],
+      "min_power": 70,
+      "help_drops": [],
+      "min_level": 18
+    },
+    {
+      "name": "铠甲亡灵",
+      "type": "combat",
+      "rarity": 2,
+      "text": "走廊尽头的铠甲突然动了——里面困着一个亡灵骑士。",
+      "coins": [
+        65,
+        130
+      ],
+      "exp": 38,
+      "drops": [
+        "亡灵铁片*1-3"
+      ],
+      "rare_drop_chance": 0.12,
+      "rare_drops": [
+        "金矿*1-2"
+      ],
+      "min_power": 75,
+      "help_drops": [],
+      "min_level": 40
+    },
+    {
+      "name": "双头蛇",
+      "type": "combat",
+      "rarity": 2,
+      "text": "草丛中窜出一条双头蛇，两个脑袋同时向你喷出毒液。",
+      "coins": [
+        50,
+        115
+      ],
+      "exp": 33,
+      "drops": [
+        "蛇毒*1-3"
+      ],
+      "rare_drop_chance": 0.1,
+      "rare_drops": [
+        "银矿*1-2"
+      ],
+      "min_power": 85,
+      "help_drops": []
+    },
+    {
+      "name": "流浪商人",
+      "type": "merchant",
+      "rarity": 2,
+      "text": "一位背着大包袱的流浪商人向你招手。",
+      "coins": [
+        10,
+        30
+      ],
+      "exp": 10,
+      "merchant_spawn_chance": 1,
+      "min_power": 0,
+      "drops": [
+        {
+          "name": "随机材料配方",
+          "chance": 0.04,
+          "count": 1,
+          "tip": "📋 一张材料制作配方！"
+        }
+      ],
+      "rare_drops": [],
+      "help_drops": []
+    },
+    {
+      "name": "陈旧宝箱",
+      "type": "treasure",
+      "rarity": 2,
+      "text": "一个华丽的宝箱散发着诡异的光芒...",
+      "coins": [
+        80,
+        200
+      ],
+      "exp": 40,
+      "drops": [
+        "诅咒金币*1-3",
+        {
+          "name": "随机材料配方",
+          "chance": 0.04,
+          "count": 1,
+          "tip": "📋 一张材料制作配方！"
+        }
+      ],
+      "merchant_spawn_chance": 0.1,
+      "min_power": 0,
+      "rare_drops": [],
+      "help_drops": []
+    },
+    {
+      "name": "炎魔",
+      "type": "combat",
+      "rarity": 3,
+      "text": "地面裂开，岩浆中站起一个浑身燃烧的炎魔。",
+      "coins": [
+        80,
+        180
+      ],
+      "exp": 50,
+      "drops": [
+        "火焰之心*2-4"
+      ],
+      "rare_drop_chance": 0.15,
+      "rare_drops": [
+        "秘银矿*1-3"
+      ],
+      "min_power": 150,
+      "help_drops": [],
+      "min_level": 45
+    },
+    {
+      "name": "冰霜巨人",
+      "type": "combat",
+      "rarity": 3,
+      "text": "雪山传来沉重的脚步声，一个冰霜巨人向你走来。",
+      "coins": [
+        90,
+        200
+      ],
+      "exp": 55,
+      "drops": [
+        "寒冰核心*2-4"
+      ],
+      "rare_drop_chance": 0.15,
+      "rare_drops": [
+        "秘银矿*1-3"
+      ],
+      "min_power": 170,
+      "help_drops": [],
+      "min_level": 35
+    },
+    {
+      "name": "死灵法师",
+      "type": "combat",
+      "rarity": 3,
+      "text": "法阵中黑雾弥漫，死灵法师正在召唤亡灵大军。",
+      "coins": [
+        100,
+        220
+      ],
+      "exp": 60,
+      "rare_drop_chance": 0.18,
+      "rare_drops": [
+        "死灵法典*1-3",
+        "秘银矿*1-3",
+        "附魔石*1-3"
+      ],
+      "min_power": 200,
+      "drops": [],
+      "help_drops": [],
+      "min_level": 130
+    },
+    {
+      "name": "狮鹫",
+      "type": "combat",
+      "rarity": 3,
+      "text": "天空一声尖啸，一头狮鹫向你俯冲下来。",
+      "coins": [
+        85,
+        190
+      ],
+      "exp": 52,
+      "drops": [
+        "狮鹫羽毛*2-4"
+      ],
+      "rare_drop_chance": 0.15,
+      "rare_drops": [
+        "金矿*1-3"
+      ],
+      "min_power": 190,
+      "help_drops": []
+    },
+    {
+      "name": "行路旅人",
+      "type": "merchant",
+      "rarity": 3,
+      "text": "斗篷下露出一双发光的眼睛——行路旅人要和你做个交易。",
+      "coins": [
+        20,
+        60
+      ],
+      "exp": 20,
+      "merchant_spawn_chance": 1,
+      "min_power": 0,
+      "drops": [
+        {
+          "name": "随机材料配方",
+          "chance": 0.04,
+          "count": 1,
+          "tip": "📋 一张材料制作配方！"
+        }
+      ],
+      "rare_drops": [],
+      "help_drops": []
+    },
+    {
+      "name": "隐秘地窖",
+      "type": "treasure",
+      "rarity": 3,
+      "text": "你推开了一扇隐藏的巨石门扉，里面堆满了财宝！",
+      "coins": [
+        200,
+        500
+      ],
+      "exp": 80,
+      "drops": [
+        "古代金币*2-4",
+        "秘银矿*2-4",
+        {
+          "name": "随机材料配方",
+          "chance": 0.04,
+          "count": 1,
+          "tip": "📋 一张材料制作配方！"
+        }
+      ],
+      "merchant_spawn_chance": 0.15,
+      "min_power": 0,
+      "rare_drops": [],
+      "help_drops": []
+    },
+    {
+      "name": "恶魔统帅",
+      "type": "combat",
+      "rarity": 4,
+      "text": "深水区之门开启，手持巨剑的恶魔统帅踏火而出。",
+      "coins": [
+        150,
+        350
+      ],
+      "exp": 100,
+      "drops": [
+        "恶魔之角*3-5"
+      ],
+      "rare_drop_chance": 0.2,
+      "rare_drops": [
+        "奥金矿*2-4",
+        "翡翠矿*1-3"
+      ],
+      "min_power": 350,
+      "help_drops": []
+    },
+    {
+      "name": "远古龙",
+      "type": "combat",
+      "rarity": 4,
+      "text": "幽深洞穴最深处，沉睡千年的远古龙睁开了眼睛。",
+      "coins": [
+        200,
+        500
+      ],
+      "exp": 120,
+      "drops": [
+        "神龙碎片*3-5"
+      ],
+      "rare_drop_chance": 0.25,
+      "rare_drops": [
+        "奥金矿*2-4",
+        "翡翠矿*1-3",
+        "龙之心*2-4",
+        "附魔石*3-5",
+        "生命之泉*2-4"
+      ],
+      "min_power": 450,
+      "help_drops": [],
+      "min_level": 85
+    },
+    {
+      "name": "堕落天使",
+      "type": "combat",
+      "rarity": 4,
+      "text": "天空被撕裂，六翼漆黑的堕落天使从天而降。",
+      "coins": [
+        180,
+        450
+      ],
+      "exp": 110,
+      "drops": [
+        "堕落之羽*3-5"
+      ],
+      "rare_drop_chance": 0.22,
+      "rare_drops": [
+        "奥金矿*2-4",
+        "附魔石*2-4"
+      ],
+      "min_power": 420,
+      "help_drops": [],
+      "min_level": 120
+    },
+    {
+      "name": "夜市商贩",
+      "type": "merchant",
+      "rarity": 4,
+      "text": "阴影中走出一个穿着华贵的身影...夜市商贩带来了禁忌的商品。",
+      "coins": [
+        30,
+        80
+      ],
+      "exp": 30,
+      "merchant_spawn_chance": 1,
+      "min_power": 0,
+      "drops": [
+        {
+          "name": "随机材料配方",
+          "chance": 0.04,
+          "count": 1,
+          "tip": "📋 一张材料制作配方！"
+        }
+      ],
+      "rare_drops": [],
+      "help_drops": []
+    },
+    {
+      "name": "神罚之影",
+      "type": "combat",
+      "rarity": 999,
+      "text": "天穹之上传来神谕——神罚之影降临人间！",
+      "coins": [
+        500,
+        1500
+      ],
+      "exp": 300,
+      "rare_drop_chance": 0.4,
+      "rare_drops": [
+        "奥金矿*3-6",
+        "翡翠矿*2-4",
+        "神之碎片*3-6",
+        "附魔石*5-8",
+        "生命之泉*1-3"
+      ],
+      "min_power": 800,
+      "drops": [],
+      "help_drops": [],
+      "min_level": 145
+    },
+    {
+      "name": "混沌之龙",
+      "type": "combat",
+      "rarity": 999,
+      "text": "世界树的根系崩裂，混沌之龙从地心深处破土而出！！",
+      "coins": [
+        800,
+        2500
+      ],
+      "exp": 500,
+      "rare_drop_chance": 0.5,
+      "rare_drops": [
+        "奥金矿*3-6",
+        "翡翠矿*2-5",
+        "混沌之鳞*3-6",
+        "附魔石*6-10",
+        "生命之泉*2-5"
+      ],
+      "min_power": 1200,
+      "drops": [],
+      "help_drops": [],
+      "min_level": 100
+    },
+    {
+      "name": "迷路孩童",
+      "type": "loli",
+      "rarity": 4,
+      "text": "路边蹲着一个小女孩，眼泪汪汪地看着你...",
+      "coins": [
+        30,
+        80
+      ],
+      "exp": 25,
+      "drops": [
+        "糖果*3-5"
+      ],
+      "help_coins": [
+        50,
+        120
+      ],
+      "help_exp": 40,
+      "help_drops": [
+        "萝莉的谢礼*3-5",
+        "幸运兔脚*3-5"
+      ],
+      "min_power": 0,
+      "rare_drops": []
+    },
+    {
+      "name": "流浪孩童",
+      "type": "loli",
+      "rarity": 4,
+      "text": "废墟旁站着一个衣衫褴褛的小萝莉，她说和家人走散了。",
+      "coins": [
+        50,
+        150
+      ],
+      "exp": 40,
+      "drops": [
+        "饼干*3-5"
+      ],
+      "help_coins": [
+        80,
+        200
+      ],
+      "help_exp": 60,
+      "help_drops": [
+        "感谢信*3-5",
+        "银矿*3-5"
+      ],
+      "min_power": 0,
+      "rare_drops": []
+    },
+    {
+      "name": "内向的小孩",
+      "type": "loli",
+      "rarity": 4,
+      "text": "月光下，一个白发萝莉转身看向你，她的眼眸中闪烁着星光。",
+      "coins": [
+        80,
+        250
+      ],
+      "exp": 60,
+      "drops": [
+        "星之碎片*3-5"
+      ],
+      "help_coins": [
+        150,
+        400
+      ],
+      "help_exp": 100,
+      "help_drops": [
+        "星光项链*3-5",
+        "金矿*3-5"
+      ],
+      "min_power": 0,
+      "rare_drops": []
+    },
+    {
+      "name": "聪慧孩童",
+      "type": "loli",
+      "rarity": 999,
+      "text": "天空裂开一道缝隙，一个周身环绕着光晕的萝莉缓缓飘落。她歪头看着你，嘴角露出意味深长的微笑...",
+      "coins": [
+        200,
+        600
+      ],
+      "exp": 150,
+      "drops": [
+        {
+          "name": "神之碎屑",
+          "min": 5,
+          "max": 10
+        }
+      ],
+      "help_coins": [
+        500,
+        1500
+      ],
+      "help_exp": 300,
+      "help_drops": [
+        {
+          "name": "神之碎片",
+          "min": 3,
+          "max": 6
+        },
+        {
+          "name": "奥金矿",
+          "min": 2,
+          "max": 5
+        },
+        {
+          "name": "龙之心",
+          "min": 3,
+          "max": 6
+        }
+      ],
+      "min_power": 0,
+      "rare_drops": [],
+      "rare_drop_chance": 0
+    },
+    {
+      "name": "神龙",
+      "type": "combat",
+      "rarity": 9999,
+      "text": "天空破碎，星辰坠落——神龙携万钧雷霆降临凡间！！",
+      "coins": [
+        500,
+        3000
+      ],
+      "exp": 1234,
+      "drops": [
+        "神龙碎片*1-2"
+      ],
+      "rare_drop_chance": 0.3,
+      "rare_drops": [
+        "奥金矿*1",
+        "龙之心*1"
+      ],
+      "min_power": 2500,
+      "help_drops": [],
+      "min_level": 110
+    },
+    {
+      "name": "皇家骑士",
+      "type": "combat",
+      "rarity": 4,
+      "min_power": 2000,
+      "text": "皇家骑士拦住了你的去路，高举圣剑发起挑战！",
+      "coins": [
+        4000,
+        6000
+      ],
+      "exp": 3000,
+      "drops": [
+        "皇家碎片*3-5"
+      ],
+      "rare_drop_chance": 0.15,
+      "rare_drops": [
+        "骑士之魂*2-4",
+        "锻造精魂*2-4"
+      ],
+      "merchant_spawn_chance": 0.5,
+      "help_drops": [],
+      "min_level": 50
+    },
+    {
+      "name": "铁奥创矿脉",
+      "type": "treasure",
+      "rarity": 2,
+      "min_power": 10,
+      "text": "遇到了奥创矿脉",
+      "coins": [
+        1,
+        1
+      ],
+      "exp": 30,
+      "drops": [
+        "铁矿*2-5",
+        {
+          "name": "随机材料配方",
+          "chance": 0.04,
+          "count": 1,
+          "tip": "📋 一张材料制作配方！"
+        }
+      ],
+      "rare_drop_chance": 0.3,
+      "rare_drops": [
+        "铜矿*1-3",
+        "银矿*1-2"
+      ],
+      "merchant_spawn_chance": 0.01,
+      "help_drops": []
+    },
+    {
+      "name": "奥创矿脉",
+      "type": "combat",
+      "rarity": 3,
+      "min_power": 300,
+      "text": "你发现了一条闪闪发光的奥创矿脉，但周围的怪物在守护着它！",
+      "coins": [
+        10,
+        20
+      ],
+      "exp": 200,
+      "drops": [
+        {
+          "name": "奥创矿",
+          "min": 2,
+          "max": 4
+        },
+        {
+          "name": "奥创矿",
+          "min": 2,
+          "max": 4
+        }
+      ],
+      "rare_drop_chance": 0.3,
+      "rare_drops": [
+        {
+          "name": "金矿",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "name": "铁矿",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "name": "煤炭",
+          "min": 1,
+          "max": 3
+        }
+      ]
+    },
+    {
+      "name": "废弃营地",
+      "type": "choice",
+      "rarity": 2,
+      "required_regions": [
+        "plains"
+      ],
+      "text": "你发现了一处被遗弃的营地废墟，帐篷已经破烂不堪，篝火灰烬中还冒着余烟...似乎不久前还有人在这里。",
+      "choices": [
+        {
+          "text": "🔍 搜索营地",
+          "desc": "翻找遗留的物资",
+          "outcome": "treasure",
+          "coins": [
+            30,
+            80
+          ],
+          "exp": 15,
+          "drops": [
+            {
+              "name": "饼干",
+              "count": [
+                1,
+                3
+              ]
+            },
+            {
+              "name": "破鞋子",
+              "count": [
+                1,
+                2
+              ]
+            },
+            {
+              "name": "铁矿",
+              "count": [
+                1,
+                2
+              ],
+              "chance": 0.3
+            }
+          ]
+        },
+        {
+          "text": "📖 查看日志",
+          "desc": "阅读队长留下的笔记",
+          "outcome": "treasure",
+          "coins": [
+            20,
+            50
+          ],
+          "exp": 30,
+          "drops": [
+            {
+              "name": "锻造精魂",
+              "count": [
+                1,
+                2
+              ],
+              "chance": 0.2
+            },
+            {
+              "name": "蜂蜜",
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "text": "⚔️ 调查异响",
+          "desc": "营地深处有奇怪的声音",
+          "outcome": "combat",
+          "coins": [
+            40,
+            100
+          ],
+          "exp": 20,
+          "monster_name": "史莱姆",
+          "elite": true,
+          "elite_chance": 0.3
+        },
+        {
+          "text": "🏚️ 进入废墟深处",
+          "desc": "发现隐藏的废墟入口",
+          "outcome": "ruins",
+          "ruins_scroll": 1,
+          "exp": 25,
+          "text_result": "你在废墟深处发现了一处古老的地下通道！获得了废墟探索卷轴。"
+        }
+      ]
+    },
+    {
+      "name": "野狼",
+      "type": "combat",
+      "rarity": 1,
+      "required_regions": [
+        "plains"
+      ],
+      "text": "废墟中窜出几只野狼，对你龇牙咧嘴！",
+      "coins": [
+        20,
+        50
+      ],
+      "exp": 12,
+      "drops": [
+        "狼牙*1-2"
+      ],
+      "rare_drop_chance": 0.05,
+      "rare_drops": [
+        "皮革*1"
+      ],
+      "min_power": 10,
+      "help_drops": [],
+      "min_level": 1
+    },
+    {
+      "name": "藤蔓废墟",
+      "type": "choice",
+      "rarity": 2,
+      "required_regions": [
+        "forest"
+      ],
+      "text": "茂密的藤蔓中露出残破的石墙，这是一座被森林吞噬的古荒废遗迹。石缝中似乎有什么在闪闪发光...",
+      "choices": [
+        {
+          "text": "🌿 拨开藤蔓",
+          "desc": "探索废墟内部",
+          "outcome": "combat",
+          "coins": [
+            80,
+            180
+          ],
+          "exp": 30,
+          "monster_name": "食人花",
+          "elite": true,
+          "elite_chance": 0.4,
+          "drops": [
+            {
+              "name": "魔法蘑菇",
+              "count": [
+                1,
+                3
+              ]
+            },
+            {
+              "name": "蜘蛛丝",
+              "count": [
+                2,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "text": "💎 采集闪光点",
+          "desc": "先拿看得见的宝物",
+          "outcome": "treasure",
+          "coins": [
+            60,
+            150
+          ],
+          "exp": 20,
+          "drops": [
+            {
+              "name": "宝石碎片",
+              "count": [
+                1,
+                2
+              ]
+            },
+            {
+              "name": "附魔石",
+              "count": [
+                1,
+                2
+              ],
+              "chance": 0.3
+            },
+            {
+              "name": "星之碎片",
+              "count": [
+                1,
+                2
+              ],
+              "chance": 0.15
+            }
+          ]
+        },
+        {
+          "text": "🔮 研究符文",
+          "desc": "解读墙上的古老文字",
+          "outcome": "treasure",
+          "coins": [
+            0,
+            0
+          ],
+          "exp": 40,
+          "drops": [
+            {
+              "name": "古代金币",
+              "count": [
+                2,
+                5
+              ]
+            },
+            {
+              "name": "经验药水",
+              "count": [
+                1,
+                2
+              ],
+              "chance": 0.3
+            }
+          ]
+        },
+        {
+          "text": "🚶 绕道而行",
+          "desc": "安全第一",
+          "outcome": "nothing",
+          "exp": 5,
+          "text_result": "你决定不冒这个险，小心地绕开了废墟"
+        },
+        {
+          "text": "🏚️ 探索废墟中心",
+          "desc": "进入废墟核心区域",
+          "outcome": "ruins",
+          "ruins_scroll": 1,
+          "exp": 30,
+          "text_result": "废墟中心的地板下有一个暗门！获得了废墟探索卷轴。"
+        }
+      ]
+    },
+    {
+      "name": "古树残桩",
+      "type": "combat",
+      "rarity": 2,
+      "required_regions": [
+        "forest"
+      ],
+      "text": "一棵巨大的古树拔地而起，树根缠绕着废墟的石柱——树精苏醒了！",
+      "coins": [
+        50,
+        120
+      ],
+      "exp": 28,
+      "drops": [
+        "魔法蘑菇*1-3",
+        "蜘蛛丝*1-2"
+      ],
+      "rare_drop_chance": 0.08,
+      "rare_drops": [
+        "附魔石*1-2"
+      ],
+      "min_power": 60,
+      "help_drops": []
+    },
+    {
+      "name": "古代墓穴",
+      "type": "choice",
+      "rarity": 3,
+      "required_regions": [
+        "desert"
+      ],
+      "text": "风沙中露出一座金字塔的入口！甬道两侧的壁画讲述着古老法老的故事，深处隐约传来机关运转的声音...",
+      "choices": [
+        {
+          "text": "🔦 深入墓道",
+          "desc": "沿着主甬道前进",
+          "outcome": "combat",
+          "coins": [
+            120,
+            300
+          ],
+          "exp": 40,
+          "monster_name": "石像鬼",
+          "elite": true,
+          "elite_chance": 0.5,
+          "drops": [
+            {
+              "name": "古代金币",
+              "count": [
+                3,
+                8
+              ]
+            },
+            {
+              "name": "金矿",
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "📦 搜索侧室",
+          "desc": "检查两旁的陪葬室",
+          "outcome": "treasure",
+          "coins": [
+            100,
+            250
+          ],
+          "exp": 35,
+          "drops": [
+            {
+              "name": "诅咒金币",
+              "count": [
+                2,
+                5
+              ]
+            },
+            {
+              "name": "宝石",
+              "count": [
+                1,
+                2
+              ],
+              "chance": 0.2
+            },
+            {
+              "name": "皇家碎片",
+              "count": [
+                1,
+                2
+              ],
+              "chance": 0.15
+            }
+          ]
+        },
+        {
+          "text": "🧩 破解机关",
+          "desc": "尝试解开墓穴机关",
+          "outcome": "treasure",
+          "coins": [
+            200,
+            500
+          ],
+          "exp": 50,
+          "drops": [
+            {
+              "name": "觉醒之石",
+              "count": 1,
+              "chance": 0.05
+            },
+            {
+              "name": "附魔石",
+              "count": [
+                2,
+                4
+              ]
+            },
+            {
+              "name": "金矿",
+              "count": [
+                2,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🚪 退出墓穴",
+          "desc": "感觉不太对劲",
+          "outcome": "nothing",
+          "exp": 3,
+          "text_result": "你谨慎地退出了墓穴，决定下次做好准备再来"
+        },
+        {
+          "text": "🏚️ 进入法老安息之地",
+          "desc": "推开沉重的石棺盖",
+          "outcome": "ruins",
+          "ruins_scroll": 1,
+          "exp": 55,
+          "text_result": "石棺下是一条通往废墟深处的秘道！获得了废墟探索卷轴。"
+        }
+      ]
+    },
+    {
+      "name": "干枯尸骸",
+      "type": "combat",
+      "rarity": 2,
+      "required_regions": [
+        "desert"
+      ],
+      "text": "墓穴中传来沉重的脚步声，一具裹满绷带的干枯尸骸向你走来！",
+      "coins": [
+        55,
+        130
+      ],
+      "exp": 30,
+      "drops": [
+        "诅咒金币*1-3",
+        "绷带*1-2"
+      ],
+      "rare_drop_chance": 0.1,
+      "rare_drops": [
+        "金矿*1-2",
+        "古代金币*1-3"
+      ],
+      "min_power": 70,
+      "help_drops": []
+    },
+    {
+      "name": "沙埋宝藏",
+      "type": "treasure",
+      "rarity": 2,
+      "required_regions": [
+        "desert"
+      ],
+      "text": "你在废墟的角落发现了一堆被黄沙半掩的宝藏！",
+      "coins": [
+        100,
+        250
+      ],
+      "exp": 30,
+      "drops": [
+        "古代金币*2-5",
+        "金矿*1-2",
+        {
+          "name": "随机材料配方",
+          "chance": 0.04,
+          "count": 1,
+          "tip": "📋 一张材料制作配方！"
+        }
+      ],
+      "merchant_spawn_chance": 0.08,
+      "min_power": 0,
+      "rare_drops": []
+    },
+    {
+      "name": "冰砌房屋",
+      "type": "choice",
+      "rarity": 3,
+      "required_regions": [
+        "snow_mountain"
+      ],
+      "text": "暴风雪中，一座被冰封的古代堡垒若隐若现。冰层下隐约能看到昔日的武器和装备...",
+      "choices": [
+        {
+          "text": "⛏️ 破冰搜索",
+          "desc": "凿开冰层寻找装备",
+          "outcome": "treasure",
+          "coins": [
+            100,
+            250
+          ],
+          "exp": 35,
+          "drops": [
+            {
+              "name": "寒冰核心",
+              "count": [
+                1,
+                2
+              ]
+            },
+            {
+              "name": "秘银矿",
+              "count": [
+                1,
+                2
+              ],
+              "chance": 0.3
+            },
+            {
+              "name": "银矿",
+              "count": [
+                2,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "⚔️ 惊动守卫者",
+          "desc": "破冰声惊醒了沉睡的亡灵",
+          "outcome": "combat",
+          "coins": [
+            150,
+            350
+          ],
+          "exp": 45,
+          "monster_name": "冰霜巨人",
+          "elite": true,
+          "elite_chance": 0.4,
+          "drops": [
+            {
+              "name": "寒冰核心",
+              "count": [
+                2,
+                4
+              ]
+            },
+            {
+              "name": "冰晶石",
+              "count": [
+                1,
+                2
+              ],
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "text": "🔍 寻找密道",
+          "desc": "也许有更安全的入口",
+          "outcome": "treasure",
+          "coins": [
+            50,
+            120
+          ],
+          "exp": 25,
+          "drops": [
+            {
+              "name": "神龙碎片",
+              "count": [
+                1,
+                2
+              ],
+              "chance": 0.08
+            },
+            {
+              "name": "铁矿",
+              "count": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🏚️ 进入堡垒废墟",
+          "desc": "发现冰层下的古荒废遗迹",
+          "outcome": "ruins",
+          "ruins_scroll": 1,
+          "exp": 40,
+          "text_result": "冰层下方是一座被遗忘的古代废墟！获得了废墟探索卷轴。"
+        }
+      ]
+    },
+    {
+      "name": "冻僵旅人",
+      "type": "combat",
+      "rarity": 2,
+      "required_regions": [
+        "snow_mountain"
+      ],
+      "text": "冰层裂开，一具古代战士的冰封遗骸破冰而出，眼中闪烁着幽蓝的光芒！",
+      "coins": [
+        60,
+        150
+      ],
+      "exp": 32,
+      "drops": [
+        "寒冰核心*1-2",
+        "亡灵铁片*1-2"
+      ],
+      "rare_drop_chance": 0.1,
+      "rare_drops": [
+        "银矿*1-3"
+      ],
+      "min_power": 100,
+      "help_drops": []
+    },
+    {
+      "name": "焦土废墟",
+      "type": "choice",
+      "rarity": 3,
+      "required_regions": [
+        "volcano"
+      ],
+      "text": "岩浆河流经一座古老的废墟，石质的建筑已经被高温烧得发黑。废墟中央有一座仍在运转的锻造台...",
+      "choices": [
+        {
+          "text": "🔨 使用锻造台",
+          "desc": "借助地火锻造装备",
+          "outcome": "treasure",
+          "coins": [
+            150,
+            350
+          ],
+          "exp": 45,
+          "drops": [
+            {
+              "name": "锻造精魂",
+              "count": [
+                1,
+                2
+              ]
+            },
+            {
+              "name": "精炼石",
+              "count": [
+                1,
+                2
+              ],
+              "chance": 0.15
+            },
+            {
+              "name": "煤炭",
+              "count": [
+                5,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "⚔️ 击败守护者",
+          "desc": "锻造台的守护者出现了！",
+          "outcome": "combat",
+          "coins": [
+            200,
+            500
+          ],
+          "exp": 55,
+          "monster_name": "炎魔",
+          "elite": true,
+          "elite_chance": 0.5,
+          "drops": [
+            {
+              "name": "火焰之心",
+              "count": [
+                2,
+                4
+              ]
+            },
+            {
+              "name": "熔岩结晶",
+              "count": [
+                1,
+                2
+              ],
+              "chance": 0.15
+            }
+          ]
+        },
+        {
+          "text": "💎 采集熔岩矿",
+          "desc": "废墟周围有很多好矿石",
+          "outcome": "treasure",
+          "coins": [
+            50,
+            150
+          ],
+          "exp": 25,
+          "drops": [
+            {
+              "name": "金矿",
+              "count": [
+                2,
+                5
+              ]
+            },
+            {
+              "name": "秘银矿",
+              "count": [
+                1,
+                3
+              ]
+            },
+            {
+              "name": "奥金矿",
+              "count": [
+                1,
+                2
+              ],
+              "chance": 0.08
+            }
+          ]
+        },
+        {
+          "text": "🏚️ 进入废墟核心",
+          "desc": "穿过岩浆河进入废墟深处",
+          "outcome": "ruins",
+          "ruins_scroll": 1,
+          "exp": 45,
+          "text_result": "岩浆河的尽头，一座古老的废墟入口赫然显现！获得了废墟探索卷轴。"
+        }
+      ]
+    },
+    {
+      "name": "焦黑石像",
+      "type": "combat",
+      "rarity": 3,
+      "required_regions": [
+        "volcano"
+      ],
+      "text": "岩浆中站起一个由熔岩和黑曜石组成的巨大傀儡，咆哮着向你发起攻击！",
+      "coins": [
+        80,
+        200
+      ],
+      "exp": 48,
+      "drops": [
+        "火焰之心*2-4",
+        "熔岩结晶*1-2"
+      ],
+      "rare_drop_chance": 0.12,
+      "rare_drops": [
+        "奥金矿*1-2",
+        "附魔石*1-2"
+      ],
+      "min_power": 180,
+      "help_drops": []
+    },
+    {
+      "name": "乱石堆",
+      "type": "choice",
+      "rarity": 4,
+      "required_regions": [
+        "abyss"
+      ],
+      "text": "深水区中矗立着一座不属于这个世界的废墟——黑色的石柱上刻满了扭曲的符文，空气中弥漫着紫色的能量微粒...",
+      "choices": [
+        {
+          "text": "🔮 触碰符文",
+          "desc": "感受异界能量",
+          "outcome": "treasure",
+          "coins": [
+            200,
+            500
+          ],
+          "exp": 60,
+          "drops": [
+            {
+              "name": "星之碎片",
+              "count": [
+                2,
+                5
+              ]
+            },
+            {
+              "name": "虚空晶矿",
+              "count": [
+                1,
+                2
+              ],
+              "chance": 0.1
+            },
+            {
+              "name": "神之碎屑",
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "⚔️ 面对守护者",
+          "desc": "废墟中有能量波动！",
+          "outcome": "combat",
+          "coins": [
+            300,
+            800
+          ],
+          "exp": 80,
+          "monster_name": "恶魔统帅",
+          "elite": true,
+          "elite_chance": 0.6,
+          "drops": [
+            {
+              "name": "恶魔之角",
+              "count": [
+                2,
+                5
+              ]
+            },
+            {
+              "name": "混沌核心",
+              "count": [
+                1,
+                2
+              ],
+              "chance": 0.08
+            }
+          ]
+        },
+        {
+          "text": "📚 解读碑文",
+          "desc": "尝试理解异界文字",
+          "outcome": "treasure",
+          "coins": [
+            0,
+            0
+          ],
+          "exp": 100,
+          "drops": [
+            {
+              "name": "经验圣水",
+              "count": [
+                1,
+                2
+              ],
+              "chance": 0.2
+            },
+            {
+              "name": "贤者之石",
+              "count": [
+                1,
+                2
+              ],
+              "chance": 0.05
+            }
+          ]
+        },
+        {
+          "text": "🚫 远离这里",
+          "desc": "这不属于我们的世界",
+          "outcome": "nothing",
+          "exp": 5,
+          "text_result": "你感到一阵不安，理智地选择了离开"
+        },
+        {
+          "text": "🔮 触碰传送石",
+          "desc": "启动废墟中的传送装置",
+          "outcome": "ruins",
+          "ruins_scroll": 1,
+          "exp": 50,
+          "text_result": "传送石发出耀眼的光芒，一张废墟探索卷轴凭空出现！"
+        }
+      ]
+    },
+    {
+      "name": "流浪旅人",
+      "type": "combat",
+      "rarity": 4,
+      "required_regions": [
+        "abyss"
+      ],
+      "text": "废墟的阴影中走出一个半透明的虚空生物，它的身体由纯粹的黑暗构成！",
+      "coins": [
+        120,
+        300
+      ],
+      "exp": 70,
+      "drops": [
+        "暗影之尘*2-5",
+        "虚空晶矿*1-2"
+      ],
+      "rare_drop_chance": 0.15,
+      "rare_drops": [
+        "混沌之鳞*1-2",
+        "奥金矿*1-3"
+      ],
+      "min_power": 350,
+      "help_drops": []
+    },
+    {
+      "name": "深坑藏宝",
+      "type": "treasure",
+      "rarity": 4,
+      "required_regions": [
+        "abyss"
+      ],
+      "text": "乱石堆的中心，一个由纯粹能量构成的光球悬浮在空中——里面封存着强大的宝物！",
+      "coins": [
+        300,
+        800
+      ],
+      "exp": 80,
+      "drops": [
+        "神之碎片*1-2",
+        "星之碎片*3-6",
+        "混沌核心*1-2",
+        {
+          "name": "随机材料配方",
+          "chance": 0.04,
+          "count": 1,
+          "tip": "📋 一张材料制作配方！"
+        }
+      ],
+      "merchant_spawn_chance": 0.12,
+      "min_power": 0,
+      "rare_drops": []
+    },
+    {
+      "name": "破旧宅邸",
+      "type": "choice",
+      "rarity": 2,
+      "required_regions": [
+        "royal_road"
+      ],
+      "text": "路边有一座破败的贵族庄园，虽然已经荒废多年，但从精致的石像鬼和宽阔的庭院仍能看出昔日的辉煌...",
+      "choices": [
+        {
+          "text": "🏛️ 搜索主楼",
+          "desc": "进入主建筑搜索",
+          "outcome": "treasure",
+          "coins": [
+            100,
+            250
+          ],
+          "exp": 30,
+          "drops": [
+            {
+              "name": "皇家碎片",
+              "count": [
+                1,
+                3
+              ]
+            },
+            {
+              "name": "古代金币",
+              "count": [
+                2,
+                6
+              ]
+            },
+            {
+              "name": "丝绸",
+              "count": [
+                1,
+                2
+              ],
+              "chance": 0.3
+            }
+          ]
+        },
+        {
+          "text": "⚔️ 探查地下室",
+          "desc": "下面有奇怪的声音",
+          "outcome": "combat",
+          "coins": [
+            150,
+            350
+          ],
+          "exp": 40,
+          "monster_name": "皇家骑士",
+          "elite": true,
+          "elite_chance": 0.3,
+          "drops": [
+            {
+              "name": "皇家碎片",
+              "count": [
+                2,
+                4
+              ]
+            },
+            {
+              "name": "骑士之魂",
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🌹 搜寻花园",
+          "desc": "后花园可能有好东西",
+          "outcome": "treasure",
+          "coins": [
+            50,
+            120
+          ],
+          "exp": 20,
+          "drops": [
+            {
+              "name": "蜂蜜",
+              "count": [
+                2,
+                4
+              ]
+            },
+            {
+              "name": "魔法蘑菇",
+              "count": [
+                1,
+                2
+              ],
+              "chance": 0.2
+            },
+            {
+              "name": "神秘果实",
+              "count": [
+                1,
+                2
+              ],
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "text": "🏚️ 探索废墟地下室",
+          "desc": "贵族的秘密地下通道",
+          "outcome": "ruins",
+          "ruins_scroll": 1,
+          "exp": 35,
+          "text_result": "你发现了破旧宅邸下的秘密通道！获得了废墟探索卷轴。"
+        }
+      ]
+    },
+    {
+      "name": "疯癫老人",
+      "type": "combat",
+      "rarity": 3,
+      "required_regions": [
+        "royal_road"
+      ],
+      "text": "庄园大厅中漂浮着一个身着华服的高贵怨灵，它愤怒地尖叫着向你扑来！",
+      "coins": [
+        80,
+        200
+      ],
+      "exp": 42,
+      "drops": [
+        "幽灵残渣*2-4",
+        "皇家碎片*1-3"
+      ],
+      "rare_drop_chance": 0.12,
+      "rare_drops": [
+        "诅咒金币*2-5",
+        "金矿*1-3"
+      ],
+      "min_power": 200,
+      "help_drops": []
+    },
+    {
+      "name": "地下古城",
+      "type": "choice",
+      "rarity": 3,
+      "required_regions": [
+        "mine"
+      ],
+      "text": "矿道深处，你意外挖穿了一座地下古城的墙壁！古老的街道和石屋保存完好，仿佛时间在这里静止了...",
+      "choices": [
+        {
+          "text": "⛏️ 挖掘街道",
+          "desc": "古城街道下可能埋着宝藏",
+          "outcome": "treasure",
+          "coins": [
+            80,
+            200
+          ],
+          "exp": 35,
+          "drops": [
+            {
+              "name": "铁矿",
+              "count": [
+                5,
+                12
+              ]
+            },
+            {
+              "name": "银矿",
+              "count": [
+                2,
+                5
+              ]
+            },
+            {
+              "name": "磁铁矿",
+              "count": [
+                1,
+                3
+              ],
+              "chance": 0.2
+            }
+          ]
+        },
+        {
+          "text": "🏚️ 探索房屋",
+          "desc": "进入保存完好的石屋",
+          "outcome": "combat",
+          "coins": [
+            120,
+            300
+          ],
+          "exp": 40,
+          "monster_name": "骷髅兵",
+          "elite": true,
+          "elite_chance": 0.5,
+          "drops": [
+            {
+              "name": "古代金币",
+              "count": [
+                2,
+                5
+              ]
+            },
+            {
+              "name": "秘银矿",
+              "count": [
+                1,
+                3
+              ]
+            },
+            {
+              "name": "星辰矿",
+              "count": [
+                1,
+                2
+              ],
+              "chance": 0.08
+            }
+          ]
+        },
+        {
+          "text": "🗺️ 绘制地图",
+          "desc": "记录古城位置以后再来",
+          "outcome": "treasure",
+          "coins": [
+            0,
+            0
+          ],
+          "exp": 50,
+          "drops": [
+            {
+              "name": "矿工之魂",
+              "count": [
+                2,
+                3
+              ]
+            },
+            {
+              "name": "附魔石",
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🏚️ 探索古城中心",
+          "desc": "前往古城的核心地带",
+          "outcome": "ruins",
+          "ruins_scroll": 1,
+          "exp": 40,
+          "text_result": "古城中心的废墟中隐藏着一个古老的传送阵！获得了废墟探索卷轴。"
+        }
+      ]
+    },
+    {
+      "name": "矿洞里的堕落天使",
+      "type": "combat",
+      "rarity": 2,
+      "required_regions": [
+        "mine"
+      ],
+      "text": "矿道深处传来镐头敲击岩石的声音——但这里早已废弃多年！一个矿工亡灵正在不知疲倦地挖矿...",
+      "coins": [
+        40,
+        100
+      ],
+      "exp": 25,
+      "drops": [
+        "煤炭*2-5",
+        "铁矿*2-4"
+      ],
+      "rare_drop_chance": 0.08,
+      "rare_drops": [
+        "银矿*1-2",
+        "金矿*1-2"
+      ],
+      "min_power": 50,
+      "help_drops": []
+    },
+    {
+      "name": "宝藏矿坑",
+      "type": "treasure",
+      "rarity": 2,
+      "required_regions": [
+        "mine"
+      ],
+      "text": "古城的仓库中堆满了未开采的优质矿石！",
+      "coins": [
+        30,
+        80
+      ],
+      "exp": 20,
+      "drops": [
+        "银矿*2-5",
+        "金矿*1-3",
+        "秘银矿*1-2",
+        {
+          "name": "随机材料配方",
+          "chance": 0.04,
+          "count": 1,
+          "tip": "📋 一张材料制作配方！"
+        }
+      ],
+      "merchant_spawn_chance": 0.05,
+      "min_power": 0,
+      "rare_drops": []
+    },
+    {
+      "name": "废墟宝藏",
+      "type": "treasure",
+      "rarity": 2,
+      "required_regions": [
+        "plains",
+        "forest",
+        "desert",
+        "volcano"
+      ],
+      "text": "你在废墟的角落里发现了一个被遗忘的宝箱！",
+      "coins": [
+        80,
+        200
+      ],
+      "exp": 25,
+      "drops": [
+        "古代金币*2-4",
+        "附魔石*1-2",
+        {
+          "name": "随机材料配方",
+          "chance": 0.04,
+          "count": 1,
+          "tip": "📋 一张材料制作配方！"
+        }
+      ],
+      "merchant_spawn_chance": 0.05,
+      "min_power": 0,
+      "rare_drops": []
+    },
+    {
+      "name": "巨型螃蟹",
+      "type": "combat",
+      "rarity": 2,
+      "required_regions": [
+        "golden_coast"
+      ],
+      "text": "沙滩上爬出一只卡车大小的巨型螃蟹，挥舞着巨大的钳子！",
+      "coins": [
+        60,
+        140
+      ],
+      "exp": 35,
+      "min_power": 150,
+      "drops": [
+        "深海珍珠*1-3",
+        "铁矿*2-5"
+      ],
+      "rare_drop_chance": 0.1,
+      "rare_drops": [
+        "金矿*1-2"
+      ],
+      "help_drops": [],
+      "min_level": 30
+    },
+    {
+      "name": "海蛇",
+      "type": "combat",
+      "rarity": 3,
+      "required_regions": [
+        "golden_coast"
+      ],
+      "text": "海浪中窜出一条巨大的海蛇，毒牙闪着寒光！",
+      "coins": [
+        80,
+        200
+      ],
+      "exp": 50,
+      "min_power": 250,
+      "drops": [
+        "蛇毒*1-3",
+        "水鬼之泪*1-2"
+      ],
+      "rare_drop_chance": 0.15,
+      "rare_drops": [
+        "深海珍珠*2-5",
+        "银矿*1-3"
+      ],
+      "help_drops": [],
+      "min_level": 35
+    },
+    {
+      "name": "山林猎户",
+      "type": "combat",
+      "rarity": 3,
+      "required_regions": [
+        "elven_deepwood"
+      ],
+      "text": "树冠间跃下一名山林猎户，拉弓搭箭对准了你！",
+      "coins": [
+        100,
+        250
+      ],
+      "exp": 55,
+      "min_power": 300,
+      "drops": [
+        "附魔石*1-2",
+        "蜘蛛丝*2-4"
+      ],
+      "rare_drop_chance": 0.12,
+      "rare_drops": [
+        "星之碎片*1-3",
+        "金矿*1-2"
+      ],
+      "help_drops": [],
+      "min_level": 45
+    },
+    {
+      "name": "野马",
+      "type": "combat",
+      "rarity": 4,
+      "required_regions": [
+        "elven_deepwood"
+      ],
+      "text": "林间走出一匹通体雪白的野马，独角上凝聚着魔法光芒！",
+      "coins": [
+        150,
+        400
+      ],
+      "exp": 80,
+      "min_power": 450,
+      "drops": [
+        "魔法蘑菇*2-5",
+        "神龙碎片*1-2"
+      ],
+      "rare_drop_chance": 0.18,
+      "rare_drops": [
+        "天使之泪*1-2",
+        "附魔石*2-5"
+      ],
+      "help_drops": [],
+      "min_level": 40
+    },
+    {
+      "name": "巨岩",
+      "type": "combat",
+      "rarity": 4,
+      "required_regions": [
+        "starfall_wastes"
+      ],
+      "text": "星辰矿碎片拼合成一尊巨大的魔像，星辰能量在它体内涌动！",
+      "coins": [
+        200,
+        500
+      ],
+      "exp": 100,
+      "min_power": 600,
+      "drops": [
+        "星之碎片*3-8",
+        "奥金矿*1-2"
+      ],
+      "rare_drop_chance": 0.2,
+      "rare_drops": [
+        "虚空晶矿*1-3",
+        "神之碎屑*2-5"
+      ],
+      "help_drops": [],
+      "min_level": 55
+    },
+    {
+      "name": "猎人",
+      "type": "combat",
+      "rarity": 5,
+      "required_regions": [
+        "starfall_wastes"
+      ],
+      "text": "虚空裂缝中跃出一只猎人，它的目光锁定了你的灵魂！",
+      "coins": [
+        300,
+        800
+      ],
+      "exp": 150,
+      "min_power": 800,
+      "drops": [
+        "暗影之尘*3-6",
+        "虚空晶矿*1-3"
+      ],
+      "rare_drop_chance": 0.25,
+      "rare_drops": [
+        "混沌之鳞*2-5",
+        "神之碎片*1-2"
+      ],
+      "help_drops": [],
+      "min_level": 75
+    },
+    {
+      "name": "守门人",
+      "type": "combat",
+      "rarity": 5,
+      "required_regions": [
+        "time_rift"
+      ],
+      "text": "时空扭曲中走出一尊身披星辉的守卫者，它的武器由凝固的时间构成！",
+      "coins": [
+        350,
+        900
+      ],
+      "exp": 180,
+      "min_power": 900,
+      "drops": [
+        "星之碎片*3-8",
+        "虚空晶矿*1-3"
+      ],
+      "rare_drop_chance": 0.25,
+      "rare_drops": [
+        "混沌之鳞*2-5",
+        "神之碎片*1-2"
+      ],
+      "help_drops": [],
+      "min_level": 60
+    },
+    {
+      "name": "看守者",
+      "type": "combat",
+      "rarity": 5,
+      "required_regions": [
+        "dragon_domain"
+      ],
+      "text": "巨幽暗石殿堂的守卫者——一头半龙半人的强大战士挡在你面前！",
+      "coins": [
+        500,
+        1500
+      ],
+      "exp": 250,
+      "min_power": 1200,
+      "drops": [
+        "神龙碎片*3-8",
+        "龙之心*1-2"
+      ],
+      "rare_drop_chance": 0.3,
+      "rare_drops": [
+        "神之碎片*2-5",
+        "奥金矿*3-8"
+      ],
+      "help_drops": []
+    },
+    {
+      "name": "巨型野兽",
+      "type": "combat",
+      "rarity": 6,
+      "required_regions": [
+        "chaos_abyss"
+      ],
+      "text": "混沌中凝聚出一头不可名状的巨兽，它的咆哮撕裂了现实！",
+      "coins": [
+        800,
+        2500
+      ],
+      "exp": 400,
+      "min_power": 1800,
+      "drops": [
+        "混沌之鳞*5-12",
+        "混沌核心*1-3"
+      ],
+      "rare_drop_chance": 0.35,
+      "rare_drops": [
+        "神之碎片*3-8",
+        "生命之源*1-2"
+      ],
+      "help_drops": [],
+      "min_level": 100
+    },
+    {
+      "name": "守卫者",
+      "type": "combat",
+      "rarity": 6,
+      "required_regions": [
+        "divine_border"
+      ],
+      "text": "巨石门扉前方，一尊手持光剑的守卫者拦住去路！",
+      "coins": [
+        1200,
+        3500
+      ],
+      "exp": 600,
+      "min_power": 2600,
+      "drops": [
+        "神之碎屑*5-12",
+        "天使之泪*1-3"
+      ],
+      "rare_drop_chance": 0.4,
+      "rare_drops": [
+        "神之碎片*3-8",
+        "神匠之锤*1-2"
+      ],
+      "help_drops": [],
+      "min_level": 90
+    },
+    {
+      "name": "守墓老人",
+      "type": "combat",
+      "rarity": 7,
+      "required_regions": [
+        "creation_ruins"
+      ],
+      "text": "远古遗址中凝聚出一尊由纯粹光芒构成的守护者，它的力量足以毁灭星辰！",
+      "coins": [
+        2000,
+        6000
+      ],
+      "exp": 1000,
+      "min_power": 4000,
+      "drops": [
+        "神之碎片*5-15",
+        "觉醒之石*1-3"
+      ],
+      "rare_drop_chance": 0.5,
+      "rare_drops": [
+        "神匠之锤*1-3",
+        "生命之源*1-2",
+        "天使之泪*2-5"
+      ],
+      "help_drops": []
+    },
+    {
+      "name": "白发老人",
+      "type": "combat",
+      "rarity": 8,
+      "required_regions": [
+        "final_realm"
+      ],
+      "text": "巨石王座之上，万物终结的化身——白发老人缓缓起身。它的目光中映照着宇宙的终结！",
+      "coins": [
+        5000,
+        15000
+      ],
+      "exp": 2000,
+      "min_power": 6000,
+      "drops": [
+        "神之碎片*10-25",
+        "混沌核心*2-5"
+      ],
+      "rare_drop_chance": 0.6,
+      "rare_drops": [
+        "生命之源*2-5",
+        "神匠之锤*2-5",
+        "天使之泪*5-12",
+        "觉醒之石*3-8"
+      ],
+      "help_drops": [],
+      "min_level": 170
+    },
+    {
+      "name": "金币商人",
+      "type": "merchant",
+      "rarity": 2,
+      "required_regions": [
+        "royal_road"
+      ],
+      "text": "一位浑身珠光宝气的商人向你招手：\"来看看我的金币收藏！\"",
+      "coins": [
+        20,
+        60
+      ],
+      "exp": 15,
+      "merchant_spawn_chance": 1,
+      "min_power": 0,
+      "drops": [
+        {
+          "name": "随机材料配方",
+          "chance": 0.04,
+          "count": 1,
+          "tip": "📋 一张材料制作配方！"
+        }
+      ],
+      "rare_drops": [],
+      "help_drops": []
+    },
+    {
+      "name": "火山温泉",
+      "type": "fishing",
+      "rarity": 2,
+      "text": "火山脚下的温泉中，耐热的鱼群在游动...",
+      "exp": 25,
+      "coins": [
+        15,
+        40
+      ],
+      "required_regions": [
+        "volcano",
+        "elven_deepwood"
+      ]
+    },
+    {
+      "name": "裂谷暗流",
+      "type": "fishing",
+      "rarity": 3,
+      "text": "裂谷深处传来水流声，地下暗河中似乎有珍稀鱼类...",
+      "exp": 40,
+      "coins": [
+        20,
+        60
+      ],
+      "required_regions": [
+        "abyss",
+        "time_rift"
+      ]
+    },
+    {
+      "name": "深海漩涡",
+      "type": "fishing",
+      "rarity": 4,
+      "text": "海面上出现了一个巨大的漩涡，漩涡中心闪烁着奇异的光芒...",
+      "exp": 60,
+      "coins": [
+        30,
+        100
+      ],
+      "required_regions": [
+        "dragon_domain",
+        "divine_border"
+      ]
+    },
+    {
+      "name": "遗迹水池",
+      "type": "fishing",
+      "rarity": 3,
+      "text": "远古遗迹中的水池清澈见底，水中游动着从未见过的鱼类...",
+      "exp": 50,
+      "coins": [
+        25,
+        80
+      ],
+      "required_regions": [
+        "creation_ruins",
+        "chaos_abyss"
+      ]
+    },
+    {
+      "name": "荒原暗河",
+      "type": "fishing",
+      "rarity": 5,
+      "text": "苍茫荒原地下传来水声，暗河中栖息着传说中的巨鱼...",
+      "exp": 80,
+      "coins": [
+        40,
+        150
+      ],
+      "required_regions": [
+        "final_realm"
+      ]
+    },
+    {
+      "name": "星光裂隙",
+      "type": "choice",
+      "rarity": 5,
+      "required_regions": [
+        "final_realm"
+      ],
+      "text": "荒原尽头，一道由纯粹星光构成的裂隙悬浮在半空，里面传出古老的低语...",
+      "choices": [
+        {
+          "text": "✨ 踏入裂隙",
+          "desc": "进入星光世界",
+          "outcome": "combat",
+          "coins": [
+            800,
+            2000
+          ],
+          "exp": 250,
+          "monster_name": "虚空行者",
+          "elite": true,
+          "elite_chance": 0.6,
+          "drops": [
+            {
+              "name": "星之碎片",
+              "count": [
+                5,
+                12
+              ]
+            },
+            {
+              "name": "神之碎屑",
+              "count": [
+                3,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🔮 收集星光",
+          "desc": "安全获取能量",
+          "outcome": "treasure",
+          "coins": [
+            500,
+            1200
+          ],
+          "exp": 180,
+          "drops": [
+            {
+              "name": "星之碎片",
+              "count": [
+                8,
+                15
+              ]
+            },
+            {
+              "name": "虚空晶矿",
+              "count": [
+                2,
+                5
+              ]
+            },
+            {
+              "name": "神之碎片",
+              "count": [
+                1,
+                2
+              ],
+              "chance": 0.15
+            }
+          ]
+        },
+        {
+          "text": "📜 抄录符文",
+          "desc": "记录裂隙铭文",
+          "outcome": "treasure",
+          "coins": [
+            0,
+            0
+          ],
+          "exp": 300,
+          "drops": [
+            {
+              "name": "经验圣水",
+              "count": [
+                1,
+                2
+              ],
+              "chance": 0.4
+            },
+            {
+              "name": "觉醒之石",
+              "count": [
+                1,
+                2
+              ],
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "text": "🚶 远离裂隙",
+          "desc": "安全第一",
+          "outcome": "nothing",
+          "exp": 10,
+          "text_result": "你谨慎地远离了那道不稳定的裂隙"
+        }
+      ]
+    },
+    {
+      "name": "荒原猎场",
+      "type": "combat",
+      "rarity": 5,
+      "required_regions": [
+        "final_realm"
+      ],
+      "text": "大地震颤——一头巨兽从地底破土而出，咆哮震天！",
+      "coins": [
+        1000,
+        3000
+      ],
+      "exp": 400,
+      "min_power": 2000,
+      "drops": [
+        {
+          "name": "大地核心",
+          "count": [
+            3,
+            8
+          ]
+        },
+        {
+          "name": "混沌原矿",
+          "count": [
+            2,
+            5
+          ]
+        }
+      ],
+      "rare_drop_chance": 0.3,
+      "rare_drops": [
+        {
+          "name": "创世结晶",
+          "count": [
+            1,
+            3
+          ]
+        },
+        {
+          "name": "觉醒之石",
+          "count": [
+            1,
+            2
+          ]
+        }
+      ],
+      "min_level": 200,
+      "weapon_drops": [
+        {
+          "name": "🦵荒原猎手护腿",
+          "type": "leggings",
+          "rarity": 4,
+          "chance": 0.04,
+          "special": {
+            "counter": 0.06
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "dmg_reduce",
+              0.06
+            ],
+            [
+              "defense",
+              12
+            ],
+            [
+              "hp",
+              20
+            ]
+          ],
+          "stats": {
+            "attack": 537,
+            "defense": 806,
+            "speed": 537,
+            "attack_speed": 1073,
+            "dodge": 537,
+            "hp": 1208
+          },
+          "rarity_variants": {
+            "1": {
+              "chance": 0.18000000000000002,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.26999999999999996,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.252,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.153,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "999": {
+              "chance": 0.045000000000000005,
+              "stat_mult": 1.12,
+              "special_count": [
+                2,
+                4
+              ]
+            },
+            "9999": {
+              "chance": 0.1,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "终焉祭坛",
+      "type": "choice",
+      "rarity": 6,
+      "required_regions": [
+        "final_realm"
+      ],
+      "text": "一座由暗物质构筑的祭坛上，悬浮着一颗跳动的水晶心脏...",
+      "choices": [
+        {
+          "text": "❤️ 触碰心脏",
+          "desc": "高风险高回报",
+          "outcome": "combat",
+          "coins": [
+            1500,
+            4000
+          ],
+          "exp": 500,
+          "monster_name": "终焉守护者",
+          "elite": true,
+          "elite_chance": 0.7,
+          "drops": [
+            {
+              "name": "神之碎片",
+              "count": [
+                5,
+                15
+              ]
+            },
+            {
+              "name": "混沌核心",
+              "count": [
+                2,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "💎 采集水晶",
+          "desc": "小心剥离",
+          "outcome": "treasure",
+          "coins": [
+            800,
+            2000
+          ],
+          "exp": 250,
+          "drops": [
+            {
+              "name": "创世结晶",
+              "count": [
+                2,
+                5
+              ]
+            },
+            {
+              "name": "亮碎片",
+              "count": [
+                2,
+                5
+              ]
+            },
+            {
+              "name": "虚空晶矿",
+              "count": [
+                2,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "📖 研究祭坛",
+          "desc": "解读铭文",
+          "outcome": "treasure",
+          "coins": [
+            0,
+            0
+          ],
+          "exp": 500,
+          "drops": [
+            {
+              "name": "贤者之石",
+              "count": [
+                2,
+                4
+              ]
+            },
+            {
+              "name": "神匠之锤",
+              "count": [
+                1,
+                2
+              ],
+              "chance": 0.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "创世熔炉",
+      "type": "choice",
+      "rarity": 5,
+      "required_regions": [
+        "creation_ruins"
+      ],
+      "text": "废墟深处，一座远古神匠的锻造熔炉仍在燃烧，炉中还有未完成的武器...",
+      "choices": [
+        {
+          "text": "🔨 完成锻造",
+          "desc": "尝试打造神器",
+          "outcome": "combat",
+          "coins": [
+            600,
+            1500
+          ],
+          "exp": 300,
+          "monster_name": "创世神罚之影",
+          "elite": true,
+          "elite_chance": 0.5,
+          "drops": [
+            {
+              "name": "锻造精魂",
+              "count": [
+                5,
+                10
+              ]
+            },
+            {
+              "name": "神之碎屑",
+              "count": [
+                5,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "📦 收集材料",
+          "desc": "炉边材料丰厚",
+          "outcome": "treasure",
+          "coins": [
+            400,
+            1000
+          ],
+          "exp": 180,
+          "drops": [
+            {
+              "name": "奥金矿",
+              "count": [
+                5,
+                10
+              ]
+            },
+            {
+              "name": "精炼金矿",
+              "count": [
+                3,
+                6
+              ]
+            },
+            {
+              "name": "附魔石",
+              "count": [
+                5,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "📜 抄录配方",
+          "desc": "炉壁刻有神匠秘方",
+          "outcome": "treasure",
+          "coins": [
+            0,
+            0
+          ],
+          "exp": 350,
+          "drops": [
+            {
+              "name": "锻造精魂",
+              "count": [
+                3,
+                8
+              ]
+            },
+            {
+              "name": "铁匠之魂",
+              "count": [
+                2,
+                4
+              ]
+            },
+            {
+              "name": "神匠之锤",
+              "count": [
+                1,
+                1
+              ],
+              "chance": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "遗迹守卫",
+      "type": "combat",
+      "rarity": 4,
+      "required_regions": [
+        "creation_ruins"
+      ],
+      "text": "石柱后转出一尊三头巨像，六只眼睛同时锁定了你！",
+      "coins": [
+        500,
+        1200
+      ],
+      "exp": 250,
+      "min_power": 800,
+      "drops": [
+        {
+          "name": "古代金币",
+          "count": [
+            5,
+            12
+          ]
+        },
+        {
+          "name": "皇家碎片",
+          "count": [
+            3,
+            8
+          ]
+        }
+      ],
+      "rare_drop_chance": 0.25,
+      "rare_drops": [
+        {
+          "name": "神之碎片",
+          "count": [
+            2,
+            5
+          ]
+        },
+        {
+          "name": "觉醒之石",
+          "count": [
+            1,
+            2
+          ]
+        }
+      ],
+      "min_level": 175,
+      "weapon_drops": [
+        {
+          "name": "👢遗迹探索者之靴",
+          "type": "boots",
+          "rarity": 4,
+          "chance": 0.04,
+          "special": {
+            "speed": 8
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "dodge",
+              6
+            ],
+            [
+              "crit_rate",
+              0.06
+            ],
+            [
+              "exp_bonus",
+              0.08
+            ]
+          ],
+          "stats": {
+            "attack": 631,
+            "defense": 631,
+            "speed": 1894,
+            "attack_speed": 631,
+            "dodge": 1263,
+            "hp": 1423
+          },
+          "rarity_variants": {
+            "1": {
+              "chance": 0.184,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.276,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.2576,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.1564,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "999": {
+              "chance": 0.046,
+              "stat_mult": 1.12,
+              "special_count": [
+                2,
+                4
+              ]
+            },
+            "9999": {
+              "chance": 0.08,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "边境哨站",
+      "type": "choice",
+      "rarity": 4,
+      "required_regions": [
+        "divine_border"
+      ],
+      "text": "废弃的边境哨站中，武器架上还有几件完好的装备...",
+      "choices": [
+        {
+          "text": "⚔️ 取用装备",
+          "desc": "惊动守卫",
+          "outcome": "combat",
+          "coins": [
+            400,
+            1000
+          ],
+          "exp": 200,
+          "monster_name": "圣殿骑士",
+          "elite": true,
+          "elite_chance": 0.4,
+          "drops": [
+            {
+              "name": "皇家碎片",
+              "count": [
+                3,
+                8
+              ]
+            },
+            {
+              "name": "骑士之魂",
+              "count": [
+                2,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "📦 搜索仓库",
+          "desc": "寻找物资",
+          "outcome": "treasure",
+          "coins": [
+            300,
+            800
+          ],
+          "exp": 150,
+          "drops": [
+            {
+              "name": "百炼钢",
+              "count": [
+                2,
+                5
+              ]
+            },
+            {
+              "name": "古代金币",
+              "count": [
+                3,
+                8
+              ]
+            },
+            {
+              "name": "附魔石",
+              "count": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "📖 翻阅日志",
+          "desc": "了解边境战况",
+          "outcome": "treasure",
+          "coins": [
+            0,
+            0
+          ],
+          "exp": 250,
+          "drops": [
+            {
+              "name": "锻造精魂",
+              "count": [
+                3,
+                6
+              ]
+            },
+            {
+              "name": "经验药水",
+              "count": [
+                2,
+                4
+              ],
+              "chance": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "边境守护者",
+      "type": "combat",
+      "rarity": 4,
+      "required_regions": [
+        "divine_border"
+      ],
+      "text": "边境防线传来号角声——圣殿骑士的英灵从石棺中苏醒！",
+      "coins": [
+        350,
+        900
+      ],
+      "exp": 220,
+      "min_power": 600,
+      "drops": [
+        {
+          "name": "骑士之魂",
+          "count": [
+            2,
+            5
+          ]
+        },
+        {
+          "name": "天使之泪",
+          "count": [
+            1,
+            3
+          ]
+        }
+      ],
+      "rare_drop_chance": 0.2,
+      "rare_drops": [
+        {
+          "name": "神之碎屑",
+          "count": [
+            3,
+            8
+          ]
+        },
+        {
+          "name": "觉醒之石",
+          "count": [
+            1,
+            2
+          ]
+        }
+      ],
+      "min_level": 150,
+      "weapon_drops": [
+        {
+          "name": "💍边境骑士之戒",
+          "type": "accessory",
+          "rarity": 4,
+          "chance": 0.035,
+          "special": {
+            "dmg_reduce": 0.06
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "counter",
+              0.05
+            ],
+            [
+              "defense",
+              10
+            ],
+            [
+              "hp",
+              18
+            ],
+            [
+              "exp_bonus",
+              0.08
+            ]
+          ],
+          "stats": {
+            "attack": 420,
+            "defense": 420,
+            "speed": 420,
+            "attack_speed": 420,
+            "dodge": 841,
+            "hp": 1682
+          },
+          "rarity_variants": {
+            "1": {
+              "chance": 0.184,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.276,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.2576,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.1564,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "999": {
+              "chance": 0.046,
+              "stat_mult": 1.12,
+              "special_count": [
+                2,
+                4
+              ]
+            },
+            "9999": {
+              "chance": 0.08,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "龙巢废墟",
+      "type": "choice",
+      "rarity": 4,
+      "required_regions": [
+        "dragon_domain"
+      ],
+      "text": "被遗弃的远古龙巢中，还有几颗未孵化的龙蛋在微微发光...",
+      "choices": [
+        {
+          "text": "🥚 触碰龙蛋",
+          "desc": "唤醒守护者",
+          "outcome": "combat",
+          "coins": [
+            500,
+            1200
+          ],
+          "exp": 280,
+          "monster_name": "远古龙",
+          "elite": true,
+          "elite_chance": 0.5,
+          "drops": [
+            {
+              "name": "龙之心",
+              "count": [
+                2,
+                5
+              ]
+            },
+            {
+              "name": "神龙碎片",
+              "count": [
+                3,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "💎 采集龙晶",
+          "desc": "巢壁上的结晶",
+          "outcome": "treasure",
+          "coins": [
+            400,
+            1000
+          ],
+          "exp": 180,
+          "drops": [
+            {
+              "name": "龙鳞碎片",
+              "count": [
+                5,
+                12
+              ]
+            },
+            {
+              "name": "古代金币",
+              "count": [
+                3,
+                8
+              ]
+            },
+            {
+              "name": "翡翠矿",
+              "count": [
+                2,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🪺 悄悄离开",
+          "desc": "不打扰龙巢",
+          "outcome": "nothing",
+          "exp": 15,
+          "text_result": "你轻手轻脚地退出了龙巢，心中默念还好没惊动什么..."
+        }
+      ]
+    },
+    {
+      "name": "龙巢狩猎",
+      "type": "combat",
+      "rarity": 4,
+      "required_regions": [
+        "dragon_domain"
+      ],
+      "text": "一头半龙人猎手从高处跃下，手中龙牙矛直指你的心脏！",
+      "coins": [
+        400,
+        1000
+      ],
+      "exp": 240,
+      "min_power": 500,
+      "drops": [
+        {
+          "name": "神龙碎片",
+          "count": [
+            3,
+            8
+          ]
+        },
+        {
+          "name": "龙鳞",
+          "count": [
+            1,
+            3
+          ],
+          "chance": 0.2
+        }
+      ],
+      "rare_drop_chance": 0.2,
+      "rare_drops": [
+        {
+          "name": "龙之心",
+          "count": [
+            1,
+            3
+          ]
+        },
+        {
+          "name": "奥金矿",
+          "count": [
+            2,
+            5
+          ]
+        }
+      ],
+      "min_level": 110,
+      "weapon_drops": [
+        {
+          "name": "🛡️龙巢守护胸甲",
+          "type": "armor",
+          "rarity": 4,
+          "chance": 0.035,
+          "special": {
+            "dmg_reduce": 0.06
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "counter",
+              0.05
+            ],
+            [
+              "defense",
+              10
+            ],
+            [
+              "hp",
+              18
+            ],
+            [
+              "lifesteal",
+              0.04
+            ]
+          ],
+          "stats": {
+            "attack": 370,
+            "defense": 740,
+            "speed": 370,
+            "attack_speed": 370,
+            "dodge": 370,
+            "hp": 1665
+          },
+          "rarity_variants": {
+            "1": {
+              "chance": 0.19000000000000003,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.28500000000000003,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.26600000000000007,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.1615,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "999": {
+              "chance": 0.04750000000000001,
+              "stat_mult": 1.12,
+              "special_count": [
+                2,
+                4
+              ]
+            },
+            "9999": {
+              "chance": 0.05,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "混沌泉眼",
+      "type": "choice",
+      "rarity": 5,
+      "required_regions": [
+        "chaos_abyss"
+      ],
+      "text": "谷地中央，一口混沌能量涌动的泉眼散发出令人窒息的威压...",
+      "choices": [
+        {
+          "text": "⚗️ 采集混沌液",
+          "desc": "极度危险",
+          "outcome": "combat",
+          "coins": [
+            500,
+            1500
+          ],
+          "exp": 300,
+          "monster_name": "混沌之龙",
+          "elite": true,
+          "elite_chance": 0.6,
+          "drops": [
+            {
+              "name": "混沌之鳞",
+              "count": [
+                5,
+                15
+              ]
+            },
+            {
+              "name": "混沌原矿",
+              "count": [
+                2,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🔮 吸收能量",
+          "desc": "用容器收集",
+          "outcome": "treasure",
+          "coins": [
+            300,
+            800
+          ],
+          "exp": 200,
+          "drops": [
+            {
+              "name": "混沌之鳞",
+              "count": [
+                3,
+                8
+              ]
+            },
+            {
+              "name": "虚空晶矿",
+              "count": [
+                2,
+                5
+              ]
+            },
+            {
+              "name": "星之碎片",
+              "count": [
+                5,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "🚫 封印泉眼",
+          "desc": "太危险了",
+          "outcome": "nothing",
+          "exp": 30,
+          "text_result": "你用符文封印了泉眼，感觉到混沌能量在脚下翻涌..."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,450 @@
+{
+  "description": "钓鱼系统配置。quota_per_hour: 每小时钓鱼次数上限。fail_chance: 失败概率。weight_variance: 体重浮动+/-比例。giant_weight_multiplier: 巨型鱼体重倍数。giant_rarity: 巨型鱼出现稀有度等级。rarity_weights: 各稀有度出现权重。",
+  "fail_chance": 0.25,
+  "weight_variance": 0.1,
+  "giant_weight_multiplier": 10,
+  "giant_rarity": 999,
+  "rarity_weights": {
+    "1": 43,
+    "2": 25,
+    "3": 20,
+    "4": 11,
+    "999": 1
+  },
+  "fish": [
+    {
+      "name": "小鲫鱼",
+      "rarity": 1,
+      "weight": 20,
+      "base_weight": 200,
+      "value": [
+        10,
+        30
+      ],
+      "exp": 5,
+      "text": "浮漂轻轻一动，你钓上来一条小鲫鱼！"
+    },
+    {
+      "name": "鲤鱼",
+      "rarity": 1,
+      "weight": 20,
+      "base_weight": 1500,
+      "value": [
+        20,
+        50
+      ],
+      "exp": 10,
+      "text": "手感不错！拉上来一看，是条鲤鱼。"
+    },
+    {
+      "name": "草鱼",
+      "rarity": 1,
+      "weight": 20,
+      "base_weight": 2500,
+      "value": [
+        30,
+        60
+      ],
+      "exp": 12,
+      "text": "鱼线被拉着跑，原来是条草鱼！"
+    },
+    {
+      "name": "鳜鱼",
+      "rarity": 2,
+      "weight": 13,
+      "base_weight": 800,
+      "value": [
+        60,
+        120
+      ],
+      "exp": 20,
+      "text": "水面泛起涟漪，肥美的鳜鱼上钩了！"
+    },
+    {
+      "name": "鲈鱼",
+      "rarity": 2,
+      "weight": 12,
+      "base_weight": 1200,
+      "value": [
+        50,
+        100
+      ],
+      "exp": 18,
+      "text": "鱼竿猛地一弯，一条大鲈鱼脱水而出！"
+    },
+    {
+      "name": "锦鲤",
+      "rarity": 3,
+      "weight": 10,
+      "base_weight": 3000,
+      "value": [
+        100,
+        200
+      ],
+      "exp": 30,
+      "text": "哇！鱼线泛起金光，你钓到了一条锦鲤！"
+    },
+    {
+      "name": "金龙鱼",
+      "rarity": 4,
+      "weight": 4,
+      "base_weight": 5000,
+      "value": [
+        300,
+        600
+      ],
+      "exp": 60,
+      "text": "水面炸裂！一道金光冲天而起——你钓到了传说中的金龙鱼！！"
+    },
+    {
+      "name": "河神戒指",
+      "rarity": 999,
+      "weight": 1,
+      "base_weight": 50,
+      "value": [
+        250,
+        750
+      ],
+      "exp": 80,
+      "text": "鱼钩沉入深水，拉上来时挂着一枚闪闪发光的戒指...河神的馈赠！"
+    },
+    {
+      "name": "吉米鱼",
+      "rarity": 2,
+      "weight": 12,
+      "base_weight": 300,
+      "value": [
+        20,
+        90
+      ],
+      "exp": 16,
+      "text": "一条吉米鱼上钩了！"
+    },
+    {
+      "name": "小丑鱼",
+      "rarity": 2,
+      "weight": 12,
+      "base_weight": 15,
+      "value": [
+        20,
+        40
+      ],
+      "exp": 40,
+      "text": "一条色彩斑斓的小丑鱼上钩了！"
+    },
+    {
+      "name": "发光鱿鱼",
+      "rarity": 2,
+      "weight": 5,
+      "base_weight": 30,
+      "value": [
+        50,
+        90
+      ],
+      "exp": 20,
+      "text": "深海中一只发光鱿鱼被钓了上来！"
+    },
+    {
+      "name": "河豚",
+      "rarity": 3,
+      "weight": 15,
+      "base_weight": 400,
+      "value": [
+        200,
+        300
+      ],
+      "exp": 50,
+      "text": "一只河豚鼓起了身体，你钓到了河豚！"
+    },
+    {
+      "name": "鲶鱼",
+      "rarity": 1,
+      "weight": 18,
+      "base_weight": 1200,
+      "value": [
+        15,
+        40
+      ],
+      "exp": 8,
+      "text": "水底一阵浑浊，一条滑溜溜的鲶鱼上钩了！"
+    },
+    {
+      "name": "鳊鱼",
+      "rarity": 1,
+      "weight": 20,
+      "base_weight": 500,
+      "value": [
+        12,
+        35
+      ],
+      "exp": 7,
+      "text": "鱼漂轻点，拉上来一条银白色的鳊鱼。"
+    },
+    {
+      "name": "泥鳅",
+      "rarity": 1,
+      "weight": 22,
+      "base_weight": 80,
+      "value": [
+        5,
+        15
+      ],
+      "exp": 3,
+      "text": "小小的挣扎感，一条滑不溜秋的泥鳅！"
+    },
+    {
+      "name": "鲟鱼",
+      "rarity": 2,
+      "weight": 8,
+      "base_weight": 8000,
+      "value": [
+        120,
+        250
+      ],
+      "exp": 35,
+      "text": "好大的力气！一条巨大的鲟鱼被拖了上来！"
+    },
+    {
+      "name": "虹鳟鱼",
+      "rarity": 2,
+      "weight": 10,
+      "base_weight": 1800,
+      "value": [
+        55,
+        100
+      ],
+      "exp": 22,
+      "text": "阳光下鱼身闪着彩虹般的光泽，是一条虹鳟鱼！"
+    },
+    {
+      "name": "鳕鱼",
+      "rarity": 2,
+      "weight": 10,
+      "base_weight": 3000,
+      "value": [
+        70,
+        130
+      ],
+      "exp": 25,
+      "text": "深水区传来的拉力，一条肥美的鳕鱼出水了！"
+    },
+    {
+      "name": "比目鱼",
+      "rarity": 2,
+      "weight": 9,
+      "base_weight": 600,
+      "value": [
+        40,
+        80
+      ],
+      "exp": 20,
+      "text": "鱼钩被什么扁扁的东西咬住了——原来是比目鱼！"
+    },
+    {
+      "name": "石斑鱼",
+      "rarity": 3,
+      "weight": 8,
+      "base_weight": 4000,
+      "value": [
+        180,
+        350
+      ],
+      "exp": 45,
+      "text": "鱼竿弯成了弓！一条大石斑鱼不甘心地被拉了上来！"
+    },
+    {
+      "name": "金枪鱼",
+      "rarity": 3,
+      "weight": 5,
+      "base_weight": 15000,
+      "value": [
+        300,
+        500
+      ],
+      "exp": 55,
+      "text": "鱼线疯狂出线！一番搏斗后，一条巨型金枪鱼被征服！"
+    },
+    {
+      "name": "黑鲷鱼",
+      "rarity": 3,
+      "weight": 7,
+      "base_weight": 2000,
+      "value": [
+        150,
+        280
+      ],
+      "exp": 40,
+      "text": "水面泛起漩涡，一只黑色背鳍浮现——黑鲷鱼上钩！"
+    },
+    {
+      "name": "鳐鱼",
+      "rarity": 3,
+      "weight": 6,
+      "base_weight": 3500,
+      "value": [
+        200,
+        320
+      ],
+      "exp": 42,
+      "text": "什么鬼东西像风筝一样被拉上来…原来是鳐鱼！"
+    },
+    {
+      "name": "月光水母",
+      "rarity": 4,
+      "weight": 3,
+      "base_weight": 3000,
+      "value": [
+        500,
+        900
+      ],
+      "exp": 80,
+      "text": "月光洒在水面，一条通体银白的鱼跃出水面——是传说中的月光水母！！"
+    },
+    {
+      "name": "大鲤鱼",
+      "rarity": 4,
+      "weight": 2,
+      "base_weight": 6000,
+      "value": [
+        600,
+        1000
+      ],
+      "exp": 90,
+      "text": "水底金光万丈，龙吟声起——你钓到了大鲤鱼！！龙角初生，非凡品也！"
+    }
+  ],
+  "junk": [
+    {
+      "name": "破鞋子",
+      "rarity": 0,
+      "value": [
+        1,
+        5
+      ],
+      "exp": 2,
+      "text": "好沉...拉上来一看是只破鞋子。"
+    },
+    {
+      "name": "溪流鳟",
+      "rarity": 2,
+      "base_weight": 350,
+      "value": [40, 80],
+      "exp": 15,
+      "text": "一条美丽的溪流鳟，鳞片在阳光下闪闪发光！"
+    },
+    {
+      "name": "湖中锦鲤",
+      "rarity": 3,
+      "base_weight": 2000,
+      "value": [300, 600],
+      "exp": 40,
+      "text": "湖中的锦鲤王，据说能带来好运！"
+    },
+    {
+      "name": "河鲟王",
+      "rarity": 3,
+      "base_weight": 5000,
+      "value": [400, 800],
+      "exp": 45,
+      "text": "河流中的王者，巨大的鲟鱼！"
+    },
+    {
+      "name": "深海灯笼鱼",
+      "rarity": 4,
+      "base_weight": 800,
+      "value": [500, 1000],
+      "exp": 70,
+      "text": "深海中发光的灯笼鱼，头顶的器官闪烁着幽蓝光芒！"
+    },
+    {
+      "name": "深渊龙鱼",
+      "rarity": 999,
+      "base_weight": 3000,
+      "value": [1000, 2000],
+      "exp": 100,
+      "text": "深渊中游弋的传说之鱼，据说拥有龙的血脉！！"
+    },
+    {
+      "name": "樱花鳟",
+      "rarity": 2,
+      "base_weight": 400,
+      "value": [50, 100],
+      "exp": 18,
+      "text": "春季特有的樱花鳟，身上带着淡淡的花香！"
+    },
+    {
+      "name": "热带鱼",
+      "rarity": 2,
+      "base_weight": 100,
+      "value": [30, 70],
+      "exp": 14,
+      "text": "色彩斑斓的热带鱼，只有在温暖的季节才能见到！"
+    },
+    {
+      "name": "秋刀鱼",
+      "rarity": 2,
+      "base_weight": 300,
+      "value": [60, 120],
+      "exp": 20,
+      "text": "秋天的代表鱼类，肉质鲜美肥嫩！"
+    },
+    {
+      "name": "冰鱼",
+      "rarity": 3,
+      "base_weight": 200,
+      "value": [200, 400],
+      "exp": 35,
+      "text": "只在寒冷水域出没的冰鱼，通体透明如冰！"
+    },
+    {
+      "name": "水草",
+      "rarity": 0,
+      "value": [
+        1,
+        3
+      ],
+      "exp": 1,
+      "text": "鱼饵被吃光了，只挂上来一团水草。"
+    },
+    {
+      "name": "空罐头",
+      "rarity": 0,
+      "value": [
+        2,
+        8
+      ],
+      "exp": 3,
+      "text": "叮当作响，原来是沉在水底的空罐头。"
+    },
+    {
+      "name": "树枝",
+      "rarity": 0,
+      "value": [
+        1,
+        4
+      ],
+      "exp": 2,
+      "text": "还以为是大鱼！结果是根烂树枝..."
+    },
+    {
+      "name": "碗",
+      "rarity": 0,
+      "value": [
+        2,
+        6
+      ],
+      "exp": 3,
+      "text": "装满水的碗"
+    },
+    {
+      "name": "滚木",
+      "rarity": 0,
+      "value": [
+        1,
+        5
+      ],
+      "exp": 2,
+      "text": "你钓到了滚木..."
+    }
+  ]
+}

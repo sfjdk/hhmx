@@ -1,0 +1,3765 @@
+{
+  "description": "冒险区域配置。不同区域有不同的怪物、事件、掉落物。玩家可选区域或随机。",
+  "regions": [
+    {
+      "id": "plains",
+      "name": "辽阔草原",
+      "icon": "🌾",
+      "description": "一望无际的大草原，牧民在此放牧，野兽在草丛间出没。草药和矿石散布各处。",
+      "min_level": 1,
+      "monster_level_range": [
+        1,
+        10
+      ],
+      "recommended_power": 30,
+      "rarity_bonus": 0,
+      "event_pool": [
+        "史莱姆",
+        "野狼",
+        "哥布林",
+        "疯狂的兔子",
+        "蜂蜜采集",
+        "草原宝箱",
+        "铁奥创矿脉",
+        "分岔路口",
+        "旅者营地",
+        "断桥",
+        "赌徒的邀请",
+        "废弃营地",
+        "废墟宝藏",
+        "迷路孩童"
+      ],
+      "extra_drop_bonus": {
+        "材料类": 0.1
+      },
+      "region_drops": [
+        {
+          "name": "稻草",
+          "chance": 0.35,
+          "count": [
+            1,
+            3
+          ]
+        },
+        {
+          "name": "蜂蜜",
+          "chance": 0.15,
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "初级强化石",
+          "chance": 0.020000000000000004,
+          "count": 1
+        }
+      ],
+      "sub_regions": [
+        {
+          "id": "plains_river",
+          "name": "河边",
+          "icon": "🏞️",
+          "desc": "草原上的小河弯，水流平缓鱼虾多",
+          "min_level": 1,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "creek",
+          "event_bonus": {
+            "钓鱼": 0.2
+          },
+          "extra_drops": [
+            {
+              "name": "水草",
+              "chance": 0.15,
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "id": "plains_pond",
+          "name": "小池塘",
+          "icon": "🪷",
+          "desc": "草原低洼处的小池塘，四周长满芦苇",
+          "min_level": 3,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "lake",
+          "event_bonus": {
+            "钓鱼": 0.15
+          },
+          "extra_drops": [
+            {
+              "name": "水草",
+              "chance": 0.15,
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "id": "plains_stream",
+          "name": "草原溪流",
+          "icon": "💦",
+          "desc": "清澈见底的溪流穿过草原",
+          "min_level": 5,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "creek",
+          "event_bonus": {
+            "钓鱼": 0.15
+          },
+          "extra_drops": [
+            {
+              "name": "水草",
+              "chance": 0.2,
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "id": "plains_ruins",
+          "name": "残垣遗址",
+          "icon": "🏚️",
+          "desc": "草原上的古老残垣，年代久远无人知晓来历",
+          "min_level": 8,
+          "unlocked": true,
+          "event_bonus": {
+            "废墟": 0.15
+          },
+          "extra_drops": [
+            {
+              "name": "古代银币",
+              "chance": 0.2,
+              "count": [
+                1,
+                3
+              ],
+              "coins": [
+                10,
+                30
+              ]
+            }
+          ]
+        },
+        {
+          "id": "plains_herb_valley",
+          "name": "草药谷",
+          "icon": "🌿",
+          "desc": "草原尽头的草药谷，遍地野生药材",
+          "min_level": 6,
+          "unlocked": true,
+          "event_bonus": {
+            "采集": 0.2
+          },
+          "extra_drops": [
+            {
+              "name": "蜂蜜",
+              "chance": 0.25,
+              "count": [
+                2,
+                4
+              ]
+            },
+            {
+              "name": "魔法蘑菇",
+              "chance": 0.15,
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "id": "plains_cave",
+          "name": "隐秘洞穴",
+          "icon": "🕳️",
+          "desc": "草原边缘的隐秘洞穴，据说常有野兽出没",
+          "min_level": 10,
+          "unlocked": true,
+          "event_bonus": {
+            "战斗": 0.15
+          },
+          "extra_drops": [
+            {
+              "name": "骨片",
+              "chance": 0.25,
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "id": "plains_tower",
+          "name": "瞭望塔",
+          "icon": "🗼",
+          "desc": "草原上的古老瞭望塔遗迹",
+          "min_level": 12,
+          "unlocked": true,
+          "event_bonus": {
+            "探索": 0.15
+          },
+          "extra_drops": [
+            {
+              "name": "古代银币",
+              "chance": 0.2,
+              "count": [
+                1,
+                2
+              ],
+              "coins": [
+                10,
+                30
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "forest",
+      "name": "茂密森林",
+      "icon": "🌲",
+      "description": "遮天蔽日的原始森林，光线透过层层枝叶洒下斑驳光影。野兽和毒虫潜伏暗处。",
+      "min_level": 10,
+      "rarity_bonus": 1,
+      "event_pool": [
+        "史莱姆",
+        "野狼",
+        "巨型蜘蛛",
+        "骷髅兵",
+        "野猪",
+        "盗贼",
+        "蜂蜜采集",
+        "森林宝箱",
+        "分岔路口",
+        "旅者营地",
+        "赌徒的邀请",
+        "石化蜥蜴",
+        "食人花",
+        "陈旧宝箱",
+        "迷路孩童",
+        "行路旅人"
+      ],
+      "extra_drop_bonus": {
+        "材料类": 0.12
+      },
+      "region_drops": [
+        {
+          "name": "蜘蛛丝",
+          "chance": 0.3,
+          "count": [
+            1,
+            3
+          ]
+        },
+        {
+          "name": "魔法蘑菇",
+          "chance": 0.2,
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "史莱姆粘液",
+          "chance": 0.18,
+          "count": [
+            1,
+            3
+          ]
+        }
+      ],
+      "sub_regions": [
+        {
+          "id": "forest_lake",
+          "name": "林间湖",
+          "icon": "🌊",
+          "desc": "森林深处的湖泊，水面平静如镜",
+          "min_level": 12,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "lake",
+          "event_bonus": {
+            "钓鱼": 0.18
+          },
+          "extra_drops": [
+            {
+              "name": "水草",
+              "chance": 0.2,
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "id": "forest_swamp",
+          "name": "沼泽地",
+          "icon": "🥀",
+          "desc": "阴暗潮湿的沼泽，瘴气弥漫",
+          "min_level": 15,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "swamp",
+          "event_bonus": {
+            "采集": 0.15
+          },
+          "extra_drops": [
+            {
+              "name": "史莱姆粘液",
+              "chance": 0.25,
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "id": "forest_river",
+          "name": "森林溪流",
+          "icon": "💧",
+          "desc": "穿林而过的山溪，水质清甜",
+          "min_level": 13,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "creek",
+          "event_bonus": {
+            "钓鱼": 0.2
+          },
+          "extra_drops": [
+            {
+              "name": "水草",
+              "chance": 0.18,
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "id": "forest_ruins",
+          "name": "残破废墟",
+          "icon": "🏚️",
+          "desc": "被藤蔓覆盖的古老废墟",
+          "min_level": 18,
+          "unlocked": true,
+          "event_bonus": {
+            "废墟": 0.2
+          },
+          "extra_drops": [
+            {
+              "name": "古代金币",
+              "chance": 0.18,
+              "count": [
+                1,
+                2
+              ],
+              "coins": [
+                20,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "id": "forest_deep",
+          "name": "密林深处",
+          "icon": "🌳",
+          "desc": "人迹罕至的密林最深处",
+          "min_level": 20,
+          "unlocked": true,
+          "event_bonus": {
+            "稀有": 0.1
+          },
+          "extra_drops": [
+            {
+              "name": "附魔石",
+              "chance": 0.12,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "forest_hollow",
+          "name": "古树空洞",
+          "icon": "🕳️",
+          "desc": "千年古树的巨大树洞，内部别有洞天",
+          "min_level": 22,
+          "unlocked": true,
+          "event_bonus": {
+            "稀有": 0.12
+          },
+          "extra_drops": [
+            {
+              "name": "附魔石",
+              "chance": 0.1,
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "monster_level_range": [
+        10,
+        25
+      ],
+      "recommended_power": 120
+    },
+    {
+      "id": "desert",
+      "name": "赤沙荒漠",
+      "icon": "🏜️",
+      "description": "烈日炙烤下的无垠荒漠，沙丘起伏热浪滚滚。古代商路的遗迹埋在黄沙之下。",
+      "min_level": 25,
+      "rarity_bonus": 1,
+      "event_pool": [
+        "史莱姆",
+        "野狼",
+        "盗贼",
+        "分岔路口",
+        "旅者营地",
+        "赌徒的邀请",
+        "石像鬼",
+        "沙漠幻景",
+        "陈旧宝箱",
+        "水鬼",
+        "毒雾沼泽",
+        "沙埋宝藏",
+        "沙漠宝箱",
+        "行路旅人",
+        "夜市商贩"
+      ],
+      "extra_drop_bonus": {
+        "矿石类": 0.1
+      },
+      "region_drops": [
+        {
+          "name": "骨片",
+          "chance": 0.3,
+          "count": [
+            1,
+            3
+          ]
+        },
+        {
+          "name": "古代银币",
+          "chance": 0.2,
+          "count": [
+            1,
+            3
+          ],
+          "coins": [
+            10,
+            30
+          ]
+        },
+        {
+          "name": "蜥蜴鳞片",
+          "chance": 0.12,
+          "count": 1
+        }
+      ],
+      "sub_regions": [
+        {
+          "id": "desert_oasis",
+          "name": "沙漠绿洲",
+          "icon": "🌴",
+          "desc": "荒漠中的绿洲，旅人的救命之地",
+          "min_level": 28,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "oasis",
+          "event_bonus": {
+            "钓鱼": 0.2
+          },
+          "extra_drops": [
+            {
+              "name": "水草",
+              "chance": 0.2,
+              "count": [
+                1,
+                3
+              ]
+            },
+            {
+              "name": "神秘果实",
+              "chance": 0.1,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "desert_underground_river",
+          "name": "地下暗河",
+          "icon": "🕳️",
+          "desc": "沙漠地下的暗河，清凉无比",
+          "min_level": 30,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "underground",
+          "event_bonus": {
+            "钓鱼": 0.18
+          },
+          "extra_drops": [
+            {
+              "name": "水草",
+              "chance": 0.18,
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "id": "desert_tomb",
+          "name": "古墓葬群",
+          "icon": "⚰️",
+          "desc": "沙漠中的古墓群，埋葬着古代商贾",
+          "min_level": 35,
+          "unlocked": true,
+          "event_bonus": {
+            "废墟": 0.25
+          },
+          "extra_drops": [
+            {
+              "name": "古代金币",
+              "chance": 0.25,
+              "count": [
+                1,
+                3
+              ],
+              "coins": [
+                30,
+                80
+              ]
+            }
+          ]
+        },
+        {
+          "id": "desert_dunes",
+          "name": "起伏沙丘",
+          "icon": "🏜️",
+          "desc": "连绵起伏的巨大沙丘",
+          "min_level": 27,
+          "unlocked": true,
+          "event_bonus": {
+            "探索": 0.12
+          },
+          "extra_drops": [
+            {
+              "name": "骨片",
+              "chance": 0.3,
+              "count": [
+                2,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "id": "desert_scorpion_nest",
+          "name": "毒蝎巢穴",
+          "icon": "🦂",
+          "desc": "剧毒蝎子聚集的巢穴，危险但有利可图",
+          "min_level": 32,
+          "unlocked": true,
+          "event_bonus": {
+            "战斗": 0.15
+          },
+          "extra_drops": [
+            {
+              "name": "蛇毒",
+              "chance": 0.2,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "desert_mirage",
+          "name": "海市蜃楼",
+          "icon": "🌫️",
+          "desc": "沙漠深处的海市蜃楼，真假难辨",
+          "min_level": 38,
+          "unlocked": true,
+          "event_bonus": {
+            "稀有": 0.12
+          },
+          "extra_drops": [
+            {
+              "name": "神秘果实",
+              "chance": 0.15,
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "id": "desert_salt_lake",
+          "name": "盐湖",
+          "icon": "🪩",
+          "desc": "沙漠深处的盐湖，水面如镜",
+          "min_level": 33,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "oasis",
+          "event_bonus": {
+            "钓鱼": 0.22
+          },
+          "extra_drops": [
+            {
+              "name": "古代银币",
+              "chance": 0.18,
+              "count": [
+                1,
+                3
+              ],
+              "coins": [
+                20,
+                50
+              ]
+            }
+          ]
+        }
+      ],
+      "monster_level_range": [
+        25,
+        40
+      ],
+      "recommended_power": 300
+    },
+    {
+      "id": "snow_mountain",
+      "name": "雪山高地",
+      "icon": "🏔️",
+      "description": "终年积雪的高山地带，空气稀薄寒风刺骨。冰层下埋藏着古老的秘密。",
+      "min_level": 40,
+      "rarity_bonus": 2,
+      "event_pool": [
+        "野狼",
+        "骷髅兵",
+        "盗贼",
+        "暗影刺客",
+        "旅者营地",
+        "分岔路口",
+        "断桥",
+        "冰霜巨人",
+        "冰砌房屋",
+        "冻僵旅人",
+        "雪山宝箱",
+        "陈旧宝箱",
+        "行路旅人",
+        "流浪孩童"
+      ],
+      "extra_drop_bonus": {
+        "矿石类": 0.12
+      },
+      "region_drops": [
+        {
+          "name": "寒冰碎片",
+          "chance": 0.3,
+          "count": [
+            1,
+            3
+          ]
+        },
+        {
+          "name": "寒冰核心",
+          "chance": 0.1,
+          "count": 1
+        },
+        {
+          "name": "骨片",
+          "chance": 0.2,
+          "count": [
+            1,
+            2
+          ]
+        }
+      ],
+      "sub_regions": [
+        {
+          "id": "snow_lake",
+          "name": "高山冰湖",
+          "icon": "🏞️",
+          "desc": "雪山上的冰湖，冰层下鱼群游动",
+          "min_level": 43,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "alpine",
+          "event_bonus": {
+            "钓鱼": 0.22
+          },
+          "extra_drops": [
+            {
+              "name": "冰块",
+              "chance": 0.2,
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "id": "snow_stream",
+          "name": "雪融溪",
+          "icon": "💧",
+          "desc": "冰雪融化形成的溪流，冰冷刺骨",
+          "min_level": 42,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "alpine",
+          "event_bonus": {
+            "钓鱼": 0.2
+          },
+          "extra_drops": [
+            {
+              "name": "冰块",
+              "chance": 0.18,
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "id": "snow_deepsea",
+          "name": "冰下深海",
+          "icon": "🐋",
+          "desc": "冰层下的深海，巨物潜伏",
+          "min_level": 50,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "arctic",
+          "event_bonus": {
+            "钓鱼": 0.25
+          },
+          "extra_drops": [
+            {
+              "name": "深海珍珠",
+              "chance": 0.08,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "snow_peak",
+          "name": "雪山顶峰",
+          "icon": "⛰️",
+          "desc": "雪山之巅，视野辽阔万里",
+          "min_level": 48,
+          "unlocked": true,
+          "event_bonus": {
+            "稀有": 0.15
+          },
+          "extra_drops": [
+            {
+              "name": "星之碎片",
+              "chance": 0.1,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "snow_cave",
+          "name": "冰窟洞穴",
+          "icon": "🧊",
+          "desc": "雪山中的冰窟，冰柱林立美不胜收",
+          "min_level": 45,
+          "unlocked": true,
+          "event_bonus": {
+            "采集": 0.18
+          },
+          "extra_drops": [
+            {
+              "name": "冰块",
+              "chance": 0.3,
+              "count": [
+                2,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "id": "snow_avalanche",
+          "name": "雪崩遗迹",
+          "icon": "❄️",
+          "desc": "被雪崩掩埋的古老遗迹",
+          "min_level": 52,
+          "unlocked": true,
+          "event_bonus": {
+            "废墟": 0.25
+          },
+          "extra_drops": [
+            {
+              "name": "古代金币",
+              "chance": 0.22,
+              "count": [
+                1,
+                3
+              ],
+              "coins": [
+                30,
+                80
+              ]
+            }
+          ]
+        }
+      ],
+      "monster_level_range": [
+        40,
+        55
+      ],
+      "recommended_power": 600
+    },
+    {
+      "id": "volcano",
+      "name": "热泉山谷",
+      "icon": "🌋",
+      "description": "地热活跃的山谷地带，温泉与间歇泉散布其间。空气中弥漫着硫磺味，地面蒸腾着热气。",
+      "min_level": 55,
+      "rarity_bonus": 2,
+      "event_pool": [
+        "炎魔",
+        "石像鬼",
+        "暗影刺客",
+        "火山宝箱",
+        "分岔路口",
+        "旅者营地",
+        "赌徒的邀请",
+        "焦土废墟",
+        "焦黑石像",
+        "铁奥创矿脉",
+        "陈旧宝箱",
+        "铠甲亡灵",
+        "行路旅人",
+        "火山温泉"
+      ],
+      "extra_drop_bonus": {
+        "矿石类": 0.15
+      },
+      "region_drops": [
+        {
+          "name": "火焰之心",
+          "chance": 0.2,
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "煤炭",
+          "chance": 0.1,
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "熔岩结晶",
+          "chance": 0.15,
+          "count": [
+            1,
+            2
+          ]
+        }
+      ],
+      "sub_regions": [
+        {
+          "id": "volcano_spring",
+          "name": "天然温泉",
+          "icon": "♨️",
+          "desc": "天然地热温泉，身心放松",
+          "min_level": 58,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "volcanic",
+          "event_bonus": {
+            "钓鱼": 0.2
+          },
+          "extra_drops": [
+            {
+              "name": "火石",
+              "chance": 0.2,
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "id": "volcano_crater_lake",
+          "name": "火山口湖",
+          "icon": "🌊",
+          "desc": "死火山口形成的湖泊",
+          "min_level": 62,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "volcanic",
+          "event_bonus": {
+            "钓鱼": 0.22
+          },
+          "extra_drops": [
+            {
+              "name": "火石",
+              "chance": 0.18,
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "id": "volcano_magma_cave",
+          "name": "熔岩洞穴",
+          "icon": "🔥",
+          "desc": "流淌着岩浆的地下洞穴",
+          "min_level": 65,
+          "unlocked": true,
+          "event_bonus": {
+            "战斗": 0.2
+          },
+          "extra_drops": [
+            {
+              "name": "火石",
+              "chance": 0.35,
+              "count": [
+                2,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "id": "volcano_ash_field",
+          "name": "火山灰平原",
+          "icon": "🌑",
+          "desc": "覆盖着厚厚火山灰的平原",
+          "min_level": 60,
+          "unlocked": true,
+          "event_bonus": {
+            "采集": 0.18
+          },
+          "extra_drops": [
+            {
+              "name": "煤炭",
+              "chance": 0.12,
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "id": "volcano_forge_ruins",
+          "name": "古旧工坊",
+          "icon": "🔨",
+          "desc": "利用地热建造的古老锻造工坊废墟",
+          "min_level": 68,
+          "unlocked": true,
+          "event_bonus": {
+            "废墟": 0.25
+          },
+          "extra_drops": [
+            {
+              "name": "附魔石",
+              "chance": 0.2,
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "id": "volcano_core",
+          "name": "地核裂隙",
+          "icon": "🔥",
+          "desc": "通往地心的炽热裂隙",
+          "min_level": 70,
+          "unlocked": true,
+          "event_bonus": {
+            "稀有": 0.2
+          },
+          "extra_drops": [
+            {
+              "name": "熔岩结晶",
+              "chance": 0.2,
+              "count": [
+                2,
+                4
+              ]
+            }
+          ]
+        }
+      ],
+      "monster_level_range": [
+        55,
+        70
+      ],
+      "recommended_power": 1000
+    },
+    {
+      "id": "abyss",
+      "name": "幽深裂谷",
+      "icon": "🕳️",
+      "description": "大地撕裂形成的幽深裂谷，深不见底。谷壁上裸露着各色矿脉，谷底传来隐约的回声。",
+      "min_level": 80,
+      "weather_immune": true,
+      "rarity_bonus": 3,
+      "event_pool": [
+        "幽灵",
+        "石像鬼",
+        "铠甲亡灵",
+        "暗影刺客",
+        "分岔路口",
+        "赌徒的邀请",
+        "乱石堆",
+        "流浪旅人",
+        "深坑藏宝",
+        "地下洞穴",
+        "裂谷宝箱",
+        "行路旅人",
+        "夜市商贩",
+        "死灵法师",
+        "裂谷暗流"
+      ],
+      "extra_drop_bonus": {
+        "矿石类": 0.18
+      },
+      "region_drops": [
+        {
+          "name": "暗影之尘",
+          "chance": 0.25,
+          "count": [
+            1,
+            3
+          ]
+        },
+        {
+          "name": "亡灵铁片",
+          "chance": 0.2,
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "幽灵残渣",
+          "chance": 0.18,
+          "count": [
+            1,
+            2
+          ]
+        }
+      ],
+      "sub_regions": [
+        {
+          "id": "abyss_lake",
+          "name": "谷底暗湖",
+          "icon": "🌊",
+          "desc": "裂谷底部的暗湖，深不可测",
+          "min_level": 85,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "abyss",
+          "event_bonus": {
+            "钓鱼": 0.25
+          },
+          "extra_drops": [
+            {
+              "name": "深海珍珠",
+              "chance": 0.08,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "abyss_crystal_cave",
+          "name": "谷壁晶洞",
+          "icon": "💎",
+          "desc": "裂谷壁上裸露的水晶矿脉",
+          "min_level": 88,
+          "unlocked": true,
+          "event_bonus": {
+            "采矿": 0.25
+          },
+          "extra_drops": [
+            {
+              "name": "水晶矿",
+              "chance": 0.2,
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "id": "abyss_void_trench",
+          "name": "地层裂隙",
+          "icon": "🕳️",
+          "desc": "裂谷最深处的裂隙，通向未知",
+          "min_level": 95,
+          "unlocked": true,
+          "event_bonus": {
+            "稀有": 0.2
+          },
+          "extra_drops": [
+            {
+              "name": "混沌核心",
+              "chance": 0.05,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "abyss_shadow",
+          "name": "暗影裂隙",
+          "icon": "🌑",
+          "desc": "裂谷中的暗影能量裂隙",
+          "min_level": 95,
+          "unlocked": true,
+          "event_bonus": {
+            "稀有": 0.22
+          },
+          "extra_drops": [
+            {
+              "name": "暗影之尘",
+              "chance": 0.3,
+              "count": [
+                2,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "id": "abyss_fossil",
+          "name": "化石岩层",
+          "icon": "🦴",
+          "desc": "裸露的远古化石岩层",
+          "min_level": 90,
+          "unlocked": true,
+          "event_bonus": {
+            "采集": 0.25
+          },
+          "extra_drops": [
+            {
+              "name": "骨片",
+              "chance": 0.35,
+              "count": [
+                3,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "id": "abyss_underground_river",
+          "name": "暗河支流",
+          "icon": "🌊",
+          "desc": "裂谷中的地下暗河支流",
+          "min_level": 88,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "underground",
+          "event_bonus": {
+            "钓鱼": 0.25
+          },
+          "extra_drops": [
+            {
+              "name": "水草",
+              "chance": 0.2,
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "id": "abyss_deep_pool",
+          "name": "深渊潭",
+          "icon": "🕳️",
+          "desc": "裂谷最深处的地下深潭",
+          "min_level": 93,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "abyss",
+          "event_bonus": {
+            "钓鱼": 0.28,
+            "稀有": 0.1
+          },
+          "extra_drops": [
+            {
+              "name": "深海珍珠",
+              "chance": 0.1,
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "monster_level_range": [
+        70,
+        85
+      ],
+      "recommended_power": 1800
+    },
+    {
+      "id": "royal_road",
+      "name": "古道",
+      "icon": "🛤️",
+      "description": "连接各区域的古老商路，沿途有客栈、关隘和驿站。商队往来频繁，也是盗贼出没之地。",
+      "min_level": 45,
+      "rarity_bonus": 2,
+      "event_pool": [
+        "盗贼",
+        "皇家骑士",
+        "流浪商人",
+        "旅者营地",
+        "商路宝箱",
+        "分岔路口",
+        "断桥",
+        "赌徒的邀请",
+        "破旧宅邸",
+        "疯癫老人",
+        "行路旅人",
+        "金币商人",
+        "迷路孩童"
+      ],
+      "extra_drop_bonus": {
+        "金币": 0.15
+      },
+      "region_drops": [
+        {
+          "name": "古代银币",
+          "chance": 0.3,
+          "count": [
+            1,
+            3
+          ],
+          "coins": [
+            10,
+            40
+          ]
+        },
+        {
+          "name": "丝绸",
+          "chance": 0.15,
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "香料",
+          "chance": 0.15,
+          "count": [
+            1,
+            3
+          ]
+        }
+      ],
+      "sub_regions": [
+        {
+          "id": "royal_inn",
+          "name": "路中客栈",
+          "icon": "🏚️",
+          "desc": "古道旁的客栈，商旅歇脚之处",
+          "min_level": 48,
+          "unlocked": true,
+          "event_bonus": {
+            "金币": 0.2
+          },
+          "extra_drops": [
+            {
+              "name": "古代银币",
+              "chance": 0.3,
+              "count": [
+                2,
+                5
+              ],
+              "coins": [
+                20,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "id": "royal_bridge",
+          "name": "古桥关隘",
+          "icon": "🌉",
+          "desc": "古道上的石桥关口，易守难攻",
+          "min_level": 50,
+          "unlocked": true,
+          "event_bonus": {
+            "战斗": 0.15
+          },
+          "extra_drops": [
+            {
+              "name": "旧铁片",
+              "chance": 0.25,
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "id": "royal_moat",
+          "name": "护城河",
+          "icon": "🏞️",
+          "desc": "古道旁废弃城池的护城河",
+          "min_level": 52,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "river",
+          "event_bonus": {
+            "钓鱼": 0.2
+          },
+          "extra_drops": [
+            {
+              "name": "水草",
+              "chance": 0.2,
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "id": "royal_harbor",
+          "name": "天然港湾",
+          "icon": "⚓",
+          "desc": "古道通往海岸的天然港湾",
+          "min_level": 55,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "deepsea",
+          "event_bonus": {
+            "钓鱼": 0.25
+          },
+          "extra_drops": [
+            {
+              "name": "深海珍珠",
+              "chance": 0.1,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "royal_market",
+          "name": "路边集市",
+          "icon": "🏪",
+          "desc": "商路上的热闹集市",
+          "min_level": 55,
+          "unlocked": true,
+          "event_bonus": {
+            "金币": 0.25
+          },
+          "extra_drops": [
+            {
+              "name": "香料",
+              "chance": 0.25,
+              "count": [
+                2,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "id": "royal_canal",
+          "name": "古运河",
+          "icon": "🚢",
+          "desc": "古道旁的废弃运河",
+          "min_level": 50,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "river",
+          "event_bonus": {
+            "钓鱼": 0.2
+          },
+          "extra_drops": [
+            {
+              "name": "古代银币",
+              "chance": 0.22,
+              "count": [
+                1,
+                3
+              ],
+              "coins": [
+                15,
+                40
+              ]
+            }
+          ]
+        }
+      ],
+      "monster_level_range": [
+        45,
+        60
+      ],
+      "recommended_power": 750
+    },
+    {
+      "id": "mine",
+      "name": "矿山区",
+      "icon": "⛏️",
+      "description": "连绵起伏的矿山，矿洞密布。矿工们世代在此挖掘，废弃矿道纵横交错。",
+      "min_level": 3,
+      "rarity_bonus": 0,
+      "event_pool": [
+        "史莱姆",
+        "哥布林",
+        "骷髅兵",
+        "铁奥创矿脉",
+        "矿石宝箱",
+        "奥创矿脉发现",
+        "矿工密道",
+        "洞穴勘探",
+        "废弃矿道",
+        "分岔路口",
+        "旅者营地",
+        "地下古城",
+        "矿洞里的堕落天使",
+        "宝藏矿坑"
+      ],
+      "extra_drop_bonus": {
+        "矿石类": 0.25
+      },
+      "no_merchant": true,
+      "no_loli": true,
+      "goblin_merchant_chance": 0.2,
+      "goblin_merchant_items": [
+        {
+          "name": "铁矿",
+          "price": [
+            30,
+            60
+          ],
+          "stock": [
+            5,
+            15
+          ],
+          "rarity": 1
+        },
+        {
+          "name": "铜矿",
+          "price": [
+            25,
+            55
+          ],
+          "stock": [
+            5,
+            15
+          ],
+          "rarity": 1
+        },
+        {
+          "name": "银矿",
+          "price": [
+            60,
+            120
+          ],
+          "stock": [
+            3,
+            8
+          ],
+          "rarity": 2
+        },
+        {
+          "name": "金矿",
+          "price": [
+            150,
+            300
+          ],
+          "stock": [
+            1,
+            5
+          ],
+          "rarity": 3
+        },
+        {
+          "name": "煤炭",
+          "price": [
+            10,
+            25
+          ],
+          "stock": [
+            10,
+            30
+          ],
+          "rarity": 1
+        },
+        {
+          "name": "矿工之魂",
+          "price": [
+            300,
+            600
+          ],
+          "stock": [
+            1,
+            3
+          ],
+          "rarity": 3
+        },
+        {
+          "name": "磨刀石",
+          "price": [
+            200,
+            400
+          ],
+          "stock": [
+            1,
+            2
+          ],
+          "rarity": 2
+        },
+        {
+          "name": "精炼煤炭",
+          "price": [
+            80,
+            150
+          ],
+          "stock": [
+            2,
+            5
+          ],
+          "rarity": 2
+        }
+      ],
+      "region_drops": [
+        {
+          "name": "铁矿",
+          "chance": 0.35,
+          "count": [
+            1,
+            3
+          ]
+        },
+        {
+          "name": "铜矿",
+          "chance": 0.3,
+          "count": [
+            1,
+            3
+          ]
+        },
+        {
+          "name": "煤炭",
+          "chance": 0.1,
+          "count": [
+            1,
+            3
+          ]
+        },
+        {
+          "name": "金矿",
+          "chance": 0.08,
+          "count": 1
+        }
+      ],
+      "sub_regions": [
+        {
+          "id": "mine_river",
+          "name": "矿洞暗河",
+          "icon": "💧",
+          "desc": "矿山地下的暗河，冰冷清澈",
+          "min_level": 6,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "underground",
+          "event_bonus": {
+            "钓鱼": 0.2,
+            "采矿": 0.1
+          },
+          "extra_drops": [
+            {
+              "name": "水草",
+              "chance": 0.15,
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mine_crystal",
+          "name": "水晶矿洞",
+          "icon": "💎",
+          "desc": "矿洞深处的水晶矿脉，晶莹剔透",
+          "min_level": 10,
+          "unlocked": true,
+          "event_bonus": {
+            "采矿": 0.3
+          },
+          "extra_drops": [
+            {
+              "name": "水晶矿",
+              "chance": 0.15,
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mine_deep",
+          "name": "深层矿脉",
+          "icon": "⛏️",
+          "desc": "矿山最深处的富矿脉",
+          "min_level": 15,
+          "unlocked": true,
+          "event_bonus": {
+            "采矿": 0.35
+          },
+          "extra_drops": [
+            {
+              "name": "金矿",
+              "chance": 0.12,
+              "count": [
+                1,
+                2
+              ]
+            },
+            {
+              "name": "银矿",
+              "chance": 0.2,
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mine_ancient",
+          "name": "地下古城",
+          "icon": "🏚️",
+          "desc": "矿山中发现的古代地下城市废墟",
+          "min_level": 20,
+          "unlocked": true,
+          "event_bonus": {
+            "废墟": 0.3
+          },
+          "extra_drops": [
+            {
+              "name": "古代金币",
+              "chance": 0.2,
+              "count": [
+                1,
+                3
+              ],
+              "coins": [
+                30,
+                80
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mine_lava",
+          "name": "地底熔岩",
+          "icon": "🌋",
+          "desc": "矿山最深处的熔岩湖",
+          "min_level": 22,
+          "unlocked": true,
+          "event_bonus": {
+            "矿石": 0.3,
+            "稀有": 0.1
+          },
+          "extra_drops": [
+            {
+              "name": "熔岩结晶",
+              "chance": 0.08,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "mine_underground_lake",
+          "name": "矿底湖",
+          "icon": "🌊",
+          "desc": "矿洞深处的地下湖泊",
+          "min_level": 12,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "underground",
+          "event_bonus": {
+            "钓鱼": 0.22,
+            "采矿": 0.1
+          },
+          "extra_drops": [
+            {
+              "name": "银矿",
+              "chance": 0.2,
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mine_hot_spring",
+          "name": "地热泉",
+          "icon": "♨️",
+          "desc": "矿山深处的地热泉水",
+          "min_level": 18,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "volcanic",
+          "event_bonus": {
+            "钓鱼": 0.25
+          },
+          "extra_drops": [
+            {
+              "name": "火石",
+              "chance": 0.2,
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        }
+      ],
+      "monster_level_range": [
+        3,
+        15
+      ],
+      "recommended_power": 80
+    },
+    {
+      "id": "golden_coast",
+      "name": "海湾沙滩",
+      "icon": "🏖️",
+      "description": "月牙形的海湾，金色沙滩与碧蓝海水相接。退潮时沙滩上会露出被海浪冲来的各种新奇物件。",
+      "min_level": 35,
+      "rarity_bonus": 2,
+      "event_pool": [
+        "巨型螃蟹",
+        "海蛇",
+        "海岸宝箱",
+        "分岔路口",
+        "旅者营地",
+        "渔夫的直觉",
+        "鱼群涌动",
+        "海岸奇遇",
+        "水鬼",
+        "海风轻吟",
+        "废墟宝藏",
+        "行路旅人",
+        "流浪商人"
+      ],
+      "extra_drop_bonus": {
+        "材料类": 0.15
+      },
+      "region_drops": [
+        {
+          "name": "深海珍珠",
+          "chance": 0.15,
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "水鬼之泪",
+          "chance": 0.2,
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "古代银币",
+          "chance": 0.25,
+          "count": [
+            1,
+            2
+          ],
+          "coins": [
+            10,
+            30
+          ]
+        }
+      ],
+      "sub_regions": [
+        {
+          "id": "coast_beach",
+          "name": "金色沙滩",
+          "icon": "🏝️",
+          "desc": "柔软的金色沙滩，贝壳遍地",
+          "min_level": 38,
+          "unlocked": true,
+          "event_bonus": {
+            "采集": 0.2
+          },
+          "extra_drops": [
+            {
+              "name": "贝壳",
+              "chance": 0.4,
+              "count": [
+                2,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "id": "coast_reef",
+          "name": "珊瑚礁区",
+          "icon": "🪸",
+          "desc": "近海的珊瑚礁，鱼群穿梭",
+          "min_level": 42,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "reef",
+          "event_bonus": {
+            "钓鱼": 0.25
+          },
+          "extra_drops": [
+            {
+              "name": "深海珍珠",
+              "chance": 0.12,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "coast_cliff",
+          "name": "海边悬崖",
+          "icon": "🧗",
+          "desc": "海边的陡峭悬崖，视野开阔",
+          "min_level": 40,
+          "unlocked": true,
+          "event_bonus": {
+            "探索": 0.18
+          },
+          "extra_drops": [
+            {
+              "name": "鸟羽毛",
+              "chance": 0.25,
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "id": "coast_shipwreck",
+          "name": "沉船海滩",
+          "icon": "⚓",
+          "desc": "沉船残骸散落的海滩",
+          "min_level": 45,
+          "unlocked": true,
+          "event_bonus": {
+            "废墟": 0.3
+          },
+          "extra_drops": [
+            {
+              "name": "古代金币",
+              "chance": 0.2,
+              "count": [
+                1,
+                3
+              ],
+              "coins": [
+                30,
+                80
+              ]
+            }
+          ]
+        },
+        {
+          "id": "coast_tidepool",
+          "name": "潮汐池",
+          "icon": "🪸",
+          "desc": "退潮后留下的潮汐池",
+          "min_level": 48,
+          "unlocked": true,
+          "event_bonus": {
+            "采集": 0.2,
+            "钓鱼": 0.15
+          },
+          "extra_drops": [
+            {
+              "name": "深海珍珠",
+              "chance": 0.12,
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "id": "coast_lagoon",
+          "name": "潟湖",
+          "icon": "🏝️",
+          "desc": "被沙洲环绕的宁静潟湖",
+          "min_level": 40,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "lake",
+          "event_bonus": {
+            "钓鱼": 0.22
+          },
+          "extra_drops": [
+            {
+              "name": "贝壳",
+              "chance": 0.3,
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "id": "coast_deep_trench",
+          "name": "海沟",
+          "icon": "🌊",
+          "desc": "近海的深邃海沟",
+          "min_level": 47,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "abyss",
+          "event_bonus": {
+            "钓鱼": 0.28,
+            "稀有": 0.1
+          },
+          "extra_drops": [
+            {
+              "name": "深海珍珠",
+              "chance": 0.12,
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        }
+      ],
+      "monster_level_range": [
+        35,
+        50
+      ],
+      "recommended_power": 500
+    },
+    {
+      "id": "elven_deepwood",
+      "name": "幽静山谷",
+      "icon": "🌿",
+      "description": "群山环抱的幽静山谷，溪水潺潺鸟语花香。古老的村落隐匿在绿荫之中，过着与世无争的生活。",
+      "min_level": 50,
+      "rarity_bonus": 3,
+      "event_pool": [
+        "野马",
+        "山林猎户",
+        "丰收庆典",
+        "田野奇遇",
+        "分岔路口",
+        "旅者营地",
+        "山谷宝箱",
+        "古树残桩",
+        "厨艺比拼",
+        "珍稀食材",
+        "迷路孩童",
+        "行路旅人",
+        "流浪商人",
+        "火山温泉"
+      ],
+      "extra_drop_bonus": {
+        "材料类": 0.15,
+        "金币": 0.1
+      },
+      "region_drops": [
+        {
+          "name": "魔法蘑菇",
+          "chance": 0.25,
+          "count": [
+            1,
+            3
+          ]
+        },
+        {
+          "name": "蜂蜜",
+          "chance": 0.2,
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "神秘果实",
+          "chance": 0.1,
+          "count": 1
+        }
+      ],
+      "sub_regions": [
+        {
+          "id": "elven_stream",
+          "name": "山谷溪流",
+          "icon": "💧",
+          "desc": "山谷中蜿蜒的清澈溪流",
+          "min_level": 53,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "alpine",
+          "event_bonus": {
+            "钓鱼": 0.22
+          },
+          "extra_drops": [
+            {
+              "name": "水草",
+              "chance": 0.15,
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "id": "elven_village",
+          "name": "古老村落",
+          "icon": "🏘️",
+          "desc": "山谷中与世无争的古老村落",
+          "min_level": 55,
+          "unlocked": true,
+          "event_bonus": {
+            "金币": 0.25
+          },
+          "extra_drops": [
+            {
+              "name": "丝绸",
+              "chance": 0.2,
+              "count": [
+                1,
+                2
+              ]
+            },
+            {
+              "name": "香料",
+              "chance": 0.2,
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "id": "elven_altar",
+          "name": "古旧祭坛",
+          "icon": "🪨",
+          "desc": "村落后山的古老石祭坛",
+          "min_level": 60,
+          "unlocked": true,
+          "event_bonus": {
+            "稀有": 0.18
+          },
+          "extra_drops": [
+            {
+              "name": "附魔石",
+              "chance": 0.2,
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "id": "elven_ruins",
+          "name": "残破废墟",
+          "icon": "🏚️",
+          "desc": "山谷深处的古老废墟遗址",
+          "min_level": 58,
+          "unlocked": true,
+          "event_bonus": {
+            "废墟": 0.25
+          },
+          "extra_drops": [
+            {
+              "name": "古代金币",
+              "chance": 0.22,
+              "count": [
+                1,
+                3
+              ],
+              "coins": [
+                30,
+                80
+              ]
+            }
+          ]
+        },
+        {
+          "id": "elven_cave",
+          "name": "山间岩洞",
+          "icon": "🕳️",
+          "desc": "山谷旁被藤蔓遮掩的岩洞",
+          "min_level": 62,
+          "unlocked": true,
+          "event_bonus": {
+            "探索": 0.2
+          },
+          "extra_drops": [
+            {
+              "name": "魔法蘑菇",
+              "chance": 0.25,
+              "count": [
+                2,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "id": "elven_pond",
+          "name": "林中池塘",
+          "icon": "🪷",
+          "desc": "山谷密林中的幽静池塘",
+          "min_level": 55,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "lake",
+          "event_bonus": {
+            "钓鱼": 0.2
+          },
+          "extra_drops": [
+            {
+              "name": "魔法蘑菇",
+              "chance": 0.2,
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "id": "elven_waterfall",
+          "name": "山谷瀑布",
+          "icon": "💦",
+          "desc": "山谷深处的飞瀑深潭",
+          "min_level": 60,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "alpine",
+          "event_bonus": {
+            "钓鱼": 0.25,
+            "稀有": 0.08
+          },
+          "extra_drops": [
+            {
+              "name": "星之碎片",
+              "chance": 0.12,
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "monster_level_range": [
+        50,
+        65
+      ],
+      "recommended_power": 850
+    },
+    {
+      "id": "starfall_wastes",
+      "name": "砾石荒地",
+      "icon": "🪨",
+      "description": "遍地砾石的荒芜地带，巨大的陨石坑散落其间。来自天外的陨铁碎片混杂在乱石中。",
+      "min_level": 70,
+      "rarity_bonus": 4,
+      "weather_immune": true,
+      "event_pool": [
+        "巨岩",
+        "猎人",
+        "暗影刺客",
+        "幽灵",
+        "分岔路口",
+        "旅者营地",
+        "陨星宝箱",
+        "赌徒的邀请",
+        "乱石堆",
+        "陈旧宝箱",
+        "行路旅人",
+        "夜市商贩"
+      ],
+      "extra_drop_bonus": {
+        "矿石类": 0.2
+      },
+      "region_drops": [
+        {
+          "name": "星辰矿",
+          "chance": 0.25,
+          "count": [
+            1,
+            3
+          ]
+        },
+        {
+          "name": "星之碎片",
+          "chance": 0.2,
+          "count": [
+            1,
+            3
+          ]
+        }
+      ],
+      "sub_regions": [
+        {
+          "id": "starfall_crater",
+          "name": "陨石坑",
+          "icon": "🕳️",
+          "desc": "巨大的陨石撞击坑",
+          "min_level": 73,
+          "unlocked": true,
+          "event_bonus": {
+            "矿石": 0.3
+          },
+          "extra_drops": [
+            {
+              "name": "陨石",
+              "chance": 0.25,
+              "count": [
+                1,
+                3
+              ]
+            },
+            {
+              "name": "亮石子",
+              "chance": 0.2,
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "id": "starfall_spring",
+          "name": "山涧泉眼",
+          "icon": "💧",
+          "desc": "砾石荒地中难得的清泉",
+          "min_level": 75,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "cloud_river",
+          "event_bonus": {
+            "钓鱼": 0.25
+          },
+          "extra_drops": [
+            {
+              "name": "水草",
+              "chance": 0.2,
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "id": "starfall_field",
+          "name": "碎石遍布",
+          "icon": "🪨",
+          "desc": "遍布陨铁碎片的广阔区域",
+          "min_level": 72,
+          "unlocked": true,
+          "event_bonus": {
+            "矿石": 0.25
+          },
+          "extra_drops": [
+            {
+              "name": "陨石",
+              "chance": 0.2,
+              "count": [
+                2,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "id": "starfall_ruins",
+          "name": "古老工坊",
+          "icon": "🔨",
+          "desc": "利用陨铁锻造的古老工坊",
+          "min_level": 78,
+          "unlocked": true,
+          "event_bonus": {
+            "废墟": 0.3
+          },
+          "extra_drops": [
+            {
+              "name": "附魔石",
+              "chance": 0.22,
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "id": "starfall_deep",
+          "name": "巨坑深处",
+          "icon": "🕳️",
+          "desc": "陨石撞击形成的巨坑最深处",
+          "min_level": 78,
+          "unlocked": true,
+          "event_bonus": {
+            "稀有": 0.2
+          },
+          "extra_drops": [
+            {
+              "name": "星辰矿",
+              "chance": 0.22,
+              "count": [
+                2,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "id": "starfall_geode",
+          "name": "晶簇矿洞",
+          "icon": "💎",
+          "desc": "布满星辉晶簇的矿洞",
+          "min_level": 76,
+          "unlocked": true,
+          "event_bonus": {
+            "采矿": 0.3
+          },
+          "extra_drops": [
+            {
+              "name": "水晶矿",
+              "chance": 0.25,
+              "count": [
+                2,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "id": "starfall_underground_lake",
+          "name": "陨坑湖",
+          "icon": "🌊",
+          "desc": "陨石坑积水形成的地下湖",
+          "min_level": 75,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "underground",
+          "event_bonus": {
+            "钓鱼": 0.25
+          },
+          "extra_drops": [
+            {
+              "name": "星辰矿",
+              "chance": 0.18,
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        }
+      ],
+      "monster_level_range": [
+        70,
+        90
+      ],
+      "recommended_power": 2200
+    },
+    {
+      "id": "time_rift",
+      "name": "地裂峡谷",
+      "icon": "🌄",
+      "description": "大地运动撕裂出的深邃峡谷，岩层裸露展现出亿万年的地质变迁。峡谷中不时出现异常的时空现象。",
+      "min_level": 85,
+      "rarity_bonus": 4,
+      "weather_immune": true,
+      "event_pool": [
+        "守门人",
+        "猎人",
+        "幽灵",
+        "暗影刺客",
+        "分岔路口",
+        "旅者营地",
+        "峡谷宝箱",
+        "赌徒的邀请",
+        "幽深洞穴",
+        "废墟宝藏",
+        "深坑藏宝",
+        "陈旧宝箱",
+        "行路旅人",
+        "裂谷暗流"
+      ],
+      "extra_drop_bonus": {
+        "材料类": 0.2
+      },
+      "region_drops": [
+        {
+          "name": "星之碎片",
+          "chance": 0.22,
+          "count": [
+            1,
+            3
+          ]
+        },
+        {
+          "name": "大地结晶",
+          "chance": 0.2,
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "古代金币",
+          "chance": 0.12,
+          "count": [
+            1,
+            2
+          ],
+          "coins": [
+            20,
+            60
+          ]
+        }
+      ],
+      "sub_regions": [
+        {
+          "id": "time_spring",
+          "name": "间歇泉",
+          "icon": "⛲",
+          "desc": "时喷时停的神秘间歇泉",
+          "min_level": 88,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "cloud_river",
+          "event_bonus": {
+            "钓鱼": 0.28
+          },
+          "extra_drops": [
+            {
+              "name": "水草",
+              "chance": 0.2,
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "id": "time_corridor",
+          "name": "幽长回廊",
+          "icon": "🏛️",
+          "desc": "峡谷中穿越不同地质年代的幽长回廊",
+          "min_level": 92,
+          "unlocked": true,
+          "event_bonus": {
+            "稀有": 0.22
+          },
+          "extra_drops": [
+            {
+              "name": "亮石子",
+              "chance": 0.25,
+              "count": [
+                2,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "id": "time_ruins",
+          "name": "地层裂隙",
+          "icon": "🕳️",
+          "desc": "峡谷底部深不见底的地层裂隙",
+          "min_level": 95,
+          "unlocked": true,
+          "event_bonus": {
+            "废墟": 0.35
+          },
+          "extra_drops": [
+            {
+              "name": "古代金币",
+              "chance": 0.25,
+              "count": [
+                2,
+                5
+              ],
+              "coins": [
+                50,
+                120
+              ]
+            }
+          ]
+        },
+        {
+          "id": "time_fossil",
+          "name": "远古化石层",
+          "icon": "🦴",
+          "desc": "峡谷岩壁上裸露的远古化石层",
+          "min_level": 90,
+          "unlocked": true,
+          "event_bonus": {
+            "采集": 0.25
+          },
+          "extra_drops": [
+            {
+              "name": "骨片",
+              "chance": 0.3,
+              "count": [
+                3,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "id": "time_geode",
+          "name": "时光晶洞",
+          "icon": "💎",
+          "desc": "峡谷中的时光结晶洞穴",
+          "min_level": 95,
+          "unlocked": true,
+          "event_bonus": {
+            "稀有": 0.25
+          },
+          "extra_drops": [
+            {
+              "name": "大地结晶",
+              "chance": 0.2,
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "id": "time_waterfall",
+          "name": "时瀑深潭",
+          "icon": "💦",
+          "desc": "峡谷中流淌着时间之水的瀑布",
+          "min_level": 92,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "alpine",
+          "event_bonus": {
+            "钓鱼": 0.28,
+            "稀有": 0.12
+          },
+          "extra_drops": [
+            {
+              "name": "大地结晶",
+              "chance": 0.15,
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        }
+      ],
+      "monster_level_range": [
+        85,
+        100
+      ],
+      "recommended_power": 3000
+    },
+    {
+      "id": "dragon_domain",
+      "name": "起伏丘陵",
+      "icon": "⛰️",
+      "description": "连绵不断的丘陵地带，远古巨兽的骸骨半埋在土层之中。深谷中偶尔能发现巨兽的巢穴遗迹。",
+      "min_level": 100,
+      "rarity_bonus": 5,
+      "weather_immune": true,
+      "event_pool": [
+        "守卫者",
+        "远古龙",
+        "混沌之龙",
+        "炎魔",
+        "暗影刺客",
+        "分岔路口",
+        "旅者营地",
+        "龙骨宝箱",
+        "焦土废墟",
+        "焦黑石像",
+        "深坑藏宝",
+        "古代墓穴",
+        "陈旧宝箱",
+        "行路旅人",
+        "夜市商贩",
+        "深海漩涡",
+        "龙巢废墟",
+        "龙巢狩猎"
+      ],
+      "extra_drop_bonus": {
+        "稀有": 0.15
+      },
+      "region_drops": [
+        {
+          "name": "龙鳞",
+          "chance": 0.15,
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "龙鳞碎片",
+          "chance": 0.25,
+          "count": [
+            1,
+            3
+          ]
+        },
+        {
+          "name": "骨片",
+          "chance": 0.3,
+          "count": [
+            2,
+            5
+          ]
+        }
+      ],
+      "sub_regions": [
+        {
+          "id": "dragon_hall",
+          "name": "巨石殿堂",
+          "icon": "🏛️",
+          "desc": "丘陵间发现的古老巨石殿堂",
+          "min_level": 105,
+          "unlocked": true,
+          "event_bonus": {
+            "稀有": 0.2
+          },
+          "extra_drops": [
+            {
+              "name": "大鳞片",
+              "chance": 0.25,
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dragon_pool",
+          "name": "天然水池",
+          "icon": "💧",
+          "desc": "丘陵间清澈的天然水池",
+          "min_level": 103,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "alpine",
+          "event_bonus": {
+            "钓鱼": 0.3
+          },
+          "extra_drops": [
+            {
+              "name": "水草",
+              "chance": 0.2,
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dragon_treasury",
+          "name": "石砌库房",
+          "icon": "💎",
+          "desc": "巨兽巢穴旁的古老石库",
+          "min_level": 110,
+          "unlocked": true,
+          "event_bonus": {
+            "金币": 0.3
+          },
+          "extra_drops": [
+            {
+              "name": "古代金币",
+              "chance": 0.3,
+              "count": [
+                3,
+                8
+              ],
+              "coins": [
+                100,
+                300
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dragon_ruins",
+          "name": "古兽遗迹",
+          "icon": "🦴",
+          "desc": "远古巨兽的巢穴遗迹，骸骨遍地",
+          "min_level": 108,
+          "unlocked": true,
+          "event_bonus": {
+            "废墟": 0.35
+          },
+          "extra_drops": [
+            {
+              "name": "大鳞片",
+              "chance": 0.3,
+              "count": [
+                1,
+                3
+              ]
+            },
+            {
+              "name": "大心脏",
+              "chance": 0.08,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "dragon_nest",
+          "name": "龙巢遗迹",
+          "icon": "🐉",
+          "desc": "远古巨兽的巢穴遗迹",
+          "min_level": 115,
+          "unlocked": true,
+          "event_bonus": {
+            "稀有": 0.25,
+            "战斗": 0.2
+          },
+          "extra_drops": [
+            {
+              "name": "龙鳞",
+              "chance": 0.2,
+              "count": [
+                1,
+                3
+              ]
+            },
+            {
+              "name": "大心脏",
+              "chance": 0.06,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "dragon_underground_river",
+          "name": "龙穴暗河",
+          "icon": "💧",
+          "desc": "巨兽巢穴旁的地下暗河",
+          "min_level": 108,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "underground",
+          "event_bonus": {
+            "钓鱼": 0.3
+          },
+          "extra_drops": [
+            {
+              "name": "龙鳞碎片",
+              "chance": 0.22,
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dragon_lake",
+          "name": "龙骨湖",
+          "icon": "🦴",
+          "desc": "巨兽骸骨环绕的深湖",
+          "min_level": 112,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "abyss",
+          "event_bonus": {
+            "钓鱼": 0.32,
+            "稀有": 0.15
+          },
+          "extra_drops": [
+            {
+              "name": "大鳞片",
+              "chance": 0.2,
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        }
+      ],
+      "monster_level_range": [
+        100,
+        120
+      ],
+      "recommended_power": 4500
+    },
+    {
+      "id": "chaos_abyss",
+      "name": "深邃谷地",
+      "icon": "🌑",
+      "description": "被群山环绕的深邃谷地，常年笼罩在薄雾之中。谷底的地质活动频繁，地貌复杂多变。",
+      "min_level": 120,
+      "rarity_bonus": 6,
+      "weather_immune": true,
+      "event_pool": [
+        "巨型野兽",
+        "神罚之影",
+        "死灵法师",
+        "铠甲亡灵",
+        "幽灵",
+        "分岔路口",
+        "旅者营地",
+        "混沌宝箱",
+        "乱石堆",
+        "废墟宝藏",
+        "陈旧宝箱",
+        "地下洞穴",
+        "行路旅人",
+        "夜市商贩",
+        "遗迹水池",
+        "混沌泉眼"
+      ],
+      "extra_drop_bonus": {
+        "稀有": 0.2
+      },
+      "region_drops": [
+        {
+          "name": "混沌之鳞",
+          "chance": 0.12,
+          "count": 1
+        },
+        {
+          "name": "暗影之尘",
+          "chance": 0.25,
+          "count": [
+            2,
+            5
+          ]
+        },
+        {
+          "name": "诅咒金币",
+          "chance": 0.18,
+          "count": [
+            1,
+            2
+          ]
+        }
+      ],
+      "sub_regions": [
+        {
+          "id": "chaos_sea",
+          "name": "地下暗湖",
+          "icon": "🌊",
+          "desc": "谷底的地下暗湖，水面泛着微光",
+          "min_level": 125,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "underground",
+          "event_bonus": {
+            "钓鱼": 0.3
+          },
+          "extra_drops": [
+            {
+              "name": "深海珍珠",
+              "chance": 0.12,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "chaos_temple",
+          "name": "古老石殿",
+          "icon": "🏛️",
+          "desc": "谷地深处发现的古老石殿",
+          "min_level": 130,
+          "unlocked": true,
+          "event_bonus": {
+            "稀有": 0.25
+          },
+          "extra_drops": [
+            {
+              "name": "混沌核心",
+              "chance": 0.12,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "chaos_ruins",
+          "name": "乱石遗址",
+          "icon": "🪨",
+          "desc": "谷地尽头的乱石遗址",
+          "min_level": 128,
+          "unlocked": true,
+          "event_bonus": {
+            "废墟": 0.35
+          },
+          "extra_drops": [
+            {
+              "name": "古代金币",
+              "chance": 0.3,
+              "count": [
+                3,
+                8
+              ],
+              "coins": [
+                100,
+                300
+              ]
+            }
+          ]
+        },
+        {
+          "id": "chaos_altar",
+          "name": "混沌祭坛",
+          "icon": "🪨",
+          "desc": "谷地深处的古老混沌祭坛",
+          "min_level": 140,
+          "unlocked": true,
+          "event_bonus": {
+            "稀有": 0.3,
+            "废墟": 0.2
+          },
+          "extra_drops": [
+            {
+              "name": "混沌之鳞",
+              "chance": 0.15,
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "id": "chaos_waterfall",
+          "name": "混沌瀑布",
+          "icon": "💦",
+          "desc": "谷底涌出的混沌能量瀑布",
+          "min_level": 135,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "abyss",
+          "event_bonus": {
+            "钓鱼": 0.3,
+            "稀有": 0.15
+          },
+          "extra_drops": [
+            {
+              "name": "混沌之鳞",
+              "chance": 0.12,
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        }
+      ],
+      "monster_level_range": [
+        120,
+        145
+      ],
+      "recommended_power": 6500
+    },
+    {
+      "id": "divine_border",
+      "name": "边陲地带",
+      "icon": "🏰",
+      "description": "文明与荒野交界处的边陲地带，古老的瞭望塔和废弃的哨站散布各处。",
+      "min_level": 145,
+      "rarity_bonus": 7,
+      "weather_immune": true,
+      "event_pool": [
+        "守卫者",
+        "神龙",
+        "堕落天使",
+        "皇家骑士",
+        "分岔路口",
+        "旅者营地",
+        "边陲宝箱",
+        "古旧石台",
+        "深坑藏宝",
+        "陈旧宝箱",
+        "古旧工坊",
+        "赌徒的邀请",
+        "行路旅人",
+        "金币商人",
+        "深海漩涡",
+        "边境哨站",
+        "边境守护者"
+      ],
+      "extra_drop_bonus": {
+        "金币": 0.2
+      },
+      "region_drops": [
+        {
+          "name": "皇家碎片",
+          "chance": 0.2,
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "古代金币",
+          "chance": 0.2,
+          "count": [
+            1,
+            3
+          ],
+          "coins": [
+            30,
+            80
+          ]
+        },
+        {
+          "name": "亡灵铁片",
+          "chance": 0.2,
+          "count": [
+            1,
+            3
+          ]
+        }
+      ],
+      "sub_regions": [
+        {
+          "id": "divine_gate",
+          "name": "巨石门扉",
+          "icon": "🚪",
+          "desc": "边陲地带的古老巨石门扉",
+          "min_level": 150,
+          "unlocked": true,
+          "event_bonus": {
+            "稀有": 0.25
+          },
+          "extra_drops": [
+            {
+              "name": "亮碎片",
+              "chance": 0.1,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "divine_spring",
+          "name": "天然温泉",
+          "icon": "♨️",
+          "desc": "边陲地带的山间温泉",
+          "min_level": 148,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "cloud_river",
+          "event_bonus": {
+            "钓鱼": 0.3
+          },
+          "extra_drops": [
+            {
+              "name": "水草",
+              "chance": 0.2,
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "id": "divine_forge",
+          "name": "古旧工坊",
+          "icon": "🔨",
+          "desc": "边陲的古老锻造工坊",
+          "min_level": 155,
+          "unlocked": true,
+          "event_bonus": {
+            "矿石": 0.3
+          },
+          "extra_drops": [
+            {
+              "name": "附魔石",
+              "chance": 0.3,
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "id": "divine_ruins",
+          "name": "广袤废墟",
+          "icon": "🏚️",
+          "desc": "边陲地带广阔的古老废墟",
+          "min_level": 152,
+          "unlocked": true,
+          "event_bonus": {
+            "废墟": 0.4
+          },
+          "extra_drops": [
+            {
+              "name": "古代金币",
+              "chance": 0.35,
+              "count": [
+                3,
+                8
+              ],
+              "coins": [
+                100,
+                300
+              ]
+            }
+          ]
+        },
+        {
+          "id": "divine_shrine",
+          "name": "古神祠",
+          "icon": "⛩️",
+          "desc": "边陲的古老神祠遗迹",
+          "min_level": 160,
+          "unlocked": true,
+          "event_bonus": {
+            "稀有": 0.3
+          },
+          "extra_drops": [
+            {
+              "name": "神之碎片",
+              "chance": 0.1,
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "id": "divine_lake",
+          "name": "圣湖",
+          "icon": "🌊",
+          "desc": "边陲地带的古老圣湖",
+          "min_level": 155,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "cloud_river",
+          "event_bonus": {
+            "钓鱼": 0.3,
+            "稀有": 0.15
+          },
+          "extra_drops": [
+            {
+              "name": "神之碎屑",
+              "chance": 0.2,
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "id": "divine_underground",
+          "name": "圣泉暗河",
+          "icon": "💧",
+          "desc": "圣湖地下的神秘暗河",
+          "min_level": 160,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "underground",
+          "event_bonus": {
+            "钓鱼": 0.32,
+            "稀有": 0.18
+          },
+          "extra_drops": [
+            {
+              "name": "古代金币",
+              "chance": 0.25,
+              "count": [
+                2,
+                5
+              ],
+              "coins": [
+                50,
+                150
+              ]
+            }
+          ]
+        }
+      ],
+      "monster_level_range": [
+        145,
+        170
+      ],
+      "recommended_power": 9000
+    },
+    {
+      "id": "creation_ruins",
+      "name": "远古遗址",
+      "icon": "🏛️",
+      "description": "远古文明留下的宏伟遗址，巨大的石柱和断裂的雕像诉说着曾经的辉煌。",
+      "min_level": 170,
+      "rarity_bonus": 8,
+      "weather_immune": true,
+      "event_pool": [
+        "守卫者",
+        "神龙",
+        "神罚之影",
+        "堕落天使",
+        "分岔路口",
+        "旅者营地",
+        "遗迹宝箱",
+        "古旧石台",
+        "沃土良田",
+        "废墟宝藏",
+        "陈旧宝箱",
+        "地下洞穴",
+        "行路旅人",
+        "夜市商贩",
+        "遗迹水池",
+        "创世熔炉",
+        "遗迹守卫"
+      ],
+      "extra_drop_bonus": {
+        "稀有": 0.25
+      },
+      "region_drops": [
+        {
+          "name": "神之碎片",
+          "chance": 0.08,
+          "count": 1
+        },
+        {
+          "name": "古代金币",
+          "chance": 0.3,
+          "count": [
+            2,
+            5
+          ],
+          "coins": [
+            50,
+            150
+          ]
+        },
+        {
+          "name": "星之碎片",
+          "chance": 0.2,
+          "count": [
+            1,
+            3
+          ]
+        }
+      ],
+      "sub_regions": [
+        {
+          "id": "creation_hall",
+          "name": "巨石厅堂",
+          "icon": "🏛️",
+          "desc": "远古遗址中最宏伟的巨石厅堂",
+          "min_level": 175,
+          "unlocked": true,
+          "event_bonus": {
+            "稀有": 0.3
+          },
+          "extra_drops": [
+            {
+              "name": "亮碎片",
+              "chance": 0.2,
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "id": "creation_spring",
+          "name": "山涧泉眼",
+          "icon": "💧",
+          "desc": "远古遗址中的生命泉眼",
+          "min_level": 173,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "cloud_river",
+          "event_bonus": {
+            "钓鱼": 0.32
+          },
+          "extra_drops": [
+            {
+              "name": "泉水",
+              "chance": 0.25,
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "id": "creation_vault",
+          "name": "古旧库房",
+          "icon": "💎",
+          "desc": "远古遗址中的储藏库房",
+          "min_level": 180,
+          "unlocked": true,
+          "event_bonus": {
+            "金币": 0.3
+          },
+          "extra_drops": [
+            {
+              "name": "古代金币",
+              "chance": 0.4,
+              "count": [
+                5,
+                10
+              ],
+              "coins": [
+                150,
+                400
+              ]
+            }
+          ]
+        },
+        {
+          "id": "creation_pool",
+          "name": "本源之池",
+          "icon": "✨",
+          "desc": "远古遗址中蕴含本源力量的池水",
+          "min_level": 190,
+          "unlocked": true,
+          "event_bonus": {
+            "稀有": 0.35
+          },
+          "extra_drops": [
+            {
+              "name": "神之碎屑",
+              "chance": 0.2,
+              "count": [
+                2,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "id": "creation_lake",
+          "name": "创世之湖",
+          "icon": "🌊",
+          "desc": "远古遗址中心的创世之湖",
+          "min_level": 180,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "abyss",
+          "event_bonus": {
+            "钓鱼": 0.32,
+            "稀有": 0.2
+          },
+          "extra_drops": [
+            {
+              "name": "神之碎片",
+              "chance": 0.15,
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "id": "creation_river",
+          "name": "源流之河",
+          "icon": "🏞️",
+          "desc": "从远古遗址流出的生命之河",
+          "min_level": 185,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "cloud_river",
+          "event_bonus": {
+            "钓鱼": 0.3,
+            "稀有": 0.18
+          },
+          "extra_drops": [
+            {
+              "name": "创世结晶",
+              "chance": 0.1,
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        }
+      ],
+      "monster_level_range": [
+        170,
+        200
+      ],
+      "recommended_power": 13000
+    },
+    {
+      "id": "final_realm",
+      "name": "苍茫荒原",
+      "icon": "🌅",
+      "description": "世界的尽头，一望无际的苍茫荒原。天地相接处落日如血，万籁俱寂中蕴含着终极的奥秘。",
+      "min_level": 200,
+      "rarity_bonus": 10,
+      "weather_immune": true,
+      "event_pool": [
+        "白发老人",
+        "神龙",
+        "混沌之龙",
+        "神罚之影",
+        "堕落天使",
+        "分岔路口",
+        "旅者营地",
+        "荒原宝箱",
+        "古旧石台",
+        "深坑藏宝",
+        "废墟宝藏",
+        "陈旧宝箱",
+        "行路旅人",
+        "夜市商贩",
+        "荒原暗河",
+        "星光裂隙",
+        "荒原猎场",
+        "终焉祭坛"
+      ],
+      "extra_drop_bonus": {
+        "稀有": 0.3
+      },
+      "region_drops": [
+        {
+          "name": "混沌核心",
+          "chance": 0.06,
+          "count": 1
+        },
+        {
+          "name": "神之碎屑",
+          "chance": 0.2,
+          "count": [
+            1,
+            3
+          ]
+        },
+        {
+          "name": "古代金币",
+          "chance": 0.3,
+          "count": [
+            3,
+            8
+          ],
+          "coins": [
+            100,
+            300
+          ]
+        }
+      ],
+      "sub_regions": [
+        {
+          "id": "final_throne",
+          "name": "巨石王座",
+          "icon": "👑",
+          "desc": "苍茫荒原上的古老巨石王座",
+          "min_level": 205,
+          "unlocked": true,
+          "event_bonus": {
+            "稀有": 0.35
+          },
+          "extra_drops": [
+            {
+              "name": "亮碎片",
+              "chance": 0.25,
+              "count": [
+                2,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "id": "final_sea",
+          "name": "寂静之海",
+          "icon": "🌊",
+          "desc": "荒原尽头的寂静之海",
+          "min_level": 203,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "abyss",
+          "event_bonus": {
+            "钓鱼": 0.35
+          },
+          "extra_drops": [
+            {
+              "name": "深海珍珠",
+              "chance": 0.15,
+              "count": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "id": "final_vault",
+          "name": "巨型宝库",
+          "icon": "💎",
+          "desc": "荒原上发现的巨型宝库",
+          "min_level": 210,
+          "unlocked": true,
+          "event_bonus": {
+            "金币": 0.35
+          },
+          "extra_drops": [
+            {
+              "name": "古代金币",
+              "chance": 0.5,
+              "count": [
+                5,
+                15
+              ],
+              "coins": [
+                200,
+                500
+              ]
+            }
+          ]
+        },
+        {
+          "id": "final_ruins",
+          "name": "遗迹废墟",
+          "icon": "🏚️",
+          "desc": "荒原上的古老遗迹废墟",
+          "min_level": 208,
+          "unlocked": true,
+          "event_bonus": {
+            "废墟": 0.4
+          },
+          "extra_drops": [
+            {
+              "name": "亮碎片",
+              "chance": 0.3,
+              "count": [
+                2,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "id": "final_edge",
+          "name": "世界尽头",
+          "icon": "🌌",
+          "desc": "荒原的尽头，天地相接之处",
+          "min_level": 215,
+          "unlocked": true,
+          "event_bonus": {
+            "稀有": 0.4
+          },
+          "extra_drops": [
+            {
+              "name": "混沌核心",
+              "chance": 0.1,
+              "count": [
+                1,
+                2
+              ]
+            },
+            {
+              "name": "亮碎片",
+              "chance": 0.3,
+              "count": [
+                3,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "id": "final_abyss",
+          "name": "无尽深渊",
+          "icon": "🕳️",
+          "desc": "荒原深处通往地心的无尽深渊",
+          "min_level": 225,
+          "unlocked": true,
+          "event_bonus": {
+            "稀有": 0.38,
+            "战斗": 0.25
+          },
+          "extra_drops": [
+            {
+              "name": "混沌核心",
+              "chance": 0.12,
+              "count": [
+                1,
+                3
+              ]
+            },
+            {
+              "name": "神之碎屑",
+              "chance": 0.25,
+              "count": [
+                2,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "id": "final_peak",
+          "name": "苍穹之巅",
+          "icon": "⛰️",
+          "desc": "荒原上直插云霄的最高峰",
+          "min_level": 238,
+          "unlocked": true,
+          "event_bonus": {
+            "稀有": 0.42
+          },
+          "extra_drops": [
+            {
+              "name": "亮碎片",
+              "chance": 0.35,
+              "count": [
+                4,
+                10
+              ]
+            },
+            {
+              "name": "大心脏",
+              "chance": 0.08,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "final_gate",
+          "name": "超脱之门",
+          "icon": "🚪",
+          "desc": "传说中通向更高层次的大门",
+          "min_level": 250,
+          "unlocked": true,
+          "event_bonus": {
+            "稀有": 0.5
+          },
+          "extra_drops": [
+            {
+              "name": "混沌核心",
+              "chance": 0.15,
+              "count": [
+                2,
+                4
+              ]
+            },
+            {
+              "name": "亮碎片",
+              "chance": 0.4,
+              "count": [
+                5,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "id": "final_lake",
+          "name": "终焉之湖",
+          "icon": "🌌",
+          "desc": "荒原上的终焉之湖，水面倒映星空",
+          "min_level": 210,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "abyss",
+          "event_bonus": {
+            "钓鱼": 0.35,
+            "稀有": 0.25
+          },
+          "extra_drops": [
+            {
+              "name": "混沌核心",
+              "chance": 0.1,
+              "count": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "id": "final_river",
+          "name": "归墟之河",
+          "icon": "💫",
+          "desc": "流向世界尽头的归墟之河",
+          "min_level": 220,
+          "unlocked": true,
+          "fishing_spot": true,
+          "fishing_area": "cloud_river",
+          "event_bonus": {
+            "钓鱼": 0.38,
+            "稀有": 0.3
+          },
+          "extra_drops": [
+            {
+              "name": "亮碎片",
+              "chance": 0.2,
+              "count": [
+                2,
+                5
+              ]
+            }
+          ]
+        }
+      ],
+      "monster_level_range": [
+        200,
+        250
+      ],
+      "recommended_power": 20000
+    }
+  ]
+}

@@ -1,0 +1,360 @@
+{
+  "daily_count": 16,
+  "description": "商城物品池，每日随机选取 daily_count 件上架。category: consume=消耗品 ore=矿石 material=材料 seed=种子 animal=动物 special=特殊。",
+  "pool": [
+    {
+      "name": "简易的生命药水",
+      "category": "consume",
+      "price": 20,
+      "description": "使用后回复15%生命值（每日限购10个）",
+      "emoji": "🧪",
+      "daily_limit": 10
+    },
+    {
+      "name": "小麦种子",
+      "category": "seed",
+      "price": 30,
+      "description": "农场种植",
+      "emoji": "🌾"
+    },
+    {
+      "name": "胡萝卜种子",
+      "category": "seed",
+      "price": 30,
+      "description": "农场种植",
+      "emoji": "🥕"
+    },
+    {
+      "name": "玫瑰花种",
+      "category": "seed",
+      "price": 60,
+      "description": "农场种植",
+      "emoji": "🌹"
+    },
+    {
+      "name": "南瓜种子",
+      "category": "seed",
+      "price": 120,
+      "description": "农场种植",
+      "emoji": "🎃"
+    },
+    {
+      "name": "小鸡崽",
+      "category": "animal",
+      "price": 80,
+      "description": "农场养殖",
+      "emoji": "🐤"
+    },
+    {
+      "name": "小羊羔",
+      "category": "animal",
+      "price": 200,
+      "description": "农场养殖",
+      "emoji": "🐑"
+    },
+    {
+      "name": "小奶牛",
+      "category": "animal",
+      "price": 400,
+      "description": "农场养殖",
+      "emoji": "🐄"
+    },
+    {
+      "name": "经验珠(小)",
+      "category": "consume",
+      "price": 100,
+      "description": "使用后获得50经验",
+      "emoji": "🔮"
+    },
+    {
+      "name": "经验珠(中)",
+      "category": "consume",
+      "price": 500,
+      "description": "使用后获得200经验",
+      "emoji": "🔮"
+    },
+    {
+      "name": "经验珠(大)",
+      "category": "consume",
+      "price": 2000,
+      "description": "使用后获得500经验",
+      "emoji": "🔮"
+    },
+    {
+      "name": "技能点书",
+      "category": "consume",
+      "price": 3000,
+      "description": "使用后获得1技能点",
+      "emoji": "📖"
+    },
+    {
+      "name": "萝莉糖果",
+      "category": "consume",
+      "price": 300,
+      "description": "提升萝莉50好感度",
+      "emoji": "🍬"
+    },
+    {
+      "name": "萝莉蛋糕",
+      "category": "consume",
+      "price": 1000,
+      "description": "提升萝莉200好感度",
+      "emoji": "🍰"
+    },
+    {
+      "name": "萝莉宝石",
+      "category": "consume",
+      "price": 4000,
+      "description": "提升萝莉500好感度",
+      "emoji": "💎"
+    },
+    {
+      "name": "觉醒之石",
+      "category": "consume",
+      "price": 8000,
+      "description": "提升萝莉稀有度1级（最高4级）",
+      "emoji": "🌟"
+    },
+    {
+      "name": "婚戒",
+      "category": "special",
+      "price": 30000,
+      "description": "与萝莉结婚的信物（限购1次）",
+      "emoji": "💍",
+      "once_only": true
+    },
+    {
+      "name": "普通宝石盒",
+      "category": "gem",
+      "price": 300,
+      "description": "随机获得一颗1-2稀有度宝石",
+      "emoji": "💎",
+      "daily_limit": 5,
+      "gem_rarity": [1, 2]
+    },
+    {
+      "name": "稀有宝石盒",
+      "category": "gem",
+      "price": 800,
+      "description": "随机获得一颗2-3稀有度宝石",
+      "emoji": "💎",
+      "daily_limit": 3,
+      "gem_rarity": [2, 3]
+    },
+    {
+      "name": "史诗宝石盒",
+      "category": "gem",
+      "price": 2500,
+      "description": "随机获得一颗3-4稀有度宝石",
+      "emoji": "💎",
+      "daily_limit": 1,
+      "gem_rarity": [3, 4]
+    }
+  ],
+  "material_shop": {
+    "daily_count": 10,
+    "stock_per_item": [
+      2,
+      15
+    ],
+    "player_daily_limit": [
+      3,
+      6
+    ],
+    "price_fluctuation": 0.25,
+    "pool": [
+      {
+        "name": "铁矿",
+        "base_price": 120
+      },
+      {
+        "name": "铜矿",
+        "base_price": 150
+      },
+      {
+        "name": "银矿",
+        "base_price": 200
+      },
+      {
+        "name": "金矿",
+        "base_price": 500
+      },
+      {
+        "name": "秘银矿",
+        "base_price": 1200
+      },
+      {
+        "name": "奥金矿",
+        "base_price": 5000
+      },
+      {
+        "name": "奥创矿",
+        "base_price": 500
+      },
+      {
+        "name": "史莱姆粘液",
+        "base_price": 30
+      },
+      {
+        "name": "狼牙",
+        "base_price": 45
+      },
+      {
+        "name": "哥布林耳朵",
+        "base_price": 40
+      },
+      {
+        "name": "蜘蛛丝",
+        "base_price": 40
+      },
+      {
+        "name": "骨片",
+        "base_price": 35
+      },
+      {
+        "name": "野猪獠牙",
+        "base_price": 60
+      },
+      {
+        "name": "水鬼之泪",
+        "base_price": 50
+      },
+      {
+        "name": "石像碎片",
+        "base_price": 45
+      },
+      {
+        "name": "兔毛",
+        "base_price": 40
+      },
+      {
+        "name": "兔脚",
+        "base_price": 200
+      },
+      {
+        "name": "盗贼的匕首",
+        "base_price": 150
+      },
+      {
+        "name": "蜂蜜",
+        "base_price": 25
+      },
+      {
+        "name": "幽灵残渣",
+        "base_price": 180
+      },
+      {
+        "name": "蜥蜴鳞片",
+        "base_price": 200
+      },
+      {
+        "name": "暗影之尘",
+        "base_price": 220
+      },
+      {
+        "name": "食人花种子",
+        "base_price": 200
+      },
+      {
+        "name": "亡灵铁片",
+        "base_price": 200
+      },
+      {
+        "name": "蛇毒",
+        "base_price": 250
+      },
+      {
+        "name": "诅咒金币",
+        "base_price": 300
+      },
+      {
+        "name": "火焰之心",
+        "base_price": 800
+      },
+      {
+        "name": "寒冰核心",
+        "base_price": 800
+      },
+      {
+        "name": "死灵法典",
+        "base_price": 1000
+      },
+      {
+        "name": "狮鹫羽毛",
+        "base_price": 600
+      },
+      {
+        "name": "古代金币",
+        "base_price": 500
+      },
+      {
+        "name": "恶魔之角",
+        "base_price": 1200
+      },
+      {
+        "name": "神龙碎片",
+        "base_price": 2000
+      },
+      {
+        "name": "堕落之羽",
+        "base_price": 1500
+      },
+      {
+        "name": "附魔石",
+        "base_price": 1500
+      },
+      {
+        "name": "煤炭",
+        "base_price": 30
+      },
+      {
+        "name": "稻草",
+        "base_price": 25
+      },
+      {
+        "name": "羽毛",
+        "base_price": 30
+      },
+      {
+        "name": "玫瑰花瓣",
+        "base_price": 100
+      },
+      {
+        "name": "猫薄荷",
+        "base_price": 300
+      },
+      {
+        "name": "毒土豆",
+        "base_price": 80
+      },
+      {
+        "name": "羊蛋子",
+        "base_price": 100
+      },
+      {
+        "name": "蜂王浆",
+        "base_price": 200
+      },
+      {
+        "name": "锻造精魂",
+        "base_price": 200
+      },
+      {
+        "name": "星之碎片",
+        "base_price": 200
+      },
+      {
+        "name": "皇家碎片",
+        "base_price": 200
+      },
+      {
+        "name": "饼干",
+        "base_price": 60
+      },
+      {
+        "name": "糖果",
+        "base_price": 60
+      }
+    ]
+  }
+}

@@ -1,0 +1,2035 @@
+{
+  "description": "锻造系统配置v3。ores/materials条目中stat/value/universal定义材料属性贡献。stat_count_to_rarity: 词条数→稀有度。stat_sum_to_rarity: 属性总和→稀有度。special_attr_config: 特殊属性。forge_milestones: 锻造等级奖励。",
+  "rarity_names": {
+    "1": "区",
+    "2": "强",
+    "3": "强强",
+    "4": "？强强？",
+    "999": "？强强？！",
+    "9999": "？区？！"
+  },
+  "stat_names": [
+    "speed",
+    "attack",
+    "attack_speed",
+    "defense",
+    "dodge",
+    "hp"
+  ],
+  "stat_labels": {
+    "speed": "速度",
+    "attack": "攻击",
+    "attack_speed": "攻速",
+    "defense": "防御",
+    "dodge": "闪避",
+    "hp": "生命值"
+  },
+  "stat_max": 9999,
+  "base_fail_chance": 0.02,
+  "disparity_fail_per_level": 0.05,
+  "disparity_bonus_stat": 0.5,
+  "max_sockets": 3,
+  "gem_stat_range": {
+    "1": [
+      4,
+      12
+    ],
+    "2": [
+      6,
+      16
+    ],
+    "3": [
+      8,
+      20
+    ],
+    "4": [
+      12,
+      28
+    ],
+    "999": [
+      16,
+      36
+    ],
+    "9999": [
+      20,
+      48
+    ]
+  },
+  "gem_prefixes": [
+    "火焰",
+    "冰霜",
+    "雷电",
+    "暗影",
+    "神圣",
+    "自然",
+    "混沌",
+    "风暴",
+    "大地",
+    "星辰",
+    "光明"
+  ],
+  "gem_suffixes": [
+    "宝石",
+    "结晶",
+    "精华",
+    "核心",
+    "魂金"
+  ],
+  "stat_count_to_rarity": {
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 999,
+    "6": 9999
+  },
+  "stat_sum_to_rarity": {
+    "2": 50,
+    "3": 110,
+    "4": 200,
+    "999": 350,
+    "9999": 450
+  },
+  "special_attr_config": {
+    "crit_rate": {
+      "label": "暴击率",
+      "min_val": 0.03,
+      "max_val": 0.12
+    },
+    "lifesteal": {
+      "label": "吸血",
+      "min_val": 0.02,
+      "max_val": 0.08
+    },
+    "crit_dmg": {
+      "label": "暴击伤害",
+      "min_val": 0.2,
+      "max_val": 0.6
+    },
+    "exp_bonus": {
+      "label": "经验加成",
+      "min_val": 0.05,
+      "max_val": 0.2
+    },
+    "coin_bonus": {
+      "label": "金币加成",
+      "min_val": 0.05,
+      "max_val": 0.2
+    },
+    "dmg_reduce": {
+      "label": "伤害减免",
+      "min_val": 0.03,
+      "max_val": 0.1
+    },
+    "counter": {
+      "label": "反击",
+      "min_val": 0.03,
+      "max_val": 0.1
+    },
+    "extra_atk": {
+      "label": "额外攻击",
+      "min_val": 0.05,
+      "max_val": 0.15
+    },
+    "fire_damage": {
+      "label": "火焰伤害",
+      "min_val": 5,
+      "max_val": 20
+    }
+  },
+  "forge_milestones": {
+    "3": {
+      "desc": "制作材料节省+5%",
+      "effect": "material_save",
+      "value": 0.05
+    },
+    "5": {
+      "desc": "装备基础镶嵌孔+1",
+      "effect": "bonus_socket"
+    },
+    "8": {
+      "desc": "强化特殊属性概率+5%",
+      "effect": "strengthen_special",
+      "value": 0.05
+    },
+    "10": {
+      "desc": "制作材料节省+8%（累计13%）",
+      "effect": "material_save",
+      "value": 0.08
+    },
+    "12": {
+      "desc": "强化成功时10%额外再+1级",
+      "effect": "strengthen_double",
+      "value": 0.1
+    },
+    "15": {
+      "desc": "双倍制作概率+5%",
+      "effect": "double_craft",
+      "value": 0.05
+    },
+    "18": {
+      "desc": "强化品质突破概率+8%",
+      "effect": "breakthrough_boost",
+      "value": 0.08
+    },
+    "20": {
+      "desc": "制作材料节省+10%（累计23%）",
+      "effect": "material_save",
+      "value": 0.1
+    },
+    "25": {
+      "desc": "强化失败保护：+10以上降级只降1级",
+      "effect": "strengthen_protect"
+    },
+    "30": {
+      "desc": "强化特殊属性概率+8%（累计13%）",
+      "effect": "strengthen_special",
+      "value": 0.08
+    },
+    "35": {
+      "desc": "双倍制作概率+8%（累计13%）",
+      "effect": "double_craft",
+      "value": 0.08
+    },
+    "40": {
+      "desc": "强化品质突破概率+12%（累计20%）",
+      "effect": "breakthrough_boost",
+      "value": 0.12
+    },
+    "50": {
+      "desc": "神匠觉醒：强化时3%概率直接+3级且必定特殊属性+品质突破",
+      "effect": "forge_god",
+      "value": 0.03
+    },
+    "65": {
+      "desc": "制作不消耗金币（仅消耗材料）",
+      "effect": "free_craft"
+    },
+    "80": {
+      "desc": "极限突破：所有强化石成功率下限+10%",
+      "effect": "min_success_boost",
+      "value": 0.1
+    },
+    "100": {
+      "desc": "锻造之神：强化必定不降级，双倍制作+10%",
+      "effect": "god_mode"
+    }
+  },
+  "strengthen_stones": {
+    "description": "强化石系统 - 使用强化石提升已锻造装备的属性",
+    "stones": {
+      "初级强化石": {
+        "rarity": 1,
+        "min_strengthen": 0,
+        "max_strengthen": 3,
+        "success_rate": 0.5,
+        "stat_boost_pct": 0.12,
+        "source": "合成、草原/森林/矿区冒险掉落、小溪钓鱼",
+        "stat_boost_variance": 0.08
+      },
+      "中级强化石": {
+        "rarity": 2,
+        "min_strengthen": 0,
+        "max_strengthen": 7,
+        "success_rate": 0.56,
+        "stat_boost_pct": 0.12,
+        "source": "合成、沙漠/雪山冒险掉落、湖泊钓鱼",
+        "stat_boost_variance": 0.08
+      },
+      "高级强化石": {
+        "rarity": 3,
+        "min_strengthen": 0,
+        "max_strengthen": 12,
+        "success_rate": 0.62,
+        "stat_boost_pct": 0.12,
+        "source": "合成、火山/深渊冒险掉落、深海钓鱼",
+        "stat_boost_variance": 0.08
+      },
+      "特级强化石": {
+        "rarity": 4,
+        "min_strengthen": 0,
+        "max_strengthen": 20,
+        "success_rate": 0.75,
+        "stat_boost_pct": 0.12,
+        "source": "合成、高阶区域冒险掉落、深水区钓鱼",
+        "stat_boost_variance": 0.08
+      },
+      "幸运强化石": {
+        "rarity": 3,
+        "min_strengthen": 0,
+        "max_strengthen": 5,
+        "success_rate": 0.85,
+        "stat_boost_pct": 0.15,
+        "special_type": "lucky",
+        "source": "神秘商人、世界BOSS稀有掉落、活动奖励",
+        "stat_boost_variance": 0.08
+      },
+      "攻击强化石": {
+        "rarity": 2,
+        "min_strengthen": 0,
+        "max_strengthen": 10,
+        "success_rate": 0.6,
+        "stat_boost_pct": 0.18,
+        "special_type": "offensive",
+        "focus_stats": [
+          "attack",
+          "speed",
+          "attack_speed"
+        ],
+        "source": "合成、火山/深渊冒险掉落",
+        "stat_boost_variance": 0.08
+      },
+      "防御强化石": {
+        "rarity": 2,
+        "min_strengthen": 0,
+        "max_strengthen": 10,
+        "success_rate": 0.6,
+        "stat_boost_pct": 0.18,
+        "special_type": "defensive",
+        "focus_stats": [
+          "defense",
+          "hp",
+          "dodge"
+        ],
+        "source": "合成、雪山/矿区冒险掉落",
+        "stat_boost_variance": 0.08
+      },
+      "觉醒强化石": {
+        "rarity": 4,
+        "min_strengthen": 0,
+        "max_strengthen": 10,
+        "success_rate": 0.68,
+        "stat_boost_pct": 0.15,
+        "special_type": "awakening",
+        "guaranteed_special": true,
+        "source": "深水区极稀有钓鱼、高阶废墟BOSS房间、活动奖励",
+        "stat_boost_variance": 0.08
+      },
+      "突破强化石": {
+        "rarity": 4,
+        "min_strengthen": 0,
+        "max_strengthen": 15,
+        "success_rate": 0.72,
+        "stat_boost_pct": 0.12,
+        "special_type": "breakthrough",
+        "guaranteed_breakthrough": true,
+        "source": "世界BOSS击杀奖励、高阶废墟终极宝箱、活动奖励",
+        "stat_boost_variance": 0.08
+      },
+      "混沌强化石": {
+        "rarity": 5,
+        "min_strengthen": 0,
+        "max_strengthen": 20,
+        "success_rate": 0.65,
+        "stat_boost_pct": 0.12,
+        "special_type": "chaos",
+        "chaos_effects": {
+          "double_boost": 0.5,
+          "normal": 0.3,
+          "curse": 0.2
+        },
+        "source": "世界BOSS稀有掉落、限时活动、深水区极稀有钓鱼",
+        "stat_boost_variance": 0.08
+      }
+    },
+    "protection_charm": "强化保护符",
+    "protection_desc": "强化失败时消耗1个保护符，防止强化等级下降",
+    "min_strengthen_for_protection": 5,
+    "fail_penalty": 1,
+    "gold_cost_base": 300,
+    "gold_cost_per_level": 150
+  },
+  "level_recipes": {
+    "description": "随等级解锁的锻造配方。玩家达到对应等级后可使用固定材料制作装备。",
+    "tiers": [
+      {
+        "level": 1,
+        "recipes": [
+          "铁剑",
+          "铜盾",
+          "皮帽",
+          "轻便靴",
+          "护胫",
+          "骨制护符",
+          "旅行者长靴"
+        ]
+      },
+      {
+        "level": 10,
+        "recipes": [
+          "钢剑",
+          "钢甲",
+          "猎人之弓",
+          "矿工灯盔",
+          "渔夫雨衣",
+          "山民护腿"
+        ]
+      },
+      {
+        "level": 15,
+        "recipes": [
+          "银盔",
+          "旅行靴",
+          "冒险者之戒"
+        ]
+      },
+      {
+        "level": 25,
+        "recipes": [
+          "金剑",
+          "金甲",
+          "合金护腿",
+          "银项链"
+        ]
+      },
+      {
+        "level": 35,
+        "recipes": [
+          "佣兵大剑",
+          "商人戒指"
+        ]
+      },
+      {
+        "level": 40,
+        "recipes": [
+          "秘银剑",
+          "秘银甲"
+        ]
+      },
+      {
+        "level": 50,
+        "recipes": [
+          "将军头盔",
+          "贤者之靴"
+        ]
+      },
+      {
+        "level": 60,
+        "recipes": [
+          "奥金战刃",
+          "奥金重甲"
+        ]
+      },
+      {
+        "level": 70,
+        "recipes": [
+          "神罚之刃",
+          "神罚圣盾"
+        ]
+      },
+      {
+        "level": 80,
+        "recipes": [
+          "创世之盔",
+          "创世神靴"
+        ]
+      },
+      {
+        "level": 90,
+        "recipes": [
+          "永恒护腿",
+          "永恒之戒"
+        ]
+      },
+      {
+        "level": 100,
+        "recipes": [
+          "混沌神剑",
+          "混沌圣甲"
+        ]
+      },
+      {
+        "level": 65,
+        "recipes": [
+          "奥金神刃",
+          "奥金神甲"
+        ]
+      }
+    ]
+  },
+  "ores": [
+    {
+      "name": "铁矿",
+      "rarity": 1,
+      "level": 1,
+      "stat": "attack",
+      "value": 12
+    },
+    {
+      "name": "铜矿",
+      "rarity": 1,
+      "level": 2,
+      "stat": "defense",
+      "value": 14
+    },
+    {
+      "name": "银矿",
+      "rarity": 2,
+      "level": 3,
+      "stat": "speed",
+      "value": 20
+    },
+    {
+      "name": "金矿",
+      "rarity": 3,
+      "level": 4,
+      "stat": "hp",
+      "value": 22
+    },
+    {
+      "name": "秘银矿",
+      "rarity": 4,
+      "level": 5,
+      "stat": "dodge",
+      "value": 30
+    },
+    {
+      "name": "奥金矿",
+      "rarity": 999,
+      "level": 10,
+      "stat": "attack_speed",
+      "value": 48
+    },
+    {
+      "name": "奥创矿",
+      "rarity": 3,
+      "level": 3,
+      "stat": "attack",
+      "value": 25
+    },
+    {
+      "name": "磁铁矿",
+      "rarity": 2,
+      "level": 5,
+      "stat": "attack",
+      "value": 24,
+      "bonus": {
+        "attack": 8
+      }
+    },
+    {
+      "name": "月光石",
+      "rarity": 3,
+      "level": 8,
+      "stat": "speed",
+      "value": 32,
+      "bonus": {
+        "dodge": 8
+      }
+    },
+    {
+      "name": "熔岩结晶",
+      "rarity": 4,
+      "level": 12,
+      "stat": "attack",
+      "value": 38,
+      "force_special": "fire_damage"
+    },
+    {
+      "name": "星辰矿",
+      "rarity": 5,
+      "level": 15,
+      "stat": "attack_speed",
+      "value": 48,
+      "bonus": {
+        "speed": 10,
+        "dodge": 5
+      }
+    },
+    {
+      "name": "虚空晶矿",
+      "rarity": 999,
+      "level": 20,
+      "stat": "attack",
+      "value": 60,
+      "all_mult": 0.25
+    },
+    {
+      "name": "黑曜石",
+      "rarity": 3,
+      "level": 8,
+      "stat": "defense",
+      "value": 40
+    },
+    {
+      "name": "翡翠矿",
+      "rarity": 4,
+      "level": 10,
+      "stat": "hp",
+      "value": 45
+    },
+    {
+      "name": "魅影水晶",
+      "rarity": 3,
+      "level": 8,
+      "stat": "dodge",
+      "value": 38
+    },
+    {
+      "name": "幻影晶核",
+      "rarity": 999,
+      "level": 15,
+      "stat": "dodge",
+      "value": 50,
+      "bonus": {
+        "dodge": 10
+      }
+    },
+    {
+      "name": "神速之风",
+      "rarity": 999,
+      "level": 15,
+      "stat": "speed",
+      "value": 55,
+      "bonus": {
+        "speed": 10
+      }
+    },
+    {
+      "name": "生命之泉",
+      "rarity": 999,
+      "level": 18,
+      "stat": "hp",
+      "value": 65,
+      "bonus": {
+        "hp": 15
+      }
+    }
+  ],
+  "materials": [
+    {
+      "name": "神之碎屑",
+      "rarity": 1,
+      "level": 1,
+      "universal": true,
+      "value": 10,
+      "bonus": {
+        "hp": 3
+      }
+    },
+    {
+      "name": "锻造精魂",
+      "rarity": 1,
+      "level": 1,
+      "universal": true,
+      "value": 10,
+      "bonus": {
+        "attack": 2,
+        "defense": 2
+      }
+    },
+    {
+      "name": "星之碎片",
+      "rarity": 1,
+      "level": 1,
+      "universal": true,
+      "value": 10,
+      "bonus": {
+        "speed": 3
+      }
+    },
+    {
+      "name": "皇家碎片",
+      "rarity": 1,
+      "level": 1,
+      "universal": true,
+      "value": 10,
+      "bonus": {
+        "defense": 3
+      }
+    },
+    {
+      "name": "宝石碎片",
+      "rarity": 2,
+      "level": 5,
+      "universal": true,
+      "value": 22,
+      "bonus": {
+        "hp": 5,
+        "defense": 5
+      }
+    },
+    {
+      "name": "史莱姆粘液",
+      "rarity": 1,
+      "level": 1,
+      "stat": "hp",
+      "value": 12,
+      "bonus": {
+        "defense": 3
+      }
+    },
+    {
+      "name": "狼牙",
+      "rarity": 1,
+      "level": 2,
+      "stat": "attack",
+      "value": 13,
+      "bonus": {
+        "attack": 3
+      }
+    },
+    {
+      "name": "哥布林耳朵",
+      "rarity": 1,
+      "level": 2,
+      "stat": "speed",
+      "value": 12,
+      "bonus": {
+        "dodge": 3
+      }
+    },
+    {
+      "name": "蜘蛛丝",
+      "rarity": 1,
+      "level": 2,
+      "stat": "speed",
+      "value": 13,
+      "bonus": {
+        "dodge": 4
+      }
+    },
+    {
+      "name": "骨片",
+      "rarity": 1,
+      "level": 1,
+      "stat": "defense",
+      "value": 12,
+      "bonus": {
+        "defense": 3
+      }
+    },
+    {
+      "name": "野猪獠牙",
+      "rarity": 2,
+      "level": 3,
+      "stat": "attack",
+      "value": 22,
+      "bonus": {
+        "attack": 5
+      }
+    },
+    {
+      "name": "水鬼之泪",
+      "rarity": 2,
+      "level": 3,
+      "stat": "hp",
+      "value": 22,
+      "bonus": {
+        "hp": 5
+      },
+      "force_special": "lifesteal"
+    },
+    {
+      "name": "石像碎片",
+      "rarity": 1,
+      "level": 2,
+      "stat": "defense",
+      "value": 13,
+      "bonus": {
+        "defense": 3
+      }
+    },
+    {
+      "name": "兔毛",
+      "rarity": 1,
+      "level": 2,
+      "stat": "dodge",
+      "value": 12,
+      "bonus": {
+        "speed": 3
+      }
+    },
+    {
+      "name": "兔脚",
+      "rarity": 2,
+      "level": 3,
+      "stat": "dodge",
+      "value": 22,
+      "bonus": {
+        "dodge": 6,
+        "speed": 4
+      },
+      "force_special": "coin_bonus"
+    },
+    {
+      "name": "盗贼的匕首",
+      "rarity": 2,
+      "level": 3,
+      "stat": "attack",
+      "value": 24,
+      "bonus": {
+        "attack": 6
+      },
+      "force_special": "extra_atk"
+    },
+    {
+      "name": "幽灵残渣",
+      "rarity": 2,
+      "level": 4,
+      "stat": "dodge",
+      "value": 20,
+      "bonus": {
+        "dodge": 5
+      }
+    },
+    {
+      "name": "蜥蜴鳞片",
+      "rarity": 2,
+      "level": 4,
+      "stat": "defense",
+      "value": 20,
+      "bonus": {
+        "defense": 5
+      }
+    },
+    {
+      "name": "暗影之尘",
+      "rarity": 2,
+      "level": 4,
+      "stat": "dodge",
+      "value": 22,
+      "bonus": {
+        "speed": 5
+      },
+      "force_special": "crit_rate"
+    },
+    {
+      "name": "食人花种子",
+      "rarity": 2,
+      "level": 3,
+      "stat": "hp",
+      "value": 20,
+      "bonus": {
+        "hp": 4
+      }
+    },
+    {
+      "name": "亡灵铁片",
+      "rarity": 2,
+      "level": 4,
+      "stat": "defense",
+      "value": 22,
+      "bonus": {
+        "defense": 6
+      },
+      "force_special": "dmg_reduce"
+    },
+    {
+      "name": "蛇毒",
+      "rarity": 2,
+      "level": 4,
+      "stat": "attack",
+      "value": 22,
+      "bonus": {
+        "attack": 5
+      },
+      "force_special": "fire_damage"
+    },
+    {
+      "name": "诅咒金币",
+      "rarity": 2,
+      "level": 4,
+      "stat": "attack_speed",
+      "value": 22,
+      "bonus": {
+        "attack_speed": 5
+      },
+      "force_special": "coin_bonus"
+    },
+    {
+      "name": "火焰精华",
+      "rarity": 3,
+      "level": 6,
+      "stat": "attack",
+      "value": 30,
+      "bonus": {
+        "attack": 6
+      },
+      "force_special": "fire_damage"
+    },
+    {
+      "name": "寒冰碎片",
+      "rarity": 3,
+      "level": 6,
+      "stat": "defense",
+      "value": 30,
+      "bonus": {
+        "defense": 6
+      },
+      "force_special": "dmg_reduce"
+    },
+    {
+      "name": "大地结晶",
+      "rarity": 3,
+      "level": 6,
+      "stat": "hp",
+      "value": 30,
+      "bonus": {
+        "hp": 6
+      },
+      "force_special": "counter"
+    },
+    {
+      "name": "风之羽毛",
+      "rarity": 3,
+      "level": 6,
+      "stat": "speed",
+      "value": 28,
+      "bonus": {
+        "speed": 6,
+        "dodge": 4
+      }
+    },
+    {
+      "name": "火焰之心",
+      "rarity": 3,
+      "level": 7,
+      "stat": "attack",
+      "value": 32,
+      "bonus": {
+        "attack": 8
+      },
+      "force_special": "fire_damage"
+    },
+    {
+      "name": "寒冰核心",
+      "rarity": 3,
+      "level": 7,
+      "stat": "defense",
+      "value": 32,
+      "bonus": {
+        "defense": 8
+      },
+      "force_special": "dmg_reduce"
+    },
+    {
+      "name": "死灵法典",
+      "rarity": 3,
+      "level": 7,
+      "stat": "attack",
+      "value": 34,
+      "bonus": {
+        "attack": 6
+      },
+      "force_special": "lifesteal"
+    },
+    {
+      "name": "狮鹫羽毛",
+      "rarity": 3,
+      "level": 6,
+      "stat": "speed",
+      "value": 30,
+      "bonus": {
+        "speed": 8,
+        "dodge": 5
+      }
+    },
+    {
+      "name": "古代金币",
+      "rarity": 3,
+      "level": 6,
+      "stat": "hp",
+      "value": 30,
+      "bonus": {
+        "hp": 8
+      },
+      "force_special": "coin_bonus"
+    },
+    {
+      "name": "猫薄荷",
+      "rarity": 3,
+      "level": 5,
+      "stat": "dodge",
+      "value": 28,
+      "bonus": {
+        "dodge": 8,
+        "speed": 4
+      }
+    },
+    {
+      "name": "玫瑰花瓣",
+      "rarity": 3,
+      "level": 5,
+      "stat": "hp",
+      "value": 28,
+      "bonus": {
+        "hp": 6,
+        "defense": 4
+      },
+      "force_special": "exp_bonus"
+    },
+    {
+      "name": "精炼铁矿",
+      "rarity": 2,
+      "level": 5,
+      "stat": "attack",
+      "value": 30,
+      "bonus": {
+        "attack": 6
+      }
+    },
+    {
+      "name": "精炼铜矿",
+      "rarity": 2,
+      "level": 5,
+      "stat": "defense",
+      "value": 30,
+      "bonus": {
+        "defense": 6
+      }
+    },
+    {
+      "name": "精炼煤炭",
+      "rarity": 2,
+      "level": 5,
+      "universal": true,
+      "value": 28,
+      "bonus": {
+        "attack": 4,
+        "speed": 3
+      }
+    },
+    {
+      "name": "精炼银矿",
+      "rarity": 3,
+      "level": 8,
+      "stat": "speed",
+      "value": 42,
+      "bonus": {
+        "speed": 8,
+        "dodge": 6
+      }
+    },
+    {
+      "name": "精炼金矿",
+      "rarity": 4,
+      "level": 10,
+      "stat": "hp",
+      "value": 55,
+      "bonus": {
+        "hp": 15,
+        "defense": 8
+      },
+      "force_special": "crit_dmg"
+    },
+    {
+      "name": "恶魔之角",
+      "rarity": 4,
+      "level": 8,
+      "stat": "attack",
+      "value": 40,
+      "bonus": {
+        "attack": 12
+      },
+      "force_special": "crit_dmg"
+    },
+    {
+      "name": "神龙碎片",
+      "rarity": 4,
+      "level": 10,
+      "stat": "defense",
+      "value": 45,
+      "bonus": {
+        "defense": 15
+      }
+    },
+    {
+      "name": "堕落之羽",
+      "rarity": 4,
+      "level": 8,
+      "stat": "speed",
+      "value": 38,
+      "bonus": {
+        "speed": 10,
+        "dodge": 8
+      },
+      "force_special": "crit_rate"
+    },
+    {
+      "name": "骑士之魂",
+      "rarity": 4,
+      "level": 8,
+      "universal": true,
+      "value": 42,
+      "bonus": {
+        "attack": 8,
+        "defense": 8,
+        "hp": 8
+      }
+    },
+    {
+      "name": "百炼钢",
+      "rarity": 4,
+      "level": 12,
+      "universal": true,
+      "value": 50,
+      "bonus": {
+        "attack": 10,
+        "defense": 10
+      },
+      "force_special": "extra_atk"
+    },
+    {
+      "name": "泰坦神铁",
+      "rarity": 4,
+      "level": 14,
+      "stat": "defense",
+      "value": 60,
+      "bonus": {
+        "defense": 20,
+        "hp": 10
+      }
+    },
+    {
+      "name": "矿脉之心",
+      "rarity": 4,
+      "level": 12,
+      "universal": true,
+      "value": 55,
+      "bonus": {
+        "attack": 6,
+        "defense": 6,
+        "speed": 4,
+        "hp": 8
+      }
+    },
+    {
+      "name": "铁砧之心",
+      "rarity": 5,
+      "level": 18,
+      "universal": true,
+      "value": 65,
+      "bonus": {
+        "attack": 8,
+        "defense": 8,
+        "speed": 8,
+        "dodge": 6
+      },
+      "all_mult": 0.15,
+      "force_special": "exp_bonus"
+    },
+    {
+      "name": "贤者之石",
+      "rarity": 5,
+      "level": 20,
+      "universal": true,
+      "value": 55,
+      "bonus": {
+        "attack": 10,
+        "defense": 10,
+        "hp": 15
+      },
+      "all_mult": 0.2
+    },
+    {
+      "name": "神之碎片",
+      "rarity": 999,
+      "level": 12,
+      "universal": true,
+      "value": 55,
+      "bonus": {
+        "attack": 10,
+        "defense": 10,
+        "speed": 6
+      }
+    },
+    {
+      "name": "混沌之鳞",
+      "rarity": 999,
+      "level": 14,
+      "universal": true,
+      "value": 58,
+      "bonus": {
+        "attack": 12,
+        "speed": 8
+      },
+      "force_special": "crit_rate"
+    },
+    {
+      "name": "龙之心",
+      "rarity": 999,
+      "level": 14,
+      "universal": true,
+      "value": 60,
+      "bonus": {
+        "hp": 20,
+        "defense": 10
+      },
+      "force_special": "lifesteal"
+    },
+    {
+      "name": "天使之泪",
+      "rarity": 999,
+      "level": 15,
+      "universal": true,
+      "value": 55,
+      "bonus": {
+        "hp": 15,
+        "defense": 12,
+        "dodge": 6
+      },
+      "force_special": "dmg_reduce"
+    },
+    {
+      "name": "海神的三叉戟碎片",
+      "rarity": 999,
+      "level": 18,
+      "universal": true,
+      "value": 65,
+      "bonus": {
+        "attack": 15,
+        "defense": 15,
+        "speed": 8
+      },
+      "all_mult": 0.15
+    },
+    {
+      "name": "觉醒之石",
+      "rarity": 999,
+      "level": 18,
+      "universal": true,
+      "value": 60,
+      "bonus": {
+        "attack": 12,
+        "speed": 10,
+        "dodge": 8
+      },
+      "force_special": "extra_atk"
+    },
+    {
+      "name": "大地核心",
+      "rarity": 999,
+      "level": 20,
+      "universal": true,
+      "value": 72,
+      "bonus": {
+        "attack": 10,
+        "defense": 15,
+        "hp": 20
+      },
+      "all_mult": 0.18,
+      "force_special": "counter"
+    },
+    {
+      "name": "神龙碎片",
+      "rarity": 9999,
+      "level": 22,
+      "universal": true,
+      "value": 80,
+      "bonus": {
+        "attack": 15,
+        "defense": 15,
+        "speed": 10,
+        "hp": 20
+      },
+      "all_mult": 0.2
+    },
+    {
+      "name": "混沌原矿",
+      "rarity": 9999,
+      "level": 25,
+      "universal": true,
+      "value": 100,
+      "bonus": {
+        "attack": 15,
+        "defense": 15,
+        "speed": 10,
+        "dodge": 8,
+        "hp": 25
+      },
+      "all_mult": 0.25,
+      "force_special": "crit_dmg"
+    },
+    {
+      "name": "创世结晶",
+      "rarity": 9999,
+      "level": 28,
+      "universal": true,
+      "value": 110,
+      "bonus": {
+        "attack": 18,
+        "defense": 18,
+        "speed": 12,
+        "hp": 30
+      },
+      "all_mult": 0.3,
+      "force_special": "crit_rate"
+    },
+    {
+      "name": "煤炭",
+      "rarity": 1,
+      "level": 1,
+      "stat": "attack",
+      "value": 10,
+      "bonus": {
+        "attack": 2
+      }
+    },
+    {
+      "name": "稻草",
+      "rarity": 1,
+      "level": 1,
+      "stat": "defense",
+      "value": 10,
+      "bonus": {
+        "hp": 2
+      }
+    },
+    {
+      "name": "羽毛",
+      "rarity": 1,
+      "level": 1,
+      "stat": "speed",
+      "value": 10,
+      "bonus": {
+        "dodge": 2
+      }
+    },
+    {
+      "name": "羊毛",
+      "rarity": 2,
+      "level": 3,
+      "stat": "dodge",
+      "value": 20,
+      "bonus": {
+        "defense": 4
+      }
+    }
+  ],
+  "direct_craft": [
+    {
+      "name": "铁剑",
+      "type": "weapon",
+      "rarity": 1,
+      "min_level": 1,
+      "materials": {
+        "铁矿": 5,
+        "煤炭": 3
+      },
+      "stats": {
+        "attack": 36,
+        "speed": 18,
+        "defense": 18,
+        "attack_speed": 18,
+        "dodge": 18,
+        "hp": 27
+      }
+    },
+    {
+      "name": "铜盾",
+      "type": "armor",
+      "rarity": 1,
+      "min_level": 1,
+      "materials": {
+        "铜矿": 5,
+        "铁矿": 3
+      },
+      "stats": {
+        "defense": 30,
+        "hp": 68,
+        "attack": 21,
+        "speed": 21,
+        "attack_speed": 21,
+        "dodge": 21
+      }
+    },
+    {
+      "name": "皮帽",
+      "type": "helmet",
+      "rarity": 1,
+      "min_level": 3,
+      "materials": {
+        "稻草": 6,
+        "蜘蛛丝": 3
+      },
+      "stats": {
+        "hp": 90,
+        "defense": 9,
+        "attack": 30,
+        "speed": 30,
+        "attack_speed": 30,
+        "dodge": 30
+      }
+    },
+    {
+      "name": "轻便靴",
+      "type": "boots",
+      "rarity": 1,
+      "min_level": 3,
+      "materials": {
+        "稻草": 5,
+        "蜘蛛丝": 4
+      },
+      "stats": {
+        "speed": 24,
+        "dodge": 9,
+        "attack": 12,
+        "defense": 12,
+        "attack_speed": 12,
+        "hp": 18
+      }
+    },
+    {
+      "name": "护胫",
+      "type": "leggings",
+      "rarity": 1,
+      "min_level": 5,
+      "materials": {
+        "铁矿": 4,
+        "煤炭": 3
+      },
+      "stats": {
+        "attack_speed": 15,
+        "defense": 12,
+        "attack": 6,
+        "speed": 6,
+        "dodge": 6,
+        "hp": 9
+      }
+    },
+    {
+      "name": "骨制护符",
+      "type": "accessory",
+      "rarity": 1,
+      "min_level": 5,
+      "materials": {
+        "骨片": 5,
+        "蜘蛛丝": 2
+      },
+      "stats": {
+        "dodge": 15,
+        "hp": 45,
+        "attack": 15,
+        "defense": 15,
+        "speed": 15,
+        "attack_speed": 15
+      }
+    },
+    {
+      "name": "钢剑",
+      "type": "weapon",
+      "rarity": 2,
+      "min_level": 10,
+      "materials": {
+        "铁矿": 8,
+        "煤炭": 5,
+        "古代银币": 2
+      },
+      "stats": {
+        "attack": 66,
+        "speed": 33,
+        "defense": 33,
+        "attack_speed": 33,
+        "dodge": 33,
+        "hp": 50
+      }
+    },
+    {
+      "name": "钢甲",
+      "type": "armor",
+      "rarity": 2,
+      "min_level": 10,
+      "materials": {
+        "铁矿": 10,
+        "煤炭": 6
+      },
+      "stats": {
+        "defense": 60,
+        "hp": 135,
+        "attack": 45,
+        "speed": 45,
+        "attack_speed": 45,
+        "dodge": 45
+      }
+    },
+    {
+      "name": "银盔",
+      "type": "helmet",
+      "rarity": 2,
+      "min_level": 15,
+      "materials": {
+        "银矿": 5,
+        "铁矿": 4,
+        "蜘蛛丝": 3
+      },
+      "stats": {
+        "hp": 180,
+        "defense": 24,
+        "attack": 60,
+        "speed": 60,
+        "attack_speed": 60,
+        "dodge": 60
+      }
+    },
+    {
+      "name": "旅行靴",
+      "type": "boots",
+      "rarity": 2,
+      "min_level": 15,
+      "materials": {
+        "稻草": 8,
+        "蜘蛛丝": 6,
+        "古代银币": 1
+      },
+      "stats": {
+        "speed": 42,
+        "dodge": 18,
+        "attack": 21,
+        "defense": 21,
+        "attack_speed": 21,
+        "hp": 32
+      }
+    },
+    {
+      "name": "合金护腿",
+      "type": "leggings",
+      "rarity": 2,
+      "min_level": 20,
+      "materials": {
+        "银矿": 5,
+        "铁矿": 6,
+        "煤炭": 4
+      },
+      "stats": {
+        "attack_speed": 30,
+        "defense": 24,
+        "attack": 15,
+        "speed": 15,
+        "dodge": 15,
+        "hp": 23
+      }
+    },
+    {
+      "name": "银项链",
+      "type": "accessory",
+      "rarity": 2,
+      "min_level": 20,
+      "materials": {
+        "银矿": 5,
+        "古代银币": 3,
+        "蜘蛛丝": 2
+      },
+      "stats": {
+        "dodge": 30,
+        "hp": 113,
+        "attack": 36,
+        "defense": 36,
+        "speed": 36,
+        "attack_speed": 36
+      }
+    },
+    {
+      "name": "金剑",
+      "type": "weapon",
+      "rarity": 3,
+      "min_level": 25,
+      "materials": {
+        "金矿": 8,
+        "煤炭": 6,
+        "古代金币": 2
+      },
+      "stats": {
+        "attack": 105,
+        "speed": 51,
+        "defense": 51,
+        "attack_speed": 51,
+        "dodge": 51,
+        "hp": 77
+      }
+    },
+    {
+      "name": "金甲",
+      "type": "armor",
+      "rarity": 3,
+      "min_level": 25,
+      "materials": {
+        "金矿": 10,
+        "铁矿": 8,
+        "蜘蛛丝": 5
+      },
+      "stats": {
+        "defense": 105,
+        "hp": 225,
+        "attack": 75,
+        "speed": 75,
+        "attack_speed": 75,
+        "dodge": 75
+      }
+    },
+    {
+      "name": "秘银剑",
+      "type": "weapon",
+      "rarity": 4,
+      "min_level": 40,
+      "materials": {
+        "秘银矿": 8,
+        "金矿": 6,
+        "古代金币": 3
+      },
+      "stats": {
+        "attack": 165,
+        "speed": 81,
+        "defense": 81,
+        "attack_speed": 81,
+        "dodge": 81,
+        "hp": 122
+      }
+    },
+    {
+      "name": "秘银甲",
+      "type": "armor",
+      "rarity": 4,
+      "min_level": 40,
+      "materials": {
+        "秘银矿": 10,
+        "金矿": 8,
+        "蜘蛛丝": 6
+      },
+      "stats": {
+        "defense": 150,
+        "hp": 360,
+        "attack": 120,
+        "speed": 120,
+        "attack_speed": 120,
+        "dodge": 120
+      }
+    },
+    {
+      "name": "奥金战刃",
+      "type": "weapon",
+      "rarity": 4,
+      "min_level": 60,
+      "materials": {
+        "奥金矿": 10,
+        "秘银矿": 8,
+        "古代金币": 5
+      },
+      "stats": {
+        "attack": 240,
+        "speed": 120,
+        "defense": 120,
+        "attack_speed": 120,
+        "dodge": 120,
+        "hp": 180
+      }
+    },
+    {
+      "name": "奥金重甲",
+      "type": "armor",
+      "rarity": 4,
+      "min_level": 60,
+      "materials": {
+        "奥金矿": 12,
+        "秘银矿": 10,
+        "古代金币": 5
+      },
+      "stats": {
+        "defense": 225,
+        "hp": 540,
+        "attack": 180,
+        "speed": 180,
+        "attack_speed": 180,
+        "dodge": 180
+      }
+    },
+    {
+      "name": "旅行者长靴",
+      "type": "boots",
+      "rarity": 2,
+      "min_level": 10,
+      "materials": {
+        "稻草": 8,
+        "蜘蛛丝": 5,
+        "古代银币": 2
+      },
+      "stats": {
+        "speed": 48,
+        "dodge": 21,
+        "attack": 24,
+        "defense": 24,
+        "attack_speed": 24,
+        "hp": 36
+      }
+    },
+    {
+      "name": "猎人之弓",
+      "type": "weapon",
+      "rarity": 2,
+      "min_level": 12,
+      "materials": {
+        "铁矿": 8,
+        "蜘蛛丝": 5,
+        "煤炭": 3
+      },
+      "stats": {
+        "attack": 84,
+        "speed": 42,
+        "defense": 42,
+        "attack_speed": 42,
+        "dodge": 42,
+        "hp": 63
+      }
+    },
+    {
+      "name": "矿工灯盔",
+      "type": "helmet",
+      "rarity": 2,
+      "min_level": 10,
+      "materials": {
+        "铁矿": 6,
+        "煤炭": 5,
+        "稻草": 3
+      },
+      "stats": {
+        "hp": 158,
+        "defense": 18,
+        "attack": 51,
+        "speed": 51,
+        "attack_speed": 51,
+        "dodge": 51
+      }
+    },
+    {
+      "name": "渔夫雨衣",
+      "type": "armor",
+      "rarity": 2,
+      "min_level": 12,
+      "materials": {
+        "稻草": 8,
+        "蜘蛛丝": 5,
+        "铜矿": 3
+      },
+      "stats": {
+        "defense": 42,
+        "hp": 135,
+        "attack": 45,
+        "speed": 45,
+        "attack_speed": 45,
+        "dodge": 45
+      }
+    },
+    {
+      "name": "山民护腿",
+      "type": "leggings",
+      "rarity": 2,
+      "min_level": 10,
+      "materials": {
+        "铁矿": 5,
+        "煤炭": 4,
+        "稻草": 3
+      },
+      "stats": {
+        "attack_speed": 18,
+        "defense": 15,
+        "attack": 9,
+        "speed": 9,
+        "dodge": 9,
+        "hp": 14
+      }
+    },
+    {
+      "name": "冒险者之戒",
+      "type": "accessory",
+      "rarity": 2,
+      "min_level": 15,
+      "materials": {
+        "银矿": 5,
+        "古代银币": 3,
+        "蜘蛛丝": 2
+      },
+      "stats": {
+        "dodge": 24,
+        "hp": 113,
+        "attack": 36,
+        "defense": 36,
+        "speed": 36,
+        "attack_speed": 36
+      }
+    },
+    {
+      "name": "佣兵大剑",
+      "type": "weapon",
+      "rarity": 3,
+      "min_level": 35,
+      "materials": {
+        "金矿": 8,
+        "铁矿": 10,
+        "煤炭": 6
+      },
+      "stats": {
+        "attack": 144,
+        "speed": 72,
+        "defense": 72,
+        "attack_speed": 72,
+        "dodge": 72,
+        "hp": 108
+      }
+    },
+    {
+      "name": "商人戒指",
+      "type": "accessory",
+      "rarity": 3,
+      "min_level": 35,
+      "materials": {
+        "金矿": 6,
+        "古代金币": 3,
+        "银矿": 4
+      },
+      "stats": {
+        "dodge": 30,
+        "hp": 203,
+        "attack": 66,
+        "defense": 66,
+        "speed": 66,
+        "attack_speed": 66
+      }
+    },
+    {
+      "name": "将军头盔",
+      "type": "helmet",
+      "rarity": 4,
+      "min_level": 50,
+      "materials": {
+        "秘银矿": 8,
+        "金矿": 6,
+        "古代金币": 5
+      },
+      "stats": {
+        "hp": 405,
+        "defense": 54,
+        "attack": 135,
+        "speed": 135,
+        "attack_speed": 135,
+        "dodge": 135
+      }
+    },
+    {
+      "name": "贤者之靴",
+      "type": "boots",
+      "rarity": 4,
+      "min_level": 50,
+      "materials": {
+        "秘银矿": 6,
+        "奥金矿": 4,
+        "银矿": 5
+      },
+      "stats": {
+        "speed": 78,
+        "dodge": 42,
+        "attack": 39,
+        "defense": 39,
+        "attack_speed": 39,
+        "hp": 59
+      }
+    },
+    {
+      "name": "神罚之刃",
+      "type": "weapon",
+      "rarity": 9999,
+      "min_level": 70,
+      "materials": {
+        "奥金矿": 15,
+        "秘银矿": 12,
+        "神之碎片": 3,
+        "混沌之鳞": 2,
+        "古代金币": 10
+      },
+      "stats": {
+        "attack": 450,
+        "speed": 225,
+        "defense": 225,
+        "attack_speed": 225,
+        "dodge": 225,
+        "hp": 675
+      }
+    },
+    {
+      "name": "神罚圣盾",
+      "type": "armor",
+      "rarity": 9999,
+      "min_level": 70,
+      "materials": {
+        "奥金矿": 18,
+        "秘银矿": 15,
+        "神之碎片": 3,
+        "龙鳞": 8,
+        "古代金币": 10
+      },
+      "stats": {
+        "defense": 420,
+        "hp": 900,
+        "attack": 210,
+        "speed": 210,
+        "attack_speed": 210,
+        "dodge": 210
+      }
+    },
+    {
+      "name": "创世之盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "min_level": 80,
+      "materials": {
+        "奥金矿": 16,
+        "秘银矿": 14,
+        "混沌之鳞": 3,
+        "天使之泪": 2,
+        "古代金币": 12
+      },
+      "stats": {
+        "hp": 900,
+        "defense": 300,
+        "attack": 150,
+        "speed": 150,
+        "attack_speed": 150,
+        "dodge": 150
+      }
+    },
+    {
+      "name": "创世神靴",
+      "type": "boots",
+      "rarity": 9999,
+      "min_level": 80,
+      "materials": {
+        "奥金矿": 14,
+        "秘银矿": 12,
+        "风之羽毛": 8,
+        "天使之泪": 2,
+        "古代金币": 12
+      },
+      "stats": {
+        "speed": 450,
+        "dodge": 300,
+        "attack": 150,
+        "defense": 150,
+        "attack_speed": 150,
+        "hp": 338
+      }
+    },
+    {
+      "name": "永恒护腿",
+      "type": "leggings",
+      "rarity": 9999,
+      "min_level": 90,
+      "materials": {
+        "奥金矿": 16,
+        "秘银矿": 14,
+        "龙鳞": 10,
+        "混沌之鳞": 3,
+        "古代金币": 15
+      },
+      "stats": {
+        "attack_speed": 360,
+        "defense": 270,
+        "attack": 180,
+        "speed": 180,
+        "dodge": 180,
+        "hp": 405
+      }
+    },
+    {
+      "name": "永恒之戒",
+      "type": "accessory",
+      "rarity": 9999,
+      "min_level": 90,
+      "materials": {
+        "奥金矿": 15,
+        "秘银矿": 12,
+        "神之碎片": 5,
+        "混沌之鳞": 3,
+        "古代金币": 15
+      },
+      "stats": {
+        "dodge": 360,
+        "hp": 720,
+        "attack": 180,
+        "defense": 180,
+        "speed": 180,
+        "attack_speed": 180
+      }
+    },
+    {
+      "name": "混沌神剑",
+      "type": "weapon",
+      "rarity": 9999,
+      "min_level": 100,
+      "materials": {
+        "虚空晶矿": 10,
+        "混沌原矿": 5,
+        "神之碎片": 8,
+        "混沌之鳞": 5,
+        "古代金币": 20
+      },
+      "stats": {
+        "attack": 660,
+        "speed": 330,
+        "defense": 330,
+        "attack_speed": 330,
+        "dodge": 330,
+        "hp": 990
+      }
+    },
+    {
+      "name": "混沌圣甲",
+      "type": "armor",
+      "rarity": 9999,
+      "min_level": 100,
+      "materials": {
+        "虚空晶矿": 12,
+        "混沌原矿": 6,
+        "神之碎片": 8,
+        "龙鳞": 15,
+        "古代金币": 20
+      },
+      "stats": {
+        "defense": 600,
+        "hp": 1350,
+        "attack": 300,
+        "speed": 300,
+        "attack_speed": 300,
+        "dodge": 300
+      }
+    },
+    {
+      "name": "奥金神刃",
+      "type": "weapon",
+      "rarity": 9999,
+      "min_level": 65,
+      "materials": {
+        "奥金矿": 20,
+        "秘银矿": 15,
+        "神之碎片": 2,
+        "古代金币": 8
+      },
+      "stats": {
+        "attack": 390,
+        "speed": 195,
+        "defense": 195,
+        "attack_speed": 195,
+        "dodge": 195,
+        "hp": 585
+      }
+    },
+    {
+      "name": "奥金神甲",
+      "type": "armor",
+      "rarity": 9999,
+      "min_level": 65,
+      "materials": {
+        "奥金矿": 22,
+        "秘银矿": 18,
+        "神之碎片": 2,
+        "古代金币": 8
+      },
+      "stats": {
+        "defense": 360,
+        "hp": 810,
+        "attack": 180,
+        "speed": 180,
+        "attack_speed": 180,
+        "dodge": 180
+      }
+    }
+  ]
+}

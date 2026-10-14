@@ -1,0 +1,364 @@
+{
+  "description": "每日冒险任务配置。每天随机生成，每个玩家不同。",
+  "daily_refresh_hour": 0,
+  "max_quests_per_day": 3,
+  "quest_pool": [
+    {
+      "id": "kill_monsters",
+      "name": "怪物猎人",
+      "desc": "击败 {target} 只怪物",
+      "target": [
+        3,
+        5,
+        8,
+        10
+      ],
+      "rewards": [
+        {
+          "type": "coins",
+          "amount": [
+            100,
+            300
+          ]
+        },
+        {
+          "type": "exp",
+          "amount": [
+            50,
+            150
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kill_rare_monsters",
+      "name": "稀有猎手",
+      "desc": "击败 {target} 只稀有度≥3的怪物",
+      "target": [
+        1,
+        2,
+        3
+      ],
+      "rewards": [
+        {
+          "type": "coins",
+          "amount": [
+            300,
+            800
+          ]
+        },
+        {
+          "type": "exp",
+          "amount": [
+            150,
+            400
+          ]
+        },
+        {
+          "type": "item",
+          "name": "磨刀石",
+          "count": [
+            1,
+            2
+          ],
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "id": "adventure_times",
+      "name": "探险家",
+      "desc": "完成 {target} 次冒险（不限胜负）",
+      "target": [
+        5,
+        8,
+        12,
+        15
+      ],
+      "rewards": [
+        {
+          "type": "coins",
+          "amount": [
+            150,
+            400
+          ]
+        },
+        {
+          "type": "skill_point",
+          "amount": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win_battles",
+      "name": "常胜将军",
+      "desc": "在冒险中获胜 {target} 次",
+      "target": [
+        3,
+        5,
+        7,
+        10
+      ],
+      "rewards": [
+        {
+          "type": "coins",
+          "amount": [
+            200,
+            500
+          ]
+        },
+        {
+          "type": "exp",
+          "amount": [
+            100,
+            300
+          ]
+        }
+      ]
+    },
+    {
+      "id": "collect_ores",
+      "name": "矿藏收集",
+      "desc": "通过冒险获得 {target} 个矿石类道具",
+      "target": [
+        3,
+        5,
+        8
+      ],
+      "rewards": [
+        {
+          "type": "coins",
+          "amount": [
+            100,
+            250
+          ]
+        },
+        {
+          "type": "item",
+          "name": "铁矿",
+          "count": [
+            2,
+            4
+          ],
+          "chance": 0.8
+        }
+      ]
+    },
+    {
+      "id": "collect_materials",
+      "name": "材料采集",
+      "desc": "通过冒险获得 {target} 个材料类道具",
+      "target": [
+        4,
+        6,
+        10
+      ],
+      "rewards": [
+        {
+          "type": "coins",
+          "amount": [
+            120,
+            300
+          ]
+        },
+        {
+          "type": "item",
+          "name": "史莱姆粘液",
+          "count": [
+            2,
+            5
+          ],
+          "chance": 0.7
+        }
+      ]
+    },
+    {
+      "id": "defeat_boss",
+      "name": "BOSS挑战者",
+      "desc": "对世界BOSS造成 {target} 伤害",
+      "target": [
+        100,
+        300,
+        500,
+        1000
+      ],
+      "rewards": [
+        {
+          "type": "coins",
+          "amount": [
+            300,
+            1000
+          ]
+        },
+        {
+          "type": "exp",
+          "amount": [
+            200,
+            600
+          ]
+        },
+        {
+          "type": "item",
+          "name": "磨刀石",
+          "count": [
+            1,
+            3
+          ],
+          "chance": 0.6
+        }
+      ]
+    },
+    {
+      "id": "fish_catch",
+      "name": "钓鱼达人",
+      "desc": "钓到 {target} 条鱼",
+      "target": [
+        3,
+        5,
+        8
+      ],
+      "rewards": [
+        {
+          "type": "coins",
+          "amount": [
+            100,
+            300
+          ]
+        },
+        {
+          "type": "skill_point",
+          "amount": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "harvest_crops",
+      "name": "丰收时刻",
+      "desc": "收获 {target} 次作物/动物/果树",
+      "target": [
+        3,
+        5,
+        7
+      ],
+      "rewards": [
+        {
+          "type": "coins",
+          "amount": [
+            80,
+            250
+          ]
+        },
+        {
+          "type": "exp",
+          "amount": [
+            50,
+            150
+          ]
+        }
+      ]
+    },
+    {
+      "id": "forge_weapon",
+      "name": "武器锻造",
+      "desc": "锻造 {target} 把武器",
+      "target": [
+        1,
+        2,
+        3
+      ],
+      "rewards": [
+        {
+          "type": "coins",
+          "amount": [
+            200,
+            600
+          ]
+        },
+        {
+          "type": "item",
+          "name": "铁矿",
+          "count": [
+            3,
+            5
+          ],
+          "chance": 0.7
+        }
+      ]
+    },
+    {
+      "id": "reach_region",
+      "name": "区域探索",
+      "desc": "在 {region} 完成 {target} 次冒险",
+      "target": [
+        3,
+        5,
+        7
+      ],
+      "regions": [
+        "平原",
+        "森林",
+        "荒漠",
+        "雪山",
+        "火山",
+        "峡谷"
+      ],
+      "rewards": [
+        {
+          "type": "coins",
+          "amount": [
+            200,
+            500
+          ]
+        },
+        {
+          "type": "exp",
+          "amount": [
+            100,
+            300
+          ]
+        },
+        {
+          "type": "item",
+          "name": "磨刀石",
+          "count": [
+            1,
+            2
+          ],
+          "chance": 0.4
+        }
+      ]
+    },
+    {
+      "id": "synthesis_items",
+      "name": "合成大师",
+      "desc": "合成 {target} 次道具（任意配方）",
+      "target": [
+        2,
+        3,
+        5
+      ],
+      "rewards": [
+        {
+          "type": "coins",
+          "amount": [
+            150,
+            400
+          ]
+        },
+        {
+          "type": "skill_point",
+          "amount": [
+            1,
+            2
+          ]
+        }
+      ]
+    }
+  ]
+}

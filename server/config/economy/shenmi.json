@@ -1,0 +1,767 @@
+{
+  "description": "神秘商人配置。spawn_chance: 冒险后出现神秘商人的概率。duration: 商人停留时间（秒），超时或再次冒险后消失。items: 神秘商人可出售的物品池。",
+  "spawn_chance": 0.15,
+  "duration": 300,
+  "items": [
+    {
+      "name": "神秘鱼饵",
+      "rarity": 2,
+      "price": [
+        50,
+        120
+      ],
+      "description": "随机属性的神秘鱼饵",
+      "quantity": [
+        5,
+        15
+      ]
+    },
+    {
+      "name": "碳素鱼竿",
+      "rarity": 2,
+      "price": [
+        300,
+        500
+      ],
+      "description": "中钩率+5%, 幸运+5%",
+      "quantity": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "大师钓竿",
+      "rarity": 3,
+      "price": [
+        1000,
+        2000
+      ],
+      "description": "中钩率+10%, 幸运+10%",
+      "quantity": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "龙纹鱼竿",
+      "rarity": 4,
+      "price": [
+        5000,
+        8000
+      ],
+      "description": "中钩率+15%, 幸运+20%",
+      "quantity": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "经验宝珠",
+      "rarity": 1,
+      "price": [
+        60,
+        120
+      ],
+      "description": "使用后获得不少经验",
+      "quantity": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "旧硬币",
+      "rarity": 2,
+      "price": [
+        150,
+        300
+      ],
+      "description": "下次冒险金币翻倍",
+      "quantity": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "旧卷轴",
+      "rarity": 1,
+      "price": [
+        80,
+        150
+      ],
+      "description": "临时提升攻击力",
+      "quantity": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "神龙碎片",
+      "rarity": 4,
+      "price": [
+        600,
+        1000
+      ],
+      "description": "大幅提升防御",
+      "quantity": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "附魔石",
+      "rarity": 2,
+      "price": [
+        120,
+        280
+      ],
+      "description": "武器附魔的必需材料",
+      "quantity": [
+        3,
+        8
+      ]
+    },
+    {
+      "name": "龙涎香",
+      "rarity": 4,
+      "price": [
+        400,
+        800
+      ],
+      "description": "中钩率+10%, 幸运+20%",
+      "quantity": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "龙纹鱼竿",
+      "rarity": 999,
+      "price": [
+        20000,
+        50000
+      ],
+      "description": "中钩率+20%, 幸运+35%",
+      "quantity": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "卡密祝福",
+      "rarity": 999,
+      "price": [
+        300,
+        600
+      ],
+      "description": "卡密的恩赐",
+      "quantity": [
+        3,
+        8
+      ]
+    },
+    {
+      "name": "混沌核心",
+      "rarity": 9999,
+      "price": [
+        2000,
+        5000
+      ],
+      "description": "蕴含混沌之力，效果未知...",
+      "quantity": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "萝莉宝石",
+      "rarity": 5,
+      "price": [
+        2000,
+        4000
+      ],
+      "description": "提升萝莉500好感度",
+      "quantity": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "萝莉糖果",
+      "rarity": 2,
+      "price": [
+        100,
+        200
+      ],
+      "description": "提升萝莉100好感度",
+      "quantity": [
+        1,
+        3
+      ]
+    },
+    {
+      "name": "萝莉蛋糕",
+      "rarity": 3,
+      "price": [
+        300,
+        600
+      ],
+      "description": "提升萝莉300好感度",
+      "quantity": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "觉醒之石",
+      "rarity": 4,
+      "price": [
+        5000,
+        10000
+      ],
+      "description": "萝莉觉醒必需材料",
+      "quantity": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "铁矿",
+      "rarity": 1,
+      "price": [
+        40,
+        80
+      ],
+      "description": "基础锻造矿石（攻击+14）",
+      "quantity": [
+        3,
+        10
+      ]
+    },
+    {
+      "name": "铜矿",
+      "rarity": 1,
+      "price": [
+        40,
+        80
+      ],
+      "description": "基础锻造矿石（防御+14）",
+      "quantity": [
+        3,
+        10
+      ]
+    },
+    {
+      "name": "银矿",
+      "rarity": 2,
+      "price": [
+        100,
+        200
+      ],
+      "description": "进阶锻造矿石（速度+14）",
+      "quantity": [
+        2,
+        8
+      ]
+    },
+    {
+      "name": "金矿",
+      "rarity": 3,
+      "price": [
+        250,
+        500
+      ],
+      "description": "高级锻造矿石（生命+14）",
+      "quantity": [
+        2,
+        6
+      ]
+    },
+    {
+      "name": "秘银矿",
+      "rarity": 4,
+      "price": [
+        600,
+        1200
+      ],
+      "description": "稀有锻造矿石（闪避+17）",
+      "quantity": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "奥金矿",
+      "rarity": 999,
+      "price": [
+        1500,
+        3000
+      ],
+      "description": "传说锻造矿石（攻速+21）",
+      "quantity": [
+        1,
+        3
+      ]
+    },
+    {
+      "name": "奥创矿",
+      "rarity": 3,
+      "price": [
+        300,
+        666
+      ],
+      "description": "特殊锻造矿石（攻击+10）",
+      "quantity": [
+        2,
+        10
+      ]
+    },
+    {
+      "name": "史莱姆粘液",
+      "rarity": 1,
+      "price": [
+        30,
+        60
+      ],
+      "description": "锻造材料（生命+7）",
+      "quantity": [
+        2,
+        8
+      ]
+    },
+    {
+      "name": "狼牙",
+      "rarity": 1,
+      "price": [
+        30,
+        60
+      ],
+      "description": "锻造材料（攻击+7）",
+      "quantity": [
+        2,
+        8
+      ]
+    },
+    {
+      "name": "哥布林耳朵",
+      "rarity": 1,
+      "price": [
+        30,
+        60
+      ],
+      "description": "锻造材料（速度+7）",
+      "quantity": [
+        2,
+        8
+      ]
+    },
+    {
+      "name": "蜘蛛丝",
+      "rarity": 1,
+      "price": [
+        30,
+        60
+      ],
+      "description": "锻造材料（速度+7）",
+      "quantity": [
+        2,
+        8
+      ]
+    },
+    {
+      "name": "骨片",
+      "rarity": 1,
+      "price": [
+        30,
+        60
+      ],
+      "description": "锻造材料（防御+7）",
+      "quantity": [
+        2,
+        8
+      ]
+    },
+    {
+      "name": "野猪獠牙",
+      "rarity": 1,
+      "price": [
+        40,
+        80
+      ],
+      "description": "锻造材料（攻击+7）",
+      "quantity": [
+        2,
+        8
+      ]
+    },
+    {
+      "name": "水鬼之泪",
+      "rarity": 1,
+      "price": [
+        30,
+        60
+      ],
+      "description": "锻造材料（生命+7）",
+      "quantity": [
+        2,
+        8
+      ]
+    },
+    {
+      "name": "石像碎片",
+      "rarity": 1,
+      "price": [
+        30,
+        60
+      ],
+      "description": "锻造材料（防御+7）",
+      "quantity": [
+        2,
+        8
+      ]
+    },
+    {
+      "name": "兔毛",
+      "rarity": 1,
+      "price": [
+        20,
+        40
+      ],
+      "description": "锻造材料（闪避+4）",
+      "quantity": [
+        2,
+        8
+      ]
+    },
+    {
+      "name": "兔脚",
+      "rarity": 1,
+      "price": [
+        50,
+        100
+      ],
+      "description": "锻造材料（生命+7）",
+      "quantity": [
+        2,
+        6
+      ]
+    },
+    {
+      "name": "火焰精华",
+      "rarity": 2,
+      "price": [
+        80,
+        160
+      ],
+      "description": "锻造材料（攻击+10）",
+      "quantity": [
+        1,
+        5
+      ]
+    },
+    {
+      "name": "寒冰碎片",
+      "rarity": 2,
+      "price": [
+        80,
+        160
+      ],
+      "description": "锻造材料（防御+10）",
+      "quantity": [
+        1,
+        5
+      ]
+    },
+    {
+      "name": "大地结晶",
+      "rarity": 2,
+      "price": [
+        80,
+        160
+      ],
+      "description": "锻造材料（生命+10）",
+      "quantity": [
+        1,
+        5
+      ]
+    },
+    {
+      "name": "风之羽毛",
+      "rarity": 2,
+      "price": [
+        80,
+        160
+      ],
+      "description": "锻造材料（速度+10）",
+      "quantity": [
+        1,
+        5
+      ]
+    },
+    {
+      "name": "暗影之尘",
+      "rarity": 3,
+      "price": [
+        200,
+        400
+      ],
+      "description": "稀有锻造材料（闪避+12）",
+      "quantity": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "亡灵铁片",
+      "rarity": 3,
+      "price": [
+        150,
+        350
+      ],
+      "description": "稀有锻造材料（攻击+12）",
+      "quantity": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "锻造精魂",
+      "rarity": 4,
+      "price": [
+        500,
+        1000
+      ],
+      "description": "顶级锻造材料（全属性+8）",
+      "quantity": [
+        1,
+        3
+      ]
+    },
+    {
+      "name": "精炼石",
+      "rarity": 3,
+      "price": [
+        400,
+        800
+      ],
+      "description": "提升武器等级上限",
+      "quantity": [
+        1,
+        3
+      ]
+    },
+    {
+      "name": "黑曜石",
+      "rarity": 3,
+      "price": [
+        1500,
+        3000
+      ],
+      "description": "锻造材料（防御+40）",
+      "quantity": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "魅影水晶",
+      "rarity": 3,
+      "price": [
+        1500,
+        3000
+      ],
+      "description": "锻造材料（闪避+38）",
+      "quantity": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "翡翠矿",
+      "rarity": 4,
+      "price": [
+        2500,
+        5000
+      ],
+      "description": "锻造材料（生命+45）",
+      "quantity": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "苹果",
+      "rarity": 1,
+      "price": [
+        20,
+        50
+      ],
+      "description": "烹饪食材，可做苹果派",
+      "quantity": [
+        2,
+        6
+      ]
+    },
+    {
+      "name": "蜂蜜",
+      "rarity": 1,
+      "price": [
+        30,
+        60
+      ],
+      "description": "烹饪食材，可做蜂蜜烤肉",
+      "quantity": [
+        2,
+        6
+      ]
+    },
+    {
+      "name": "神龙碎片",
+      "rarity": 4,
+      "price": [
+        800,
+        1500
+      ],
+      "description": "稀有附魔材料",
+      "quantity": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "狮鹫羽毛",
+      "rarity": 4,
+      "price": [
+        800,
+        1500
+      ],
+      "description": "稀有附魔材料",
+      "quantity": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "骑士之魂",
+      "rarity": 4,
+      "price": [
+        1000,
+        2000
+      ],
+      "description": "传说附魔材料",
+      "quantity": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "生命药剂",
+      "rarity": 1,
+      "price": [
+        50,
+        100
+      ],
+      "description": "恢复50点生命值",
+      "quantity": [
+        1,
+        3
+      ]
+    },
+    {
+      "name": "大生命药剂",
+      "rarity": 2,
+      "price": [
+        150,
+        300
+      ],
+      "description": "恢复200点生命值",
+      "quantity": [
+        1,
+        3
+      ]
+    },
+    {
+      "name": "药水",
+      "rarity": 1,
+      "price": [
+        80,
+        200
+      ],
+      "description": "效果不明的药水，使用后随机获得一种效果",
+      "quantity": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "轻羽毛",
+      "rarity": 2,
+      "price": [
+        200,
+        500
+      ],
+      "description": "永久提升少许速度",
+      "quantity": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "暗影斗篷",
+      "rarity": 3,
+      "price": [
+        500,
+        1000
+      ],
+      "description": "永久提升闪避值",
+      "quantity": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "凤凰羽毛",
+      "rarity": 3,
+      "price": [
+        1000,
+        2000
+      ],
+      "description": "死亡时自动复活一次",
+      "quantity": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "天使之泪",
+      "rarity": 4,
+      "price": [
+        3000,
+        6000
+      ],
+      "description": "使用后攻击/防御/速度永久+3",
+      "quantity": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "神秘宝石",
+      "rarity": 2,
+      "price": [200, 500],
+      "description": "随机获得1-3稀有度宝石",
+      "quantity": [1, 2],
+      "type": "gem",
+      "gem_rarity": [1, 3]
+    },
+    {
+      "name": "稀世宝石",
+      "rarity": 4,
+      "price": [1000, 2500],
+      "description": "随机获得3-4稀有度宝石",
+      "quantity": [1, 1],
+      "type": "gem",
+      "gem_rarity": [3, 4]
+    }
+  ],
+  "pool": []
+}

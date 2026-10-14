@@ -1,0 +1,133 @@
+{
+  "points_per_level": 3,
+  "max_skill_level": 50,
+  "description": "points_per_level: 每升一级获得的技能点数。max_skill_level: 单项技能最大等级。",
+  "skills": [
+    {
+      "id": "harvest_bonus",
+      "name": "收获加成",
+      "icon": "🌾",
+      "description": "除了出售外情况下所有收获加成",
+      "detail_desc": "除了出售外的所有收获行为（农场收割、冒险掉落、钓鱼产物、同伴派遣等）均按比例额外加成。每级+1.2%，满级50级可达+60%。",
+      "effect_per_level": 0.012,
+      "max_bonus": 0.6
+    },
+    {
+      "id": "hp",
+      "name": "生命值",
+      "icon": "❤️",
+      "description": "提升最大生命值",
+      "detail_desc": "增加最大生命值。生命值为0时战斗失败。每级+10点，基础200点。无等级上限，可无限升级。",
+      "effect_per_level": 10,
+      "base": 200
+    },
+    {
+      "id": "attack",
+      "name": "攻击力",
+      "icon": "⚔️",
+      "description": "提升攻击伤害",
+      "detail_desc": "增加攻击伤害数值。攻击力越高，对怪物造成的伤害越大。每级+5点，基础40点。无等级上限。",
+      "effect_per_level": 5,
+      "base": 40
+    },
+    {
+      "id": "defense",
+      "name": "防御力",
+      "icon": "🛡️",
+      "description": "提升防御减少伤害",
+      "detail_desc": "减少受到的伤害。防御力越高，怪物对你造成的伤害越低。每级+5点，基础30点。无等级上限。",
+      "effect_per_level": 5,
+      "base": 30
+    },
+    {
+      "id": "speed",
+      "name": "速度",
+      "icon": "💨",
+      "description": "提升速度增加闪避概率",
+      "detail_desc": "提升速度值从而增加闪避概率。速度差越大，闪避几率越高。每级+3点，基础15点。无等级上限。",
+      "effect_per_level": 3,
+      "base": 15
+    },
+    {
+      "id": "attack_speed",
+      "name": "攻击速度",
+      "icon": "⚡",
+      "description": "提升攻速获得额外回合",
+      "detail_desc": "提升攻击速度，攻速优势可触发额外攻击回合造成更多伤害。每级+5点，基础20点。无等级上限。",
+      "effect_per_level": 5,
+      "base": 20
+    },
+    {
+      "id": "fishing_success",
+      "name": "钓鱼精通",
+      "icon": "🎣",
+      "description": "降低钓鱼失败概率",
+      "detail_desc": "降低钓鱼时的失败概率。基础失败率25%，每级降低0.5%。满级50级时共降低25%，配合鱼竿和鱼饵可达近乎零失败。",
+      "effect_per_level": 0.005,
+      "max_bonus": 0.25
+    },
+    {
+      "id": "fishing_rare",
+      "name": "钓鱼幸运",
+      "icon": "🐟",
+      "description": "提升钓到稀有鱼的概率",
+      "detail_desc": "提升钓到稀有品质（蓝色及以上）鱼的概率。稀有度权重越高，稀有鱼出现越多。每级+0.8%，满级+40%。",
+      "effect_per_level": 0.008,
+      "max_bonus": 0.4
+    },
+    {
+      "id": "crit_rate",
+      "name": "暴击精通",
+      "icon": "💥",
+      "description": "战斗中提升暴击概率",
+      "detail_desc": "战斗中触发暴击的概率，暴击时造成1.5倍伤害。每级+0.5%，满级50级共+15%。可与武器特殊属性叠加。",
+      "effect_per_level": 0.005,
+      "max_bonus": 0.15
+    },
+    {
+      "id": "dodge_rate",
+      "name": "闪避训练",
+      "icon": "👻",
+      "description": "战斗中提升闪避概率",
+      "detail_desc": "战斗中完全闪避一次攻击的概率。闪避成功则不受到该次伤害。每级+0.4%，满级50级共+12%。",
+      "effect_per_level": 0.004,
+      "max_bonus": 0.12
+    },
+    {
+      "id": "tenacity",
+      "name": "坚韧意志",
+      "icon": "💪",
+      "description": "抵抗怪物特殊技能的概率",
+      "detail_desc": "抵抗怪物特殊技能（虚化、暗杀、猛毒、冰冻、诅咒、灼烧、雷电等）的成功率。每级+0.8%，满级50级共+20%。",
+      "effect_per_level": 0.008,
+      "max_bonus": 0.20
+    },
+    {
+      "id": "enchant_mastery",
+      "name": "附魔精通",
+      "icon": "✨",
+      "description": "提升武器附魔成功率",
+      "detail_desc": "提升武器附魔（锋利、坚盾、疾风、狂暴、吸血、智慧六种附魔）的成功率。附魔失败消耗材料但武器不变。每级+1.2%，满级50级共+15%。",
+      "effect_per_level": 0.012,
+      "max_bonus": 0.15
+    },
+    {
+      "id": "forge_inspiration",
+      "name": "锻造灵感",
+      "icon": "🔨",
+      "description": "锻造时额外提升装备属性",
+      "detail_desc": "锻造武器时额外提升装备的属性值。可与铁匠职业加成叠加。每级+0.5%，满级50级共+15%。",
+      "effect_per_level": 0.005,
+      "max_bonus": 0.15
+    },
+    {
+      "id": "cooking_mastery",
+      "name": "烹饪精通",
+      "icon": "🍳",
+      "description": "烹饪时概率额外获得一份食物",
+      "detail_desc": "烹饪食物时有概率额外获得一份（双倍产出）。高级食谱配合高等级烹饪精通效果显著。每级+0.8%，满级50级共+20%。",
+      "effect_per_level": 0.008,
+      "max_bonus": 0.20
+    }
+  ]
+}

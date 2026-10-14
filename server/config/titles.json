@@ -1,0 +1,532 @@
+{
+  "description": "称号系统配置。stats仅含特殊属性：crit_rate暴击率%/crit_dmg暴伤%/lifesteal吸血%/dmg_reduce减伤%/counter反击%/extra_atk连击%。数值克制，少量加成。",
+  "titles": {
+    "新手冒险者": {
+      "desc": "旅途的开始",
+      "color": "white",
+      "type": "default",
+      "icon": "🌱",
+      "stats": {
+        "crit_rate": 0.01
+      }
+    },
+    "老练冒险者": {
+      "desc": "等级达到50级",
+      "color": "green",
+      "type": "milestone",
+      "icon": "🎯",
+      "condition": {
+        "type": "level",
+        "value": 50
+      },
+      "stats": {
+        "crit_rate": 0.01,
+        "dmg_reduce": 0.01
+      }
+    },
+    "钓鱼新手": {
+      "desc": "累计钓到50条鱼",
+      "color": "green",
+      "type": "milestone",
+      "icon": "🎣",
+      "condition": {
+        "type": "fish_total",
+        "value": 50
+      },
+      "stats": {
+        "extra_atk": 0.01
+      }
+    },
+    "钓鱼达人": {
+      "desc": "累计钓到200条鱼",
+      "color": "blue",
+      "type": "milestone",
+      "icon": "🐟",
+      "condition": {
+        "type": "fish_total",
+        "value": 200
+      },
+      "stats": {
+        "crit_rate": 0.02,
+        "extra_atk": 0.02
+      }
+    },
+    "钓鱼王": {
+      "desc": "累计钓到500条鱼",
+      "color": "purple",
+      "type": "milestone",
+      "icon": "🐠",
+      "condition": {
+        "type": "fish_total",
+        "value": 500
+      },
+      "stats": {
+        "crit_rate": 0.03,
+        "crit_dmg": 0.05,
+        "extra_atk": 0.03
+      }
+    },
+    "深海霸主": {
+      "desc": "累计钓到2000条鱼",
+      "color": "gold",
+      "type": "milestone",
+      "icon": "🦈",
+      "condition": {
+        "type": "fish_total",
+        "value": 2000
+      },
+      "stats": {
+        "crit_rate": 0.08,
+        "crit_dmg": 0.12,
+        "extra_atk": 0.06
+      }
+    },
+    "鱼种收藏家": {
+      "desc": "钓到30种不同的鱼",
+      "color": "green",
+      "type": "milestone",
+      "icon": "🐡",
+      "condition": {
+        "type": "fish_unique",
+        "value": 30
+      },
+      "stats": {
+        "extra_atk": 0.02
+      }
+    },
+    "巨物猎人": {
+      "desc": "钓到10条巨型鱼",
+      "color": "orange",
+      "type": "milestone",
+      "icon": "🐋",
+      "condition": {
+        "type": "fish_giant",
+        "value": 10
+      },
+      "stats": {
+        "crit_rate": 0.04,
+        "crit_dmg": 0.08,
+        "counter": 0.03
+      }
+    },
+    "见习战士": {
+      "desc": "累计击杀50只怪物",
+      "color": "green",
+      "type": "milestone",
+      "icon": "⚔️",
+      "condition": {
+        "type": "monster_kills_total",
+        "value": 50
+      },
+      "stats": {
+        "crit_rate": 0.01,
+        "counter": 0.01
+      }
+    },
+    "怪物猎人": {
+      "desc": "累计击杀500只怪物",
+      "color": "blue",
+      "type": "milestone",
+      "icon": "🗡️",
+      "condition": {
+        "type": "monster_kills_total",
+        "value": 500
+      },
+      "stats": {
+        "crit_rate": 0.03,
+        "counter": 0.03
+      }
+    },
+    "屠龙勇士": {
+      "desc": "累计击杀3000只怪物",
+      "color": "purple",
+      "type": "milestone",
+      "icon": "🐉",
+      "condition": {
+        "type": "monster_kills_total",
+        "value": 3000
+      },
+      "stats": {
+        "crit_rate": 0.05,
+        "crit_dmg": 0.1,
+        "counter": 0.05
+      }
+    },
+    "BOSS杀手": {
+      "desc": "参与击杀5只世界BOSS",
+      "color": "purple",
+      "type": "milestone",
+      "icon": "💀",
+      "condition": {
+        "type": "boss_kills",
+        "value": 5
+      },
+      "stats": {
+        "crit_rate": 0.05,
+        "crit_dmg": 0.1,
+        "dmg_reduce": 0.03
+      }
+    },
+    "战力破万": {
+      "desc": "战力达到10000",
+      "color": "blue",
+      "type": "milestone",
+      "icon": "⚡",
+      "condition": {
+        "type": "power",
+        "value": 10000
+      },
+      "stats": {
+        "crit_rate": 0.02,
+        "dmg_reduce": 0.02
+      }
+    },
+    "战力巅峰": {
+      "desc": "战力达到100000",
+      "color": "red",
+      "type": "milestone",
+      "icon": "🔥",
+      "condition": {
+        "type": "power",
+        "value": 100000
+      },
+      "stats": {
+        "crit_rate": 0.08,
+        "crit_dmg": 0.15,
+        "dmg_reduce": 0.06
+      }
+    },
+    "无畏冒险者": {
+      "desc": "累计冒险500次",
+      "color": "blue",
+      "type": "milestone",
+      "icon": "🏕️",
+      "condition": {
+        "type": "adventure_count",
+        "value": 500
+      },
+      "stats": {
+        "lifesteal": 0.02,
+        "counter": 0.02
+      }
+    },
+    "锻造学徒": {
+      "desc": "锻造等级达到5级",
+      "color": "green",
+      "type": "milestone",
+      "icon": "🔨",
+      "condition": {
+        "type": "forge_level",
+        "value": 5
+      },
+      "stats": {
+        "crit_dmg": 0.02
+      }
+    },
+    "锻造大师": {
+      "desc": "锻造等级达到20级",
+      "color": "purple",
+      "type": "milestone",
+      "icon": "⚒️",
+      "condition": {
+        "type": "forge_level",
+        "value": 20
+      },
+      "stats": {
+        "crit_rate": 0.03,
+        "crit_dmg": 0.08,
+        "dmg_reduce": 0.03
+      }
+    },
+    "铸造之神": {
+      "desc": "锻造等级达到50级",
+      "color": "red",
+      "type": "milestone",
+      "icon": "🔱",
+      "condition": {
+        "type": "forge_level",
+        "value": 50
+      },
+      "stats": {
+        "crit_rate": 0.06,
+        "crit_dmg": 0.15,
+        "dmg_reduce": 0.06
+      }
+    },
+    "武器收藏家": {
+      "desc": "拥有10件武器/装备",
+      "color": "green",
+      "type": "milestone",
+      "icon": "🗡️",
+      "condition": {
+        "type": "weapons_count",
+        "value": 10
+      },
+      "stats": {
+        "crit_rate": 0.01,
+        "extra_atk": 0.01
+      }
+    },
+    "武器大师": {
+      "desc": "拥有30件武器/装备",
+      "color": "purple",
+      "type": "milestone",
+      "icon": "🏹",
+      "condition": {
+        "type": "weapons_count",
+        "value": 30
+      },
+      "stats": {
+        "crit_rate": 0.04,
+        "crit_dmg": 0.06,
+        "extra_atk": 0.03
+      }
+    },
+    "勤劳农夫": {
+      "desc": "累计收割200次",
+      "color": "green",
+      "type": "milestone",
+      "icon": "🌾",
+      "condition": {
+        "type": "harvest_total",
+        "value": 200
+      },
+      "stats": {
+        "lifesteal": 0.01,
+        "dmg_reduce": 0.01
+      }
+    },
+    "农场大亨": {
+      "desc": "累计收割1000次",
+      "color": "purple",
+      "type": "milestone",
+      "icon": "🚜",
+      "condition": {
+        "type": "harvest_total",
+        "value": 1000
+      },
+      "stats": {
+        "lifesteal": 0.03,
+        "dmg_reduce": 0.03
+      }
+    },
+    "签到达人": {
+      "desc": "连续签到30天",
+      "color": "green",
+      "type": "milestone",
+      "icon": "📅",
+      "condition": {
+        "type": "signin_streak",
+        "value": 30
+      },
+      "stats": {
+        "lifesteal": 0.01
+      }
+    },
+    "签到狂魔": {
+      "desc": "连续签到100天",
+      "color": "purple",
+      "type": "milestone",
+      "icon": "🗓️",
+      "condition": {
+        "type": "signin_streak",
+        "value": 100
+      },
+      "stats": {
+        "lifesteal": 0.03,
+        "dmg_reduce": 0.02
+      }
+    },
+    "满级大佬": {
+      "desc": "等级达到100级",
+      "color": "red",
+      "type": "milestone",
+      "icon": "👑",
+      "condition": {
+        "type": "level",
+        "value": 100
+      },
+      "stats": {
+        "crit_rate": 0.08,
+        "crit_dmg": 0.15,
+        "lifesteal": 0.04,
+        "dmg_reduce": 0.05
+      }
+    },
+    "富甲一方": {
+      "desc": "持有金币达到10万",
+      "color": "blue",
+      "type": "milestone",
+      "icon": "💰",
+      "condition": {
+        "type": "coins",
+        "value": 100000
+      },
+      "stats": {
+        "lifesteal": 0.02,
+        "dmg_reduce": 0.01
+      }
+    },
+    "大富翁": {
+      "desc": "持有金币达到100万",
+      "color": "orange",
+      "type": "milestone",
+      "icon": "💎",
+      "condition": {
+        "type": "coins",
+        "value": 1000000
+      },
+      "stats": {
+        "lifesteal": 0.03,
+        "dmg_reduce": 0.03,
+        "extra_atk": 0.03
+      }
+    },
+    "金币千万": {
+      "desc": "持有金币达到1000万",
+      "color": "red",
+      "type": "milestone",
+      "icon": "👑",
+      "condition": {
+        "type": "coins",
+        "value": 10000000
+      },
+      "stats": {
+        "lifesteal": 0.05,
+        "dmg_reduce": 0.05,
+        "extra_atk": 0.04
+      }
+    },
+    "全知全能": {
+      "desc": "所有技能至少5级",
+      "color": "orange",
+      "type": "milestone",
+      "icon": "📚",
+      "condition": {
+        "type": "all_skills_5",
+        "value": 1
+      },
+      "stats": {
+        "crit_rate": 0.06,
+        "crit_dmg": 0.1,
+        "dmg_reduce": 0.04,
+        "counter": 0.04
+      }
+    },
+    "五谷丰登": {
+      "desc": "累计收割5000次",
+      "color": "red",
+      "type": "milestone",
+      "icon": "🌻",
+      "condition": {
+        "type": "harvest_total",
+        "value": 5000
+      },
+      "stats": {
+        "lifesteal": 0.06,
+        "dmg_reduce": 0.06
+      }
+    },
+    "万物杀手": {
+      "desc": "累计击杀10000只怪物",
+      "color": "red",
+      "type": "milestone",
+      "icon": "💀",
+      "condition": {
+        "type": "monster_kills_total",
+        "value": 10000
+      },
+      "stats": {
+        "crit_rate": 0.1,
+        "crit_dmg": 0.18,
+        "counter": 0.08
+      }
+    },
+    "至高锻造": {
+      "desc": "锻造等级达到100级",
+      "color": "gold",
+      "type": "milestone",
+      "icon": "✨",
+      "condition": {
+        "type": "forge_level",
+        "value": 100
+      },
+      "stats": {
+        "crit_rate": 0.1,
+        "crit_dmg": 0.2,
+        "dmg_reduce": 0.08
+      }
+    },
+    "签到一年": {
+      "desc": "连续签到365天",
+      "color": "gold",
+      "type": "milestone",
+      "icon": "🏆",
+      "condition": {
+        "type": "signin_streak",
+        "value": 365
+      },
+      "stats": {
+        "lifesteal": 0.08,
+        "dmg_reduce": 0.06,
+        "counter": 0.05
+      }
+    },
+    "战力无双": {
+      "desc": "战力达到500000",
+      "color": "gold",
+      "type": "milestone",
+      "icon": "🌟",
+      "condition": {
+        "type": "power",
+        "value": 500000
+      },
+      "stats": {
+        "crit_rate": 0.12,
+        "crit_dmg": 0.25,
+        "lifesteal": 0.05,
+        "dmg_reduce": 0.08
+      }
+    },
+    "钓鱼神话": {
+      "desc": "累计钓到10000条鱼",
+      "color": "gold",
+      "type": "milestone",
+      "icon": "🐳",
+      "condition": {
+        "type": "fish_total",
+        "value": 10000
+      },
+      "stats": {
+        "crit_rate": 0.1,
+        "extra_atk": 0.08,
+        "crit_dmg": 0.15
+      }
+    },
+    "满级至尊": {
+      "desc": "等级达到200级",
+      "color": "gold",
+      "type": "milestone",
+      "icon": "👑",
+      "condition": {
+        "type": "level",
+        "value": 200
+      },
+      "stats": {
+        "crit_rate": 0.15,
+        "crit_dmg": 0.3,
+        "lifesteal": 0.08,
+        "dmg_reduce": 0.1,
+        "counter": 0.08,
+        "extra_atk": 0.06
+      }
+    },
+    "限定称号·职业": {
+      "desc": "职业之旅活动限定称号，合成时概率额外产出/返还材料",
+      "color": "orange",
+      "type": "event",
+      "icon": "🏅",
+      "stats": {}
+    }
+  }
+}

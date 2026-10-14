@@ -1,0 +1,178 @@
+{
+  "description": "活动系统配置。start/end: 活动日期，到期后活动关闭但商店延后3天。coin_exchange_rate: 活动结束后每个代币自动兑换的金币数。shop: 活动商店物品。effects: 活动期间全局效果。",
+  "event": {
+    "name": "炎夏狂欢",
+    "desc": "☀️ 炎炎夏日，热浪来袭！冒险、钓鱼收集夏日币，兑换冰爽好礼！活动期间钓鱼概率+10%，所有区域经验+15%。",
+    "start": "2026-07-06",
+    "end": "2026-07-20",
+    "currency": {
+      "name": "夏日币",
+      "emoji": "☀️",
+      "adventure_rate": 0.35,
+      "adventure_min": 1,
+      "adventure_max": 4,
+      "fishing_rate": 0.2,
+      "fishing_min": 1,
+      "fishing_max": 3,
+      "coin_exchange_rate": 60
+    },
+    "effects": {
+      "fishing_rate_bonus": 0.1,
+      "exp_bonus": 0.15,
+      "fire_resist": 0.1,
+      "water_drop_bonus": 0.15
+    },
+    "bonus_regions": [
+      {
+        "region_id": "golden_coast",
+        "name": "🏖️海湾沙滩",
+        "desc": "炎夏活动加成：掉落+25%，经验+20%，金币+20%，活动币掉落率50%",
+        "drop_bonus": 0.25,
+        "exp_bonus": 0.20,
+        "coin_bonus": 0.20,
+        "currency_rate": 0.50
+      },
+      {
+        "region_id": "desert",
+        "name": "🏜️赤沙荒漠",
+        "desc": "炎夏活动加成：掉落+20%，经验+15%，金币+15%，活动币掉落率40%",
+        "drop_bonus": 0.20,
+        "exp_bonus": 0.15,
+        "coin_bonus": 0.15,
+        "currency_rate": 0.40
+      },
+      {
+        "region_id": "volcano",
+        "name": "🌋热泉山谷",
+        "desc": "炎夏活动加成：掉落+15%，经验+25%，金币+10%，活动币掉落率45%",
+        "drop_bonus": 0.15,
+        "exp_bonus": 0.25,
+        "coin_bonus": 0.10,
+        "currency_rate": 0.45
+      },
+      {
+        "region_id": "plains",
+        "name": "🌾辽阔草原",
+        "desc": "炎夏活动加成：掉落+10%，经验+10%，金币+10%，活动币掉落率30%",
+        "drop_bonus": 0.10,
+        "exp_bonus": 0.10,
+        "coin_bonus": 0.10,
+        "currency_rate": 0.30
+      }
+    ]
+  },
+  "shop": [
+    {
+      "name": "🏖️限定称号·夏日",
+      "price": 35,
+      "desc": "炎夏狂欢限定称号「夏日冒险者」（使用后永久保留）",
+      "emoji": "🏖️",
+      "limit": 1
+    },
+    {
+      "name": "🧊冰镇西瓜",
+      "price": 6,
+      "desc": "回复50%生命值",
+      "emoji": "🍉",
+      "limit": 0
+    },
+    {
+      "name": "🥤冰霜汽水",
+      "price": 8,
+      "desc": "获得冰霜Buff：速度+50、闪避+5%，持续2小时",
+      "emoji": "🥤",
+      "limit": 0
+    },
+    {
+      "name": "🩱泳装礼盒",
+      "price": 25,
+      "desc": "随机获得一件泳装主题装备（稀有度⭐3以上，Lv.50+）",
+      "emoji": "🎁",
+      "limit": 3
+    },
+    {
+      "name": "🏄冲浪板",
+      "price": 30,
+      "desc": "使用后永久速度+5",
+      "emoji": "🏄",
+      "limit": 1
+    },
+    {
+      "name": "🔥烧烤大餐",
+      "price": 12,
+      "desc": "全属性+200持续8小时 + 回满生命",
+      "emoji": "🍖",
+      "limit": 0
+    },
+    {
+      "name": "🎆烟花礼盒",
+      "price": 10,
+      "desc": "随机获得：特级强化石/觉醒强化石/宝石碎片x3/经验珠(大)x2",
+      "emoji": "🎆",
+      "limit": 0
+    },
+    {
+      "name": "🌊深海宝箱",
+      "price": 20,
+      "desc": "随机获得稀有钓鱼物品或大量金币",
+      "emoji": "🌊",
+      "limit": 5
+    },
+    {
+      "name": "💎夏日宝石",
+      "price": 18,
+      "desc": "随机获得⭐3+宝石（属性+50%）",
+      "emoji": "💎",
+      "limit": 3
+    },
+    {
+      "name": "📦夏日材料包",
+      "price": 5,
+      "desc": "随机获得5~15个夏日材料",
+      "emoji": "📦",
+      "limit": 0
+    },
+    {
+      "name": "💰夏日金币袋",
+      "price": 3,
+      "desc": "直接获得300~800金币",
+      "emoji": "💰",
+      "limit": 0
+    },
+    {
+      "name": "⭐经验珠(大)",
+      "price": 8,
+      "desc": "使用后获得500经验",
+      "emoji": "🔮",
+      "limit": 0
+    },
+    {
+      "name": "锻造精魂",
+      "price": 8,
+      "desc": "锻造必备材料",
+      "emoji": "✨",
+      "limit": 0
+    },
+    {
+      "name": "材料盲盒",
+      "price": 4,
+      "desc": "随机获得一种锻造/合成材料",
+      "emoji": "🎁",
+      "limit": 0
+    },
+    {
+      "name": "☀️烈日之刃",
+      "price": 50,
+      "desc": "随等级成长武器：攻击=等级×2 火焰伤害（可进化至×3.2，限购1）",
+      "emoji": "☀️",
+      "limit": 1
+    },
+    {
+      "name": "🌊潮汐之盾",
+      "price": 50,
+      "desc": "随等级成长护甲：防御=等级×2 生命=等级×3（可进化至×3.2/×4.9，限购1）",
+      "emoji": "🌊",
+      "limit": 1
+    }
+  ]
+}

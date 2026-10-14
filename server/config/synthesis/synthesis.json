@@ -1,0 +1,718 @@
+{
+  "description": "道具合成配方。玩家使用 /合成 消耗材料制作特殊道具。",
+  "recipes": [
+    {
+      "name": "经验药水",
+      "rarity": 1,
+      "desc": "使用后获得300经验",
+      "ingredients": [
+        {
+          "name": "史莱姆粘液",
+          "count": 3
+        },
+        {
+          "name": "蜂蜜",
+          "count": 1
+        }
+      ],
+      "emoji": "🧪"
+    },
+    {
+      "name": "大经验药水",
+      "rarity": 2,
+      "desc": "使用后获得800经验",
+      "ingredients": [
+        {
+          "name": "经验药水",
+          "count": 2
+        },
+        {
+          "name": "金矿",
+          "count": 1
+        }
+      ],
+      "emoji": "⚗️"
+    },
+    {
+      "name": "技能点药水",
+      "rarity": 2,
+      "desc": "使用后获得2技能点",
+      "ingredients": [
+        {
+          "name": "附魔石",
+          "count": 1
+        },
+        {
+          "name": "银矿",
+          "count": 2
+        },
+        {
+          "name": "蜘蛛丝",
+          "count": 1
+        }
+      ],
+      "emoji": "📖"
+    },
+    {
+      "name": "附魔石",
+      "rarity": 3,
+      "desc": "锻造时使用，武器基础属性+20%",
+      "ingredients": [
+        {
+          "name": "附魔石",
+          "count": 3
+        },
+        {
+          "name": "奥金矿",
+          "count": 1
+        },
+        {
+          "name": "秘银矿",
+          "count": 1
+        }
+      ],
+      "emoji": "💪"
+    },
+    {
+      "name": "背包扩容符",
+      "rarity": 4,
+      "desc": "所有农场类型+1（土地/养殖/材料/果树），上限各12个",
+      "ingredients": [
+        {
+          "name": "附魔石",
+          "count": 3
+        },
+        {
+          "name": "金矿",
+          "count": 3
+        },
+        {
+          "name": "神龙碎片",
+          "count": 2
+        },
+        {
+          "name": "秘银矿",
+          "count": 1
+        }
+      ],
+      "emoji": "📦"
+    },
+    {
+      "name": "果树催熟剂",
+      "rarity": 1,
+      "desc": "使用后立即让一棵果树成熟",
+      "ingredients": [
+        {
+          "name": "史莱姆粘液",
+          "count": 2
+        },
+        {
+          "name": "骨片",
+          "count": 2
+        }
+      ],
+      "emoji": "⏩"
+    },
+    {
+      "name": "武器改名卡",
+      "rarity": 3,
+      "desc": "可给锻造武器重新命名1次",
+      "ingredients": [
+        {
+          "name": "附魔石",
+          "count": 1
+        },
+        {
+          "name": "银矿",
+          "count": 1
+        },
+        {
+          "name": "蜘蛛丝",
+          "count": 1
+        }
+      ],
+      "emoji": "🏷️"
+    },
+    {
+      "name": "萝莉糖果",
+      "rarity": 1,
+      "desc": "提升萝莉50好感度",
+      "ingredients": [
+        {
+          "name": "蜂蜜",
+          "count": 3
+        },
+        {
+          "name": "胡萝卜",
+          "count": 1
+        }
+      ],
+      "emoji": "🍬"
+    },
+    {
+      "name": "改名卡",
+      "rarity": 3,
+      "desc": "使用后修改玩家名字（1-12字）",
+      "ingredients": [
+        {
+          "name": "附魔石",
+          "count": 5
+        },
+        {
+          "name": "金矿",
+          "count": 3
+        },
+        {
+          "name": "神龙碎片",
+          "count": 1
+        }
+      ],
+      "emoji": "📛"
+    },
+    {
+      "name": "转职卡",
+      "rarity": 5,
+      "desc": "重置当前职业等级为Lv.1，返还50%升级材料。职业等级>1时转职必须使用",
+      "ingredients": [
+        {
+          "name": "附魔石",
+          "count": 10
+        },
+        {
+          "name": "奥金矿",
+          "count": 3
+        },
+        {
+          "name": "秘银矿",
+          "count": 5
+        },
+        {
+          "name": "金矿",
+          "count": 10
+        }
+      ],
+      "emoji": "🔄"
+    },
+    {
+      "name": "火焰精华",
+      "rarity": 3,
+      "desc": "锻造材料：攻击+30 额外攻击+6 强制火焰伤害",
+      "ingredients": [
+        {
+          "name": "火焰之心",
+          "count": 2
+        },
+        {
+          "name": "煤炭",
+          "count": 3
+        }
+      ],
+      "emoji": "🔥"
+    },
+    {
+      "name": "寒冰碎片",
+      "rarity": 3,
+      "desc": "锻造材料：防御+30 额外防御+6 强制减伤",
+      "ingredients": [
+        {
+          "name": "寒冰核心",
+          "count": 2
+        },
+        {
+          "name": "水鬼之泪",
+          "count": 2
+        }
+      ],
+      "emoji": "❄️"
+    },
+    {
+      "name": "大地结晶",
+      "rarity": 3,
+      "desc": "锻造材料：生命+30 额外生命+6 强制反击",
+      "ingredients": [
+        {
+          "name": "宝石碎片",
+          "count": 2
+        },
+        {
+          "name": "石像碎片",
+          "count": 3
+        }
+      ],
+      "emoji": "💎"
+    },
+    {
+      "name": "风之羽毛",
+      "rarity": 3,
+      "desc": "锻造材料：速度+28 额外速度+6 闪避+4",
+      "ingredients": [
+        {
+          "name": "狮鹫羽毛",
+          "count": 2
+        },
+        {
+          "name": "蜘蛛丝",
+          "count": 3
+        }
+      ],
+      "emoji": "🪶"
+    },
+    {
+      "name": "附魔石",
+      "rarity": 3,
+      "desc": "锻造材料：全能+28 额外攻击+4 防御+4（也可用于附魔）",
+      "ingredients": [
+        {
+          "name": "神之碎屑",
+          "count": 3
+        },
+        {
+          "name": "星之碎片",
+          "count": 2
+        },
+        {
+          "name": "锻造精魂",
+          "count": 1
+        }
+      ],
+      "emoji": "🔮"
+    },
+    {
+      "name": "淬火油",
+      "rarity": 2,
+      "desc": "锻造催化剂，失败率-15%",
+      "ingredients": [
+        {
+          "name": "火焰之心",
+          "count": 1
+        },
+        {
+          "name": "煤炭",
+          "count": 5
+        },
+        {
+          "name": "铁矿",
+          "count": 3
+        }
+      ],
+      "emoji": "🔥",
+      "unlocks_recipe": "淬火油配方"
+    },
+    {
+      "name": "精炼铁矿",
+      "rarity": 2,
+      "desc": "精炼铁矿，锻造材料·攻击+15",
+      "ingredients": [
+        {
+          "name": "铁矿",
+          "count": 8
+        },
+        {
+          "name": "煤炭",
+          "count": 4
+        }
+      ],
+      "emoji": "⛏️",
+      "unlocks_recipe": "精炼铁矿配方"
+    },
+    {
+      "name": "精炼铜矿",
+      "rarity": 2,
+      "desc": "精炼铜矿，锻造材料·防御+15",
+      "ingredients": [
+        {
+          "name": "铜矿",
+          "count": 8
+        },
+        {
+          "name": "煤炭",
+          "count": 4
+        }
+      ],
+      "emoji": "⛏️",
+      "unlocks_recipe": "精炼铜矿配方"
+    },
+    {
+      "name": "精炼银矿",
+      "rarity": 3,
+      "desc": "精炼银矿，锻造材料·速度+15",
+      "ingredients": [
+        {
+          "name": "银矿",
+          "count": 8
+        },
+        {
+          "name": "煤炭",
+          "count": 6
+        }
+      ],
+      "emoji": "⛏️",
+      "unlocks_recipe": "精炼银矿配方"
+    },
+    {
+      "name": "精炼金矿",
+      "rarity": 3,
+      "desc": "精炼金矿，锻造材料·全能+20",
+      "ingredients": [
+        {
+          "name": "金矿",
+          "count": 8
+        },
+        {
+          "name": "煤炭",
+          "count": 8
+        }
+      ],
+      "emoji": "⛏️",
+      "unlocks_recipe": "精炼金矿配方"
+    },
+    {
+      "name": "开孔器",
+      "rarity": 4,
+      "desc": "给武器增加1个宝石孔(最多3个)",
+      "ingredients": [
+        {
+          "name": "秘银矿",
+          "count": 5
+        },
+        {
+          "name": "奥金矿",
+          "count": 3
+        },
+        {
+          "name": "附魔石",
+          "count": 3
+        }
+      ],
+      "emoji": "🔧",
+      "unlocks_recipe": "开孔器图纸"
+    },
+    {
+      "name": "随机图纸包",
+      "rarity": 4,
+      "desc": "随机获得一张未学习的套装图纸",
+      "ingredients": [
+        { "name": "古代金币", "count": 10 },
+        { "name": "星之碎片", "count": 5 },
+        { "name": "附魔石", "count": 5 }
+      ],
+      "emoji": "📜"
+    },
+    {
+      "name": "锻造大师证明",
+      "rarity": 5,
+      "desc": "直接提升1级锻造等级",
+      "ingredients": [
+        {
+          "name": "锻造精魂",
+          "count": 5
+        },
+        {
+          "name": "古代金币",
+          "count": 20
+        },
+        {
+          "name": "奥金矿",
+          "count": 10
+        }
+      ],
+      "emoji": "📜",
+      "unlocks_recipe": "锻造大师心得"
+    },
+    {
+      "name": "宝石合成符",
+      "rarity": 3,
+      "desc": "3颗同稀有度宝石合成1颗更高稀有度",
+      "ingredients": [
+        {
+          "name": "附魔石",
+          "count": 2
+        },
+        {
+          "name": "金矿",
+          "count": 4
+        },
+        {
+          "name": "古代金币",
+          "count": 3
+        }
+      ],
+      "emoji": "💎",
+      "unlocks_recipe": "宝石合成术"
+    },
+    {
+      "name": "治疗药水",
+      "rarity": 2,
+      "desc": "恢复40%生命值",
+      "ingredients": [
+        {
+          "name": "蜂蜜",
+          "count": 3
+        },
+        {
+          "name": "史莱姆粘液",
+          "count": 2
+        }
+      ],
+      "emoji": "🧪"
+    },
+    {
+      "name": "炸药",
+      "rarity": 3,
+      "desc": "开矿获得大量矿石",
+      "ingredients": [
+        {
+          "name": "煤炭",
+          "count": 10
+        },
+        {
+          "name": "铁矿",
+          "count": 5
+        },
+        {
+          "name": "火焰之心",
+          "count": 1
+        }
+      ],
+      "emoji": "💣"
+    },
+    {
+      "name": "罗盘",
+      "rarity": 3,
+      "desc": "探矿，下次冒险矿石掉落翻倍",
+      "ingredients": [
+        {
+          "name": "铁矿",
+          "count": 5
+        },
+        {
+          "name": "磁铁矿",
+          "count": 3
+        },
+        {
+          "name": "古代银币",
+          "count": 2
+        }
+      ],
+      "emoji": "🧭"
+    },
+    {
+      "name": "初级强化石",
+      "rarity": 1,
+      "desc": "用于强化装备+0~+3，成功率90%",
+      "ingredients": {
+        "铁矿": 5,
+        "煤炭": 3,
+        "稻草": 3
+      },
+      "count": 1,
+      "min_level": 1,
+      "unlocks_recipe": "初级强化石配方",
+      "category": "forge"
+    },
+    {
+      "name": "中级强化石",
+      "rarity": 2,
+      "desc": "用于强化装备+0~+7，成功率75%",
+      "ingredients": {
+        "银矿": 5,
+        "精炼铁矿": 3,
+        "蜘蛛丝": 3
+      },
+      "count": 1,
+      "min_level": 10,
+      "unlocks_recipe": "中级强化石配方",
+      "category": "forge"
+    },
+    {
+      "name": "高级强化石",
+      "rarity": 3,
+      "desc": "用于强化装备+0~+12，成功率60%",
+      "ingredients": {
+        "金矿": 5,
+        "精炼银矿": 3,
+        "火焰精华": 2
+      },
+      "count": 1,
+      "min_level": 30,
+      "unlocks_recipe": "高级强化石配方",
+      "category": "forge"
+    },
+    {
+      "name": "特级强化石",
+      "rarity": 4,
+      "desc": "用于强化装备+0~+20，成功率40%",
+      "ingredients": {
+        "秘银矿": 5,
+        "精炼金矿": 3,
+        "寒冰核心": 2,
+        "大地结晶": 2
+      },
+      "count": 1,
+      "min_level": 50,
+      "unlocks_recipe": "特级强化石配方",
+      "category": "forge"
+    },
+    {
+      "name": "强化保护符",
+      "rarity": 3,
+      "desc": "强化失败时防止降级（+5以上自动消耗）",
+      "ingredients": {
+        "金矿": 3,
+        "银矿": 3,
+        "天使之泪": 1
+      },
+      "count": 1,
+      "min_level": 30,
+      "unlocks_recipe": "强化保护符配方",
+      "category": "forge"
+    },
+    {
+      "name": "鱼骨剑",
+      "rarity": 2,
+      "desc": "用鱼骨碎片制作的锋利武器",
+      "ingredients": {
+        "鱼骨碎片": 8,
+        "铁矿": 5,
+        "蜘蛛丝": 3
+      },
+      "count": 1,
+      "min_level": 15,
+      "unlocks_recipe": "鱼骨剑配方",
+      "category": "equipment",
+      "type": "direct_equip",
+      "equip_slot": "weapon",
+      "equip_stats": {
+        "attack": 30,
+        "speed": 10
+      }
+    },
+    {
+      "name": "鳞甲护甲",
+      "rarity": 2,
+      "desc": "用深海鳞片制作的坚韧护甲",
+      "ingredients": {
+        "深海鳞片": 8,
+        "铜矿": 5,
+        "蜘蛛丝": 3
+      },
+      "count": 1,
+      "min_level": 20,
+      "unlocks_recipe": "鳞甲护甲配方",
+      "category": "equipment",
+      "type": "direct_equip",
+      "equip_slot": "armor",
+      "equip_stats": {
+        "defense": 22,
+        "hp": 40
+      }
+    },
+    {
+      "name": "攻击强化石",
+      "rarity": 2,
+      "desc": "专注进攻的强化石",
+      "ingredients": {
+        "铁矿": 8,
+        "煤炭": 5,
+        "狼牙": 3
+      },
+      "count": 1,
+      "min_level": 15,
+      "unlocks_recipe": "攻击强化石配方",
+      "category": "forge"
+    },
+    {
+      "name": "防御强化石",
+      "rarity": 2,
+      "desc": "专注防御的强化石",
+      "ingredients": {
+        "铜矿": 8,
+        "稻草": 5,
+        "骨片": 3
+      },
+      "count": 1,
+      "min_level": 15,
+      "unlocks_recipe": "防御强化石配方",
+      "category": "forge"
+    },
+    {
+      "name": "觉醒强化石",
+      "rarity": 4,
+      "desc": "必定获得特殊属性的强化石",
+      "ingredients": {
+        "高级强化石": 1,
+        "火焰精华": 2,
+        "寒冰核心": 2,
+        "大地结晶": 2
+      },
+      "count": 1,
+      "min_level": 40,
+      "unlocks_recipe": "觉醒强化石配方",
+      "category": "forge"
+    },
+    {
+      "name": "突破强化石",
+      "rarity": 4,
+      "desc": "必定品质突破的强化石",
+      "ingredients": {
+        "特级强化石": 1,
+        "天使之泪": 2,
+        "贤者之石": 1
+      },
+      "count": 1,
+      "min_level": 50,
+      "unlocks_recipe": "突破强化石配方",
+      "category": "forge"
+    },
+    {
+      "name": "大地核心",
+      "rarity": 999,
+      "desc": "锻造材料：全能+72 全属性+18%，必出反击（锻造时替代6个材料）",
+      "ingredients": [
+        { "name": "大地结晶", "count": 3 },
+        { "name": "奥金矿", "count": 5 },
+        { "name": "古代金币", "count": 10 },
+        { "name": "天使之泪", "count": 1 }
+      ],
+      "emoji": "🌍",
+      "unlocks_recipe": "大地核心配方"
+    },
+    {
+      "name": "混沌原矿",
+      "rarity": 9999,
+      "desc": "矿工终极矿石，锻造值150+全属性+25%",
+      "ingredients": [
+        { "name": "大地核心", "count": 3 },
+        { "name": "混沌之鳞", "count": 3 },
+        { "name": "创世结晶", "count": 3 },
+        { "name": "神龙碎片", "count": 2 }
+      ],
+      "emoji": "🌀",
+      "unlocks_recipe": "混沌原矿配方"
+    },
+    {
+      "name": "神匠之锤",
+      "rarity": 999,
+      "desc": "终极锻造工具，锻造时属性翻倍（一次性消耗）",
+      "ingredients": [
+        { "name": "神之碎片", "count": 3 },
+        { "name": "混沌之鳞", "count": 2 },
+        { "name": "奥金矿", "count": 15 },
+        { "name": "神龙碎片", "count": 1 }
+      ],
+      "emoji": "🔨",
+      "unlocks_recipe": "神匠之锤配方"
+    },
+    {
+      "name": "随机材料配方",
+      "rarity": 3,
+      "desc": "随机获得一种稀有锻造材料",
+      "ingredients": [
+        { "name": "古代金币", "count": 5 },
+        { "name": "星之碎片", "count": 3 },
+        { "name": "附魔石", "count": 2 }
+      ],
+      "emoji": "🎲"
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "description": "材料农场配置。种植材料类作物，收获矿石、附魔材料等。生长时间较长，但产物价值高。",
+  "seeds": [
+    {
+      "name": "铁矿种子",
+      "rarity": 2,
+      "type": "material_plant",
+      "price": 200,
+      "growth_time": 7200,
+      "harvest_product": "铁矿",
+      "harvest_amount": [
+        3,
+        6
+      ],
+      "harvest_exp": 30,
+      "max_cycles": 5,
+      "repeatable": true,
+      "byproducts": [
+        {
+          "name": "铜矿",
+          "chance": 0.3,
+          "count": [
+            1,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "name": "银矿种子",
+      "rarity": 3,
+      "type": "material_plant",
+      "price": 500,
+      "growth_time": 10800,
+      "harvest_product": "银矿",
+      "harvest_amount": [
+        2,
+        5
+      ],
+      "harvest_exp": 50,
+      "max_cycles": 4,
+      "repeatable": true,
+      "byproducts": [
+        {
+          "name": "金矿",
+          "chance": 0.15,
+          "count": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "name": "金矿种子",
+      "rarity": 4,
+      "type": "material_plant",
+      "price": 1200,
+      "growth_time": 14400,
+      "harvest_product": "金矿",
+      "harvest_amount": [
+        2,
+        4
+      ],
+      "harvest_exp": 80,
+      "max_cycles": 3,
+      "repeatable": true,
+      "byproducts": [
+        {
+          "name": "秘银矿",
+          "chance": 0.08,
+          "count": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "附魔草种子",
+      "rarity": 3,
+      "type": "material_plant",
+      "price": 600,
+      "growth_time": 10800,
+      "harvest_product": "附魔石",
+      "harvest_amount": [
+        1,
+        3
+      ],
+      "harvest_exp": 60,
+      "max_cycles": 4,
+      "repeatable": true,
+      "byproducts": [
+        {
+          "name": "史莱姆粘液",
+          "chance": 0.4,
+          "count": [
+            1,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "name": "水晶花种",
+      "rarity": 4,
+      "type": "material_plant",
+      "price": 1500,
+      "growth_time": 18000,
+      "harvest_product": "宝石碎片",
+      "harvest_amount": [
+        1,
+        3
+      ],
+      "harvest_exp": 100,
+      "max_cycles": 2,
+      "repeatable": true,
+      "byproducts": [
+        {
+          "name": "星之碎片",
+          "chance": 0.05,
+          "count": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "史莱姆种子",
+      "rarity": 2,
+      "type": "material_plant",
+      "price": 350,
+      "growth_time": 9000,
+      "harvest_product": "史莱姆粘液",
+      "harvest_amount": [
+        3,
+        8
+      ],
+      "harvest_exp": 40,
+      "max_cycles": 5,
+      "repeatable": true,
+      "byproducts": [
+        {
+          "name": "宝石碎片",
+          "chance": 0.1,
+          "count": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "name": "秘银种子",
+      "rarity": 4,
+      "type": "material_plant",
+      "price": 2000,
+      "growth_time": 21600,
+      "harvest_product": "秘银矿",
+      "harvest_amount": [
+        1,
+        3
+      ],
+      "harvest_exp": 120,
+      "max_cycles": 3,
+      "repeatable": true,
+      "byproducts": [
+        {
+          "name": "奥金矿",
+          "chance": 0.05,
+          "count": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "神龙碎片种子",
+      "rarity": 999,
+      "type": "material_plant",
+      "price": 5000,
+      "growth_time": 43200,
+      "harvest_product": "神龙碎片",
+      "harvest_amount": [
+        1,
+        2
+      ],
+      "harvest_exp": 200,
+      "max_cycles": 2,
+      "repeatable": true,
+      "byproducts": [
+        {
+          "name": "龙之心",
+          "chance": 0.03,
+          "count": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "name": "龙鳞种子",
+      "rarity": 999,
+      "type": "material_plant",
+      "price": 5000,
+      "growth_time": 43200,
+      "harvest_product": "神龙碎片",
+      "harvest_amount": [
+        1,
+        2
+      ],
+      "harvest_exp": 200,
+      "max_cycles": 2,
+      "repeatable": true,
+      "byproducts": [
+        {
+          "name": "龙鳞",
+          "chance": 0.05,
+          "count": [
+            1,
+            1
+          ]
+        }
+      ]
+    }
+  ]
+}

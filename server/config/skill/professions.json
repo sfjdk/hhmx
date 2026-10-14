@@ -1,0 +1,2240 @@
+{
+  "description": "职业系统v2 - 等级制、专属物品、升级解锁",
+  "max_level": 10,
+  "level_up_base_cost": 1000,
+  "level_up_cost_multiplier": 1.8,
+  "respec_card_cost": 50000,
+  "respec_card_desc": "转职卡：切换职业时清空职业等级，返还50%升级材料",
+  "professions": [
+    {
+      "id": "blacksmith",
+      "name": "铁匠",
+      "icon": "🔨",
+      "type": "main",
+      "description": "精通锻造与强化之术。强化成功率提升，制作材料节省，特殊属性更容易出现。",
+      "level_bonuses": [
+        {
+          "level": 1,
+          "bonus_desc": "强化成功率+5%，锻造经验+10% | 冒险攻击+3%，冒险防御+2%",
+          "strengthen_bonus": 0.075,
+          "forge_exp_bonus": 0.15,
+          "lv": 1,
+          "adv_atk": 0.03,
+          "adv_def": 0.02
+        },
+        {
+          "level": 2,
+          "bonus_desc": "强化成功率+10%，锻造经验+15%",
+          "strengthen_bonus": 0.15,
+          "forge_exp_bonus": 0.225
+        },
+        {
+          "level": 3,
+          "bonus_desc": "强化成功率+15%，材料节省+5% | 冒险攻击+5%，冒险防御+3%",
+          "strengthen_bonus": 0.225,
+          "material_save": 0.075,
+          "lv": 3,
+          "adv_atk": 0.05,
+          "adv_def": 0.03
+        },
+        {
+          "level": 4,
+          "bonus_desc": "强化成功率+18%，锻造经验+20%",
+          "strengthen_bonus": 0.27,
+          "forge_exp_bonus": 0.3
+        },
+        {
+          "level": 5,
+          "bonus_desc": "强化成功率+22%，特殊属性概率+8% | 冒险攻击+8%，冒险防御+5%，装备掉落+3%",
+          "strengthen_bonus": 0.33,
+          "special_chance": 0.12,
+          "lv": 5,
+          "adv_atk": 0.08,
+          "adv_def": 0.05,
+          "weapon_drop_bonus": 0.03
+        },
+        {
+          "level": 6,
+          "bonus_desc": "强化成功率+25%，材料节省+10%",
+          "strengthen_bonus": 0.375,
+          "material_save": 0.15
+        },
+        {
+          "level": 7,
+          "bonus_desc": "强化成功率+28%，品质突破概率+10% | 冒险攻击+10%，冒险防御+7%，装备掉落+5%",
+          "strengthen_bonus": 0.42,
+          "breakthrough_bonus": 0.15,
+          "lv": 7,
+          "adv_atk": 0.1,
+          "adv_def": 0.07,
+          "weapon_drop_bonus": 0.05
+        },
+        {
+          "level": 8,
+          "bonus_desc": "强化成功率+30%，锻造经验+25%",
+          "strengthen_bonus": 0.45,
+          "forge_exp_bonus": 0.375
+        },
+        {
+          "level": 9,
+          "bonus_desc": "强化成功率+33%，特殊属性概率+12% | 冒险攻击+15%，冒险防御+10%，装备掉落+8%",
+          "strengthen_bonus": 0.495,
+          "special_chance": 0.18,
+          "lv": 9,
+          "adv_atk": 0.15,
+          "adv_def": 0.1,
+          "weapon_drop_bonus": 0.08
+        },
+        {
+          "level": 10,
+          "bonus_desc": "强化成功率+40%，品质突破+15%，双倍制作5%",
+          "strengthen_bonus": 0.5,
+          "breakthrough_bonus": 0.225,
+          "double_craft": 0.075
+        }
+      ],
+      "level_up_materials": [
+        {
+          "name": "锻造精魂",
+          "count_per_level": 2
+        },
+        {
+          "name": "铁矿",
+          "count_per_level": 5
+        }
+      ],
+      "exclusive_items": [
+        {
+          "name": "铁匠围裙",
+          "desc": "铁匠工作服，锻造经验+15%",
+          "unlock_level": 1,
+          "category": "special",
+          "rarity": 2
+        },
+        {
+          "name": "强化催化剂",
+          "desc": "下次强化成功率+20%（一次性消耗）",
+          "unlock_level": 3,
+          "category": "consume",
+          "rarity": 3
+        },
+        {
+          "name": "幸运淬火油",
+          "desc": "下次强化必定获得特殊属性（一次性消耗）",
+          "unlock_level": 5,
+          "category": "consume",
+          "rarity": 4
+        },
+        {
+          "name": "觉醒锤",
+          "desc": "下次强化必定触发品质突破（一次性消耗）",
+          "unlock_level": 7,
+          "category": "special",
+          "rarity": 4
+        },
+        {
+          "name": "神匠之魂",
+          "desc": "永久提升强化成功率+5%",
+          "unlock_level": 9,
+          "category": "special",
+          "rarity": 999
+        }
+      ],
+      "recipes": [
+        {
+          "name": "淬火油",
+          "rarity": 2,
+          "min_level": 2,
+          "desc": "下次强化成功率+15%",
+          "ingredients": [
+            {
+              "name": "煤炭",
+              "count": 3
+            },
+            {
+              "name": "铁矿",
+              "count": 2
+            }
+          ],
+          "output": {
+            "name": "淬火油",
+            "count": 1
+          }
+        },
+        {
+          "name": "强化催化剂",
+          "rarity": 3,
+          "min_level": 4,
+          "desc": "下次强化成功率+20%",
+          "ingredients": [
+            {
+              "name": "淬火油",
+              "count": 1
+            },
+            {
+              "name": "锻造精魂",
+              "count": 1
+            },
+            {
+              "name": "银矿",
+              "count": 3
+            }
+          ],
+          "output": {
+            "name": "强化催化剂",
+            "count": 1
+          }
+        },
+        {
+          "name": "幸运淬火油",
+          "rarity": 4,
+          "min_level": 6,
+          "desc": "下次强化必定获得特殊属性",
+          "ingredients": [
+            {
+              "name": "淬火油",
+              "count": 2
+            },
+            {
+              "name": "火焰精华",
+              "count": 1
+            },
+            {
+              "name": "金矿",
+              "count": 3
+            }
+          ],
+          "output": {
+            "name": "幸运淬火油",
+            "count": 1
+          }
+        },
+        {
+          "name": "觉醒锤",
+          "rarity": 4,
+          "min_level": 8,
+          "desc": "下次强化必定品质突破",
+          "ingredients": [
+            {
+              "name": "强化催化剂",
+              "count": 2
+            },
+            {
+              "name": "天使之泪",
+              "count": 1
+            },
+            {
+              "name": "秘银矿",
+              "count": 5
+            }
+          ],
+          "output": {
+            "name": "觉醒锤",
+            "count": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "fisherman",
+      "name": "渔夫",
+      "icon": "🎣",
+      "type": "main",
+      "description": "以渔为生。可钓到专属稀有鱼类。",
+      "level_bonuses": [
+        {
+          "level": 1,
+          "bonus_desc": "钓鱼成功率+5% | 金币+5%，速度+3%",
+          "fishing_bonus": 0.075,
+          "lv": 1,
+          "adv_coin": 0.05,
+          "adv_speed": 0.03
+        },
+        {
+          "level": 2,
+          "bonus_desc": "钓鱼成功率+8%，稀有鱼+3%",
+          "fishing_bonus": 0.12,
+          "rare_fish_bonus": 0.045
+        },
+        {
+          "level": 3,
+          "bonus_desc": "钓鱼成功率+11%，稀有鱼+5% | 金币+8%，稀有掉落+3%",
+          "fishing_bonus": 0.165,
+          "rare_fish_bonus": 0.075,
+          "lv": 3,
+          "adv_coin": 0.08,
+          "rare_drop": 0.03
+        },
+        {
+          "level": 4,
+          "bonus_desc": "钓鱼成功率+14%，稀有鱼+7%",
+          "fishing_bonus": 0.21,
+          "rare_fish_bonus": 0.105
+        },
+        {
+          "level": 5,
+          "bonus_desc": "钓鱼成功率+18%，稀有鱼+10% | 金币+12%，速度+5%，稀有掉落+5%",
+          "fishing_bonus": 0.27,
+          "rare_fish_bonus": 0.15,
+          "lv": 5,
+          "adv_coin": 0.12,
+          "rare_drop": 0.05,
+          "adv_speed": 0.05
+        },
+        {
+          "level": 6,
+          "bonus_desc": "钓鱼成功率+22%，稀有鱼+12%",
+          "fishing_bonus": 0.33,
+          "rare_fish_bonus": 0.18
+        },
+        {
+          "level": 7,
+          "bonus_desc": "钓鱼成功率+26%，稀有鱼+15% | 金币+15%，稀有掉落+8%",
+          "fishing_bonus": 0.39,
+          "rare_fish_bonus": 0.225,
+          "lv": 7,
+          "adv_coin": 0.15,
+          "rare_drop": 0.08
+        },
+        {
+          "level": 8,
+          "bonus_desc": "钓鱼成功率+30%，稀有鱼+18%",
+          "fishing_bonus": 0.45,
+          "rare_fish_bonus": 0.27
+        },
+        {
+          "level": 9,
+          "bonus_desc": "钓鱼成功率+35%，稀有鱼+21% | 金币+20%，速度+10%，稀有掉落+12%",
+          "fishing_bonus": 0.5,
+          "rare_fish_bonus": 0.315,
+          "lv": 9,
+          "adv_coin": 0.2,
+          "rare_drop": 0.12,
+          "adv_speed": 0.1
+        },
+        {
+          "level": 10,
+          "bonus_desc": "钓鱼成功率+40%，稀有鱼+25%",
+          "fishing_bonus": 0.5,
+          "rare_fish_bonus": 0.375
+        }
+      ],
+      "level_up_materials": [
+        {
+          "name": "渔夫之魂",
+          "count_per_level": 2
+        },
+        {
+          "name": "蜘蛛丝",
+          "count_per_level": 5
+        }
+      ],
+      "exclusive_items": [
+        {
+          "name": "渔夫斗笠",
+          "desc": "渔夫专属装备，钓鱼经验+20%",
+          "unlock_level": 1,
+          "category": "special",
+          "rarity": 2
+        },
+        {
+          "name": "彩虹鳟鱼",
+          "desc": "渔夫专属稀有鱼，出售价800-1200",
+          "unlock_level": 2,
+          "category": "fish",
+          "rarity": 2
+        },
+        {
+          "name": "金鲤鱼",
+          "desc": "渔夫专属稀有鱼，出售价值极高",
+          "unlock_level": 3,
+          "category": "fish",
+          "rarity": 3
+        },
+        {
+          "name": "月光水母",
+          "desc": "渔夫专属稀有鱼，食用永久+20速度",
+          "unlock_level": 5,
+          "category": "fish",
+          "rarity": 4
+        },
+        {
+          "name": "龙鱼",
+          "desc": "传说级专属鱼，价值连城",
+          "unlock_level": 7,
+          "category": "fish",
+          "rarity": 5
+        },
+        {
+          "name": "深海龙鲸",
+          "desc": "终极传说鱼，出售价5000+ 或 食用全属性+50",
+          "unlock_level": 9,
+          "category": "fish",
+          "rarity": 999
+        }
+      ],
+      "recipes": [
+        {
+          "name": "特制鱼饵",
+          "rarity": 2,
+          "min_level": 1,
+          "desc": "成功率+15%",
+          "ingredients": [
+            {
+              "name": "史莱姆粘液",
+              "count": 3
+            },
+            {
+              "name": "蜘蛛丝",
+              "count": 2
+            },
+            {
+              "name": "蜂蜜",
+              "count": 1
+            }
+          ],
+          "output": {
+            "name": "特制鱼饵",
+            "count": 1
+          }
+        },
+        {
+          "name": "荧光鱼饵",
+          "rarity": 2,
+          "min_level": 2,
+          "desc": "成功率+25%（持续10次）",
+          "ingredients": [
+            {
+              "name": "特制鱼饵",
+              "count": 2
+            },
+            {
+              "name": "发光鱿鱼",
+              "count": 3
+            }
+          ],
+          "output": {
+            "name": "荧光鱼饵",
+            "count": 1
+          }
+        },
+        {
+          "name": "冒险者护符",
+          "rarity": 2,
+          "min_level": 3,
+          "desc": "冒险装备：掉落率+5%",
+          "ingredients": [
+            {
+              "name": "蜘蛛丝",
+              "count": 5
+            },
+            {
+              "name": "银矿",
+              "count": 1
+            },
+            {
+              "name": "渔夫之魂",
+              "count": 2
+            }
+          ],
+          "output": {
+            "name": "冒险者护符",
+            "count": 1
+          }
+        },
+        {
+          "name": "鲜鱼食材包",
+          "rarity": 2,
+          "min_level": 5,
+          "desc": "联动厨师：下次烹饪效果翻倍",
+          "ingredients": [
+            {
+              "name": "石斑鱼",
+              "count": 3
+            },
+            {
+              "name": "厨师之魂",
+              "count": 2
+            },
+            {
+              "name": "鲈鱼",
+              "count": 5
+            }
+          ],
+          "output": {
+            "name": "鲜鱼食材包",
+            "count": 1
+          }
+        },
+        {
+          "name": "芳香鱼饵",
+          "rarity": 3,
+          "min_level": 3,
+          "desc": "稀有鱼概率+20%",
+          "ingredients": [
+            {
+              "name": "特制鱼饵",
+              "count": 2
+            },
+            {
+              "name": "蜂王浆",
+              "count": 1
+            },
+            {
+              "name": "银矿",
+              "count": 2
+            }
+          ],
+          "output": {
+            "name": "芳香鱼饵",
+            "count": 1
+          }
+        },
+        {
+          "name": "捕鱼笼",
+          "rarity": 3,
+          "min_level": 4,
+          "desc": "放置后每小时自动获得1-3条鱼",
+          "ingredients": [
+            {
+              "name": "蜘蛛丝",
+              "count": 5
+            },
+            {
+              "name": "稻草",
+              "count": 5
+            },
+            {
+              "name": "铁矿",
+              "count": 3
+            }
+          ],
+          "output": {
+            "name": "捕鱼笼",
+            "count": 1
+          }
+        },
+        {
+          "name": "渔网",
+          "rarity": 3,
+          "min_level": 5,
+          "desc": "一次获2-4条鱼",
+          "ingredients": [
+            {
+              "name": "蜘蛛丝",
+              "count": 5
+            },
+            {
+              "name": "稻草",
+              "count": 3
+            }
+          ],
+          "output": {
+            "name": "渔网",
+            "count": 1
+          }
+        },
+        {
+          "name": "鱼群探测器",
+          "rarity": 3,
+          "min_level": 6,
+          "desc": "下次钓鱼必得稀有以上品质（联动铁匠）",
+          "ingredients": [
+            {
+              "name": "芳香鱼饵",
+              "count": 2
+            },
+            {
+              "name": "精炼铁矿",
+              "count": 2
+            },
+            {
+              "name": "渔夫之魂",
+              "count": 1
+            }
+          ],
+          "output": {
+            "name": "鱼群探测器",
+            "count": 1
+          }
+        },
+        {
+          "name": "鱼王之饵",
+          "rarity": 4,
+          "min_level": 8,
+          "desc": "必定钓到稀有以上品质",
+          "ingredients": [
+            {
+              "name": "芳香鱼饵",
+              "count": 3
+            },
+            {
+              "name": "金矿",
+              "count": 3
+            },
+            {
+              "name": "渔夫之魂",
+              "count": 2
+            }
+          ],
+          "output": {
+            "name": "鱼王之饵",
+            "count": 1
+          }
+        },
+        {
+          "name": "龙纹鱼竿",
+          "rarity": 5,
+          "min_level": 10,
+          "desc": "传说钓竿，钓鱼全属性+30%（永久装备）",
+          "ingredients": [
+            {
+              "name": "鱼王之饵",
+              "count": 3
+            },
+            {
+              "name": "神龙碎片",
+              "count": 2
+            },
+            {
+              "name": "渔夫之魂",
+              "count": 5
+            }
+          ],
+          "output": {
+            "name": "龙纹鱼竿",
+            "count": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "farmer",
+      "name": "农夫",
+      "icon": "🌾",
+      "type": "main",
+      "description": "耕耘大地。可收获专属稀有农作物。",
+      "level_bonuses": [
+        {
+          "level": 1,
+          "bonus_desc": "收获加成+5% | 经验+5%，生命+5%",
+          "harvest_bonus": 0.075,
+          "lv": 1,
+          "adv_exp": 0.05,
+          "adv_hp": 0.05
+        },
+        {
+          "level": 2,
+          "bonus_desc": "收获加成+8%，生长加速+5%",
+          "harvest_bonus": 0.12,
+          "growth_speed": 0.075
+        },
+        {
+          "level": 3,
+          "bonus_desc": "收获加成+12%，生长加速+8% | 经验+8%，生命+8%",
+          "harvest_bonus": 0.18,
+          "growth_speed": 0.12,
+          "lv": 3,
+          "adv_exp": 0.08,
+          "adv_hp": 0.08
+        },
+        {
+          "level": 4,
+          "bonus_desc": "收获加成+16%，生长加速+11%",
+          "harvest_bonus": 0.24,
+          "growth_speed": 0.165
+        },
+        {
+          "level": 5,
+          "bonus_desc": "收获加成+20%，生长加速+15% | 经验+12%，生命+12%，精英抵抗+5%",
+          "harvest_bonus": 0.3,
+          "growth_speed": 0.225,
+          "lv": 5,
+          "adv_exp": 0.12,
+          "adv_hp": 0.12,
+          "elite_resist": 0.05
+        },
+        {
+          "level": 6,
+          "bonus_desc": "收获加成+25%，生长加速+18%",
+          "harvest_bonus": 0.375,
+          "growth_speed": 0.27
+        },
+        {
+          "level": 7,
+          "bonus_desc": "收获加成+30%，生长加速+22% | 经验+15%，生命+15%",
+          "harvest_bonus": 0.45,
+          "growth_speed": 0.33,
+          "lv": 7,
+          "adv_exp": 0.15,
+          "adv_hp": 0.15
+        },
+        {
+          "level": 8,
+          "bonus_desc": "收获加成+36%，生长加速+25%",
+          "harvest_bonus": 0.5,
+          "growth_speed": 0.375
+        },
+        {
+          "level": 9,
+          "bonus_desc": "收获加成+42%，生长加速+28% | 经验+20%，生命+20%，精英抵抗+10%",
+          "harvest_bonus": 0.5,
+          "growth_speed": 0.42,
+          "lv": 9,
+          "adv_exp": 0.2,
+          "adv_hp": 0.2,
+          "elite_resist": 0.1
+        },
+        {
+          "level": 10,
+          "bonus_desc": "收获加成+50%，生长加速+33%",
+          "harvest_bonus": 0.5,
+          "growth_speed": 0.495
+        }
+      ],
+      "level_up_materials": [
+        {
+          "name": "农夫之魂",
+          "count_per_level": 2
+        },
+        {
+          "name": "稻草",
+          "count_per_level": 5
+        }
+      ],
+      "exclusive_items": [
+        {
+          "name": "农夫草帽",
+          "desc": "农夫专属，收获经验+20%",
+          "unlock_level": 1,
+          "category": "special",
+          "rarity": 2
+        },
+        {
+          "name": "月光小麦种子",
+          "desc": "农夫专属种子，收获月光小麦（出售价500）",
+          "unlock_level": 2,
+          "category": "seed",
+          "rarity": 2,
+          "plantable": true,
+          "growth_time": 1800,
+          "harvest_product": "月光小麦",
+          "harvest_amount": [
+            1,
+            2
+          ],
+          "harvest_value": [
+            400,
+            600
+          ],
+          "harvest_exp": 50
+        },
+        {
+          "name": "金色麦穗",
+          "desc": "农夫专属稀有作物，出售价值极高",
+          "unlock_level": 3,
+          "category": "product",
+          "rarity": 3
+        },
+        {
+          "name": "魔法浆果种子",
+          "desc": "农夫专属种子，收获魔法浆果（食用+100经验）",
+          "unlock_level": 5,
+          "category": "seed",
+          "rarity": 3,
+          "plantable": true,
+          "growth_time": 3600,
+          "harvest_product": "魔法浆果",
+          "harvest_amount": [
+            1,
+            3
+          ],
+          "harvest_value": [
+            200,
+            350
+          ],
+          "harvest_exp": 80
+        },
+        {
+          "name": "神秘果实",
+          "desc": "传说级作物，食用永久+20HP",
+          "unlock_level": 7,
+          "category": "consume",
+          "rarity": 5
+        },
+        {
+          "name": "黄金果树苗",
+          "desc": "农夫专属，收获黄金果实（食用永久+5攻击）",
+          "unlock_level": 9,
+          "category": "seed",
+          "rarity": 5,
+          "plantable": true,
+          "growth_time": 7200,
+          "harvest_product": "黄金果实",
+          "harvest_amount": [
+            1,
+            1
+          ],
+          "harvest_value": [
+            800,
+            1500
+          ],
+          "harvest_exp": 200
+        }
+      ],
+      "recipes": [
+        {
+          "name": "高效肥料",
+          "rarity": 2,
+          "min_level": 1,
+          "desc": "减少生长时间30%",
+          "ingredients": [
+            {
+              "name": "骨片",
+              "count": 3
+            },
+            {
+              "name": "史莱姆粘液",
+              "count": 2
+            },
+            {
+              "name": "稻草",
+              "count": 2
+            }
+          ],
+          "output": {
+            "name": "高效肥料",
+            "count": 1
+          }
+        },
+        {
+          "name": "快速生长素",
+          "rarity": 2,
+          "min_level": 2,
+          "desc": "缩短生长时间20%（消耗品）",
+          "ingredients": [
+            {
+              "name": "史莱姆粘液",
+              "count": 3
+            },
+            {
+              "name": "蜂蜜",
+              "count": 2
+            }
+          ],
+          "output": {
+            "name": "快速生长素",
+            "count": 1
+          }
+        },
+        {
+          "name": "幸运兔脚",
+          "rarity": 2,
+          "min_level": 3,
+          "desc": "冒险装备：稀有事件率+8%",
+          "ingredients": [
+            {
+              "name": "兔毛",
+              "count": 5
+            },
+            {
+              "name": "蜂蜜",
+              "count": 2
+            },
+            {
+              "name": "农夫之魂",
+              "count": 2
+            }
+          ],
+          "output": {
+            "name": "幸运兔脚",
+            "count": 1
+          }
+        },
+        {
+          "name": "矿质肥料",
+          "rarity": 2,
+          "min_level": 6,
+          "desc": "联动矿工：产出高效肥料×2（生长-30%）",
+          "ingredients": [
+            {
+              "name": "精炼煤炭",
+              "count": 3
+            },
+            {
+              "name": "矿工之魂",
+              "count": 3
+            },
+            {
+              "name": "稻草",
+              "count": 5
+            }
+          ],
+          "output": {
+            "name": "高效肥料",
+            "count": 2
+          }
+        },
+        {
+          "name": "超级肥料",
+          "rarity": 3,
+          "min_level": 4,
+          "desc": "减少生长时间60%（联动渔夫）",
+          "ingredients": [
+            {
+              "name": "高效肥料",
+              "count": 2
+            },
+            {
+              "name": "渔夫之魂",
+              "count": 1
+            },
+            {
+              "name": "蜂蜜",
+              "count": 2
+            }
+          ],
+          "output": {
+            "name": "超级肥料",
+            "count": 1
+          }
+        },
+        {
+          "name": "丰收护符",
+          "rarity": 3,
+          "min_level": 5,
+          "desc": "产量翻倍（消耗品）",
+          "ingredients": [
+            {
+              "name": "稻草",
+              "count": 5
+            },
+            {
+              "name": "银矿",
+              "count": 2
+            },
+            {
+              "name": "农夫之魂",
+              "count": 1
+            }
+          ],
+          "output": {
+            "name": "丰收护符",
+            "count": 1
+          }
+        },
+        {
+          "name": "双倍收获卷轴",
+          "rarity": 4,
+          "min_level": 6,
+          "desc": "下次收割产量翻倍",
+          "ingredients": [
+            {
+              "name": "丰收护符",
+              "count": 1
+            },
+            {
+              "name": "金矿",
+              "count": 2
+            },
+            {
+              "name": "农夫之魂",
+              "count": 2
+            }
+          ],
+          "output": {
+            "name": "双倍收获卷轴",
+            "count": 1
+          }
+        },
+        {
+          "name": "生命之种",
+          "rarity": 4,
+          "min_level": 8,
+          "desc": "使用后，下次种植的第一颗作物立即成熟",
+          "ingredients": [
+            {
+              "name": "超级肥料",
+              "count": 2
+            },
+            {
+              "name": "金矿",
+              "count": 2
+            },
+            {
+              "name": "农夫之魂",
+              "count": 3
+            }
+          ],
+          "output": {
+            "name": "生命之种",
+            "count": 1
+          }
+        },
+        {
+          "name": "探险家背包",
+          "rarity": 4,
+          "min_level": 7,
+          "desc": "冒险装备：掉率+3% 经验+8% 金币+8%",
+          "ingredients": [
+            {
+              "name": "稻草",
+              "count": 10
+            },
+            {
+              "name": "兔毛",
+              "count": 5
+            },
+            {
+              "name": "金矿",
+              "count": 2
+            },
+            {
+              "name": "农夫之魂",
+              "count": 3
+            }
+          ],
+          "output": {
+            "name": "探险家背包",
+            "count": 1
+          }
+        },
+        {
+          "name": "大地祝福",
+          "rarity": 5,
+          "min_level": 9,
+          "desc": "所有农田立即成熟",
+          "ingredients": [
+            {
+              "name": "生命之种",
+              "count": 2
+            },
+            {
+              "name": "奥金矿",
+              "count": 1
+            },
+            {
+              "name": "农夫之魂",
+              "count": 5
+            }
+          ],
+          "output": {
+            "name": "大地祝福",
+            "count": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "chef",
+      "name": "厨师",
+      "icon": "🍳",
+      "type": "sub",
+      "description": "烹饪大师。可制作专属高级美食。",
+      "level_bonuses": [
+        {
+          "level": 1,
+          "bonus_desc": "烹饪效果+5% | 金币+3%",
+          "food_bonus": 0.05,
+          "lv": 1,
+          "food_duration": 0.2,
+          "adv_coin": 0.03
+        },
+        {
+          "level": 2,
+          "bonus_desc": "烹饪效果+8%，食物持续+10%",
+          "food_bonus": 0.08,
+          "food_duration": 0.15
+        },
+        {
+          "level": 3,
+          "bonus_desc": "烹饪效果+12%，食物持续+15% | ",
+          "food_bonus": 0.12,
+          "food_duration": 0.3,
+          "lv": 3,
+          "food_effect": 0.1
+        },
+        {
+          "level": 4,
+          "bonus_desc": "烹饪效果+16%，食物持续+20%",
+          "food_bonus": 0.16,
+          "food_duration": 0.3
+        },
+        {
+          "level": 5,
+          "bonus_desc": "烹饪效果+20%，食物持续+25% | 金币+5%",
+          "food_bonus": 0.2,
+          "food_duration": 0.4,
+          "lv": 5,
+          "food_effect": 0.2,
+          "adv_coin": 0.05
+        },
+        {
+          "level": 6,
+          "bonus_desc": "烹饪效果+25%，食物持续+30%",
+          "food_bonus": 0.25,
+          "food_duration": 0.45
+        },
+        {
+          "level": 7,
+          "bonus_desc": "烹饪效果+30%，食物持续+35% | ",
+          "food_bonus": 0.3,
+          "food_duration": 0.5,
+          "lv": 7,
+          "food_effect": 0.3
+        },
+        {
+          "level": 8,
+          "bonus_desc": "烹饪效果+36%，食物持续+40%",
+          "food_bonus": 0.36,
+          "food_duration": 0.5
+        },
+        {
+          "level": 9,
+          "bonus_desc": "烹饪效果+42%，食物持续+45% | 金币+8%",
+          "food_bonus": 0.42,
+          "food_duration": 0.6,
+          "lv": 9,
+          "food_effect": 0.4,
+          "adv_coin": 0.08
+        },
+        {
+          "level": 10,
+          "bonus_desc": "烹饪效果+50%，食物持续+50%",
+          "food_bonus": 0.5,
+          "food_duration": 0.5
+        }
+      ],
+      "level_up_materials": [
+        {
+          "name": "厨师之魂",
+          "count_per_level": 2
+        },
+        {
+          "name": "蜂蜜",
+          "count_per_level": 5
+        }
+      ],
+      "exclusive_items": [
+        {
+          "name": "厨师帽",
+          "desc": "厨师专属，烹饪经验+20%",
+          "unlock_level": 1,
+          "category": "special",
+          "rarity": 2
+        },
+        {
+          "name": "秘制烤鱼",
+          "desc": "厨师专属美食，全属性+30持续2小时",
+          "unlock_level": 3,
+          "category": "food",
+          "rarity": 3
+        },
+        {
+          "name": "特级寿司",
+          "desc": "厨师专属美食，暴击率+15%持续1.5小时",
+          "unlock_level": 5,
+          "category": "food",
+          "rarity": 4
+        },
+        {
+          "name": "满汉全席",
+          "desc": "传说级料理，全属性+80持续4小时",
+          "unlock_level": 7,
+          "category": "food",
+          "rarity": 5
+        },
+        {
+          "name": "神之盛宴",
+          "desc": "终极料理，全属性+200持续8小时+满血",
+          "unlock_level": 9,
+          "category": "food",
+          "rarity": 999
+        }
+      ],
+      "recipes": [
+        {
+          "name": "秘制调味料",
+          "rarity": 2,
+          "min_level": 1,
+          "desc": "食物效果+50%",
+          "ingredients": [
+            {
+              "name": "蜂蜜",
+              "count": 3
+            },
+            {
+              "name": "胡萝卜",
+              "count": 2
+            }
+          ],
+          "output": {
+            "name": "秘制调味料",
+            "count": 1
+          }
+        },
+        {
+          "name": "保鲜盒",
+          "rarity": 2,
+          "min_level": 3,
+          "desc": "食物持续+50%",
+          "ingredients": [
+            {
+              "name": "骨片",
+              "count": 4
+            },
+            {
+              "name": "铁矿",
+              "count": 2
+            }
+          ],
+          "output": {
+            "name": "保鲜盒",
+            "count": 1
+          }
+        },
+        {
+          "name": "急速烹饪石",
+          "rarity": 2,
+          "min_level": 4,
+          "desc": "烹饪时间减半（消耗品）",
+          "ingredients": [
+            {
+              "name": "石像碎片",
+              "count": 4
+            },
+            {
+              "name": "火焰之心",
+              "count": 2
+            }
+          ],
+          "output": {
+            "name": "急速烹饪石",
+            "count": 1
+          }
+        },
+        {
+          "name": "活力便当",
+          "rarity": 3,
+          "min_level": 5,
+          "desc": "联动农夫：5次战斗全属性+25%",
+          "ingredients": [
+            {
+              "name": "秘制烤鱼",
+              "count": 1
+            },
+            {
+              "name": "农夫之魂",
+              "count": 2
+            },
+            {
+              "name": "胡萝卜",
+              "count": 5
+            }
+          ],
+          "output": {
+            "name": "活力便当",
+            "count": 1
+          }
+        },
+        {
+          "name": "黄金调味料",
+          "rarity": 4,
+          "min_level": 5,
+          "desc": "食物效果翻倍",
+          "ingredients": [
+            {
+              "name": "秘制调味料",
+              "count": 3
+            },
+            {
+              "name": "蜂王浆",
+              "count": 2
+            },
+            {
+              "name": "厨师之魂",
+              "count": 2
+            }
+          ],
+          "output": {
+            "name": "黄金调味料",
+            "count": 1
+          }
+        },
+        {
+          "name": "龙肉料理配方",
+          "rarity": 4,
+          "min_level": 7,
+          "desc": "烹饪龙肉盛宴（全属性+100，4小时）",
+          "ingredients": [
+            {
+              "name": "神龙碎片",
+              "count": 2
+            },
+            {
+              "name": "黄金调味料",
+              "count": 1
+            },
+            {
+              "name": "厨师之魂",
+              "count": 3
+            }
+          ],
+          "output": {
+            "name": "龙肉盛宴",
+            "count": 1
+          }
+        },
+        {
+          "name": "大厨勋章",
+          "rarity": 5,
+          "min_level": 9,
+          "desc": "所有烹饪效果+150%（永久装备）",
+          "ingredients": [
+            {
+              "name": "黄金调味料",
+              "count": 2
+            },
+            {
+              "name": "金矿",
+              "count": 5
+            },
+            {
+              "name": "厨师之魂",
+              "count": 3
+            }
+          ],
+          "output": {
+            "name": "大厨勋章",
+            "count": 1
+          }
+        },
+        {
+          "name": "秘制烤鱼",
+          "rarity": 3,
+          "min_level": 3,
+          "desc": "厨师专属美食，全属性+30持续2小时",
+          "effect": {
+            "stat": "all",
+            "value": 30,
+            "duration": 7200
+          },
+          "ingredients": [
+            {
+              "name": "金龙鱼",
+              "count": 1
+            },
+            {
+              "name": "秘制调味料",
+              "count": 1
+            },
+            {
+              "name": "厨师之魂",
+              "count": 1
+            }
+          ],
+          "output": {
+            "name": "秘制烤鱼",
+            "count": 1
+          }
+        },
+        {
+          "name": "特级寿司",
+          "rarity": 4,
+          "min_level": 5,
+          "desc": "厨师专属美食，暴击率+15%持续1.5小时",
+          "effect": {
+            "stat": "crit_rate",
+            "value": 0.15,
+            "duration": 5400
+          },
+          "ingredients": [
+            {
+              "name": "金枪鱼",
+              "count": 2
+            },
+            {
+              "name": "大米",
+              "count": 3
+            },
+            {
+              "name": "厨师之魂",
+              "count": 2
+            }
+          ],
+          "output": {
+            "name": "特级寿司",
+            "count": 1
+          }
+        },
+        {
+          "name": "满汉全席",
+          "rarity": 5,
+          "min_level": 7,
+          "desc": "传说级料理，全属性+80持续4小时",
+          "effect": {
+            "stat": "all",
+            "value": 80,
+            "duration": 14400
+          },
+          "ingredients": [
+            {
+              "name": "龙肉盛宴",
+              "count": 1
+            },
+            {
+              "name": "黄金调味料",
+              "count": 1
+            },
+            {
+              "name": "厨师之魂",
+              "count": 3
+            }
+          ],
+          "output": {
+            "name": "满汉全席",
+            "count": 1
+          }
+        },
+        {
+          "name": "神之盛宴",
+          "rarity": 999,
+          "min_level": 9,
+          "desc": "终极料理，全属性+200持续8小时+满血",
+          "effect": {
+            "stat": "all",
+            "value": 200,
+            "duration": 28800
+          },
+          "ingredients": [
+            {
+              "name": "满汉全席",
+              "count": 1
+            },
+            {
+              "name": "神龙碎片",
+              "count": 2
+            },
+            {
+              "name": "黄金调味料",
+              "count": 2
+            },
+            {
+              "name": "厨师之魂",
+              "count": 5
+            }
+          ],
+          "output": {
+            "name": "神之盛宴",
+            "count": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "alchemist",
+      "name": "药师",
+      "icon": "🧪",
+      "type": "sub",
+      "description": "精通炼药。有专属药水配方和合成配方。",
+      "level_bonuses": [
+        {
+          "level": 1,
+          "bonus_desc": "药水效果+10% | 抗性+5%",
+          "potion_bonus": 0.15,
+          "lv": 1,
+          "potion_effect": 0.1,
+          "adv_resist": 0.05
+        },
+        {
+          "level": 2,
+          "bonus_desc": "药水效果+15%，异常抗性+5%",
+          "potion_bonus": 0.225,
+          "resist_bonus": 0.075
+        },
+        {
+          "level": 3,
+          "bonus_desc": "药水效果+20%，异常抗性+8% | 抗性+8%",
+          "potion_bonus": 0.3,
+          "resist_bonus": 0.12,
+          "lv": 3,
+          "potion_effect": 0.2,
+          "adv_resist": 0.08
+        },
+        {
+          "level": 4,
+          "bonus_desc": "药水效果+25%，异常抗性+11%",
+          "potion_bonus": 0.375,
+          "resist_bonus": 0.165
+        },
+        {
+          "level": 5,
+          "bonus_desc": "药水效果+30%，异常抗性+15% | 稀有掉落+3%，抗性+12%",
+          "potion_bonus": 0.45,
+          "resist_bonus": 0.225,
+          "lv": 5,
+          "potion_effect": 0.3,
+          "adv_resist": 0.12,
+          "rare_drop": 0.03
+        },
+        {
+          "level": 6,
+          "bonus_desc": "药水效果+36%，异常抗性+18%",
+          "potion_bonus": 0.5,
+          "resist_bonus": 0.27
+        },
+        {
+          "level": 7,
+          "bonus_desc": "药水效果+42%，异常抗性+22% | 抗性+15%",
+          "potion_bonus": 0.5,
+          "resist_bonus": 0.33,
+          "lv": 7,
+          "potion_effect": 0.4,
+          "adv_resist": 0.15
+        },
+        {
+          "level": 8,
+          "bonus_desc": "药水效果+48%，异常抗性+25%",
+          "potion_bonus": 0.5,
+          "resist_bonus": 0.375
+        },
+        {
+          "level": 9,
+          "bonus_desc": "药水效果+55%，异常抗性+28% | 稀有掉落+5%，抗性+20%",
+          "potion_bonus": 0.5,
+          "resist_bonus": 0.42,
+          "lv": 9,
+          "potion_effect": 0.5,
+          "adv_resist": 0.2,
+          "rare_drop": 0.05
+        },
+        {
+          "level": 10,
+          "bonus_desc": "药水效果+65%，异常抗性+33%",
+          "potion_bonus": 0.5,
+          "resist_bonus": 0.495
+        }
+      ],
+      "level_up_materials": [
+        {
+          "name": "药师之魂",
+          "count_per_level": 2
+        },
+        {
+          "name": "史莱姆粘液",
+          "count_per_level": 5
+        }
+      ],
+      "exclusive_items": [
+        {
+          "name": "药师袍",
+          "desc": "药师专属，炼药经验+20%",
+          "unlock_level": 1,
+          "category": "special",
+          "rarity": 2
+        },
+        {
+          "name": "万能解毒药",
+          "desc": "免疫毒系怪物特殊技能5次战斗",
+          "unlock_level": 3,
+          "category": "consume",
+          "rarity": 3
+        },
+        {
+          "name": "迅捷药水",
+          "desc": "药师专属，5次战斗速度+80%",
+          "unlock_level": 5,
+          "category": "consume",
+          "rarity": 3
+        },
+        {
+          "name": "贤者之石",
+          "desc": "传说级炼金材料，合成时替代任意材料",
+          "unlock_level": 7,
+          "category": "material",
+          "rarity": 5
+        },
+        {
+          "name": "不死鸟之泪",
+          "desc": "终极药水，死亡时自动复活+满血（1次）",
+          "unlock_level": 9,
+          "category": "consume",
+          "rarity": 999
+        }
+      ],
+      "recipes": [
+        {
+          "name": "治疗药水",
+          "rarity": 2,
+          "min_level": 1,
+          "desc": "战斗回复40%HP",
+          "ingredients": [
+            {
+              "name": "史莱姆粘液",
+              "count": 4
+            },
+            {
+              "name": "蜂蜜",
+              "count": 2
+            }
+          ],
+          "output": {
+            "name": "治疗药水",
+            "count": 1
+          }
+        },
+        {
+          "name": "全能药剂",
+          "rarity": 3,
+          "min_level": 3,
+          "desc": "5次战斗攻击+50%",
+          "ingredients": [
+            {
+              "name": "狼牙",
+              "count": 4
+            },
+            {
+              "name": "蛇毒",
+              "count": 2
+            },
+            {
+              "name": "银矿",
+              "count": 2
+            }
+          ],
+          "output": {
+            "name": "全能药剂",
+            "count": 1
+          }
+        },
+        {
+          "name": "护盾药剂",
+          "rarity": 3,
+          "min_level": 4,
+          "desc": "5次战斗防御翻倍",
+          "ingredients": [
+            {
+              "name": "石像碎片",
+              "count": 3
+            },
+            {
+              "name": "亡灵铁片",
+              "count": 2
+            },
+            {
+              "name": "铜矿",
+              "count": 2
+            }
+          ],
+          "output": {
+            "name": "护盾药剂",
+            "count": 1
+          }
+        },
+        {
+          "name": "大经验药水强化",
+          "rarity": 3,
+          "min_level": 5,
+          "desc": "获得1500经验",
+          "ingredients": [
+            {
+              "name": "经验药水",
+              "count": 3
+            },
+            {
+              "name": "金矿",
+              "count": 2
+            },
+            {
+              "name": "药师之魂",
+              "count": 1
+            }
+          ],
+          "output": {
+            "name": "大经验药水（强化）",
+            "count": 1
+          }
+        },
+        {
+          "name": "锻造催化剂",
+          "rarity": 3,
+          "min_level": 6,
+          "desc": "联动铁匠：下次锻造失败率-15%",
+          "ingredients": [
+            {
+              "name": "蛇毒",
+              "count": 5
+            },
+            {
+              "name": "锻造精魂",
+              "count": 3
+            },
+            {
+              "name": "煤炭",
+              "count": 5
+            }
+          ],
+          "output": {
+            "name": "锻造催化剂",
+            "count": 1
+          }
+        },
+        {
+          "name": "暴击药剂",
+          "rarity": 3,
+          "min_level": 6,
+          "desc": "5次战斗暴击率+30%",
+          "ingredients": [
+            {
+              "name": "火焰之心",
+              "count": 2
+            },
+            {
+              "name": "蛇毒",
+              "count": 3
+            },
+            {
+              "name": "银矿",
+              "count": 2
+            },
+            {
+              "name": "药师之魂",
+              "count": 2
+            }
+          ],
+          "output": {
+            "name": "暴击药剂",
+            "count": 1
+          }
+        },
+        {
+          "name": "全能药剂",
+          "rarity": 4,
+          "min_level": 7,
+          "desc": "5次战斗全属性+40%",
+          "ingredients": [
+            {
+              "name": "全能药剂",
+              "count": 2
+            },
+            {
+              "name": "护盾药剂",
+              "count": 2
+            },
+            {
+              "name": "药师之魂",
+              "count": 3
+            }
+          ],
+          "output": {
+            "name": "全能药剂",
+            "count": 1
+          }
+        },
+        {
+          "name": "经验圣水",
+          "rarity": 4,
+          "min_level": 8,
+          "desc": "立即获得3000经验",
+          "ingredients": [
+            {
+              "name": "大经验药水（强化）",
+              "count": 2
+            },
+            {
+              "name": "秘银矿",
+              "count": 2
+            },
+            {
+              "name": "药师之魂",
+              "count": 3
+            }
+          ],
+          "output": {
+            "name": "经验圣水",
+            "count": 1
+          }
+        },
+        {
+          "name": "贤者之石配方",
+          "rarity": 5,
+          "min_level": 10,
+          "desc": "合成贤者之石（可替代任意1个合成材料）",
+          "ingredients": [
+            {
+              "name": "附魔石",
+              "count": 5
+            },
+            {
+              "name": "奥金矿",
+              "count": 3
+            },
+            {
+              "name": "神龙碎片",
+              "count": 2
+            },
+            {
+              "name": "药师之魂",
+              "count": 5
+            }
+          ],
+          "output": {
+            "name": "贤者之石",
+            "count": 1
+          }
+        },
+        {
+          "name": "生命之源",
+          "rarity": 999,
+          "min_level": 10,
+          "desc": "炼金术最高杰作，使用后生命值永久+50",
+          "ingredients": [
+            {
+              "name": "贤者之石",
+              "count": 2
+            },
+            {
+              "name": "神秘果实",
+              "count": 3
+            },
+            {
+              "name": "神龙碎片",
+              "count": 3
+            },
+            {
+              "name": "药师之魂",
+              "count": 5
+            }
+          ],
+          "output": {
+            "name": "生命之源",
+            "count": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "miner",
+      "name": "矿工",
+      "icon": "⛏️",
+      "type": "main",
+      "description": "深入奥创矿脉。冒险时可获得专属稀有矿石。",
+      "level_bonuses": [
+        {
+          "level": 1,
+          "bonus_desc": "矿石掉落+10% | 冒险防御+3%，矿石+5%",
+          "ore_bonus": 0.15,
+          "lv": 1,
+          "ore_drop": 0.05,
+          "adv_def": 0.03
+        },
+        {
+          "level": 2,
+          "bonus_desc": "矿石掉落+15%，稀有矿+3%",
+          "ore_bonus": 0.225,
+          "rare_ore_bonus": 0.045
+        },
+        {
+          "level": 3,
+          "bonus_desc": "矿石掉落+20%，稀有矿+5% | 冒险防御+5%，矿石+10%",
+          "ore_bonus": 0.3,
+          "rare_ore_bonus": 0.075,
+          "lv": 3,
+          "ore_drop": 0.1,
+          "adv_def": 0.05
+        },
+        {
+          "level": 4,
+          "bonus_desc": "矿石掉落+25%，稀有矿+7%",
+          "ore_bonus": 0.375,
+          "rare_ore_bonus": 0.105
+        },
+        {
+          "level": 5,
+          "bonus_desc": "矿石掉落+30%，稀有矿+10% | 冒险防御+8%，矿石+15%，稀有矿+5%",
+          "ore_bonus": 0.45,
+          "rare_ore_bonus": 0.15,
+          "lv": 5,
+          "ore_drop": 0.15,
+          "adv_def": 0.08,
+          "rare_ore": 0.05
+        },
+        {
+          "level": 6,
+          "bonus_desc": "矿石掉落+36%，稀有矿+12%",
+          "ore_bonus": 0.5,
+          "rare_ore_bonus": 0.18
+        },
+        {
+          "level": 7,
+          "bonus_desc": "矿石掉落+42%，稀有矿+15% | 冒险防御+10%，矿石+20%",
+          "ore_bonus": 0.5,
+          "rare_ore_bonus": 0.225,
+          "lv": 7,
+          "ore_drop": 0.2,
+          "adv_def": 0.1
+        },
+        {
+          "level": 8,
+          "bonus_desc": "矿石掉落+48%，稀有矿+18%",
+          "ore_bonus": 0.5,
+          "rare_ore_bonus": 0.27
+        },
+        {
+          "level": 9,
+          "bonus_desc": "矿石掉落+55%，稀有矿+21% | 冒险防御+15%，矿石+25%，稀有矿+10%",
+          "ore_bonus": 0.5,
+          "rare_ore_bonus": 0.315,
+          "lv": 9,
+          "ore_drop": 0.25,
+          "adv_def": 0.15,
+          "rare_ore": 0.1
+        },
+        {
+          "level": 10,
+          "bonus_desc": "矿石掉落+65%，稀有矿+25%",
+          "ore_bonus": 0.5,
+          "rare_ore_bonus": 0.375
+        }
+      ],
+      "level_up_materials": [
+        {
+          "name": "矿工之魂",
+          "count_per_level": 2
+        },
+        {
+          "name": "煤炭",
+          "count_per_level": 5
+        }
+      ],
+      "exclusive_items": [
+        {
+          "name": "矿工头盔",
+          "desc": "矿工专属，冒险矿石掉落+15%",
+          "unlock_level": 1,
+          "category": "special",
+          "rarity": 2
+        },
+        {
+          "name": "磁铁矿",
+          "desc": "矿工专属矿石，锻造值24，额外+8攻击",
+          "unlock_level": 2,
+          "category": "ore",
+          "rarity": 2
+        },
+        {
+          "name": "月光石",
+          "desc": "矿工专属稀有矿石，锻造值32+闪避8",
+          "unlock_level": 3,
+          "category": "ore",
+          "rarity": 3
+        },
+        {
+          "name": "熔岩结晶",
+          "desc": "矿工专属矿石，锻造值38，锻造必出🔥火焰伤害",
+          "unlock_level": 5,
+          "category": "ore",
+          "rarity": 4
+        },
+        {
+          "name": "翡翠矿",
+          "desc": "矿工专属稀有矿石，锻造值42+生命45",
+          "unlock_level": 6,
+          "category": "ore",
+          "rarity": 4
+        },
+        {
+          "name": "星辰矿",
+          "desc": "传说级矿石，锻造值48+速度10+闪避5，超越奥金矿",
+          "unlock_level": 7,
+          "category": "ore",
+          "rarity": 5
+        },
+        {
+          "name": "虚空晶矿",
+          "desc": "终极矿石，锻造值60+全属性+25%（锻造时消耗）",
+          "unlock_level": 9,
+          "category": "ore",
+          "rarity": 999
+        }
+      ],
+      "recipes": [
+        {
+          "name": "矿工镐",
+          "rarity": 2,
+          "min_level": 1,
+          "desc": "冒险额外获得矿石",
+          "ingredients": [
+            {
+              "name": "铁矿",
+              "count": 5
+            },
+            {
+              "name": "骨片",
+              "count": 3
+            }
+          ],
+          "output": {
+            "name": "矿工镐",
+            "count": 1
+          }
+        },
+        {
+          "name": "精炼煤炭",
+          "rarity": 2,
+          "min_level": 2,
+          "desc": "可替代任意矿石（锻造值20）",
+          "ingredients": [
+            {
+              "name": "煤炭",
+              "count": 5
+            },
+            {
+              "name": "铁矿",
+              "count": 2
+            }
+          ],
+          "output": {
+            "name": "精炼煤炭",
+            "count": 1
+          }
+        },
+        {
+          "name": "矿石探测器",
+          "rarity": 2,
+          "min_level": 3,
+          "desc": "下次冒险矿石掉落翻倍（消耗品）",
+          "ingredients": [
+            {
+              "name": "铁矿",
+              "count": 5
+            },
+            {
+              "name": "铜矿",
+              "count": 3
+            },
+            {
+              "name": "煤炭",
+              "count": 2
+            }
+          ],
+          "output": {
+            "name": "矿石探测器",
+            "count": 1
+          }
+        },
+        {
+          "name": "探矿罗盘",
+          "rarity": 3,
+          "min_level": 4,
+          "desc": "下次冒险必遇奥创矿脉",
+          "ingredients": [
+            {
+              "name": "银矿",
+              "count": 3
+            },
+            {
+              "name": "铁矿",
+              "count": 5
+            },
+            {
+              "name": "矿工之魂",
+              "count": 1
+            }
+          ],
+          "output": {
+            "name": "探矿罗盘",
+            "count": 1
+          }
+        },
+        {
+          "name": "合金熔炼配方",
+          "rarity": 3,
+          "min_level": 6,
+          "desc": "3铜矿+3铁矿+2煤炭=3银矿（低阶矿升阶）",
+          "ingredients": [
+            {
+              "name": "铜矿",
+              "count": 3
+            },
+            {
+              "name": "铁矿",
+              "count": 3
+            },
+            {
+              "name": "煤炭",
+              "count": 2
+            }
+          ],
+          "output": {
+            "name": "银矿",
+            "count": 3
+          }
+        },
+        {
+          "name": "探宝罗盘",
+          "rarity": 3,
+          "min_level": 5,
+          "desc": "冒险装备：宝箱金币+20%",
+          "ingredients": [
+            {
+              "name": "金矿",
+              "count": 3
+            },
+            {
+              "name": "银矿",
+              "count": 2
+            },
+            {
+              "name": "矿工之魂",
+              "count": 2
+            }
+          ],
+          "output": {
+            "name": "探宝罗盘",
+            "count": 1
+          }
+        },
+        {
+          "name": "护体矿石",
+          "rarity": 3,
+          "min_level": 5,
+          "desc": "联动药师：5次战斗减伤+10%",
+          "ingredients": [
+            {
+              "name": "秘银矿",
+              "count": 2
+            },
+            {
+              "name": "药师之魂",
+              "count": 2
+            },
+            {
+              "name": "金矿",
+              "count": 3
+            }
+          ],
+          "output": {
+            "name": "护体矿石",
+            "count": 1
+          }
+        },
+        {
+          "name": "矿脉之心",
+          "rarity": 4,
+          "min_level": 7,
+          "desc": "锻造值55，等同奥金矿",
+          "ingredients": [
+            {
+              "name": "精炼煤炭",
+              "count": 3
+            },
+            {
+              "name": "金矿",
+              "count": 4
+            },
+            {
+              "name": "矿工之魂",
+              "count": 3
+            }
+          ],
+          "output": {
+            "name": "矿脉之心",
+            "count": 1
+          }
+        },
+        {
+          "name": "炸药",
+          "rarity": 4,
+          "min_level": 8,
+          "desc": "下次冒险必遇奥创矿脉且掉落翻倍（联动药师）",
+          "ingredients": [
+            {
+              "name": "探矿罗盘",
+              "count": 1
+            },
+            {
+              "name": "矿石探测器",
+              "count": 1
+            },
+            {
+              "name": "蛇毒",
+              "count": 3
+            },
+            {
+              "name": "金矿",
+              "count": 3
+            },
+            {
+              "name": "矿工之魂",
+              "count": 3
+            }
+          ],
+          "output": {
+            "name": "炸药",
+            "count": 1
+          }
+        },
+        {
+          "name": "混沌原矿",
+          "rarity": 999,
+          "min_level": 10,
+          "desc": "开天辟地之初的混沌奥创矿脉，锻造值150+全属性+25%",
+          "ingredients": [
+            {
+              "name": "大地核心",
+              "count": 1
+            },
+            {
+              "name": "虚空晶矿",
+              "count": 2
+            },
+            {
+              "name": "矿工之魂",
+              "count": 5
+            }
+          ],
+          "output": {
+            "name": "混沌原矿",
+            "count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "soul_items": {
+    "description": "职业之魂通过冒险/活动/BOSS掉落获得",
+    "items": [
+      {
+        "name": "锻造精魂",
+        "category": "material",
+        "rarity": 2
+      },
+      {
+        "name": "渔夫之魂",
+        "category": "material",
+        "rarity": 2
+      },
+      {
+        "name": "农夫之魂",
+        "category": "material",
+        "rarity": 2
+      },
+      {
+        "name": "厨师之魂",
+        "category": "material",
+        "rarity": 2
+      },
+      {
+        "name": "药师之魂",
+        "category": "material",
+        "rarity": 2
+      },
+      {
+        "name": "矿工之魂",
+        "category": "material",
+        "rarity": 2
+      }
+    ]
+  }
+}

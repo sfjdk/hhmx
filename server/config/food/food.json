@@ -1,0 +1,1543 @@
+{
+  "description": "食物与烹饪系统配置。使用农产品和材料烹饪食物，食用后获得临时增益效果。",
+  "recipes": [
+    {
+      "name": "烤鱼",
+      "rarity": 1,
+      "ingredients": [
+        {
+          "name": "小鲫鱼",
+          "count": 1
+        }
+      ],
+      "cook_time": 30,
+      "effect": {
+        "stat": "attack",
+        "value": 15,
+        "duration": 1800
+      },
+      "desc": "简单的烤鱼，香喷喷的。攻击力+15（30回合）"
+    },
+    {
+      "name": "苹果派",
+      "rarity": 1,
+      "ingredients": [
+        {
+          "name": "苹果",
+          "count": 2
+        },
+        {
+          "name": "小麦",
+          "count": 1
+        }
+      ],
+      "cook_time": 60,
+      "effect": {
+        "stat": "exp_bonus",
+        "value": 0.1,
+        "duration": 3600
+      },
+      "desc": "香甜的苹果派。经验获取+10%（60回合）"
+    },
+    {
+      "name": "烤肉大餐",
+      "rarity": 2,
+      "ingredients": [
+        {
+          "name": "鸡蛋",
+          "count": 2
+        },
+        {
+          "name": "胡萝卜",
+          "count": 1
+        }
+      ],
+      "cook_time": 90,
+      "effect": {
+        "stat": "attack",
+        "value": 30,
+        "duration": 3600
+      },
+      "desc": "丰盛的烤肉大餐！攻击力+30（60回合）"
+    },
+    {
+      "name": "蔬菜沙拉",
+      "rarity": 1,
+      "ingredients": [
+        {
+          "name": "胡萝卜",
+          "count": 1
+        },
+        {
+          "name": "小麦",
+          "count": 1
+        }
+      ],
+      "cook_time": 20,
+      "effect": {
+        "stat": "defense",
+        "value": 20,
+        "duration": 1800
+      },
+      "desc": "健康的蔬菜沙拉。防御力+20（30回合）"
+    },
+    {
+      "name": "蜂蜜橙汁",
+      "rarity": 2,
+      "ingredients": [
+        {
+          "name": "橙子",
+          "count": 2
+        },
+        {
+          "name": "蜂蜜",
+          "count": 1
+        }
+      ],
+      "cook_time": 45,
+      "effect": {
+        "stat": "speed",
+        "value": 15,
+        "duration": 2700
+      },
+      "desc": "甜蜜的能量饮品。速度+15（45回合）"
+    },
+    {
+      "name": "樱桃蛋糕",
+      "rarity": 3,
+      "ingredients": [
+        {
+          "name": "樱桃",
+          "count": 3
+        },
+        {
+          "name": "小麦",
+          "count": 2
+        },
+        {
+          "name": "鸡蛋",
+          "count": 1
+        }
+      ],
+      "cook_time": 120,
+      "effect": {
+        "stat": "exp_bonus",
+        "value": 0.25,
+        "duration": 7200
+      },
+      "desc": "精致的樱桃蛋糕。经验获取+25%（120回合）"
+    },
+    {
+      "name": "魔力果汁",
+      "rarity": 4,
+      "ingredients": [
+        {
+          "name": "魔力果",
+          "count": 2
+        },
+        {
+          "name": "蜂蜜",
+          "count": 2
+        }
+      ],
+      "cook_time": 180,
+      "effect": {
+        "stat": "attack",
+        "value": 60,
+        "duration": 7200
+      },
+      "desc": "蕴含魔力的果汁！攻击力+60（120回合）"
+    },
+    {
+      "name": "矿石炖汤",
+      "rarity": 3,
+      "ingredients": [
+        {
+          "name": "铁矿",
+          "count": 5
+        },
+        {
+          "name": "银矿",
+          "count": 2
+        }
+      ],
+      "cook_time": 150,
+      "effect": {
+        "stat": "defense",
+        "value": 50,
+        "duration": 3600
+      },
+      "desc": "用矿石熬制的神奇汤品。防御力+50（60回合）"
+    },
+    {
+      "name": "海味大餐",
+      "rarity": 3,
+      "ingredients": [
+        {
+          "name": "深海珍珠",
+          "count": 1
+        },
+        {
+          "name": "小鲫鱼",
+          "count": 3
+        }
+      ],
+      "cook_time": 200,
+      "effect": {
+        "stat": "attack",
+        "value": 45,
+        "duration": 5400
+      },
+      "desc": "用深海珍珠和鲜鱼烹制的奢华大餐。攻击力+45（90回合）"
+    },
+    {
+      "name": "全能盛宴",
+      "rarity": 999,
+      "ingredients": [
+        {
+          "name": "神龙碎片",
+          "count": 1
+        },
+        {
+          "name": "魔力果",
+          "count": 3
+        },
+        {
+          "name": "人鱼之歌",
+          "count": 1
+        }
+      ],
+      "cook_time": 600,
+      "effect": {
+        "stat": "all",
+        "value": 50,
+        "duration": 14400
+      },
+      "desc": "终极料理！全属性+50（240回合）"
+    },
+    {
+      "name": "烤鲶鱼",
+      "rarity": 1,
+      "ingredients": [
+        {
+          "name": "鲶鱼",
+          "count": 1
+        }
+      ],
+      "cook_time": 25,
+      "effect": {
+        "stat": "attack",
+        "value": 12,
+        "duration": 1500
+      },
+      "desc": "河鲜烤鱼，简单美味。攻击力+12（25回合）"
+    },
+    {
+      "name": "鳕鱼排",
+      "rarity": 2,
+      "ingredients": [
+        {
+          "name": "鳕鱼",
+          "count": 2
+        },
+        {
+          "name": "小麦",
+          "count": 1
+        }
+      ],
+      "cook_time": 60,
+      "effect": {
+        "stat": "attack",
+        "value": 35,
+        "duration": 3600
+      },
+      "desc": "酥脆可口的炸鱼排。攻击力+35（60回合）"
+    },
+    {
+      "name": "刺身拼盘",
+      "rarity": 3,
+      "ingredients": [
+        {
+          "name": "金枪鱼",
+          "count": 1
+        },
+        {
+          "name": "黑鲷鱼",
+          "count": 1
+        }
+      ],
+      "cook_time": 90,
+      "effect": {
+        "stat": "attack",
+        "value": 55,
+        "duration": 5400
+      },
+      "desc": "顶级海鲜刺身，入口即化。攻击力+55（90回合）"
+    },
+    {
+      "name": "月光金龙鱼汤",
+      "rarity": 4,
+      "ingredients": [
+        {
+          "name": "月光水母",
+          "count": 1
+        },
+        {
+          "name": "薄荷",
+          "count": 1
+        }
+      ],
+      "cook_time": 150,
+      "effect": {
+        "stat": "exp_bonus",
+        "value": 0.3,
+        "duration": 7200
+      },
+      "desc": "月光般的清汤，喝下后脑海中浮现古老知识。经验+30%（120回合）"
+    },
+    {
+      "name": "龙鲤天妇罗",
+      "rarity": 4,
+      "ingredients": [
+        {
+          "name": "大鲤鱼",
+          "count": 1
+        },
+        {
+          "name": "小麦",
+          "count": 2
+        },
+        {
+          "name": "鸡蛋",
+          "count": 1
+        }
+      ],
+      "cook_time": 180,
+      "effect": {
+        "stat": "all",
+        "value": 30,
+        "duration": 5400
+      },
+      "desc": "裹着金色面衣的大鲤鱼炸物，龙气四溢！全属性+30（90回合）"
+    },
+    {
+      "name": "豆浆",
+      "rarity": 1,
+      "ingredients": [
+        {
+          "name": "大豆",
+          "count": 3
+        }
+      ],
+      "cook_time": 20,
+      "effect": {
+        "stat": "defense",
+        "value": 15,
+        "duration": 1800
+      },
+      "desc": "浓郁醇厚的现磨豆浆。防御力+15（30回合）"
+    },
+    {
+      "name": "葡萄酒",
+      "rarity": 3,
+      "ingredients": [
+        {
+          "name": "葡萄",
+          "count": 3
+        }
+      ],
+      "cook_time": 120,
+      "effect": {
+        "stat": "speed",
+        "value": 25,
+        "duration": 3600
+      },
+      "desc": "陈年佳酿，醇香醉人。速度+25（60回合）"
+    },
+    {
+      "name": "桃子派",
+      "rarity": 2,
+      "ingredients": [
+        {
+          "name": "桃子",
+          "count": 2
+        },
+        {
+          "name": "小麦",
+          "count": 2
+        },
+        {
+          "name": "鸡蛋",
+          "count": 1
+        }
+      ],
+      "cook_time": 80,
+      "effect": {
+        "stat": "exp_bonus",
+        "value": 0.15,
+        "duration": 3600
+      },
+      "desc": "甜蜜多汁的桃子派。经验获取+15%（60回合）"
+    },
+    {
+      "name": "柠檬烤鱼",
+      "rarity": 2,
+      "ingredients": [
+        {
+          "name": "柠檬",
+          "count": 1
+        },
+        {
+          "name": "草鱼",
+          "count": 1
+        }
+      ],
+      "cook_time": 50,
+      "effect": {
+        "stat": "attack",
+        "value": 25,
+        "duration": 2700
+      },
+      "desc": "柠檬的清香完美去腥，鱼肉鲜嫩无比。攻击力+25（45回合）"
+    },
+    {
+      "name": "椰子炖奶",
+      "rarity": 3,
+      "ingredients": [
+        {
+          "name": "椰子",
+          "count": 1
+        },
+        {
+          "name": "牛奶",
+          "count": 2
+        }
+      ],
+      "cook_time": 100,
+      "effect": {
+        "stat": "defense",
+        "value": 40,
+        "duration": 5400
+      },
+      "desc": "椰香浓郁，丝滑顺口。防御力+40（90回合）"
+    },
+    {
+      "name": "巧克力",
+      "rarity": 3,
+      "ingredients": [
+        {
+          "name": "可可豆",
+          "count": 3
+        },
+        {
+          "name": "牛奶",
+          "count": 1
+        }
+      ],
+      "cook_time": 90,
+      "effect": {
+        "stat": "speed",
+        "value": 20,
+        "duration": 3600
+      },
+      "desc": "手工制作的丝滑巧克力，甜中带苦。速度+20（60回合）"
+    },
+    {
+      "name": "麻辣鱼片",
+      "rarity": 2,
+      "ingredients": [
+        {
+          "name": "辣椒",
+          "count": 2
+        },
+        {
+          "name": "鲤鱼",
+          "count": 2
+        }
+      ],
+      "cook_time": 60,
+      "effect": {
+        "stat": "attack",
+        "value": 28,
+        "duration": 2700
+      },
+      "desc": "麻辣鲜香，让人停不下来！攻击力+28（45回合）"
+    },
+    {
+      "name": "水果沙拉",
+      "rarity": 2,
+      "ingredients": [
+        {
+          "name": "苹果",
+          "count": 1
+        },
+        {
+          "name": "橙子",
+          "count": 1
+        },
+        {
+          "name": "葡萄",
+          "count": 2
+        }
+      ],
+      "cook_time": 40,
+      "effect": {
+        "stat": "speed",
+        "value": 18,
+        "duration": 2700
+      },
+      "desc": "五彩缤纷的鲜果沙拉，清爽健康。速度+18（45回合）"
+    },
+    {
+      "name": "海鲜浓汤",
+      "rarity": 3,
+      "ingredients": [
+        {
+          "name": "石斑鱼",
+          "count": 1
+        },
+        {
+          "name": "牛奶",
+          "count": 1
+        },
+        {
+          "name": "胡萝卜",
+          "count": 1
+        }
+      ],
+      "cook_time": 120,
+      "effect": {
+        "stat": "defense",
+        "value": 45,
+        "duration": 5400
+      },
+      "desc": "浓郁鲜香的海鲜浓汤，暖胃又强身。防御力+45（90回合）"
+    },
+    {
+      "name": "棉花糖",
+      "rarity": 2,
+      "ingredients": [
+        {
+          "name": "棉花",
+          "count": 2
+        },
+        {
+          "name": "蜂蜜",
+          "count": 1
+        }
+      ],
+      "cook_time": 45,
+      "effect": {
+        "stat": "speed",
+        "value": 15,
+        "duration": 1800
+      },
+      "desc": "蓬松柔软的棉花糖，甜蜜的童年回忆。速度+15（30回合）"
+    },
+    {
+      "name": "烤猪肉串",
+      "rarity": 2,
+      "ingredients": [
+        {
+          "name": "猪肉",
+          "count": 1
+        },
+        {
+          "name": "辣椒",
+          "count": 1
+        },
+        {
+          "name": "蜂蜜",
+          "count": 1
+        }
+      ],
+      "cook_time": 70,
+      "effect": {
+        "stat": "attack",
+        "value": 32,
+        "duration": 3600
+      },
+      "desc": "蜜汁烤制的猪肉串，外焦里嫩。攻击力+32（60回合）"
+    },
+    {
+      "name": "火龙果冰沙",
+      "rarity": 4,
+      "ingredients": [
+        {
+          "name": "火龙果",
+          "count": 1
+        },
+        {
+          "name": "牛奶",
+          "count": 1
+        },
+        {
+          "name": "蜂蜜",
+          "count": 1
+        }
+      ],
+      "cook_time": 120,
+      "effect": {
+        "stat": "all",
+        "value": 20,
+        "duration": 3600
+      },
+      "desc": "火龙果的魔力融入冰沙，清凉爽口！全属性+20（60回合）"
+    },
+    {
+      "name": "海鲜浓汤",
+      "rarity": 2,
+      "ingredients": [
+        {
+          "name": "鲤鱼",
+          "count": 1
+        },
+        {
+          "name": "鲈鱼",
+          "count": 1
+        },
+        {
+          "name": "胡萝卜",
+          "count": 1
+        },
+        {
+          "name": "牛奶",
+          "count": 1
+        }
+      ],
+      "cook_time": 90,
+      "effect": {
+        "stat": "attack",
+        "value": 35,
+        "duration": 2700
+      },
+      "desc": "鲜美的海鲜浓汤，暖身提神！攻击力+35（45回合）"
+    },
+    {
+      "name": "蜜汁烤鸡",
+      "rarity": 2,
+      "ingredients": [
+        {
+          "name": "鸡蛋",
+          "count": 2
+        },
+        {
+          "name": "蜂蜜",
+          "count": 2
+        },
+        {
+          "name": "猪肉",
+          "count": 1
+        }
+      ],
+      "cook_time": 80,
+      "effect": {
+        "stat": "hp",
+        "value": 60,
+        "duration": 3600
+      },
+      "desc": "外焦里嫩的蜜汁烤鸡。生命+60（60回合）"
+    },
+    {
+      "name": "蔬菜沙拉",
+      "rarity": 1,
+      "ingredients": [
+        {
+          "name": "番茄",
+          "count": 1
+        },
+        {
+          "name": "胡萝卜",
+          "count": 1
+        },
+        {
+          "name": "土豆",
+          "count": 1
+        }
+      ],
+      "cook_time": 20,
+      "effect": {
+        "stat": "speed",
+        "value": 20,
+        "duration": 1800
+      },
+      "desc": "新鲜蔬菜沙拉，清爽健康！速度+20（30回合）"
+    },
+    {
+      "name": "辣椒炒肉",
+      "rarity": 2,
+      "ingredients": [
+        {
+          "name": "辣椒",
+          "count": 2
+        },
+        {
+          "name": "猪肉",
+          "count": 2
+        }
+      ],
+      "cook_time": 60,
+      "effect": {
+        "stat": "attack_speed",
+        "value": 15,
+        "duration": 2400
+      },
+      "desc": "火辣辣的下饭菜！攻速+15（40回合）"
+    },
+    {
+      "name": "鱼子酱",
+      "rarity": 3,
+      "ingredients": [
+        {
+          "name": "鲟鱼",
+          "count": 2
+        },
+        {
+          "name": "鸡蛋",
+          "count": 1
+        }
+      ],
+      "cook_time": 120,
+      "effect": {
+        "stat": "crit_rate",
+        "value": 0.12,
+        "duration": 3600
+      },
+      "desc": "珍贵的鱼子酱，奢华享受。暴击率+12%（60回合）"
+    },
+    {
+      "name": "蘑菇浓汤",
+      "rarity": 2,
+      "ingredients": [
+        {
+          "name": "魔法蘑菇",
+          "count": 1
+        },
+        {
+          "name": "牛奶",
+          "count": 1
+        },
+        {
+          "name": "小麦",
+          "count": 1
+        }
+      ],
+      "cook_time": 70,
+      "effect": {
+        "stat": "exp_bonus",
+        "value": 0.18,
+        "duration": 3600
+      },
+      "desc": "加了魔法蘑菇的浓汤，头脑清醒。经验+18%（60回合）"
+    },
+    {
+      "name": "牛肉炖土豆",
+      "rarity": 2,
+      "ingredients": [
+        {
+          "name": "猪肉",
+          "count": 2
+        },
+        {
+          "name": "土豆",
+          "count": 2
+        },
+        {
+          "name": "胡萝卜",
+          "count": 1
+        }
+      ],
+      "cook_time": 100,
+      "effect": {
+        "stat": "defense",
+        "value": 25,
+        "duration": 3000
+      },
+      "desc": "炖得软烂的牛肉土豆，暖胃又顶饱。防御+25（50回合）"
+    },
+    {
+      "name": "草莓蛋糕",
+      "rarity": 3,
+      "ingredients": [
+        {
+          "name": "草莓",
+          "count": 3
+        },
+        {
+          "name": "小麦",
+          "count": 2
+        },
+        {
+          "name": "鸡蛋",
+          "count": 2
+        },
+        {
+          "name": "牛奶",
+          "count": 1
+        }
+      ],
+      "cook_time": 150,
+      "effect": {
+        "stat": "all",
+        "value": 30,
+        "duration": 5400
+      },
+      "desc": "精致的草莓蛋糕，甜蜜的幸福。全属性+30（90回合）"
+    },
+    {
+      "name": "烤玉米",
+      "rarity": 1,
+      "ingredients": [
+        {
+          "name": "玉米",
+          "count": 2
+        }
+      ],
+      "cook_time": 30,
+      "effect": {
+        "stat": "attack",
+        "value": 10,
+        "duration": 1200
+      },
+      "desc": "简单烤制的玉米，田间美味。攻击+10（20回合）"
+    },
+    {
+      "name": "可可热饮",
+      "rarity": 2,
+      "ingredients": [
+        {
+          "name": "可可豆",
+          "count": 3
+        },
+        {
+          "name": "牛奶",
+          "count": 1
+        }
+      ],
+      "cook_time": 45,
+      "effect": {
+        "stat": "speed",
+        "value": 25,
+        "duration": 2700
+      },
+      "desc": "浓郁的热可可，暖心提神。速度+25（45回合）"
+    },
+    {
+      "name": "薄荷茶",
+      "rarity": 1,
+      "ingredients": [
+        {
+          "name": "薄荷",
+          "count": 2
+        }
+      ],
+      "cook_time": 15,
+      "effect": {
+        "stat": "dodge",
+        "value": 0.08,
+        "duration": 1800
+      },
+      "desc": "清凉薄荷茶，神清气爽。闪避+8%（30回合）"
+    },
+    {
+      "name": "神龙碎片饺子",
+      "rarity": 4,
+      "ingredients": [
+        {
+          "name": "神龙碎片",
+          "count": 1
+        },
+        {
+          "name": "猪肉",
+          "count": 3
+        },
+        {
+          "name": "小麦",
+          "count": 2
+        }
+      ],
+      "cook_time": 200,
+      "effect": {
+        "stat": "all",
+        "value": 60,
+        "duration": 7200
+      },
+      "desc": "传说中的神龙碎片入菜，极品美味！全属性+60（120回合）"
+    },
+    {
+      "name": "海鲜拼盘",
+      "rarity": 3,
+      "ingredients": [
+        {
+          "name": "鳕鱼",
+          "count": 1
+        },
+        {
+          "name": "石斑鱼",
+          "count": 1
+        },
+        {
+          "name": "发光鱿鱼",
+          "count": 1
+        }
+      ],
+      "cook_time": 120,
+      "effect": {
+        "stat": "exp_bonus",
+        "value": 0.25,
+        "duration": 3600
+      },
+      "desc": "三种海鲜精心拼制。经验+25%（60回合）"
+    },
+    {
+      "name": "南瓜派",
+      "rarity": 2,
+      "ingredients": [
+        {
+          "name": "大南瓜",
+          "count": 1
+        },
+        {
+          "name": "小麦",
+          "count": 2
+        },
+        {
+          "name": "鸡蛋",
+          "count": 1
+        }
+      ],
+      "cook_time": 90,
+      "effect": {
+        "stat": "hp",
+        "value": 80,
+        "duration": 3600
+      },
+      "desc": "金黄色的南瓜派，香甜软糯。生命+80（60回合）"
+    },
+    {
+      "name": "葵花籽饼干",
+      "rarity": 1,
+      "ingredients": [
+        {
+          "name": "葵花籽",
+          "count": 3
+        },
+        {
+          "name": "小麦",
+          "count": 1
+        }
+      ],
+      "cook_time": 40,
+      "effect": {
+        "stat": "attack_speed",
+        "value": 8,
+        "duration": 1800
+      },
+      "desc": "酥脆的葵花籽饼干。攻速+8（30回合）"
+    },
+    {
+      "name": "大米饭",
+      "rarity": 1,
+      "ingredients": [
+        {
+          "name": "大米",
+          "count": 2
+        }
+      ],
+      "cook_time": 30,
+      "effect": {
+        "stat": "hp",
+        "value": 30,
+        "duration": 1800
+      },
+      "desc": "香喷喷的白米饭，朴实无华。生命+30（30回合）"
+    },
+    {
+      "name": "奶酪拼盘",
+      "rarity": 2,
+      "ingredients": [
+        {
+          "name": "奶酪",
+          "count": 1
+        },
+        {
+          "name": "牛奶",
+          "count": 1
+        },
+        {
+          "name": "蜂蜜",
+          "count": 1
+        }
+      ],
+      "cook_time": 60,
+      "effect": {
+        "stat": "defense",
+        "value": 20,
+        "duration": 2400
+      },
+      "desc": "浓郁的奶酪拼盘。防御+20（40回合）"
+    },
+    {
+      "name": "蜂王浆蜜水",
+      "rarity": 3,
+      "ingredients": [
+        {
+          "name": "蜂王浆",
+          "count": 1
+        },
+        {
+          "name": "蜂蜜",
+          "count": 3
+        }
+      ],
+      "cook_time": 45,
+      "effect": {
+        "stat": "exp_bonus",
+        "value": 0.2,
+        "duration": 3600
+      },
+      "desc": "蜂王浆与蜂蜜的完美融合。经验+20%（60回合）"
+    },
+    {
+      "name": "咸鸭蛋",
+      "rarity": 1,
+      "ingredients": [
+        {
+          "name": "鸭蛋",
+          "count": 2
+        }
+      ],
+      "cook_time": 20,
+      "effect": {
+        "stat": "attack",
+        "value": 12,
+        "duration": 1800
+      },
+      "desc": "简单腌制的咸鸭蛋，下饭神器。攻击+12（30回合）"
+    },
+    {
+      "name": "马奶酒",
+      "rarity": 2,
+      "ingredients": [
+        {
+          "name": "马奶",
+          "count": 2
+        }
+      ],
+      "cook_time": 90,
+      "effect": {
+        "stat": "speed",
+        "value": 30,
+        "duration": 2700
+      },
+      "desc": "草原牧民的传统饮品，微醺加速。速度+30（45回合）"
+    },
+    {
+      "name": "玫瑰花茶",
+      "rarity": 2,
+      "ingredients": [
+        {
+          "name": "玫瑰花束",
+          "count": 1
+        },
+        {
+          "name": "蜂蜜",
+          "count": 1
+        }
+      ],
+      "cook_time": 35,
+      "effect": {
+        "stat": "dodge",
+        "value": 0.1,
+        "duration": 2700
+      },
+      "desc": "玫瑰花瓣泡制的花茶，芬芳怡人。闪避+10%（45回合）"
+    },
+    {
+      "name": "猫薄荷茶",
+      "rarity": 2,
+      "ingredients": [
+        {
+          "name": "猫薄荷",
+          "count": 2
+        },
+        {
+          "name": "薄荷",
+          "count": 1
+        }
+      ],
+      "cook_time": 25,
+      "effect": {
+        "stat": "speed",
+        "value": 35,
+        "duration": 1800
+      },
+      "desc": "猫咪最爱的草药茶，让人精神百倍。速度+35（30回合）"
+    },
+    {
+      "name": "毒土豆炖肉",
+      "rarity": 3,
+      "ingredients": [
+        {
+          "name": "毒土豆",
+          "count": 1
+        },
+        {
+          "name": "猪肉",
+          "count": 2
+        },
+        {
+          "name": "胡萝卜",
+          "count": 1
+        }
+      ],
+      "cook_time": 120,
+      "effect": {
+        "stat": "attack",
+        "value": 50,
+        "duration": 3600
+      },
+      "desc": "以毒攻毒的冒险料理！攻击+50（60回合）"
+    },
+    {
+      "name": "食人花沙拉",
+      "rarity": 3,
+      "ingredients": [
+        {
+          "name": "食人花",
+          "count": 1
+        },
+        {
+          "name": "番茄",
+          "count": 2
+        },
+        {
+          "name": "柠檬",
+          "count": 1
+        }
+      ],
+      "cook_time": 100,
+      "effect": {
+        "stat": "all",
+        "value": 25,
+        "duration": 3000
+      },
+      "desc": "食人花入菜，胆大者的美味。全属性+25（50回合）"
+    },
+    {
+      "name": "清蒸鳜鱼",
+      "rarity": 2,
+      "ingredients": [
+        {
+          "name": "鳜鱼",
+          "count": 1
+        },
+        {
+          "name": "大豆",
+          "count": 1
+        }
+      ],
+      "cook_time": 60,
+      "effect": {
+        "stat": "hp",
+        "value": 50,
+        "duration": 2400
+      },
+      "desc": "鲜嫩的清蒸鳜鱼。生命+50（40回合）"
+    },
+    {
+      "name": "锦鲤寿司",
+      "rarity": 3,
+      "ingredients": [
+        {
+          "name": "锦鲤",
+          "count": 1
+        },
+        {
+          "name": "大米",
+          "count": 2
+        }
+      ],
+      "cook_time": 75,
+      "effect": {
+        "stat": "all",
+        "value": 20,
+        "duration": 3600
+      },
+      "desc": "用锦鲤制作的寿司，寓意好运。全属性+20（60回合）"
+    },
+    {
+      "name": "金龙鱼汤",
+      "rarity": 4,
+      "ingredients": [
+        {
+          "name": "金龙鱼",
+          "count": 1
+        },
+        {
+          "name": "牛奶",
+          "count": 1
+        },
+        {
+          "name": "蜂蜜",
+          "count": 1
+        }
+      ],
+      "cook_time": 120,
+      "effect": {
+        "stat": "all",
+        "value": 45,
+        "duration": 5400
+      },
+      "desc": "金龙鱼熬制的金色金龙鱼汤，奢华无比。全属性+45（90回合）"
+    },
+    {
+      "name": "河豚刺身",
+      "rarity": 4,
+      "ingredients": [
+        {
+          "name": "河豚",
+          "count": 1
+        },
+        {
+          "name": "柠檬",
+          "count": 1
+        }
+      ],
+      "cook_time": 150,
+      "effect": {
+        "stat": "crit_rate",
+        "value": 0.18,
+        "duration": 3600
+      },
+      "desc": "顶级河豚刺身，鲜美至极。暴击率+18%（60回合）"
+    },
+    {
+      "name": "干炸泥鳅",
+      "rarity": 1,
+      "ingredients": [
+        {
+          "name": "泥鳅",
+          "count": 2
+        },
+        {
+          "name": "辣椒",
+          "count": 1
+        }
+      ],
+      "cook_time": 45,
+      "effect": {
+        "stat": "attack",
+        "value": 20,
+        "duration": 1800
+      },
+      "desc": "酥脆的干炸泥鳅。攻击+20（30回合）"
+    },
+    {
+      "name": "虹鳟鱼排",
+      "rarity": 2,
+      "ingredients": [
+        {
+          "name": "虹鳟鱼",
+          "count": 1
+        },
+        {
+          "name": "鸡蛋",
+          "count": 1
+        },
+        {
+          "name": "小麦",
+          "count": 1
+        }
+      ],
+      "cook_time": 70,
+      "effect": {
+        "stat": "attack_speed",
+        "value": 12,
+        "duration": 2400
+      },
+      "desc": "香煎虹鳟鱼排。攻速+12（40回合）"
+    },
+    {
+      "name": "比目鱼寿司",
+      "rarity": 2,
+      "ingredients": [
+        {
+          "name": "比目鱼",
+          "count": 1
+        },
+        {
+          "name": "大米",
+          "count": 1
+        }
+      ],
+      "cook_time": 55,
+      "effect": {
+        "stat": "dodge",
+        "value": 0.12,
+        "duration": 2400
+      },
+      "desc": "比目鱼肉质细腻，做寿司极佳。闪避+12%（40回合）"
+    },
+    {
+      "name": "鳐鱼翅羹",
+      "rarity": 3,
+      "ingredients": [
+        {
+          "name": "鳐鱼",
+          "count": 1
+        },
+        {
+          "name": "鸡蛋",
+          "count": 2
+        },
+        {
+          "name": "胡萝卜",
+          "count": 1
+        }
+      ],
+      "cook_time": 110,
+      "effect": {
+        "stat": "defense",
+        "value": 35,
+        "duration": 3600
+      },
+      "desc": "鳐鱼鱼翅熬制的羹汤。防御+35（60回合）"
+    },
+    {
+      "name": "吉米鱼干",
+      "rarity": 1,
+      "ingredients": [
+        {
+          "name": "吉米鱼",
+          "count": 3
+        }
+      ],
+      "cook_time": 25,
+      "effect": {
+        "stat": "attack",
+        "value": 8,
+        "duration": 1200
+      },
+      "desc": "晒制成干的小吉米鱼，随手下酒菜。攻击+8（20回合）"
+    },
+    {
+      "name": "红烧鳊鱼",
+      "rarity": 1,
+      "ingredients": [
+        {
+          "name": "鳊鱼",
+          "count": 1
+        },
+        {
+          "name": "大豆",
+          "count": 2
+        },
+        {
+          "name": "辣椒",
+          "count": 1
+        }
+      ],
+      "cook_time": 65,
+      "effect": {
+        "stat": "hp",
+        "value": 40,
+        "duration": 2400
+      },
+      "desc": "红烧鳊鱼，家常美味。生命+40（40回合）"
+    },
+    {
+      "name": "小丑鱼味噌汤",
+      "rarity": 2,
+      "ingredients": [
+        {
+          "name": "小丑鱼",
+          "count": 1
+        },
+        {
+          "name": "大豆",
+          "count": 3
+        }
+      ],
+      "cook_time": 50,
+      "effect": {
+        "stat": "speed",
+        "value": 20,
+        "duration": 2700
+      },
+      "desc": "小丑鱼熬制的味噌汤。速度+20（45回合）"
+    },
+    {
+      "name": "羊蛋子炒饭",
+      "rarity": 2,
+      "ingredients": [
+        {
+          "name": "羊蛋子",
+          "count": 1
+        },
+        {
+          "name": "大米",
+          "count": 3
+        },
+        {
+          "name": "鸡蛋",
+          "count": 1
+        }
+      ],
+      "cook_time": 60,
+      "effect": {
+        "stat": "attack_speed",
+        "value": 10,
+        "duration": 2400
+      },
+      "desc": "羊蛋子炒饭，猎奇美食。攻速+10（40回合）"
+    },
+    {
+      "name": "兔脚汤",
+      "rarity": 3,
+      "ingredients": [
+        {
+          "name": "兔脚",
+          "count": 1
+        },
+        {
+          "name": "胡萝卜",
+          "count": 2
+        },
+        {
+          "name": "土豆",
+          "count": 1
+        }
+      ],
+      "cook_time": 90,
+      "effect": {
+        "stat": "crit_rate",
+        "value": 0.15,
+        "duration": 3000
+      },
+      "desc": "据说喝了会有好运的汤。暴击率+15%（50回合）"
+    },
+    {
+      "name": "玫瑰花瓣糕",
+      "rarity": 2,
+      "ingredients": [
+        {
+          "name": "玫瑰花瓣",
+          "count": 2
+        },
+        {
+          "name": "小麦",
+          "count": 2
+        },
+        {
+          "name": "牛奶",
+          "count": 1
+        }
+      ],
+      "cook_time": 70,
+      "effect": {
+        "stat": "dodge",
+        "value": 0.08,
+        "duration": 2700
+      },
+      "desc": "玫瑰花瓣点缀的精致糕点。闪避+8%（45回合）"
+    },
+    {
+      "name": "鸭蛋面",
+      "rarity": 1,
+      "ingredients": [
+        {
+          "name": "鸭蛋",
+          "count": 1
+        },
+        {
+          "name": "小麦",
+          "count": 2
+        }
+      ],
+      "cook_time": 35,
+      "effect": {
+        "stat": "hp",
+        "value": 35,
+        "duration": 1800
+      },
+      "desc": "用鸭蛋和面做成的手工面。生命+35（30回合）"
+    },
+    {
+      "name": "奶酪焗饭",
+      "rarity": 2,
+      "ingredients": [
+        {
+          "name": "奶酪",
+          "count": 1
+        },
+        {
+          "name": "大米",
+          "count": 2
+        },
+        {
+          "name": "番茄",
+          "count": 1
+        }
+      ],
+      "cook_time": 80,
+      "effect": {
+        "stat": "defense",
+        "value": 25,
+        "duration": 3000
+      },
+      "desc": "奶酪覆盖的焗饭，香浓拉丝。防御+25（50回合）"
+    },
+    {
+      "name": "蜂王浆面包",
+      "rarity": 2,
+      "ingredients": [
+        {
+          "name": "蜂王浆",
+          "count": 1
+        },
+        {
+          "name": "小麦",
+          "count": 3
+        },
+        {
+          "name": "牛奶",
+          "count": 1
+        }
+      ],
+      "cook_time": 75,
+      "effect": {
+        "stat": "exp_bonus",
+        "value": 0.22,
+        "duration": 3600
+      },
+      "desc": "蜂王浆加入面团烤制的面包。经验+22%（60回合）"
+    },
+    {
+      "name": "彩虹鳟鱼料理",
+      "rarity": 2,
+      "ingredients": [
+        {
+          "name": "彩虹鳟鱼",
+          "count": 1
+        },
+        {
+          "name": "柠檬",
+          "count": 1
+        },
+        {
+          "name": "小麦",
+          "count": 1
+        }
+      ],
+      "cook_time": 60,
+      "effect": {
+        "stat": "all",
+        "value": 15,
+        "duration": 3600
+      },
+      "desc": "用彩虹鳟鱼制作的精美料理，色彩斑斓。全属性+15（60回合）"
+    }
+  ],
+  "max_active_buffs": 3
+}

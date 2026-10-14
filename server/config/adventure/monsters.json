@@ -1,0 +1,4756 @@
+{
+  "description": "怪物基础数值配置v3。每个怪物有level_range [min,max]限定等级范围，region_id关联区域，level_coefficient控制等级对属性的放大系数。怪物等级=区域随机(level_range)，属性=基础×(1+level×coefficient)",
+  "level_coefficient": 0.022,
+  "rarity_multipliers": {
+    "1": 1,
+    "2": 1.3,
+    "3": 1.8,
+    "4": 2.5,
+    "999": 4,
+    "9999": 5.5,
+    "99999": 7
+  },
+  "monsters": [
+    {
+      "name": "史莱姆",
+      "rarity": 1,
+      "region_id": "plains",
+      "level_range": [
+        1,
+        8
+      ],
+      "base_hp": 160,
+      "base_attack": 36,
+      "base_speed": 12,
+      "base_atk_speed": 10,
+      "base_defense": 12,
+      "min_power": 0,
+      "drops": [
+        "史莱姆粘液"
+      ],
+      "weapon_drops": [
+        {
+          "name": "🛡️史莱姆之盾",
+          "type": "armor",
+          "rarity": 1,
+          "chance": 0.04,
+          "stats": {
+            "attack": 20,
+            "defense": 29,
+            "speed": 20,
+            "attack_speed": 20,
+            "dodge": 20,
+            "hp": 65
+          },
+          "special": {
+            "dmg_reduce": 0.03
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "extra_atk",
+              0.04
+            ],
+            [
+              "dmg_reduce",
+              0.03
+            ],
+            [
+              "coin_bonus",
+              0.05
+            ],
+            [
+              "exp_bonus",
+              0.04
+            ],
+            [
+              "counter",
+              0.03
+            ]
+          ],
+          "rarity_variants": {
+            "1": {
+              "chance": 0.495,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.3535714285714286,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.14142857142857143,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "9999": {
+              "chance": 0.01,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "野狼",
+      "rarity": 1,
+      "region_id": "plains",
+      "level_range": [
+        2,
+        10
+      ],
+      "base_hp": 200,
+      "base_attack": 44,
+      "base_speed": 18,
+      "base_atk_speed": 12,
+      "base_defense": 14,
+      "min_power": 30,
+      "drops": [
+        "狼牙",
+        "兔毛"
+      ],
+      "weapon_drops": [
+        {
+          "name": "🗡️狼牙匕首",
+          "type": "weapon",
+          "rarity": 1,
+          "chance": 0.04,
+          "stats": {
+            "attack": 37,
+            "defense": 19,
+            "speed": 19,
+            "attack_speed": 19,
+            "dodge": 19,
+            "hp": 29
+          },
+          "special": {
+            "crit_rate": 0.04
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "extra_atk",
+              0.04
+            ],
+            [
+              "crit_dmg",
+              0.2
+            ],
+            [
+              "lifesteal",
+              0.03
+            ]
+          ],
+          "rarity_variants": {
+            "1": {
+              "chance": 0.4437931034482759,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.4096551724137931,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.13655172413793104,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "9999": {
+              "chance": 0.01,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "哥布林",
+      "rarity": 1,
+      "region_id": "plains",
+      "level_range": [
+        1,
+        9
+      ],
+      "base_hp": 160,
+      "base_attack": 30,
+      "base_speed": 16,
+      "base_atk_speed": 16,
+      "base_defense": 10,
+      "min_power": 30,
+      "drops": [
+        "哥布林耳朵"
+      ],
+      "weapon_drops": [
+        {
+          "name": "🗡️哥布林短刀",
+          "type": "weapon",
+          "rarity": 1,
+          "chance": 0.04,
+          "stats": {
+            "attack": 34,
+            "defense": 17,
+            "speed": 17,
+            "attack_speed": 17,
+            "dodge": 17,
+            "hp": 26
+          },
+          "special": {
+            "extra_atk": 0.05
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "crit_rate",
+              0.03
+            ],
+            [
+              "coin_bonus",
+              0.06
+            ],
+            [
+              "counter",
+              0.04
+            ]
+          ],
+          "rarity_variants": {
+            "1": {
+              "chance": 0.4437931034482759,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.4096551724137931,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.13655172413793104,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "9999": {
+              "chance": 0.01,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "疯狂的兔子",
+      "rarity": 1,
+      "region_id": "plains",
+      "level_range": [
+        3,
+        10
+      ],
+      "base_hp": 120,
+      "base_attack": 56,
+      "base_speed": 36,
+      "base_atk_speed": 24,
+      "base_defense": 8,
+      "min_power": 70,
+      "drops": [
+        "兔毛",
+        "幸运兔脚"
+      ],
+      "weapon_drops": [
+        {
+          "name": "👢兔皮靴",
+          "type": "boots",
+          "rarity": 1,
+          "chance": 0.04,
+          "stats": {
+            "attack": 11,
+            "defense": 11,
+            "speed": 23,
+            "attack_speed": 11,
+            "dodge": 9,
+            "hp": 17
+          },
+          "special": {
+            "speed": 3
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "crit_rate",
+              0.03
+            ],
+            [
+              "exp_bonus",
+              0.05
+            ],
+            [
+              "dodge",
+              3
+            ]
+          ],
+          "rarity_variants": {
+            "1": {
+              "chance": 0.3857142857142857,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.42428571428571427,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.18,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "9999": {
+              "chance": 0.01,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "巨型蜘蛛",
+      "rarity": 1,
+      "region_id": "forest",
+      "level_range": [
+        10,
+        20
+      ],
+      "base_hp": 240,
+      "base_attack": 50,
+      "base_speed": 18,
+      "base_atk_speed": 14,
+      "base_defense": 16,
+      "min_power": 50,
+      "drops": [
+        "蜘蛛丝"
+      ],
+      "weapon_drops": [
+        {
+          "name": "🕸️蛛丝护腿",
+          "type": "leggings",
+          "rarity": 1,
+          "chance": 0.04,
+          "stats": {
+            "attack": 9,
+            "defense": 14,
+            "speed": 9,
+            "attack_speed": 17,
+            "dodge": 9,
+            "hp": 13
+          },
+          "special": {
+            "dmg_reduce": 0.03
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "dodge",
+              3
+            ],
+            [
+              "counter",
+              0.03
+            ],
+            [
+              "defense",
+              5
+            ]
+          ],
+          "rarity_variants": {
+            "1": {
+              "chance": 0.3985714285714285,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.3857142857142857,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.2057142857142857,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "9999": {
+              "chance": 0.01,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "骷髅兵",
+      "rarity": 1,
+      "region_id": "forest",
+      "level_range": [
+        10,
+        22
+      ],
+      "base_hp": 200,
+      "base_attack": 44,
+      "base_speed": 14,
+      "base_atk_speed": 12,
+      "base_defense": 24,
+      "min_power": 50,
+      "drops": [
+        "骨片"
+      ],
+      "weapon_drops": [
+        {
+          "name": "💀骷髅战盔",
+          "type": "helmet",
+          "rarity": 1,
+          "chance": 0.04,
+          "stats": {
+            "attack": 48,
+            "defense": 17,
+            "speed": 48,
+            "attack_speed": 48,
+            "dodge": 48,
+            "hp": 150
+          },
+          "special": {
+            "dmg_reduce": 0.04
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "defense",
+              5
+            ],
+            [
+              "hp",
+              8
+            ],
+            [
+              "counter",
+              0.03
+            ]
+          ],
+          "rarity_variants": {
+            "1": {
+              "chance": 0.33,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.42,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.24,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "9999": {
+              "chance": 0.01,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "野猪",
+      "rarity": 1,
+      "region_id": "forest",
+      "level_range": [
+        12,
+        25
+      ],
+      "base_hp": 300,
+      "base_attack": 50,
+      "base_speed": 14,
+      "base_atk_speed": 10,
+      "base_defense": 20,
+      "min_power": 70,
+      "drops": [
+        "野猪獠牙"
+      ],
+      "weapon_drops": [
+        {
+          "name": "🐗野猪獠牙刃",
+          "type": "weapon",
+          "rarity": 1,
+          "chance": 0.04,
+          "stats": {
+            "attack": 80,
+            "defense": 40,
+            "speed": 40,
+            "attack_speed": 40,
+            "dodge": 40,
+            "hp": 60
+          },
+          "special": {
+            "extra_atk": 0.05
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "crit_dmg",
+              0.2
+            ],
+            [
+              "lifesteal",
+              0.03
+            ],
+            [
+              "counter",
+              0.04
+            ]
+          ],
+          "rarity_variants": {
+            "1": {
+              "chance": 0.38076923076923075,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.40615384615384614,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.20307692307692307,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "9999": {
+              "chance": 0.01,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "盗贼",
+      "rarity": 2,
+      "region_id": "forest",
+      "level_range": [
+        15,
+        25
+      ],
+      "base_hp": 220,
+      "base_attack": 56,
+      "base_speed": 26,
+      "base_atk_speed": 18,
+      "base_defense": 14,
+      "min_power": 100,
+      "drops": [
+        "盗贼的匕首",
+        "古代银币"
+      ],
+      "weapon_drops": [
+        {
+          "name": "⚔️盗贼之刃",
+          "type": "weapon",
+          "rarity": 2,
+          "chance": 0.04,
+          "stats": {
+            "attack": 85,
+            "defense": 42,
+            "speed": 42,
+            "attack_speed": 42,
+            "dodge": 42,
+            "hp": 63
+          },
+          "special": {
+            "crit_rate": 0.05
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "extra_atk",
+              0.05
+            ],
+            [
+              "crit_dmg",
+              0.25
+            ],
+            [
+              "coin_bonus",
+              0.06
+            ]
+          ],
+          "rarity_variants": {
+            "1": {
+              "chance": 0.3173076923076923,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.44423076923076915,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.15230769230769228,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.07615384615384614,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "9999": {
+              "chance": 0.01,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        },
+        {
+          "name": "🥷盗贼面罩",
+          "type": "helmet",
+          "rarity": 2,
+          "chance": 0.03,
+          "stats": {
+            "attack": 57,
+            "defense": 23,
+            "speed": 57,
+            "attack_speed": 57,
+            "dodge": 57,
+            "hp": 171
+          },
+          "special": {
+            "dodge": 0.04
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "crit_rate",
+              0.04
+            ],
+            [
+              "speed",
+              5
+            ]
+          ],
+          "rarity_variants": {
+            "1": {
+              "chance": 0.3173076923076923,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.44423076923076915,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.15230769230769228,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.07615384615384614,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "9999": {
+              "chance": 0.01,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "石像鬼",
+      "rarity": 2,
+      "region_id": "desert",
+      "level_range": [
+        25,
+        38
+      ],
+      "base_hp": 204,
+      "base_attack": 35,
+      "base_speed": 9,
+      "base_atk_speed": 14,
+      "base_defense": 22,
+      "min_power": 90,
+      "drops": [
+        "石像碎片"
+      ],
+      "weapon_drops": [
+        {
+          "name": "🗿石像护符",
+          "type": "accessory",
+          "rarity": 2,
+          "chance": 0.04,
+          "stats": {
+            "attack": 44,
+            "defense": 44,
+            "speed": 44,
+            "attack_speed": 44,
+            "dodge": 29,
+            "hp": 136
+          },
+          "special": {
+            "dmg_reduce": 0.05
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "defense",
+              6
+            ],
+            [
+              "hp",
+              10
+            ],
+            [
+              "counter",
+              0.04
+            ]
+          ],
+          "rarity_variants": {
+            "1": {
+              "chance": 0.27,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.42,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.18,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.12,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "9999": {
+              "chance": 0.01,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "水鬼",
+      "rarity": 1,
+      "region_id": "desert",
+      "level_range": [
+        25,
+        35
+      ],
+      "base_hp": 127,
+      "base_attack": 27,
+      "base_speed": 15,
+      "base_atk_speed": 14,
+      "base_defense": 7,
+      "min_power": 70,
+      "drops": [
+        "水鬼之泪"
+      ],
+      "weapon_drops": [
+        {
+          "name": "💧水鬼之戒",
+          "type": "accessory",
+          "rarity": 1,
+          "chance": 0.04,
+          "stats": {
+            "attack": 44,
+            "defense": 44,
+            "speed": 44,
+            "attack_speed": 44,
+            "dodge": 29,
+            "hp": 136
+          },
+          "special": {
+            "lifesteal": 0.03
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "hp",
+              8
+            ],
+            [
+              "counter",
+              0.03
+            ],
+            [
+              "exp_bonus",
+              0.05
+            ]
+          ],
+          "rarity_variants": {
+            "1": {
+              "chance": 0.38076923076923075,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.40615384615384614,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.20307692307692307,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "9999": {
+              "chance": 0.01,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "石化蜥蜴",
+      "rarity": 2,
+      "region_id": "desert",
+      "level_range": [
+        28,
+        40
+      ],
+      "base_hp": 255,
+      "base_attack": 38,
+      "base_speed": 11,
+      "base_atk_speed": 14,
+      "base_defense": 22,
+      "min_power": 190,
+      "drops": [
+        "蜥蜴鳞片"
+      ],
+      "special": "石化",
+      "weapon_drops": [
+        {
+          "name": "🦎蜥蜴鳞甲",
+          "type": "armor",
+          "rarity": 2,
+          "chance": 0.04,
+          "stats": {
+            "attack": 80,
+            "defense": 108,
+            "speed": 80,
+            "attack_speed": 80,
+            "dodge": 80,
+            "hp": 239
+          },
+          "special": {
+            "counter": 0.04
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "dmg_reduce",
+              0.04
+            ],
+            [
+              "defense",
+              8
+            ],
+            [
+              "hp",
+              15
+            ]
+          ],
+          "rarity_variants": {
+            "1": {
+              "chance": 0.27,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.42,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.18,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.12,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "9999": {
+              "chance": 0.01,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "双头蛇",
+      "rarity": 2,
+      "region_id": "desert",
+      "level_range": [
+        30,
+        40
+      ],
+      "base_hp": 191,
+      "base_attack": 48,
+      "base_speed": 16,
+      "base_atk_speed": 22,
+      "base_defense": 9,
+      "min_power": 260,
+      "drops": [
+        "蛇毒"
+      ],
+      "special": "猛毒",
+      "weapon_drops": [
+        {
+          "name": "🐍蛇毒匕首",
+          "type": "weapon",
+          "rarity": 2,
+          "chance": 0.04,
+          "stats": {
+            "attack": 119,
+            "defense": 59,
+            "speed": 59,
+            "attack_speed": 59,
+            "dodge": 59,
+            "hp": 88
+          },
+          "special": {
+            "fire_damage": 8
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "crit_rate",
+              0.04
+            ],
+            [
+              "extra_atk",
+              0.06
+            ],
+            [
+              "lifesteal",
+              0.03
+            ]
+          ],
+          "rarity_variants": {
+            "1": {
+              "chance": 0.27,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.42,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.18,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.12,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "9999": {
+              "chance": 0.01,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "幽灵",
+      "rarity": 2,
+      "region_id": "snow_mountain",
+      "level_range": [
+        40,
+        52
+      ],
+      "base_hp": 112,
+      "base_attack": 32,
+      "base_speed": 12,
+      "base_atk_speed": 18,
+      "base_defense": 4,
+      "min_power": 160,
+      "drops": [
+        "幽灵残渣"
+      ],
+      "special": "虚化",
+      "weapon_drops": [
+        {
+          "name": "👻幽灵斗篷",
+          "type": "armor",
+          "rarity": 2,
+          "chance": 0.04,
+          "stats": {
+            "attack": 114,
+            "defense": 143,
+            "speed": 114,
+            "attack_speed": 114,
+            "dodge": 114,
+            "hp": 342
+          },
+          "special": {
+            "dodge": 0.05
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "crit_rate",
+              0.04
+            ],
+            [
+              "speed",
+              5
+            ],
+            [
+              "exp_bonus",
+              0.05
+            ]
+          ],
+          "rarity_variants": {
+            "1": {
+              "chance": 0.27,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.42,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.18,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.12,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "9999": {
+              "chance": 0.01,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "暗影刺客",
+      "rarity": 3,
+      "region_id": "snow_mountain",
+      "level_range": [
+        42,
+        55
+      ],
+      "base_hp": 121,
+      "base_attack": 39,
+      "base_speed": 14,
+      "base_atk_speed": 24,
+      "base_defense": 6,
+      "min_power": 260,
+      "drops": [
+        "暗影之尘"
+      ],
+      "special": "暗杀",
+      "weapon_drops": [
+        {
+          "name": "🔮暗影匕首",
+          "type": "weapon",
+          "rarity": 3,
+          "chance": 0.035,
+          "stats": {
+            "attack": 164,
+            "defense": 81,
+            "speed": 81,
+            "attack_speed": 81,
+            "dodge": 81,
+            "hp": 122
+          },
+          "special": {
+            "crit_rate": 0.06
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "extra_atk",
+              0.06
+            ],
+            [
+              "crit_dmg",
+              0.3
+            ],
+            [
+              "lifesteal",
+              0.04
+            ],
+            [
+              "speed",
+              6
+            ]
+          ],
+          "rarity_variants": {
+            "1": {
+              "chance": 0.1563157894736842,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.3647368421052632,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.2605263157894737,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.20842105263157898,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "9999": {
+              "chance": 0.01,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "冰霜巨人",
+      "rarity": 3,
+      "region_id": "snow_mountain",
+      "level_range": [
+        45,
+        55
+      ],
+      "base_hp": 205,
+      "base_attack": 32,
+      "base_speed": 6,
+      "base_atk_speed": 12,
+      "base_defense": 18,
+      "min_power": 520,
+      "drops": [
+        "寒冰碎片",
+        "寒冰核心"
+      ],
+      "special": "冰冻",
+      "weapon_drops": [
+        {
+          "name": "❄️冰霜巨人之拳",
+          "type": "weapon",
+          "rarity": 3,
+          "chance": 0.035,
+          "stats": {
+            "attack": 175,
+            "defense": 86,
+            "speed": 86,
+            "attack_speed": 86,
+            "dodge": 86,
+            "hp": 130
+          },
+          "special": {
+            "dmg_reduce": 0.06
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "counter",
+              0.05
+            ],
+            [
+              "defense",
+              8
+            ],
+            [
+              "hp",
+              15
+            ],
+            [
+              "extra_atk",
+              0.06
+            ]
+          ],
+          "rarity_variants": {
+            "1": {
+              "chance": 0.1531578947368421,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.3573684210526316,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.25526315789473686,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.2042105263157895,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "9999": {
+              "chance": 0.03,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "炎魔",
+      "rarity": 3,
+      "region_id": "volcano",
+      "level_range": [
+        55,
+        68
+      ],
+      "base_hp": 130,
+      "base_attack": 34,
+      "base_speed": 8,
+      "base_atk_speed": 16,
+      "base_defense": 10,
+      "min_power": 460,
+      "drops": [
+        "火焰精华",
+        "火焰之心"
+      ],
+      "special": "灼烧",
+      "weapon_drops": [
+        {
+          "name": "🔥炎魔之刃",
+          "type": "weapon",
+          "rarity": 3,
+          "chance": 0.035,
+          "stats": {
+            "attack": 210,
+            "defense": 105,
+            "speed": 105,
+            "attack_speed": 105,
+            "dodge": 105,
+            "hp": 158
+          },
+          "special": {
+            "fire_damage": 12
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "crit_dmg",
+              0.3
+            ],
+            [
+              "extra_atk",
+              0.06
+            ],
+            [
+              "lifesteal",
+              0.04
+            ]
+          ],
+          "rarity_variants": {
+            "1": {
+              "chance": 0.1426470588235294,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.33284313725490194,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.2662745098039216,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.22823529411764704,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "9999": {
+              "chance": 0.03,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "食人花",
+      "rarity": 2,
+      "region_id": "volcano",
+      "level_range": [
+        55,
+        65
+      ],
+      "base_hp": 138,
+      "base_attack": 24,
+      "base_speed": 6,
+      "base_atk_speed": 14,
+      "base_defense": 8,
+      "min_power": 210,
+      "drops": [
+        "食人花种子"
+      ],
+      "special": "再生",
+      "weapon_drops": [
+        {
+          "name": "🌿食人花藤甲",
+          "type": "armor",
+          "rarity": 2,
+          "chance": 0.04,
+          "stats": {
+            "attack": 157,
+            "defense": 196,
+            "speed": 157,
+            "attack_speed": 157,
+            "dodge": 157,
+            "hp": 470
+          },
+          "special": {
+            "lifesteal": 0.04
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "hp",
+              12
+            ],
+            [
+              "dmg_reduce",
+              0.04
+            ],
+            [
+              "counter",
+              0.03
+            ]
+          ],
+          "rarity_variants": {
+            "1": {
+              "chance": 0.3108974358974359,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.43525641025641026,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.14923076923076922,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.07461538461538461,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "9999": {
+              "chance": 0.03,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "铠甲亡灵",
+      "rarity": 2,
+      "region_id": "volcano",
+      "level_range": [
+        58,
+        70
+      ],
+      "base_hp": 161,
+      "base_attack": 21,
+      "base_speed": 4,
+      "base_atk_speed": 12,
+      "base_defense": 16,
+      "min_power": 230,
+      "drops": [
+        "亡灵铁片"
+      ],
+      "special": "硬化",
+      "weapon_drops": [
+        {
+          "name": "⚰️亡灵腿铠",
+          "type": "leggings",
+          "rarity": 2,
+          "chance": 0.04,
+          "stats": {
+            "attack": 100,
+            "defense": 150,
+            "speed": 100,
+            "attack_speed": 199,
+            "dodge": 100,
+            "hp": 219
+          },
+          "special": {
+            "dmg_reduce": 0.05
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "defense",
+              6
+            ],
+            [
+              "hp",
+              10
+            ],
+            [
+              "counter",
+              0.04
+            ]
+          ],
+          "rarity_variants": {
+            "1": {
+              "chance": 0.29846153846153844,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.4725641025641026,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.14923076923076922,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.04974358974358974,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "9999": {
+              "chance": 0.03,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "死灵法师",
+      "rarity": 3,
+      "region_id": "abyss",
+      "level_range": [
+        70,
+        82
+      ],
+      "base_hp": 86,
+      "base_attack": 28,
+      "base_speed": 6,
+      "base_atk_speed": 22,
+      "base_defense": 4,
+      "min_power": 600,
+      "drops": [
+        "死灵法典"
+      ],
+      "special": "诅咒",
+      "weapon_drops": [
+        {
+          "name": "📖死灵秘典",
+          "type": "accessory",
+          "rarity": 3,
+          "chance": 0.035,
+          "stats": {
+            "attack": 132,
+            "defense": 132,
+            "speed": 132,
+            "attack_speed": 132,
+            "dodge": 228,
+            "hp": 505
+          },
+          "special": {
+            "lifesteal": 0.05
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "crit_rate",
+              0.05
+            ],
+            [
+              "exp_bonus",
+              0.08
+            ],
+            [
+              "extra_atk",
+              0.06
+            ],
+            [
+              "crit_dmg",
+              0.3
+            ]
+          ],
+          "rarity_variants": {
+            "1": {
+              "chance": 0.1426470588235294,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.33284313725490194,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.2662745098039216,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.22823529411764704,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "9999": {
+              "chance": 0.03,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "狮鹫",
+      "rarity": 3,
+      "region_id": "abyss",
+      "level_range": [
+        72,
+        85
+      ],
+      "base_hp": 106,
+      "base_attack": 23,
+      "base_speed": 8,
+      "base_atk_speed": 22,
+      "base_defense": 7,
+      "min_power": 570,
+      "drops": [
+        "狮鹫羽毛"
+      ],
+      "weapon_drops": [
+        {
+          "name": "🦅狮鹫羽盔",
+          "type": "helmet",
+          "rarity": 3,
+          "chance": 0.035,
+          "stats": {
+            "attack": 139,
+            "defense": 222,
+            "speed": 139,
+            "attack_speed": 139,
+            "dodge": 139,
+            "hp": 730
+          },
+          "special": {
+            "speed": 6
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "crit_rate",
+              0.05
+            ],
+            [
+              "dodge",
+              4
+            ],
+            [
+              "exp_bonus",
+              0.06
+            ]
+          ],
+          "rarity_variants": {
+            "1": {
+              "chance": 0.1426470588235294,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.33284313725490194,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.2662745098039216,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.22823529411764704,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "9999": {
+              "chance": 0.03,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "奥创矿脉",
+      "rarity": 3,
+      "region_id": "starfall_wastes",
+      "level_range": [
+        70,
+        88
+      ],
+      "base_hp": 100,
+      "base_attack": 21,
+      "base_speed": 5,
+      "base_atk_speed": 16,
+      "base_defense": 7,
+      "min_power": 880,
+      "drops": [
+        "奥创矿",
+        "精炼银矿"
+      ],
+      "weapon_drops": [
+        {
+          "name": "💎矿脉之心护符",
+          "type": "accessory",
+          "rarity": 3,
+          "chance": 0.04,
+          "stats": {
+            "attack": 132,
+            "defense": 132,
+            "speed": 132,
+            "attack_speed": 132,
+            "dodge": 228,
+            "hp": 505
+          },
+          "special": {
+            "coin_bonus": 0.08
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "exp_bonus",
+              0.06
+            ],
+            [
+              "hp",
+              15
+            ],
+            [
+              "defense",
+              8
+            ],
+            [
+              "dmg_reduce",
+              0.04
+            ]
+          ],
+          "rarity_variants": {
+            "1": {
+              "chance": 0.1426470588235294,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.33284313725490194,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.2662745098039216,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.22823529411764704,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "9999": {
+              "chance": 0.03,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "巨型岩石怪",
+      "rarity": 3,
+      "region_id": "starfall_wastes",
+      "level_range": [
+        75,
+        90
+      ],
+      "base_hp": 156,
+      "base_attack": 19,
+      "base_speed": 3,
+      "base_atk_speed": 10,
+      "base_defense": 15,
+      "min_power": 760,
+      "drops": [
+        "大地结晶",
+        "大地核心"
+      ],
+      "weapon_drops": [
+        {
+          "name": "🪨大地守护腿甲",
+          "type": "leggings",
+          "rarity": 3,
+          "chance": 0.035,
+          "stats": {
+            "attack": 138,
+            "defense": 206,
+            "speed": 138,
+            "attack_speed": 275,
+            "dodge": 138,
+            "hp": 307
+          },
+          "special": {
+            "counter": 0.05
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "dmg_reduce",
+              0.05
+            ],
+            [
+              "defense",
+              10
+            ],
+            [
+              "hp",
+              18
+            ]
+          ],
+          "rarity_variants": {
+            "1": {
+              "chance": 0.1426470588235294,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.33284313725490194,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.2662745098039216,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.22823529411764704,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "9999": {
+              "chance": 0.03,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "恶魔统帅",
+      "rarity": 4,
+      "region_id": "starfall_wastes",
+      "level_range": [
+        78,
+        90
+      ],
+      "base_hp": 156,
+      "base_attack": 30,
+      "base_speed": 7,
+      "base_atk_speed": 22,
+      "base_defense": 11,
+      "min_power": 1040,
+      "drops": [
+        "恶魔之角"
+      ],
+      "special": "狂乱",
+      "weapon_drops": [
+        {
+          "name": "😈恶魔战甲",
+          "type": "armor",
+          "rarity": 4,
+          "chance": 0.03,
+          "stats": {
+            "attack": 222,
+            "defense": 445,
+            "speed": 222,
+            "attack_speed": 222,
+            "dodge": 222,
+            "hp": 969
+          },
+          "special": {
+            "crit_dmg": 0.3
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "extra_atk",
+              0.08
+            ],
+            [
+              "lifesteal",
+              0.05
+            ],
+            [
+              "crit_rate",
+              0.05
+            ],
+            [
+              "counter",
+              0.05
+            ]
+          ],
+          "rarity_variants": {
+            "1": {
+              "chance": 0.13857142857142857,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.27714285714285714,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.27714285714285714,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.18476190476190477,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "999": {
+              "chance": 0.09238095238095238,
+              "stat_mult": 1.12,
+              "special_count": [
+                2,
+                4
+              ]
+            },
+            "9999": {
+              "chance": 0.03,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "时空守护者",
+      "rarity": 3,
+      "region_id": "time_rift",
+      "level_range": [
+        85,
+        98
+      ],
+      "base_hp": 123,
+      "base_attack": 26,
+      "base_speed": 7,
+      "base_atk_speed": 24,
+      "base_defense": 8,
+      "min_power": 700,
+      "drops": [
+        "星之碎片",
+        "古代金币"
+      ],
+      "weapon_drops": [
+        {
+          "name": "⏳时光旅者之靴",
+          "type": "boots",
+          "rarity": 3,
+          "chance": 0.035,
+          "stats": {
+            "attack": 162,
+            "defense": 162,
+            "speed": 486,
+            "attack_speed": 162,
+            "dodge": 324,
+            "hp": 366
+          },
+          "special": {
+            "speed": 8
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "dodge",
+              5
+            ],
+            [
+              "crit_rate",
+              0.05
+            ],
+            [
+              "exp_bonus",
+              0.07
+            ],
+            [
+              "extra_atk",
+              0.06
+            ]
+          ],
+          "rarity_variants": {
+            "1": {
+              "chance": 0.1564516129032258,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.3129032258064516,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.3129032258064516,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.12516129032258064,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "999": {
+              "chance": 0.06258064516129032,
+              "stat_mult": 1.12,
+              "special_count": [
+                2,
+                4
+              ]
+            },
+            "9999": {
+              "chance": 0.03,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "堕落天使",
+      "rarity": 4,
+      "region_id": "time_rift",
+      "level_range": [
+        88,
+        100
+      ],
+      "base_hp": 179,
+      "base_attack": 36,
+      "base_speed": 9,
+      "base_atk_speed": 24,
+      "base_defense": 10,
+      "min_power": 1240,
+      "drops": [
+        "堕落之羽",
+        "天使之泪"
+      ],
+      "weapon_drops": [
+        {
+          "name": "😇天使之坠",
+          "type": "accessory",
+          "rarity": 4,
+          "chance": 0.03,
+          "stats": {
+            "attack": 167,
+            "defense": 167,
+            "speed": 167,
+            "attack_speed": 167,
+            "dodge": 331,
+            "hp": 666
+          },
+          "special": {
+            "dmg_reduce": 0.06
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "crit_rate",
+              0.06
+            ],
+            [
+              "lifesteal",
+              0.05
+            ],
+            [
+              "exp_bonus",
+              0.08
+            ],
+            [
+              "coin_bonus",
+              0.08
+            ]
+          ],
+          "rarity_variants": {
+            "1": {
+              "chance": 0.13857142857142857,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.27714285714285714,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.27714285714285714,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.18476190476190477,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "999": {
+              "chance": 0.09238095238095238,
+              "stat_mult": 1.12,
+              "special_count": [
+                2,
+                4
+              ]
+            },
+            "9999": {
+              "chance": 0.03,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "远古龙",
+      "rarity": 4,
+      "region_id": "dragon_domain",
+      "level_range": [
+        100,
+        115
+      ],
+      "base_hp": 167,
+      "base_attack": 26,
+      "base_speed": 4,
+      "base_atk_speed": 16,
+      "base_defense": 12,
+      "min_power": 1360,
+      "drops": [
+        "龙之心",
+        "神龙碎片"
+      ],
+      "special": "龙威",
+      "weapon_drops": [
+        {
+          "name": "🐉龙牙剑",
+          "type": "weapon",
+          "rarity": 4,
+          "chance": 0.03,
+          "stats": {
+            "attack": 627,
+            "defense": 314,
+            "speed": 314,
+            "attack_speed": 314,
+            "dodge": 314,
+            "hp": 941
+          },
+          "special": {
+            "crit_dmg": 0.35
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "extra_atk",
+              0.08
+            ],
+            [
+              "lifesteal",
+              0.05
+            ],
+            [
+              "crit_rate",
+              0.06
+            ],
+            [
+              "fire_damage",
+              10
+            ]
+          ],
+          "rarity_variants": {
+            "1": {
+              "chance": 0.1357142857142857,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.25333333333333335,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.2714285714285714,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.19904761904761906,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "999": {
+              "chance": 0.09047619047619049,
+              "stat_mult": 1.12,
+              "special_count": [
+                2,
+                4
+              ]
+            },
+            "9999": {
+              "chance": 0.05,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "皇家骑士",
+      "rarity": 4,
+      "region_id": "dragon_domain",
+      "level_range": [
+        105,
+        120
+      ],
+      "base_hp": 189,
+      "base_attack": 30,
+      "base_speed": 6,
+      "base_atk_speed": 22,
+      "base_defense": 13,
+      "min_power": 1500,
+      "drops": [
+        "骑士之魂",
+        "皇家碎片"
+      ],
+      "weapon_drops": [
+        {
+          "name": "⚜️皇家骑士圣盾",
+          "type": "armor",
+          "rarity": 4,
+          "chance": 0.03,
+          "stats": {
+            "attack": 299,
+            "defense": 599,
+            "speed": 299,
+            "attack_speed": 299,
+            "dodge": 299,
+            "hp": 1347
+          },
+          "special": {
+            "counter": 0.06
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "dmg_reduce",
+              0.06
+            ],
+            [
+              "defense",
+              12
+            ],
+            [
+              "hp",
+              20
+            ],
+            [
+              "extra_atk",
+              0.06
+            ]
+          ],
+          "rarity_variants": {
+            "1": {
+              "chance": 0.12954545454545452,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.24181818181818182,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.25909090909090904,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.1986363636363636,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "999": {
+              "chance": 0.12090909090909091,
+              "stat_mult": 1.12,
+              "special_count": [
+                2,
+                4
+              ]
+            },
+            "9999": {
+              "chance": 0.05,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "混沌之龙",
+      "rarity": 999,
+      "region_id": "dragon_domain",
+      "level_range": [
+        110,
+        120
+      ],
+      "base_hp": 242,
+      "base_attack": 35,
+      "base_speed": 9,
+      "base_atk_speed": 38,
+      "base_defense": 8,
+      "min_power": 3600,
+      "drops": [
+        "混沌之鳞",
+        "混沌原矿"
+      ],
+      "special": "混沌",
+      "weapon_drops": [
+        {
+          "name": "🌀混沌之环",
+          "type": "accessory",
+          "rarity": 999,
+          "chance": 0.025,
+          "stats": {
+            "attack": 228,
+            "defense": 228,
+            "speed": 228,
+            "attack_speed": 228,
+            "dodge": 456,
+            "hp": 912
+          },
+          "special": {
+            "crit_rate": 0.07
+          },
+          "stat_variance": 0.1,
+          "special_pool": [
+            [
+              "extra_atk",
+              0.1
+            ],
+            [
+              "crit_dmg",
+              0.4
+            ],
+            [
+              "lifesteal",
+              0.06
+            ],
+            [
+              "counter",
+              0.06
+            ]
+          ],
+          "rarity_variants": {
+            "2": {
+              "chance": 0.15789473684210525,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.3157894736842105,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.3157894736842105,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "999": {
+              "chance": 0.2105263157894737,
+              "stat_mult": 1.12,
+              "special_count": [
+                2,
+                4
+              ]
+            },
+            "9999": {
+              "chance": 0.05,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "神罚之影",
+      "rarity": 999,
+      "region_id": "chaos_abyss",
+      "level_range": [
+        120,
+        140
+      ],
+      "base_hp": 125,
+      "base_attack": 20,
+      "base_speed": 5,
+      "base_atk_speed": 30,
+      "base_defense": 4,
+      "min_power": 2400,
+      "drops": [
+        "暗影之尘",
+        "神之碎片"
+      ],
+      "weapon_drops": [
+        {
+          "name": "🌑虚空行者之靴",
+          "type": "boots",
+          "rarity": 999,
+          "chance": 0.025,
+          "stats": {
+            "attack": 299,
+            "defense": 299,
+            "speed": 899,
+            "attack_speed": 299,
+            "dodge": 599,
+            "hp": 675
+          },
+          "special": {
+            "dodge": 5
+          },
+          "stat_variance": 0.1,
+          "special_pool": [
+            [
+              "speed",
+              8
+            ],
+            [
+              "crit_rate",
+              0.06
+            ],
+            [
+              "extra_atk",
+              0.08
+            ],
+            [
+              "lifesteal",
+              0.05
+            ]
+          ],
+          "rarity_variants": {
+            "2": {
+              "chance": 0.15789473684210525,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.3157894736842105,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.3157894736842105,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "999": {
+              "chance": 0.2105263157894737,
+              "stat_mult": 1.12,
+              "special_count": [
+                2,
+                4
+              ]
+            },
+            "9999": {
+              "chance": 0.05,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "深渊死灵法师",
+      "rarity": 4,
+      "region_id": "chaos_abyss",
+      "level_range": [
+        125,
+        145
+      ],
+      "base_hp": 82,
+      "base_attack": 21,
+      "base_speed": 4,
+      "base_atk_speed": 28,
+      "base_defense": 3,
+      "min_power": 1160,
+      "drops": [
+        "死灵法典",
+        "诅咒金币"
+      ],
+      "special": "诅咒强化",
+      "weapon_drops": [
+        {
+          "name": "💀深渊诅咒法典",
+          "type": "accessory",
+          "rarity": 4,
+          "chance": 0.025,
+          "stats": {
+            "attack": 271,
+            "defense": 271,
+            "speed": 271,
+            "attack_speed": 271,
+            "dodge": 542,
+            "hp": 1083
+          },
+          "special": {
+            "lifesteal": 0.06
+          },
+          "stat_variance": 0.1,
+          "special_pool": [
+            [
+              "crit_rate",
+              0.06
+            ],
+            [
+              "crit_dmg",
+              0.35
+            ],
+            [
+              "extra_atk",
+              0.08
+            ],
+            [
+              "exp_bonus",
+              0.08
+            ]
+          ],
+          "rarity_variants": {
+            "2": {
+              "chance": 0.1894736842105263,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.3157894736842105,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.3368421052631579,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "999": {
+              "chance": 0.15789473684210525,
+              "stat_mult": 1.12,
+              "special_count": [
+                2,
+                4
+              ]
+            },
+            "9999": {
+              "chance": 0.05,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "深渊石像鬼",
+      "rarity": 4,
+      "region_id": "chaos_abyss",
+      "level_range": [
+        130,
+        145
+      ],
+      "base_hp": 115,
+      "base_attack": 18,
+      "base_speed": 3,
+      "base_atk_speed": 18,
+      "base_defense": 10,
+      "min_power": 1240,
+      "drops": [
+        "黑曜石",
+        "觉醒之石"
+      ],
+      "special": "石化",
+      "weapon_drops": [
+        {
+          "name": "🪨黑曜石护甲",
+          "type": "armor",
+          "rarity": 4,
+          "chance": 0.025,
+          "stats": {
+            "attack": 371,
+            "defense": 741,
+            "speed": 371,
+            "attack_speed": 371,
+            "dodge": 371,
+            "hp": 1667
+          },
+          "special": {
+            "dmg_reduce": 0.07
+          },
+          "stat_variance": 0.1,
+          "special_pool": [
+            [
+              "counter",
+              0.06
+            ],
+            [
+              "defense",
+              15
+            ],
+            [
+              "hp",
+              25
+            ],
+            [
+              "dmg_reduce",
+              0.05
+            ]
+          ],
+          "rarity_variants": {
+            "2": {
+              "chance": 0.1894736842105263,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.3157894736842105,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.3368421052631579,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "999": {
+              "chance": 0.15789473684210525,
+              "stat_mult": 1.12,
+              "special_count": [
+                2,
+                4
+              ]
+            },
+            "9999": {
+              "chance": 0.05,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "神龙",
+      "rarity": 9999,
+      "region_id": "divine_border",
+      "level_range": [
+        145,
+        165
+      ],
+      "base_hp": 280,
+      "base_attack": 29,
+      "base_speed": 6,
+      "base_atk_speed": 38,
+      "base_defense": 8,
+      "min_power": 7400,
+      "drops": [
+        "神龙碎片",
+        "神之碎片"
+      ],
+      "special": "神罚",
+      "weapon_drops": [
+        {
+          "name": "🐉神龙之刃",
+          "type": "weapon",
+          "rarity": 9999,
+          "chance": 0.02,
+          "stats": {
+            "attack": 926,
+            "defense": 464,
+            "speed": 464,
+            "attack_speed": 464,
+            "dodge": 464,
+            "hp": 1390
+          },
+          "special": {
+            "crit_dmg": 0.45
+          },
+          "stat_variance": 0.08,
+          "special_pool": [
+            [
+              "extra_atk",
+              0.12
+            ],
+            [
+              "lifesteal",
+              0.07
+            ],
+            [
+              "crit_rate",
+              0.07
+            ],
+            [
+              "fire_damage",
+              15
+            ],
+            [
+              "counter",
+              0.06
+            ]
+          ],
+          "rarity_variants": {
+            "3": {
+              "chance": 0.2986666666666667,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.44799999999999995,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "999": {
+              "chance": 0.3733333333333333,
+              "stat_mult": 1.12,
+              "special_count": [
+                2,
+                4
+              ]
+            },
+            "9999": {
+              "chance": 0.08,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "炽天使",
+      "rarity": 4,
+      "region_id": "divine_border",
+      "level_range": [
+        150,
+        170
+      ],
+      "base_hp": 108,
+      "base_attack": 18,
+      "base_speed": 5,
+      "base_atk_speed": 28,
+      "base_defense": 5,
+      "min_power": 1500,
+      "drops": [
+        "天使之泪",
+        "觉醒之石"
+      ],
+      "weapon_drops": [
+        {
+          "name": "😇炽天使头冠",
+          "type": "helmet",
+          "rarity": 4,
+          "chance": 0.025,
+          "stats": {
+            "attack": 326,
+            "defense": 651,
+            "speed": 326,
+            "attack_speed": 326,
+            "dodge": 326,
+            "hp": 1952
+          },
+          "special": {
+            "exp_bonus": 0.1
+          },
+          "stat_variance": 0.1,
+          "special_pool": [
+            [
+              "crit_rate",
+              0.06
+            ],
+            [
+              "lifesteal",
+              0.05
+            ],
+            [
+              "coin_bonus",
+              0.1
+            ],
+            [
+              "dmg_reduce",
+              0.05
+            ]
+          ],
+          "rarity_variants": {
+            "2": {
+              "chance": 0.18378947368421053,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.3063157894736842,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.32673684210526316,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "999": {
+              "chance": 0.1531578947368421,
+              "stat_mult": 1.12,
+              "special_count": [
+                2,
+                4
+              ]
+            },
+            "9999": {
+              "chance": 0.08,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        },
+        {
+          "name": "😇炽天使战靴",
+          "type": "boots",
+          "rarity": 4,
+          "chance": 0.025,
+          "special": {
+            "speed": 8
+          },
+          "special_pool": [
+            [
+              "crit_rate",
+              0.06
+            ],
+            [
+              "dodge",
+              5
+            ],
+            [
+              "exp_bonus",
+              0.08
+            ],
+            [
+              "speed",
+              6
+            ]
+          ],
+          "rarity_variants": {
+            "2": {
+              "chance": 0.18378947368421053,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.3063157894736842,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.32673684210526316,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "999": {
+              "chance": 0.1531578947368421,
+              "stat_mult": 1.12,
+              "special_count": [
+                2,
+                4
+              ]
+            },
+            "9999": {
+              "chance": 0.08,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          },
+          "stats": {
+            "attack": 417,
+            "defense": 417,
+            "speed": 1252,
+            "attack_speed": 417,
+            "dodge": 835,
+            "hp": 941
+          }
+        }
+      ]
+    },
+    {
+      "name": "圣殿骑士",
+      "rarity": 4,
+      "region_id": "divine_border",
+      "level_range": [
+        155,
+        170
+      ],
+      "base_hp": 148,
+      "base_attack": 19,
+      "base_speed": 3,
+      "base_atk_speed": 24,
+      "base_defense": 8,
+      "min_power": 1800,
+      "drops": [
+        "骑士之魂",
+        "百炼钢"
+      ],
+      "special": "圣盾",
+      "weapon_drops": [
+        {
+          "name": "⚜️圣殿骑士腿甲",
+          "type": "leggings",
+          "rarity": 4,
+          "chance": 0.025,
+          "stats": {
+            "attack": 316,
+            "defense": 475,
+            "speed": 316,
+            "attack_speed": 633,
+            "dodge": 316,
+            "hp": 712
+          },
+          "special": {
+            "counter": 0.06
+          },
+          "stat_variance": 0.1,
+          "special_pool": [
+            [
+              "dmg_reduce",
+              0.06
+            ],
+            [
+              "defense",
+              12
+            ],
+            [
+              "hp",
+              20
+            ],
+            [
+              "extra_atk",
+              0.08
+            ]
+          ],
+          "rarity_variants": {
+            "2": {
+              "chance": 0.18378947368421053,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.3063157894736842,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.32673684210526316,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "999": {
+              "chance": 0.1531578947368421,
+              "stat_mult": 1.12,
+              "special_count": [
+                2,
+                4
+              ]
+            },
+            "9999": {
+              "chance": 0.08,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "创世神罚之影",
+      "rarity": 999,
+      "region_id": "creation_ruins",
+      "level_range": [
+        170,
+        190
+      ],
+      "base_hp": 99,
+      "base_attack": 15,
+      "base_speed": 3,
+      "base_atk_speed": 36,
+      "base_defense": 3,
+      "min_power": 4000,
+      "drops": [
+        "神之碎片",
+        "创世结晶"
+      ],
+      "weapon_drops": [
+        {
+          "name": "💫虚空行者之刃",
+          "type": "weapon",
+          "rarity": 999,
+          "chance": 0.02,
+          "stats": {
+            "attack": 1093,
+            "defense": 546,
+            "speed": 546,
+            "attack_speed": 546,
+            "dodge": 546,
+            "hp": 1639
+          },
+          "special": {
+            "crit_rate": 0.08
+          },
+          "stat_variance": 0.08,
+          "special_pool": [
+            [
+              "extra_atk",
+              0.12
+            ],
+            [
+              "crit_dmg",
+              0.4
+            ],
+            [
+              "lifesteal",
+              0.06
+            ],
+            [
+              "speed",
+              10
+            ],
+            [
+              "dodge",
+              5
+            ]
+          ],
+          "rarity_variants": {
+            "3": {
+              "chance": 0.2923076923076923,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.43846153846153846,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "999": {
+              "chance": 0.4092307692307693,
+              "stat_mult": 1.12,
+              "special_count": [
+                2,
+                4
+              ]
+            },
+            "9999": {
+              "chance": 0.08,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "混沌龙王",
+      "rarity": 9999,
+      "region_id": "creation_ruins",
+      "level_range": [
+        175,
+        195
+      ],
+      "base_hp": 138,
+      "base_attack": 18,
+      "base_speed": 3,
+      "base_atk_speed": 32,
+      "base_defense": 5,
+      "min_power": 6400,
+      "drops": [
+        "混沌之鳞",
+        "混沌原矿"
+      ],
+      "special": "混沌神罚",
+      "weapon_drops": [
+        {
+          "name": "🐲混沌龙王鳞甲",
+          "type": "armor",
+          "rarity": 9999,
+          "chance": 0.02,
+          "stats": {
+            "attack": 499,
+            "defense": 998,
+            "speed": 499,
+            "attack_speed": 499,
+            "dodge": 499,
+            "hp": 2245
+          },
+          "special": {
+            "dmg_reduce": 0.08
+          },
+          "stat_variance": 0.08,
+          "special_pool": [
+            [
+              "counter",
+              0.08
+            ],
+            [
+              "lifesteal",
+              0.06
+            ],
+            [
+              "defense",
+              18
+            ],
+            [
+              "hp",
+              30
+            ],
+            [
+              "extra_atk",
+              0.1
+            ]
+          ],
+          "rarity_variants": {
+            "3": {
+              "chance": 0.27123287671232876,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.4520547945205479,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "999": {
+              "chance": 0.37671232876712324,
+              "stat_mult": 1.12,
+              "special_count": [
+                2,
+                4
+              ]
+            },
+            "9999": {
+              "chance": 0.08,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "远古守护者",
+      "rarity": 4,
+      "region_id": "creation_ruins",
+      "level_range": [
+        180,
+        200
+      ],
+      "base_hp": 99,
+      "base_attack": 12,
+      "base_speed": 2,
+      "base_atk_speed": 20,
+      "base_defense": 7,
+      "min_power": 1760,
+      "drops": [
+        "古代金币",
+        "贤者之石"
+      ],
+      "weapon_drops": [
+        {
+          "name": "🗿远古守护者之盔",
+          "type": "helmet",
+          "rarity": 4,
+          "chance": 0.025,
+          "stats": {
+            "attack": 404,
+            "defense": 808,
+            "speed": 404,
+            "attack_speed": 404,
+            "dodge": 404,
+            "hp": 2423
+          },
+          "special": {
+            "counter": 0.06
+          },
+          "stat_variance": 0.1,
+          "special_pool": [
+            [
+              "dmg_reduce",
+              0.06
+            ],
+            [
+              "defense",
+              12
+            ],
+            [
+              "hp",
+              20
+            ],
+            [
+              "exp_bonus",
+              0.08
+            ]
+          ],
+          "rarity_variants": {
+            "2": {
+              "chance": 0.18378947368421053,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.3063157894736842,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.32673684210526316,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "999": {
+              "chance": 0.1531578947368421,
+              "stat_mult": 1.12,
+              "special_count": [
+                2,
+                4
+              ]
+            },
+            "9999": {
+              "chance": 0.08,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        },
+        {
+          "name": "🗿远古守护者腿甲",
+          "type": "leggings",
+          "rarity": 4,
+          "chance": 0.025,
+          "special": {
+            "dmg_reduce": 0.06
+          },
+          "special_pool": [
+            [
+              "defense",
+              12
+            ],
+            [
+              "hp",
+              20
+            ],
+            [
+              "counter",
+              0.06
+            ],
+            [
+              "dmg_reduce",
+              0.05
+            ]
+          ],
+          "rarity_variants": {
+            "2": {
+              "chance": 0.18378947368421053,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.3063157894736842,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.32673684210526316,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "999": {
+              "chance": 0.1531578947368421,
+              "stat_mult": 1.12,
+              "special_count": [
+                2,
+                4
+              ]
+            },
+            "9999": {
+              "chance": 0.08,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          },
+          "stats": {
+            "attack": 372,
+            "defense": 559,
+            "speed": 372,
+            "attack_speed": 745,
+            "dodge": 372,
+            "hp": 838
+          }
+        }
+      ]
+    },
+    {
+      "name": "终焉神龙",
+      "rarity": 9999,
+      "region_id": "final_realm",
+      "level_range": [
+        195,
+        220
+      ],
+      "base_hp": 237,
+      "base_attack": 21,
+      "base_speed": 4,
+      "base_atk_speed": 44,
+      "base_defense": 6,
+      "min_power": 10000,
+      "drops": [
+        "创世结晶",
+        "神之碎片",
+        "混沌原矿"
+      ],
+      "special": "终焉神罚",
+      "weapon_drops": [
+        {
+          "name": "⚡终焉神罚之刃",
+          "type": "weapon",
+          "rarity": 9999,
+          "chance": 0.02,
+          "stats": {
+            "attack": 1259,
+            "defense": 630,
+            "speed": 630,
+            "attack_speed": 630,
+            "dodge": 630,
+            "hp": 1889
+          },
+          "special": {
+            "crit_dmg": 0.5
+          },
+          "stat_variance": 0.08,
+          "special_pool": [
+            [
+              "extra_atk",
+              0.15
+            ],
+            [
+              "lifesteal",
+              0.08
+            ],
+            [
+              "crit_rate",
+              0.08
+            ],
+            [
+              "fire_damage",
+              18
+            ],
+            [
+              "counter",
+              0.07
+            ],
+            [
+              "dmg_reduce",
+              0.06
+            ]
+          ],
+          "rarity_variants": {
+            "3": {
+              "chance": 0.22720588235294115,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.3786764705882353,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "999": {
+              "chance": 0.42411764705882354,
+              "stat_mult": 1.12,
+              "special_count": [
+                2,
+                4
+              ]
+            },
+            "9999": {
+              "chance": 0.1,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "虚空行者",
+      "rarity": 999,
+      "region_id": "final_realm",
+      "level_range": [
+        200,
+        230
+      ],
+      "base_hp": 99,
+      "base_attack": 13,
+      "base_speed": 3,
+      "base_atk_speed": 40,
+      "base_defense": 2,
+      "min_power": 5000,
+      "drops": [
+        "虚空晶矿",
+        "觉醒之石"
+      ],
+      "special": "虚空",
+      "weapon_drops": [
+        {
+          "name": "🌌虚空行者之戒",
+          "type": "accessory",
+          "rarity": 999,
+          "chance": 0.02,
+          "stats": {
+            "attack": 485,
+            "defense": 485,
+            "speed": 485,
+            "attack_speed": 485,
+            "dodge": 969,
+            "hp": 1938
+          },
+          "special": {
+            "speed": 10
+          },
+          "stat_variance": 0.08,
+          "special_pool": [
+            [
+              "crit_rate",
+              0.08
+            ],
+            [
+              "extra_atk",
+              0.1
+            ],
+            [
+              "dodge",
+              6
+            ],
+            [
+              "exp_bonus",
+              0.1
+            ],
+            [
+              "lifesteal",
+              0.06
+            ]
+          ],
+          "rarity_variants": {
+            "3": {
+              "chance": 0.26289473684210524,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.40894736842105267,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "999": {
+              "chance": 0.4381578947368421,
+              "stat_mult": 1.12,
+              "special_count": [
+                2,
+                4
+              ]
+            },
+            "9999": {
+              "chance": 0.1,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        },
+        {
+          "name": "🌌虚空行者护腿",
+          "type": "leggings",
+          "rarity": 999,
+          "chance": 0.02,
+          "special": {
+            "dodge": 0.05
+          },
+          "special_pool": [
+            [
+              "speed",
+              6
+            ],
+            [
+              "dodge",
+              5
+            ],
+            [
+              "crit_rate",
+              0.06
+            ],
+            [
+              "extra_atk",
+              0.08
+            ]
+          ],
+          "rarity_variants": {
+            "3": {
+              "chance": 0.26289473684210524,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.40894736842105267,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "999": {
+              "chance": 0.4381578947368421,
+              "stat_mult": 1.12,
+              "special_count": [
+                2,
+                4
+              ]
+            },
+            "9999": {
+              "chance": 0.1,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          },
+          "stats": {
+            "attack": 418,
+            "defense": 626,
+            "speed": 418,
+            "attack_speed": 835,
+            "dodge": 418,
+            "hp": 940
+          }
+        }
+      ]
+    },
+    {
+      "name": "荒原巨人",
+      "rarity": 4,
+      "region_id": "final_realm",
+      "level_range": [
+        210,
+        230
+      ],
+      "base_hp": 123,
+      "base_attack": 14,
+      "base_speed": 2,
+      "base_atk_speed": 20,
+      "base_defense": 6,
+      "min_power": 2400,
+      "drops": [
+        "大地核心",
+        "古代金币"
+      ],
+      "special": "巨力",
+      "weapon_drops": [
+        {
+          "name": "🪨荒原巨人战靴",
+          "type": "boots",
+          "rarity": 4,
+          "chance": 0.025,
+          "stats": {
+            "attack": 653,
+            "defense": 653,
+            "speed": 1959,
+            "attack_speed": 653,
+            "dodge": 1306,
+            "hp": 1472
+          },
+          "special": {
+            "dmg_reduce": 0.06
+          },
+          "stat_variance": 0.1,
+          "special_pool": [
+            [
+              "counter",
+              0.06
+            ],
+            [
+              "defense",
+              10
+            ],
+            [
+              "hp",
+              18
+            ],
+            [
+              "extra_atk",
+              0.07
+            ]
+          ],
+          "rarity_variants": {
+            "2": {
+              "chance": 0.15,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.3,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.33,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "999": {
+              "chance": 0.17,
+              "stat_mult": 1.12,
+              "special_count": [
+                2,
+                4
+              ]
+            },
+            "9999": {
+              "chance": 0.1,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "虚空领主",
+      "rarity": 999,
+      "region_id": "final_realm",
+      "level_range": [
+        215,
+        235
+      ],
+      "base_hp": 146,
+      "base_attack": 18,
+      "base_speed": 3,
+      "base_atk_speed": 36,
+      "base_defense": 3,
+      "min_power": 7000,
+      "drops": [
+        "混沌原矿",
+        "虚空晶矿",
+        "觉醒之石"
+      ],
+      "special": "虚空吞噬",
+      "weapon_drops": [
+        {
+          "name": "🌌虚空领主战甲",
+          "type": "armor",
+          "rarity": 999,
+          "chance": 0.02,
+          "stats": {
+            "attack": 613,
+            "defense": 1226,
+            "speed": 613,
+            "attack_speed": 613,
+            "dodge": 613,
+            "hp": 2758
+          },
+          "special": {
+            "lifesteal": 0.07
+          },
+          "stat_variance": 0.08,
+          "special_pool": [
+            [
+              "dmg_reduce",
+              0.08
+            ],
+            [
+              "crit_rate",
+              0.07
+            ],
+            [
+              "counter",
+              0.07
+            ],
+            [
+              "defense",
+              15
+            ],
+            [
+              "hp",
+              25
+            ]
+          ],
+          "rarity_variants": {
+            "3": {
+              "chance": 0.22191780821917806,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.4142465753424658,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "999": {
+              "chance": 0.4438356164383561,
+              "stat_mult": 1.12,
+              "special_count": [
+                2,
+                4
+              ]
+            },
+            "9999": {
+              "chance": 0.1,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "终焉守护者",
+      "rarity": 9999,
+      "region_id": "final_realm",
+      "level_range": [
+        220,
+        240
+      ],
+      "base_hp": 226,
+      "base_attack": 16,
+      "base_speed": 2,
+      "base_atk_speed": 44,
+      "base_defense": 4,
+      "min_power": 15000,
+      "drops": [
+        "创世结晶",
+        "神之碎片",
+        "混沌原矿"
+      ],
+      "special": "终焉裁决",
+      "weapon_drops": [
+        {
+          "name": "💀终焉守护者头冠",
+          "type": "helmet",
+          "rarity": 9999,
+          "chance": 0.02,
+          "stats": {
+            "attack": 508,
+            "defense": 1017,
+            "speed": 508,
+            "attack_speed": 508,
+            "dodge": 508,
+            "hp": 3050
+          },
+          "special": {
+            "dmg_reduce": 0.08
+          },
+          "stat_variance": 0.08,
+          "special_pool": [
+            [
+              "crit_rate",
+              0.08
+            ],
+            [
+              "counter",
+              0.08
+            ],
+            [
+              "lifesteal",
+              0.07
+            ],
+            [
+              "hp",
+              30
+            ],
+            [
+              "defense",
+              15
+            ],
+            [
+              "exp_bonus",
+              0.1
+            ]
+          ],
+          "rarity_variants": {
+            "3": {
+              "chance": 0.22720588235294115,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.3786764705882353,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "999": {
+              "chance": 0.4241176470588236,
+              "stat_mult": 1.12,
+              "special_count": [
+                2,
+                4
+              ]
+            },
+            "9999": {
+              "chance": 0.1,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "苍穹之龙",
+      "rarity": 9999,
+      "region_id": "final_realm",
+      "level_range": [
+        230,
+        248
+      ],
+      "base_hp": 277,
+      "base_attack": 18,
+      "base_speed": 2,
+      "base_atk_speed": 50,
+      "base_defense": 4,
+      "min_power": 19000,
+      "drops": [
+        "创世结晶",
+        "大地核心",
+        "亮碎片"
+      ],
+      "special": "苍穹神罚",
+      "weapon_drops": [
+        {
+          "name": "🐉苍穹龙神之翼",
+          "type": "accessory",
+          "rarity": 9999,
+          "chance": 0.02,
+          "stats": {
+            "attack": 570,
+            "defense": 570,
+            "speed": 570,
+            "attack_speed": 570,
+            "dodge": 1140,
+            "hp": 2280
+          },
+          "special": {
+            "crit_rate": 0.09
+          },
+          "stat_variance": 0.08,
+          "special_pool": [
+            [
+              "extra_atk",
+              0.15
+            ],
+            [
+              "crit_dmg",
+              0.5
+            ],
+            [
+              "speed",
+              12
+            ],
+            [
+              "dodge",
+              6
+            ],
+            [
+              "lifesteal",
+              0.07
+            ],
+            [
+              "fire_damage",
+              20
+            ]
+          ],
+          "rarity_variants": {
+            "3": {
+              "chance": 0.1846153846153846,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.3846153846153846,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "999": {
+              "chance": 0.4307692307692308,
+              "stat_mult": 1.12,
+              "special_count": [
+                2,
+                4
+              ]
+            },
+            "9999": {
+              "chance": 0.1,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "超脱之影",
+      "rarity": 99999,
+      "region_id": "final_realm",
+      "level_range": [
+        240,
+        250
+      ],
+      "base_hp": 378,
+      "base_attack": 23,
+      "base_speed": 3,
+      "base_atk_speed": 56,
+      "base_defense": 5,
+      "min_power": 30000,
+      "drops": [
+        "创世结晶",
+        "混沌原矿",
+        "大地核心",
+        "亮碎片"
+      ],
+      "special": "超脱",
+      "weapon_drops": [
+        {
+          "name": "✨超脱神罚之剑",
+          "type": "weapon",
+          "rarity": 99999,
+          "chance": 0.015,
+          "stats": {
+            "attack": 1558,
+            "defense": 779,
+            "speed": 779,
+            "attack_speed": 779,
+            "dodge": 779,
+            "hp": 2337
+          },
+          "special": {
+            "crit_dmg": 0.6
+          },
+          "stat_variance": 0.06,
+          "special_pool": [
+            [
+              "extra_atk",
+              0.18
+            ],
+            [
+              "lifesteal",
+              0.08
+            ],
+            [
+              "crit_rate",
+              0.1
+            ],
+            [
+              "fire_damage",
+              22
+            ],
+            [
+              "counter",
+              0.08
+            ],
+            [
+              "dmg_reduce",
+              0.07
+            ],
+            [
+              "speed",
+              12
+            ]
+          ],
+          "rarity_variants": {
+            "4": {
+              "chance": 0.33999999999999997,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "999": {
+              "chance": 0.51,
+              "stat_mult": 1.12,
+              "special_count": [
+                2,
+                4
+              ]
+            },
+            "9999": {
+              "chance": 0.1,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "宝箱怪",
+      "rarity": 2,
+      "region_id": "plains",
+      "level_range": [
+        1,
+        250
+      ],
+      "base_hp": 350,
+      "base_attack": 55,
+      "base_speed": 14,
+      "base_atk_speed": 12,
+      "base_defense": 30,
+      "min_power": 10,
+      "drops": [
+        "古代金币",
+        "附魔石"
+      ],
+      "special": "吞噬",
+      "weapon_drops": [
+        {
+          "name": "🎁宝箱怪之盔",
+          "type": "helmet",
+          "rarity": 2,
+          "chance": 0.05,
+          "stats": {
+            "attack": 29,
+            "defense": 9,
+            "speed": 29,
+            "attack_speed": 29,
+            "dodge": 29,
+            "hp": 86
+          },
+          "special": {
+            "coin_bonus": 0.1
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "exp_bonus",
+              0.08
+            ],
+            [
+              "lifesteal",
+              0.04
+            ],
+            [
+              "hp",
+              15
+            ],
+            [
+              "crit_rate",
+              0.04
+            ]
+          ],
+          "rarity_variants": {
+            "1": {
+              "chance": 0.19910179640718562,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.43233532934131735,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.22754491017964074,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.06826347305389222,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "999": {
+              "chance": 0.022754491017964073,
+              "stat_mult": 1.12,
+              "special_count": [
+                2,
+                4
+              ]
+            },
+            "9999": {
+              "chance": 0.05,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        },
+        {
+          "name": "💰宝箱怪钱袋",
+          "type": "accessory",
+          "rarity": 2,
+          "chance": 0.04,
+          "stats": {
+            "attack": 14,
+            "defense": 14,
+            "speed": 14,
+            "attack_speed": 14,
+            "dodge": 14,
+            "hp": 43
+          },
+          "special": {
+            "coin_bonus": 0.12
+          },
+          "stat_variance": 0.12,
+          "special_pool": [
+            [
+              "exp_bonus",
+              0.1
+            ],
+            [
+              "hp",
+              12
+            ],
+            [
+              "defense",
+              8
+            ]
+          ],
+          "rarity_variants": {
+            "1": {
+              "chance": 0.19910179640718562,
+              "stat_mult": 1,
+              "special_count": [
+                0,
+                1
+              ]
+            },
+            "2": {
+              "chance": 0.43233532934131735,
+              "stat_mult": 1.02,
+              "special_count": [
+                1,
+                2
+              ]
+            },
+            "3": {
+              "chance": 0.22754491017964074,
+              "stat_mult": 1.05,
+              "special_count": [
+                1,
+                3
+              ]
+            },
+            "4": {
+              "chance": 0.06826347305389222,
+              "stat_mult": 1.08,
+              "special_count": [
+                2,
+                3
+              ]
+            },
+            "999": {
+              "chance": 0.022754491017964073,
+              "stat_mult": 1.12,
+              "special_count": [
+                2,
+                4
+              ]
+            },
+            "9999": {
+              "chance": 0.05,
+              "stat_mult": 1.18,
+              "special_count": [
+                3,
+                5
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

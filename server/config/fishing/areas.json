@@ -1,0 +1,333 @@
+{
+  "description": "钓鱼水域配置。每个水域有独立鱼池、垃圾池、失败率修正、稀有度加成。",
+  "areas": [
+    {
+      "id": "creek",
+      "name": "小溪",
+      "icon": "🏞️",
+      "min_level": 1,
+      "fish_pool": [
+        "小鲫鱼",
+        "鲤鱼",
+        "泥鳅",
+        "鳊鱼",
+        "鲶鱼",
+        "溪流鳟"
+      ],
+      "special_fish": [
+        "溪流鳟"
+      ],
+      "junk_pool": [
+        "破鞋子",
+        "水草",
+        "树枝"
+      ],
+      "fail_modifier": -0.08,
+      "rare_bonus": 0,
+      "description": "基础水域，失败率较低，适合新手"
+    },
+    {
+      "id": "lake",
+      "name": "湖泊",
+      "icon": "🌊",
+      "min_level": 5,
+      "fish_pool": [
+        "草鱼",
+        "鲈鱼",
+        "鳜鱼",
+        "锦鲤",
+        "虹鳟鱼",
+        "鳕鱼",
+        "比目鱼",
+        "湖中锦鲤"
+      ],
+      "special_fish": [
+        "湖中锦鲤"
+      ],
+      "junk_pool": [
+        "水草",
+        "空罐头",
+        "碗"
+      ],
+      "fail_modifier": -0.03,
+      "rare_bonus": 0.03,
+      "description": "湖面平静，稀有鱼偶有出没"
+    },
+    {
+      "id": "river",
+      "name": "河流",
+      "icon": "🏖️",
+      "min_level": 10,
+      "fish_pool": [
+        "鲟鱼",
+        "石斑鱼",
+        "黑鲷鱼",
+        "河豚",
+        "吉米鱼",
+        "河鲟王"
+      ],
+      "special_fish": [
+        "河鲟王"
+      ],
+      "junk_pool": [
+        "树枝",
+        "破鞋子",
+        "滚木"
+      ],
+      "fail_modifier": 0,
+      "rare_bonus": 0.05,
+      "description": "河水湍急，鱼种丰富"
+    },
+    {
+      "id": "deepsea",
+      "name": "深海",
+      "icon": "🌌",
+      "min_level": 15,
+      "fish_pool": [
+        "金枪鱼",
+        "鳐鱼",
+        "大鲤鱼",
+        "月光水母",
+        "金龙鱼",
+        "发光鱿鱼",
+        "小丑鱼",
+        "深海灯笼鱼"
+      ],
+      "special_fish": [
+        "深海灯笼鱼"
+      ],
+      "junk_pool": [
+        "水草",
+        "水草",
+        "空罐头"
+      ],
+      "fail_modifier": 0.1,
+      "rare_bonus": 0.1,
+      "seaweed_rate": 0.2,
+      "description": "高失败率，高回报，深海中海草遍布"
+    },
+    {
+      "id": "abyss",
+      "name": "深水区",
+      "icon": "🕳️",
+      "min_level": 30,
+      "fish_pool": [
+        "河神戒指",
+        "大鲤鱼",
+        "月光水母",
+        "金龙鱼",
+        "石斑鱼",
+        "金枪鱼",
+        "鳐鱼",
+        "河豚",
+        "锦鲤",
+        "深渊龙鱼"
+      ],
+      "special_fish": [
+        "深渊龙鱼"
+      ],
+      "junk_pool": [],
+      "no_junk": true,
+      "fail_modifier": 0.05,
+      "rare_bonus": 0.2,
+      "weather_immune": true,
+      "description": "无垃圾，不受天气影响，稀有物概率极高"
+    },
+    {
+      "id": "swamp",
+      "name": "沼泽",
+      "icon": "🥀",
+      "min_level": 8,
+      "fish_pool": [
+        "鲶鱼",
+        "泥鳅",
+        "鳊鱼",
+        "河豚",
+        "草鱼",
+        "沼泽怪鱼"
+      ],
+      "special_fish": [
+        "沼泽怪鱼"
+      ],
+      "junk_pool": [
+        "水草",
+        "树枝",
+        "破鞋子",
+        "空罐头"
+      ],
+      "fail_modifier": 0.05,
+      "rare_bonus": 0.04,
+      "description": "浑浊的沼泽水域，藏匿着奇特的鱼类"
+    },
+    {
+      "id": "volcanic",
+      "name": "火山温泉",
+      "icon": "♨️",
+      "min_level": 20,
+      "fish_pool": [
+        "虹鳟鱼",
+        "石斑鱼",
+        "锦鲤",
+        "鳐鱼",
+        "金枪鱼",
+        "熔岩鱼"
+      ],
+      "special_fish": [
+        "熔岩鱼"
+      ],
+      "junk_pool": [
+        "火石",
+        "空罐头"
+      ],
+      "fail_modifier": 0.02,
+      "rare_bonus": 0.08,
+      "description": "地热温泉，耐热的稀有鱼类在此繁衍"
+    },
+    {
+      "id": "underground",
+      "name": "地下暗河",
+      "icon": "💧",
+      "min_level": 25,
+      "fish_pool": [
+        "鲟鱼",
+        "鳕鱼",
+        "比目鱼",
+        "月光水母",
+        "发光鱿鱼",
+        "暗河盲鱼"
+      ],
+      "special_fish": [
+        "暗河盲鱼"
+      ],
+      "junk_pool": [],
+      "no_junk": true,
+      "fail_modifier": 0.08,
+      "rare_bonus": 0.12,
+      "weather_immune": true,
+      "description": "不见天日的地下暗河，无垃圾，不受天气影响"
+    },
+    {
+      "id": "reef",
+      "name": "珊瑚礁",
+      "icon": "🪸",
+      "min_level": 35,
+      "fish_pool": [
+        "小丑鱼",
+        "金枪鱼",
+        "鳐鱼",
+        "月光水母",
+        "金龙鱼",
+        "大鲤鱼",
+        "礁石龙王"
+      ],
+      "special_fish": [
+        "礁石龙王"
+      ],
+      "junk_pool": [
+        "水草",
+        "珊瑚碎片",
+        "空罐头"
+      ],
+      "fail_modifier": 0.05,
+      "rare_bonus": 0.15,
+      "seaweed_rate": 0.25,
+      "description": "五彩斑斓的珊瑚礁，珍稀鱼类的天堂"
+    },
+    {
+      "id": "oasis",
+      "name": "沙漠绿洲",
+      "icon": "🌴",
+      "min_level": 25,
+      "fish_pool": [
+        "锦鲤",
+        "金龙鱼",
+        "鳐鱼",
+        "河豚",
+        "大鲤鱼",
+        "绿洲神鲤"
+      ],
+      "special_fish": [
+        "绿洲神鲤"
+      ],
+      "junk_pool": [
+        "骨片",
+        "空罐头"
+      ],
+      "fail_modifier": 0.03,
+      "rare_bonus": 0.1,
+      "description": "沙漠中的生命之源，传说中的神鲤在此栖息"
+    },
+    {
+      "id": "arctic",
+      "name": "极寒冰海",
+      "icon": "🧊",
+      "min_level": 40,
+      "fish_pool": [
+        "鳕鱼",
+        "比目鱼",
+        "月光水母",
+        "金枪鱼",
+        "发光鱿鱼",
+        "冰海龙鱼"
+      ],
+      "special_fish": [
+        "冰海龙鱼"
+      ],
+      "junk_pool": [
+        "冰块",
+        "空罐头"
+      ],
+      "fail_modifier": 0.08,
+      "rare_bonus": 0.15,
+      "weather_immune": true,
+      "description": "极寒之地的冰海，不受天气影响，栖息着远古冰鱼"
+    },
+    {
+      "id": "alpine",
+      "name": "高山湖",
+      "icon": "⛰️",
+      "min_level": 35,
+      "fish_pool": [
+        "虹鳟鱼",
+        "鳜鱼",
+        "鲈鱼",
+        "比目鱼",
+        "石斑鱼",
+        "高山雪鳟"
+      ],
+      "special_fish": [
+        "高山雪鳟"
+      ],
+      "junk_pool": [
+        "树枝",
+        "水草"
+      ],
+      "fail_modifier": -0.02,
+      "rare_bonus": 0.06,
+      "description": "高海拔的纯净湖泊，失败率低，水质清澈"
+    },
+    {
+      "id": "cloud_river",
+      "name": "云顶溪",
+      "icon": "☁️",
+      "min_level": 45,
+      "fish_pool": [
+        "金龙鱼",
+        "月光水母",
+        "鳐鱼",
+        "河神戒指",
+        "大鲤鱼",
+        "云顶仙鲤"
+      ],
+      "special_fish": [
+        "云顶仙鲤"
+      ],
+      "junk_pool": [],
+      "no_junk": true,
+      "fail_modifier": 0.02,
+      "rare_bonus": 0.18,
+      "weather_immune": true,
+      "description": "高山之巅的云中溪流，无垃圾，仙鲤腾跃"
+    }
+  ]
+}

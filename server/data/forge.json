@@ -1,0 +1,5050 @@
+{
+  "5817efe1": [
+    {
+      "id": "85e80cd4",
+      "name": "将军头盔",
+      "rarity": 4,
+      "type": "helmet",
+      "stats": {
+        "attack": 135,
+        "defense": 54,
+        "speed": 135,
+        "attack_speed": 135,
+        "dodge": 135,
+        "hp": 405
+      },
+      "special_attrs": {},
+      "sockets": [],
+      "strengthen_count": 0,
+      "max_sockets": 4,
+      "weapon_level": 150,
+      "forge_level_at_forge": 32,
+      "created_at": "2026-07-07T10:24:26.470Z",
+      "rarity_name": "？强强？"
+    },
+    {
+      "id": "ec380bc9",
+      "name": "商人戒指",
+      "rarity": 3,
+      "type": "accessory",
+      "stats": {
+        "attack": 66,
+        "defense": 66,
+        "speed": 66,
+        "attack_speed": 66,
+        "dodge": 30,
+        "hp": 203
+      },
+      "special_attrs": {},
+      "sockets": [],
+      "strengthen_count": 0,
+      "max_sockets": 4,
+      "weapon_level": 150,
+      "forge_level_at_forge": 32,
+      "created_at": "2026-07-07T10:24:29.976Z",
+      "rarity_name": "强强"
+    },
+    {
+      "id": "41035028",
+      "name": "佣兵大剑",
+      "rarity": 3,
+      "type": "weapon",
+      "stats": {
+        "attack": 144,
+        "defense": 72,
+        "speed": 72,
+        "attack_speed": 72,
+        "dodge": 72,
+        "hp": 108
+      },
+      "special_attrs": {},
+      "sockets": [],
+      "strengthen_count": 0,
+      "max_sockets": 4,
+      "weapon_level": 150,
+      "forge_level_at_forge": 32,
+      "created_at": "2026-07-07T10:24:30.833Z",
+      "rarity_name": "强强"
+    }
+  ],
+  "cdd4d78fb66a958789427cb8f7fbed61": [
+    {
+      "id": "19664ff4-8e70-4bc1-af48-c3555809ec59",
+      "name": "深渊王座头盔",
+      "rarity": 9999,
+      "type": "helmet",
+      "set_id": "abyssal_throne_set",
+      "set_name": "深渊王座套装",
+      "stats": {
+        "attack": 600,
+        "defense": 600,
+        "speed": 600,
+        "attack_speed": 600,
+        "dodge": 600,
+        "hp": 1800
+      },
+      "special_attrs": {
+        "lifesteal": 0.0508,
+        "dmg_reduce": 0.09459999999999999
+      },
+      "sockets": [],
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "weapon_level": 250,
+      "forge_level_at_forge": 10,
+      "created_at": "2026-07-09T10:48:54.877Z",
+      "rarity_name": "？区？！"
+    },
+    {
+      "id": "12478a27-e1f4-46c0-af70-baf973c880da",
+      "name": "深渊王座靴子",
+      "rarity": 4,
+      "type": "boots",
+      "set_id": "abyssal_throne_set",
+      "set_name": "深渊王座套装",
+      "stats": {
+        "attack": 450,
+        "defense": 450,
+        "speed": 870,
+        "attack_speed": 450,
+        "dodge": 600,
+        "hp": 675
+      },
+      "special_attrs": {},
+      "sockets": [],
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "weapon_level": 250,
+      "forge_level_at_forge": 10,
+      "created_at": "2026-07-09T10:48:57.091Z",
+      "rarity_name": "？强强？"
+    },
+    {
+      "id": "0de18270-4656-4365-8c74-694980fd033e",
+      "name": "深渊王座护腿",
+      "rarity": 9999,
+      "type": "leggings",
+      "set_id": "abyssal_throne_set",
+      "set_name": "深渊王座套装",
+      "stats": {
+        "attack": 375,
+        "defense": 540,
+        "speed": 375,
+        "attack_speed": 750,
+        "dodge": 375,
+        "hp": 810
+      },
+      "special_attrs": {
+        "fire_damage": 6.0233,
+        "coin_bonus": 0.136
+      },
+      "sockets": [],
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "weapon_level": 250,
+      "forge_level_at_forge": 10,
+      "created_at": "2026-07-09T10:48:58.687Z",
+      "rarity_name": "？区？！"
+    },
+    {
+      "id": "4be8aff2-779d-42e4-ad61-1fee28bb6783",
+      "name": "深渊王座饰品",
+      "rarity": 4,
+      "type": "accessory",
+      "set_id": "abyssal_throne_set",
+      "set_name": "深渊王座套装",
+      "stats": {
+        "attack": 510,
+        "defense": 510,
+        "speed": 510,
+        "attack_speed": 510,
+        "dodge": 720,
+        "hp": 1440
+      },
+      "special_attrs": {},
+      "sockets": [],
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "weapon_level": 250,
+      "forge_level_at_forge": 10,
+      "created_at": "2026-07-09T10:48:59.789Z",
+      "rarity_name": "？强强？"
+    },
+    {
+      "id": "5b08700b",
+      "name": "☀️烈日之刃·III",
+      "type": "weapon",
+      "rarity": 10,
+      "rarity_name": "",
+      "level_scale": true,
+      "evolve_stage": 3,
+      "base_stats": {
+        "attack": 8,
+        "defense": 5,
+        "speed": 5,
+        "attack_speed": 5,
+        "dodge": 5,
+        "hp": 11
+      },
+      "stats": {
+        "attack": 2000,
+        "defense": 1250,
+        "speed": 1250,
+        "attack_speed": 1250,
+        "dodge": 1250,
+        "hp": 2750
+      },
+      "special_attrs": {
+        "fire_damage": 203.5011
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "is_event_limited": true,
+      "event_name": "炎夏狂欢"
+    },
+    {
+      "id": "2871dbd5",
+      "name": "🌊潮汐之盾·III",
+      "type": "armor",
+      "rarity": 10,
+      "rarity_name": "",
+      "level_scale": true,
+      "evolve_stage": 3,
+      "base_stats": {
+        "attack": 6.93,
+        "defense": 9.95,
+        "hp": 15.666,
+        "speed": 7.074,
+        "attack_speed": 6.202,
+        "dodge": 6.378
+      },
+      "stats": {
+        "attack": 1732,
+        "defense": 2487,
+        "hp": 3916,
+        "speed": 1768,
+        "attack_speed": 1550,
+        "dodge": 1594
+      },
+      "special_attrs": {
+        "dmg_reduce": 0.4065,
+        "crit_rate": 0.0542,
+        "crit_dmg": 1.1934,
+        "lifesteal": 0.2374,
+        "fire_damage": 5
+      },
+      "strengthen_count": 16,
+      "max_sockets": 3,
+      "sockets": [],
+      "is_event_limited": true,
+      "event_name": "炎夏狂欢"
+    },
+    {
+      "id": "085b094c",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 217,
+        "defense": 184,
+        "speed": 208,
+        "attack_speed": 185,
+        "dodge": 421,
+        "hp": 722
+      },
+      "special_attrs": {
+        "crit_rate": 0.088,
+        "crit_dmg": 0.219,
+        "exp_bonus": 0.098
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:18:31.739Z"
+    },
+    {
+      "id": "da02ace5",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 180,
+        "defense": 203,
+        "speed": 221,
+        "attack_speed": 211,
+        "dodge": 370,
+        "hp": 868
+      },
+      "special_attrs": {
+        "crit_rate": 0.098,
+        "crit_dmg": 0.285,
+        "exp_bonus": 0.088
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:18:31.908Z"
+    },
+    {
+      "id": "7c916f9f",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 160,
+        "defense": 307,
+        "speed": 149,
+        "attack_speed": 175,
+        "dodge": 171,
+        "hp": 935
+      },
+      "special_attrs": {
+        "crit_rate": 0.103,
+        "dmg_reduce": 0.068,
+        "fire_damage": 19
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:18:32.075Z"
+    },
+    {
+      "id": "e89c4afc",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 149,
+        "defense": 334,
+        "speed": 166,
+        "attack_speed": 159,
+        "dodge": 153,
+        "hp": 1022
+      },
+      "special_attrs": {
+        "crit_rate": 0.092,
+        "dmg_reduce": 0.081
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:18:32.505Z"
+    },
+    {
+      "id": "d4a407a2",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 200,
+        "defense": 183,
+        "speed": 186,
+        "attack_speed": 185,
+        "dodge": 421,
+        "hp": 766
+      },
+      "special_attrs": {
+        "crit_rate": 0.094,
+        "crit_dmg": 0.234,
+        "exp_bonus": 0.102
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:18:32.863Z"
+    },
+    {
+      "id": "f0592921",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 151,
+        "defense": 353,
+        "speed": 150,
+        "attack_speed": 180,
+        "dodge": 171,
+        "hp": 1047
+      },
+      "special_attrs": {
+        "crit_rate": 0.108,
+        "dmg_reduce": 0.081,
+        "crit_dmg": 0.298
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:18:32.863Z"
+    },
+    {
+      "id": "8031386d",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 175,
+        "defense": 333,
+        "speed": 164,
+        "attack_speed": 173,
+        "dodge": 178,
+        "hp": 975
+      },
+      "special_attrs": {
+        "crit_rate": 0.099,
+        "dmg_reduce": 0.088,
+        "crit_dmg": 0.272
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:18:32.864Z"
+    },
+    {
+      "id": "03a26c93",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 176,
+        "defense": 354,
+        "speed": 152,
+        "attack_speed": 154,
+        "dodge": 150,
+        "hp": 1047
+      },
+      "special_attrs": {
+        "crit_rate": 0.109,
+        "dmg_reduce": 0.077
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:18:32.864Z"
+    },
+    {
+      "id": "88b8d263",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 166,
+        "defense": 333,
+        "speed": 151,
+        "attack_speed": 176,
+        "dodge": 181,
+        "hp": 902
+      },
+      "special_attrs": {
+        "crit_rate": 0.096,
+        "dmg_reduce": 0.085
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:18:33.015Z"
+    },
+    {
+      "id": "8b8f9b67",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 184,
+        "defense": 328,
+        "speed": 150,
+        "attack_speed": 175,
+        "dodge": 173,
+        "hp": 1016
+      },
+      "special_attrs": {
+        "crit_rate": 0.096,
+        "dmg_reduce": 0.086,
+        "coin_bonus": 0.111
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:18:33.020Z"
+    },
+    {
+      "id": "f1a672f6",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 226,
+        "defense": 186,
+        "speed": 191,
+        "attack_speed": 208,
+        "dodge": 373,
+        "hp": 737
+      },
+      "special_attrs": {
+        "crit_rate": 0.113,
+        "crit_dmg": 0.256,
+        "exp_bonus": 0.091
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:18:34.641Z"
+    },
+    {
+      "id": "b3772329",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 154,
+        "defense": 368,
+        "speed": 158,
+        "attack_speed": 185,
+        "dodge": 149,
+        "hp": 970
+      },
+      "special_attrs": {
+        "crit_rate": 0.1,
+        "dmg_reduce": 0.09,
+        "crit_dmg": 0.226
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:18:37.741Z"
+    },
+    {
+      "id": "1d4ba085",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 196,
+        "defense": 180,
+        "speed": 184,
+        "attack_speed": 206,
+        "dodge": 375,
+        "hp": 898
+      },
+      "special_attrs": {
+        "crit_rate": 0.092,
+        "crit_dmg": 0.247,
+        "exp_bonus": 0.089,
+        "lifesteal": 0.056
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:18:37.741Z"
+    },
+    {
+      "id": "3de2f3f1",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 165,
+        "defense": 363,
+        "speed": 181,
+        "attack_speed": 179,
+        "dodge": 154,
+        "hp": 1102
+      },
+      "special_attrs": {
+        "crit_rate": 0.107,
+        "dmg_reduce": 0.084
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:18:41.699Z"
+    },
+    {
+      "id": "61359cb4",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 188,
+        "defense": 374,
+        "speed": 169,
+        "attack_speed": 181,
+        "dodge": 158,
+        "hp": 912
+      },
+      "special_attrs": {
+        "crit_rate": 0.086,
+        "dmg_reduce": 0.072
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:18:41.891Z"
+    },
+    {
+      "id": "61cdf6a0",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 186,
+        "defense": 213,
+        "speed": 223,
+        "attack_speed": 197,
+        "dodge": 420,
+        "hp": 733
+      },
+      "special_attrs": {
+        "crit_rate": 0.108,
+        "crit_dmg": 0.24,
+        "exp_bonus": 0.112,
+        "fire_damage": 15
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:18:42.071Z"
+    },
+    {
+      "id": "b45bc2f6",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 165,
+        "defense": 345,
+        "speed": 184,
+        "attack_speed": 180,
+        "dodge": 158,
+        "hp": 1050
+      },
+      "special_attrs": {
+        "crit_rate": 0.109,
+        "dmg_reduce": 0.076
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:18:42.081Z"
+    },
+    {
+      "id": "bcbfb19a",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 182,
+        "defense": 305,
+        "speed": 165,
+        "attack_speed": 161,
+        "dodge": 178,
+        "hp": 972
+      },
+      "special_attrs": {
+        "crit_rate": 0.089,
+        "dmg_reduce": 0.082,
+        "fire_damage": 18
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:18:43.107Z"
+    },
+    {
+      "id": "43d3e7ba",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 519,
+        "defense": 494,
+        "speed": 461,
+        "attack_speed": 496,
+        "dodge": 1342,
+        "hp": 1852
+      },
+      "special_attrs": {
+        "crit_rate": 0.093,
+        "crit_dmg": 0.275,
+        "exp_bonus": 0.107,
+        "coin_bonus": 0.107
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:21:21.726Z"
+    },
+    {
+      "id": "08d898d5",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 497,
+        "defense": 474,
+        "speed": 492,
+        "attack_speed": 487,
+        "dodge": 1197,
+        "hp": 2029
+      },
+      "special_attrs": {
+        "crit_rate": 0.096,
+        "crit_dmg": 0.237,
+        "exp_bonus": 0.098,
+        "coin_bonus": 0.118
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:21:23.159Z"
+    },
+    {
+      "id": "b96845b2",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 216,
+        "defense": 1658,
+        "speed": 224,
+        "attack_speed": 259,
+        "dodge": 213,
+        "hp": 3723
+      },
+      "special_attrs": {
+        "crit_rate": 0.087,
+        "dmg_reduce": 0.072
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:21:23.508Z"
+    },
+    {
+      "id": "0a42d786",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 500,
+        "defense": 517,
+        "speed": 428,
+        "attack_speed": 471,
+        "dodge": 1321,
+        "hp": 2196
+      },
+      "special_attrs": {
+        "crit_rate": 0.113,
+        "crit_dmg": 0.228,
+        "exp_bonus": 0.103
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:21:23.513Z"
+    },
+    {
+      "id": "ab5fabf7",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 227,
+        "defense": 1570,
+        "speed": 226,
+        "attack_speed": 218,
+        "dodge": 257,
+        "hp": 3418
+      },
+      "special_attrs": {
+        "crit_rate": 0.091,
+        "dmg_reduce": 0.086
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:21:23.666Z"
+    },
+    {
+      "id": "0e955b4d",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 468,
+        "defense": 528,
+        "speed": 529,
+        "attack_speed": 436,
+        "dodge": 1335,
+        "hp": 2195
+      },
+      "special_attrs": {
+        "crit_rate": 0.099,
+        "crit_dmg": 0.24,
+        "exp_bonus": 0.104
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:21:23.667Z"
+    },
+    {
+      "id": "802dd862",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 430,
+        "defense": 435,
+        "speed": 454,
+        "attack_speed": 428,
+        "dodge": 1316,
+        "hp": 1899
+      },
+      "special_attrs": {
+        "crit_rate": 0.114,
+        "crit_dmg": 0.23,
+        "exp_bonus": 0.115
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:21:23.949Z"
+    },
+    {
+      "id": "43da42f5",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 653,
+        "defense": 623,
+        "speed": 573,
+        "attack_speed": 636,
+        "dodge": 1259,
+        "hp": 2201
+      },
+      "special_attrs": {
+        "crit_rate": 0.114,
+        "crit_dmg": 0.286,
+        "exp_bonus": 0.114,
+        "lifesteal": 0.058
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:26:29.798Z"
+    },
+    {
+      "id": "8bd94b66",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 550,
+        "defense": 541,
+        "speed": 587,
+        "attack_speed": 581,
+        "dodge": 1189,
+        "hp": 2652
+      },
+      "special_attrs": {
+        "crit_rate": 0.09,
+        "crit_dmg": 0.264,
+        "exp_bonus": 0.092
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:26:29.999Z"
+    },
+    {
+      "id": "6512559d",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 604,
+        "defense": 590,
+        "speed": 630,
+        "attack_speed": 624,
+        "dodge": 1224,
+        "hp": 2399
+      },
+      "special_attrs": {
+        "crit_rate": 0.098,
+        "crit_dmg": 0.246,
+        "exp_bonus": 0.09
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:26:31.912Z"
+    },
+    {
+      "id": "f295c813",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 611,
+        "defense": 1247,
+        "speed": 521,
+        "attack_speed": 544,
+        "dodge": 620,
+        "hp": 3792
+      },
+      "special_attrs": {
+        "crit_rate": 0.105,
+        "dmg_reduce": 0.071
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:26:31.919Z"
+    },
+    {
+      "id": "c63e97dc",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 531,
+        "defense": 1024,
+        "speed": 623,
+        "attack_speed": 537,
+        "dodge": 617,
+        "hp": 3408
+      },
+      "special_attrs": {
+        "crit_rate": 0.115,
+        "dmg_reduce": 0.091
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:26:32.654Z"
+    },
+    {
+      "id": "8d9a5391",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 590,
+        "defense": 1104,
+        "speed": 554,
+        "attack_speed": 580,
+        "dodge": 525,
+        "hp": 3303
+      },
+      "special_attrs": {
+        "crit_rate": 0.114,
+        "dmg_reduce": 0.068,
+        "coin_bonus": 0.111
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:26:32.846Z"
+    },
+    {
+      "id": "741e83e1",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 581,
+        "defense": 676,
+        "speed": 578,
+        "attack_speed": 674,
+        "dodge": 1328,
+        "hp": 2457
+      },
+      "special_attrs": {
+        "crit_rate": 0.095,
+        "crit_dmg": 0.283,
+        "exp_bonus": 0.106,
+        "coin_bonus": 0.104
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:26:33.184Z"
+    },
+    {
+      "id": "dfe001b7",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 644,
+        "defense": 543,
+        "speed": 669,
+        "attack_speed": 666,
+        "dodge": 1206,
+        "hp": 2260
+      },
+      "special_attrs": {
+        "crit_rate": 0.112,
+        "crit_dmg": 0.236,
+        "exp_bonus": 0.111
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:26:33.186Z"
+    },
+    {
+      "id": "1675a49e",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 612,
+        "defense": 564,
+        "speed": 671,
+        "attack_speed": 624,
+        "dodge": 1206,
+        "hp": 2706
+      },
+      "special_attrs": {
+        "crit_rate": 0.09,
+        "crit_dmg": 0.287,
+        "exp_bonus": 0.085
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:26:33.193Z"
+    },
+    {
+      "id": "12f313e2",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 516,
+        "defense": 1082,
+        "speed": 535,
+        "attack_speed": 508,
+        "dodge": 512,
+        "hp": 3727
+      },
+      "special_attrs": {
+        "crit_rate": 0.112,
+        "dmg_reduce": 0.084
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:26:33.195Z"
+    },
+    {
+      "id": "aa46ed36",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 560,
+        "defense": 1137,
+        "speed": 529,
+        "attack_speed": 515,
+        "dodge": 585,
+        "hp": 3789
+      },
+      "special_attrs": {
+        "crit_rate": 0.091,
+        "dmg_reduce": 0.076
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:26:33.520Z"
+    },
+    {
+      "id": "326a082a",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 529,
+        "defense": 1203,
+        "speed": 580,
+        "attack_speed": 584,
+        "dodge": 503,
+        "hp": 3170
+      },
+      "special_attrs": {
+        "crit_rate": 0.086,
+        "dmg_reduce": 0.091
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:26:34.015Z"
+    },
+    {
+      "id": "961ce7a2",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 596,
+        "defense": 1003,
+        "speed": 555,
+        "attack_speed": 623,
+        "dodge": 588,
+        "hp": 3628
+      },
+      "special_attrs": {
+        "crit_rate": 0.114,
+        "dmg_reduce": 0.09,
+        "exp_bonus": 0.17
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:26:34.022Z"
+    },
+    {
+      "id": "3d8fadbb",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 515,
+        "defense": 1176,
+        "speed": 536,
+        "attack_speed": 544,
+        "dodge": 576,
+        "hp": 3800
+      },
+      "special_attrs": {
+        "crit_rate": 0.108,
+        "dmg_reduce": 0.084
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:26:34.198Z"
+    },
+    {
+      "id": "28b678f1",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 627,
+        "defense": 641,
+        "speed": 561,
+        "attack_speed": 568,
+        "dodge": 1119,
+        "hp": 2262
+      },
+      "special_attrs": {
+        "crit_rate": 0.093,
+        "crit_dmg": 0.215,
+        "exp_bonus": 0.109
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:26:34.376Z"
+    },
+    {
+      "id": "b7cd8a34",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 559,
+        "defense": 1103,
+        "speed": 548,
+        "attack_speed": 560,
+        "dodge": 595,
+        "hp": 3446
+      },
+      "special_attrs": {
+        "crit_rate": 0.108,
+        "dmg_reduce": 0.089
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:26:34.377Z"
+    },
+    {
+      "id": "711b7200",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 531,
+        "defense": 1111,
+        "speed": 537,
+        "attack_speed": 604,
+        "dodge": 610,
+        "hp": 3283
+      },
+      "special_attrs": {
+        "crit_rate": 0.09,
+        "dmg_reduce": 0.073,
+        "extra_atk": 0.08
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:26:34.387Z"
+    },
+    {
+      "id": "0523554a",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 644,
+        "defense": 540,
+        "speed": 639,
+        "attack_speed": 616,
+        "dodge": 1166,
+        "hp": 2267
+      },
+      "special_attrs": {
+        "crit_rate": 0.093,
+        "crit_dmg": 0.281,
+        "exp_bonus": 0.085
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:26:34.875Z"
+    },
+    {
+      "id": "0596160d",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 563,
+        "defense": 1091,
+        "speed": 529,
+        "attack_speed": 556,
+        "dodge": 539,
+        "hp": 3428
+      },
+      "special_attrs": {
+        "crit_rate": 0.097,
+        "dmg_reduce": 0.069,
+        "crit_dmg": 0.216
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:29:31.489Z"
+    },
+    {
+      "id": "6e82345e",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 594,
+        "defense": 674,
+        "speed": 580,
+        "attack_speed": 650,
+        "dodge": 1168,
+        "hp": 2472
+      },
+      "special_attrs": {
+        "crit_rate": 0.086,
+        "crit_dmg": 0.225,
+        "exp_bonus": 0.089
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:29:31.675Z"
+    },
+    {
+      "id": "754bb0d0",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 555,
+        "defense": 548,
+        "speed": 564,
+        "attack_speed": 671,
+        "dodge": 1250,
+        "hp": 2179
+      },
+      "special_attrs": {
+        "crit_rate": 0.098,
+        "crit_dmg": 0.214,
+        "exp_bonus": 0.102
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:29:32.167Z"
+    },
+    {
+      "id": "c37c8f26",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 569,
+        "defense": 1214,
+        "speed": 597,
+        "attack_speed": 540,
+        "dodge": 520,
+        "hp": 3019
+      },
+      "special_attrs": {
+        "crit_rate": 0.093,
+        "dmg_reduce": 0.083,
+        "fire_damage": 20
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:29:32.328Z"
+    },
+    {
+      "id": "7529bab1",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 612,
+        "defense": 545,
+        "speed": 626,
+        "attack_speed": 640,
+        "dodge": 1116,
+        "hp": 2485
+      },
+      "special_attrs": {
+        "crit_rate": 0.087,
+        "crit_dmg": 0.268,
+        "exp_bonus": 0.094
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:29:32.329Z"
+    },
+    {
+      "id": "03467abc",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 616,
+        "defense": 534,
+        "speed": 535,
+        "attack_speed": 552,
+        "dodge": 1197,
+        "hp": 2469
+      },
+      "special_attrs": {
+        "crit_rate": 0.093,
+        "crit_dmg": 0.224,
+        "exp_bonus": 0.089
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:29:33.357Z"
+    },
+    {
+      "id": "26c787e1",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 588,
+        "defense": 1037,
+        "speed": 518,
+        "attack_speed": 576,
+        "dodge": 636,
+        "hp": 3461
+      },
+      "special_attrs": {
+        "crit_rate": 0.1,
+        "dmg_reduce": 0.068,
+        "fire_damage": 23
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:29:33.360Z"
+    },
+    {
+      "id": "cba5f182",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 551,
+        "defense": 1244,
+        "speed": 560,
+        "attack_speed": 630,
+        "dodge": 549,
+        "hp": 3220
+      },
+      "special_attrs": {
+        "crit_rate": 0.088,
+        "dmg_reduce": 0.081,
+        "fire_damage": 23
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:29:40.632Z"
+    },
+    {
+      "id": "1ada6b0f",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 535,
+        "defense": 1111,
+        "speed": 538,
+        "attack_speed": 565,
+        "dodge": 553,
+        "hp": 3005
+      },
+      "special_attrs": {
+        "crit_rate": 0.094,
+        "dmg_reduce": 0.08
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:29:40.960Z"
+    },
+    {
+      "id": "78792a05",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 601,
+        "defense": 1265,
+        "speed": 604,
+        "attack_speed": 504,
+        "dodge": 522,
+        "hp": 3222
+      },
+      "special_attrs": {
+        "crit_rate": 0.105,
+        "dmg_reduce": 0.07
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:29:41.648Z"
+    },
+    {
+      "id": "ccef8df6",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 665,
+        "defense": 574,
+        "speed": 612,
+        "attack_speed": 546,
+        "dodge": 1343,
+        "hp": 2557
+      },
+      "special_attrs": {
+        "crit_rate": 0.086,
+        "crit_dmg": 0.224,
+        "exp_bonus": 0.101
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:29:41.651Z"
+    },
+    {
+      "id": "b15615df",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 547,
+        "defense": 1012,
+        "speed": 574,
+        "attack_speed": 599,
+        "dodge": 596,
+        "hp": 3385
+      },
+      "special_attrs": {
+        "crit_rate": 0.097,
+        "dmg_reduce": 0.07
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:29:46.517Z"
+    },
+    {
+      "id": "0cbd32e5",
+      "name": "🦵荒原猎手护腿",
+      "type": "leggings",
+      "rarity": 3,
+      "rarity_name": "强强",
+      "level": 224,
+      "stats": {
+        "attack": 565,
+        "defense": 919,
+        "speed": 607,
+        "attack_speed": 1221,
+        "dodge": 609,
+        "hp": 1290
+      },
+      "special_attrs": {
+        "counter": 0.067,
+        "hp": 17,
+        "defense": 13,
+        "dmg_reduce": 0.059
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:56:50.344Z"
+    },
+    {
+      "id": "5f319dfa",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 99999,
+      "rarity_name": "",
+      "level": 200,
+      "stats": {
+        "attack": 752,
+        "defense": 1292,
+        "speed": 738,
+        "attack_speed": 704,
+        "dodge": 752,
+        "hp": 4078
+      },
+      "special_attrs": {
+        "crit_rate": 0.112,
+        "dmg_reduce": 0.084,
+        "exp_bonus": 0.154,
+        "extra_atk": 0.093
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:56:50.921Z"
+    },
+    {
+      "id": "f5879624",
+      "name": "🦵荒原猎手护腿",
+      "type": "leggings",
+      "rarity": 1,
+      "rarity_name": "区",
+      "level": 225,
+      "stats": {
+        "attack": 515,
+        "defense": 750,
+        "speed": 524,
+        "attack_speed": 1003,
+        "dodge": 553,
+        "hp": 1280
+      },
+      "special_attrs": {
+        "counter": 0.057,
+        "dmg_reduce": 0.049
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:56:51.234Z"
+    },
+    {
+      "id": "2a36b1e2",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 703,
+        "defense": 692,
+        "speed": 645,
+        "attack_speed": 648,
+        "dodge": 1369,
+        "hp": 2651
+      },
+      "special_attrs": {
+        "crit_rate": 0.093,
+        "crit_dmg": 0.221,
+        "exp_bonus": 0.1,
+        "fire_damage": 14,
+        "dmg_reduce": 0.07
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:56:51.408Z"
+    },
+    {
+      "id": "1fa6d2bb",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 4,
+      "rarity_name": "？强强？",
+      "level": 200,
+      "stats": {
+        "attack": 630,
+        "defense": 1276,
+        "speed": 669,
+        "attack_speed": 551,
+        "dodge": 674,
+        "hp": 4021
+      },
+      "special_attrs": {
+        "crit_rate": 0.113,
+        "dmg_reduce": 0.084,
+        "lifesteal": 0.058,
+        "crit_dmg": 0.284
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:56:52.331Z"
+    },
+    {
+      "id": "889fc313",
+      "name": "🦵荒原猎手护腿",
+      "type": "leggings",
+      "rarity": 4,
+      "rarity_name": "？强强？",
+      "level": 225,
+      "stats": {
+        "attack": 603,
+        "defense": 954,
+        "speed": 571,
+        "attack_speed": 1254,
+        "dodge": 587,
+        "hp": 1368
+      },
+      "special_attrs": {
+        "counter": 0.054,
+        "hp": 18,
+        "dmg_reduce": 0.057
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:56:52.332Z"
+    },
+    {
+      "id": "de8b3209",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 4,
+      "rarity_name": "？强强？",
+      "level": 200,
+      "stats": {
+        "attack": 619,
+        "defense": 1160,
+        "speed": 634,
+        "attack_speed": 548,
+        "dodge": 549,
+        "hp": 3892
+      },
+      "special_attrs": {
+        "crit_rate": 0.086,
+        "dmg_reduce": 0.069,
+        "fire_damage": 23,
+        "extra_atk": 0.092
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:56:52.717Z"
+    },
+    {
+      "id": "a8ccca22",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 99999,
+      "rarity_name": "",
+      "level": 200,
+      "stats": {
+        "attack": 682,
+        "defense": 1533,
+        "speed": 758,
+        "attack_speed": 782,
+        "dodge": 661,
+        "hp": 4465
+      },
+      "special_attrs": {
+        "crit_rate": 0.098,
+        "dmg_reduce": 0.07,
+        "extra_atk": 0.092,
+        "lifesteal": 0.05,
+        "fire_damage": 17
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:56:53.885Z"
+    },
+    {
+      "id": "72eabaee",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 99999,
+      "rarity_name": "",
+      "level": 200,
+      "stats": {
+        "attack": 746,
+        "defense": 1317,
+        "speed": 757,
+        "attack_speed": 665,
+        "dodge": 755,
+        "hp": 4422
+      },
+      "special_attrs": {
+        "crit_rate": 0.098,
+        "dmg_reduce": 0.069,
+        "exp_bonus": 0.156,
+        "extra_atk": 0.089,
+        "crit_dmg": 0.21,
+        "coin_bonus": 0.135
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:56:56.477Z"
+    },
+    {
+      "id": "3acd5ef8",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 613,
+        "defense": 1393,
+        "speed": 670,
+        "attack_speed": 675,
+        "dodge": 616,
+        "hp": 3753
+      },
+      "special_attrs": {
+        "crit_rate": 0.091,
+        "dmg_reduce": 0.069,
+        "fire_damage": 23,
+        "lifesteal": 0.059,
+        "exp_bonus": 0.165
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:56:56.649Z"
+    },
+    {
+      "id": "d6997b96",
+      "name": "🦵荒原猎手护腿",
+      "type": "leggings",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 210,
+      "stats": {
+        "attack": 668,
+        "defense": 865,
+        "speed": 604,
+        "attack_speed": 1283,
+        "dodge": 531,
+        "hp": 1414
+      },
+      "special_attrs": {
+        "counter": 0.063,
+        "dmg_reduce": 0.053,
+        "defense": 13
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:56:56.828Z"
+    },
+    {
+      "id": "02999889",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 3,
+      "rarity_name": "强强",
+      "level": 200,
+      "stats": {
+        "attack": 533,
+        "defense": 1313,
+        "speed": 657,
+        "attack_speed": 562,
+        "dodge": 526,
+        "hp": 3217
+      },
+      "special_attrs": {
+        "crit_rate": 0.1,
+        "dmg_reduce": 0.073,
+        "coin_bonus": 0.113,
+        "exp_bonus": 0.154
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:56:58.146Z"
+    },
+    {
+      "id": "70a7bc09",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 3,
+      "rarity_name": "强强",
+      "level": 200,
+      "stats": {
+        "attack": 565,
+        "defense": 646,
+        "speed": 629,
+        "attack_speed": 693,
+        "dodge": 1121,
+        "hp": 2512
+      },
+      "special_attrs": {
+        "crit_rate": 0.108,
+        "crit_dmg": 0.252,
+        "exp_bonus": 0.085,
+        "coin_bonus": 0.119
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:57:01.139Z"
+    },
+    {
+      "id": "e7e5215e",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 4,
+      "rarity_name": "？强强？",
+      "level": 200,
+      "stats": {
+        "attack": 611,
+        "defense": 1314,
+        "speed": 552,
+        "attack_speed": 586,
+        "dodge": 647,
+        "hp": 3247
+      },
+      "special_attrs": {
+        "crit_rate": 0.109,
+        "dmg_reduce": 0.086,
+        "exp_bonus": 0.176,
+        "fire_damage": 23
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:57:01.140Z"
+    },
+    {
+      "id": "5515126b",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 659,
+        "defense": 1479,
+        "speed": 730,
+        "attack_speed": 662,
+        "dodge": 687,
+        "hp": 4316
+      },
+      "special_attrs": {
+        "crit_rate": 0.112,
+        "dmg_reduce": 0.078,
+        "coin_bonus": 0.133,
+        "exp_bonus": 0.172,
+        "fire_damage": 17,
+        "crit_dmg": 0.212
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:57:08.338Z"
+    },
+    {
+      "id": "31e1a65d",
+      "name": "🦵荒原猎手护腿",
+      "type": "leggings",
+      "rarity": 4,
+      "rarity_name": "？强强？",
+      "level": 225,
+      "stats": {
+        "attack": 556,
+        "defense": 961,
+        "speed": 558,
+        "attack_speed": 1094,
+        "dodge": 598,
+        "hp": 1222
+      },
+      "special_attrs": {
+        "counter": 0.066,
+        "dmg_reduce": 0.072,
+        "defense": 11
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:57:08.339Z"
+    },
+    {
+      "id": "bfc88be2",
+      "name": "🦵荒原猎手护腿",
+      "type": "leggings",
+      "rarity": 1,
+      "rarity_name": "区",
+      "level": 211,
+      "stats": {
+        "attack": 589,
+        "defense": 831,
+        "speed": 545,
+        "attack_speed": 1116,
+        "dodge": 508,
+        "hp": 1081
+      },
+      "special_attrs": {
+        "counter": 0.065
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:57:08.395Z"
+    },
+    {
+      "id": "0940aae5",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 3,
+      "rarity_name": "强强",
+      "level": 200,
+      "stats": {
+        "attack": 565,
+        "defense": 632,
+        "speed": 677,
+        "attack_speed": 644,
+        "dodge": 1187,
+        "hp": 2436
+      },
+      "special_attrs": {
+        "crit_rate": 0.106,
+        "crit_dmg": 0.269,
+        "exp_bonus": 0.087,
+        "lifesteal": 0.056
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:57:08.486Z"
+    },
+    {
+      "id": "415bfd58",
+      "name": "🦵荒原猎手护腿",
+      "type": "leggings",
+      "rarity": 2,
+      "rarity_name": "强",
+      "level": 224,
+      "stats": {
+        "attack": 563,
+        "defense": 755,
+        "speed": 525,
+        "attack_speed": 1213,
+        "dodge": 582,
+        "hp": 1324
+      },
+      "special_attrs": {
+        "counter": 0.054,
+        "dmg_reduce": 0.051
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:57:08.560Z"
+    },
+    {
+      "id": "92aa8f81",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 629,
+        "defense": 1396,
+        "speed": 586,
+        "attack_speed": 605,
+        "dodge": 617,
+        "hp": 4147
+      },
+      "special_attrs": {
+        "crit_rate": 0.11,
+        "dmg_reduce": 0.091,
+        "coin_bonus": 0.104,
+        "exp_bonus": 0.166
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:57:08.567Z"
+    },
+    {
+      "id": "7f066fdd",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 4,
+      "rarity_name": "？强强？",
+      "level": 200,
+      "stats": {
+        "attack": 605,
+        "defense": 605,
+        "speed": 631,
+        "attack_speed": 721,
+        "dodge": 1174,
+        "hp": 2819
+      },
+      "special_attrs": {
+        "crit_rate": 0.086,
+        "crit_dmg": 0.218,
+        "exp_bonus": 0.112,
+        "fire_damage": 13
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:57:08.679Z"
+    },
+    {
+      "id": "d7a1f99d",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 579,
+        "defense": 1309,
+        "speed": 595,
+        "attack_speed": 598,
+        "dodge": 709,
+        "hp": 3957
+      },
+      "special_attrs": {
+        "crit_rate": 0.098,
+        "dmg_reduce": 0.074,
+        "extra_atk": 0.094,
+        "lifesteal": 0.055,
+        "crit_dmg": 0.248
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:57:08.683Z"
+    },
+    {
+      "id": "64d095cd",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 3,
+      "rarity_name": "强强",
+      "level": 200,
+      "stats": {
+        "attack": 607,
+        "defense": 683,
+        "speed": 597,
+        "attack_speed": 596,
+        "dodge": 1185,
+        "hp": 2661
+      },
+      "special_attrs": {
+        "crit_rate": 0.087,
+        "crit_dmg": 0.253,
+        "exp_bonus": 0.085,
+        "lifesteal": 0.051,
+        "fire_damage": 18
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:57:08.759Z"
+    },
+    {
+      "id": "35d5bafe",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 646,
+        "defense": 1460,
+        "speed": 744,
+        "attack_speed": 625,
+        "dodge": 646,
+        "hp": 4398
+      },
+      "special_attrs": {
+        "crit_rate": 0.112,
+        "dmg_reduce": 0.076,
+        "extra_atk": 0.096,
+        "fire_damage": 19,
+        "coin_bonus": 0.144
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:57:08.762Z"
+    },
+    {
+      "id": "55137587",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 2,
+      "rarity_name": "强",
+      "level": 200,
+      "stats": {
+        "attack": 558,
+        "defense": 634,
+        "speed": 619,
+        "attack_speed": 628,
+        "dodge": 1322,
+        "hp": 2559
+      },
+      "special_attrs": {
+        "crit_rate": 0.092,
+        "crit_dmg": 0.247,
+        "exp_bonus": 0.111,
+        "coin_bonus": 0.109
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:57:08.937Z"
+    },
+    {
+      "id": "6b8bcc21",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 3,
+      "rarity_name": "强强",
+      "level": 200,
+      "stats": {
+        "attack": 642,
+        "defense": 564,
+        "speed": 588,
+        "attack_speed": 580,
+        "dodge": 1285,
+        "hp": 2463
+      },
+      "special_attrs": {
+        "crit_rate": 0.105,
+        "crit_dmg": 0.256,
+        "exp_bonus": 0.108,
+        "fire_damage": 12
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:57:09.042Z"
+    },
+    {
+      "id": "d903a4a1",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 747,
+        "defense": 1357,
+        "speed": 652,
+        "attack_speed": 618,
+        "dodge": 612,
+        "hp": 3712
+      },
+      "special_attrs": {
+        "crit_rate": 0.11,
+        "dmg_reduce": 0.084,
+        "exp_bonus": 0.121,
+        "lifesteal": 0.062,
+        "crit_dmg": 0.262
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:57:09.044Z"
+    },
+    {
+      "id": "482227f3",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 658,
+        "defense": 718,
+        "speed": 674,
+        "attack_speed": 667,
+        "dodge": 1473,
+        "hp": 2990
+      },
+      "special_attrs": {
+        "crit_rate": 0.102,
+        "crit_dmg": 0.214,
+        "exp_bonus": 0.109,
+        "fire_damage": 18,
+        "coin_bonus": 0.108
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:57:09.625Z"
+    },
+    {
+      "id": "7121474b",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 4,
+      "rarity_name": "？强强？",
+      "level": 200,
+      "stats": {
+        "attack": 725,
+        "defense": 585,
+        "speed": 722,
+        "attack_speed": 633,
+        "dodge": 1248,
+        "hp": 2524
+      },
+      "special_attrs": {
+        "crit_rate": 0.114,
+        "crit_dmg": 0.249,
+        "exp_bonus": 0.105,
+        "fire_damage": 17,
+        "lifesteal": 0.053
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:57:09.708Z"
+    },
+    {
+      "id": "eeb16c37",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 663,
+        "defense": 629,
+        "speed": 649,
+        "attack_speed": 635,
+        "dodge": 1295,
+        "hp": 2626
+      },
+      "special_attrs": {
+        "crit_rate": 0.109,
+        "crit_dmg": 0.251,
+        "exp_bonus": 0.092,
+        "coin_bonus": 0.088
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:57:09.714Z"
+    },
+    {
+      "id": "556d25ba",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 3,
+      "rarity_name": "强强",
+      "level": 200,
+      "stats": {
+        "attack": 710,
+        "defense": 642,
+        "speed": 569,
+        "attack_speed": 650,
+        "dodge": 1178,
+        "hp": 2723
+      },
+      "special_attrs": {
+        "crit_rate": 0.086,
+        "crit_dmg": 0.278,
+        "exp_bonus": 0.094,
+        "dmg_reduce": 0.051
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:57:09.795Z"
+    },
+    {
+      "id": "a9f83a8b",
+      "name": "🦵荒原猎手护腿",
+      "type": "leggings",
+      "rarity": 3,
+      "rarity_name": "强强",
+      "level": 227,
+      "stats": {
+        "attack": 525,
+        "defense": 746,
+        "speed": 537,
+        "attack_speed": 1064,
+        "dodge": 585,
+        "hp": 1349
+      },
+      "special_attrs": {
+        "counter": 0.055,
+        "defense": 14
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:57:09.800Z"
+    },
+    {
+      "id": "aabc17a5",
+      "name": "🦵荒原猎手护腿",
+      "type": "leggings",
+      "rarity": 3,
+      "rarity_name": "强强",
+      "level": 222,
+      "stats": {
+        "attack": 524,
+        "defense": 810,
+        "speed": 522,
+        "attack_speed": 1007,
+        "dodge": 565,
+        "hp": 1200
+      },
+      "special_attrs": {
+        "counter": 0.055,
+        "dmg_reduce": 0.051,
+        "hp": 23,
+        "defense": 12
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:57:09.809Z"
+    },
+    {
+      "id": "fd6a16c7",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 675,
+        "defense": 1400,
+        "speed": 579,
+        "attack_speed": 666,
+        "dodge": 647,
+        "hp": 3740
+      },
+      "special_attrs": {
+        "crit_rate": 0.102,
+        "dmg_reduce": 0.084,
+        "exp_bonus": 0.132,
+        "lifesteal": 0.063
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:57:09.981Z"
+    },
+    {
+      "id": "3849d2f9",
+      "name": "🦵荒原猎手护腿",
+      "type": "leggings",
+      "rarity": 2,
+      "rarity_name": "强",
+      "level": 224,
+      "stats": {
+        "attack": 528,
+        "defense": 728,
+        "speed": 567,
+        "attack_speed": 1124,
+        "dodge": 538,
+        "hp": 1142
+      },
+      "special_attrs": {
+        "counter": 0.058,
+        "defense": 14
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:57:10.157Z"
+    },
+    {
+      "id": "53cb1f50",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 4,
+      "rarity_name": "？强强？",
+      "level": 200,
+      "stats": {
+        "attack": 588,
+        "defense": 678,
+        "speed": 611,
+        "attack_speed": 579,
+        "dodge": 1376,
+        "hp": 2773
+      },
+      "special_attrs": {
+        "crit_rate": 0.094,
+        "crit_dmg": 0.233,
+        "exp_bonus": 0.092,
+        "lifesteal": 0.056
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:57:10.454Z"
+    },
+    {
+      "id": "93e7b9ad",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 649,
+        "defense": 1287,
+        "speed": 742,
+        "attack_speed": 608,
+        "dodge": 686,
+        "hp": 3894
+      },
+      "special_attrs": {
+        "crit_rate": 0.091,
+        "dmg_reduce": 0.078,
+        "fire_damage": 23,
+        "lifesteal": 0.065,
+        "exp_bonus": 0.176
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:57:10.641Z"
+    },
+    {
+      "id": "299e170e",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 650,
+        "defense": 1250,
+        "speed": 598,
+        "attack_speed": 723,
+        "dodge": 691,
+        "hp": 4114
+      },
+      "special_attrs": {
+        "crit_rate": 0.086,
+        "dmg_reduce": 0.071,
+        "extra_atk": 0.106,
+        "lifesteal": 0.068,
+        "fire_damage": 20,
+        "coin_bonus": 0.109,
+        "crit_dmg": 0.207
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:57:10.744Z"
+    },
+    {
+      "id": "1de5fd5c",
+      "name": "🦵荒原猎手护腿",
+      "type": "leggings",
+      "rarity": 3,
+      "rarity_name": "强强",
+      "level": 226,
+      "stats": {
+        "attack": 593,
+        "defense": 894,
+        "speed": 577,
+        "attack_speed": 1201,
+        "dodge": 548,
+        "hp": 1223
+      },
+      "special_attrs": {
+        "counter": 0.054,
+        "defense": 13,
+        "hp": 22,
+        "dmg_reduce": 0.064
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:57:11.019Z"
+    },
+    {
+      "id": "b390fef8",
+      "name": "🦵荒原猎手护腿",
+      "type": "leggings",
+      "rarity": 3,
+      "rarity_name": "强强",
+      "level": 229,
+      "stats": {
+        "attack": 509,
+        "defense": 817,
+        "speed": 589,
+        "attack_speed": 1258,
+        "dodge": 566,
+        "hp": 1234
+      },
+      "special_attrs": {
+        "counter": 0.053,
+        "dmg_reduce": 0.06,
+        "hp": 23
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:57:11.106Z"
+    },
+    {
+      "id": "7bb00f36",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 4,
+      "rarity_name": "？强强？",
+      "level": 200,
+      "stats": {
+        "attack": 675,
+        "defense": 1352,
+        "speed": 554,
+        "attack_speed": 646,
+        "dodge": 675,
+        "hp": 3404
+      },
+      "special_attrs": {
+        "crit_rate": 0.108,
+        "dmg_reduce": 0.079,
+        "lifesteal": 0.054,
+        "fire_damage": 18
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:57:11.470Z"
+    },
+    {
+      "id": "007e4eac",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 634,
+        "defense": 1254,
+        "speed": 709,
+        "attack_speed": 715,
+        "dodge": 654,
+        "hp": 4373
+      },
+      "special_attrs": {
+        "crit_rate": 0.112,
+        "dmg_reduce": 0.072,
+        "coin_bonus": 0.118,
+        "crit_dmg": 0.293,
+        "exp_bonus": 0.143
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T08:57:11.564Z"
+    },
+    {
+      "id": "6f6d4401",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 99999,
+      "rarity_name": "",
+      "level": 200,
+      "stats": {
+        "attack": 776,
+        "defense": 1420,
+        "speed": 701,
+        "attack_speed": 761,
+        "dodge": 639,
+        "hp": 3856
+      },
+      "special_attrs": {
+        "crit_rate": 0.104,
+        "dmg_reduce": 0.073,
+        "coin_bonus": 0.123,
+        "extra_atk": 0.096
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:33.228Z"
+    },
+    {
+      "id": "6bcf8456",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 99999,
+      "rarity_name": "",
+      "level": 200,
+      "stats": {
+        "attack": 707,
+        "defense": 1588,
+        "speed": 714,
+        "attack_speed": 789,
+        "dodge": 723,
+        "hp": 4246
+      },
+      "special_attrs": {
+        "crit_rate": 0.107,
+        "dmg_reduce": 0.081,
+        "exp_bonus": 0.144,
+        "extra_atk": 0.092,
+        "coin_bonus": 0.113
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:33.422Z"
+    },
+    {
+      "id": "bdacf771",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 3,
+      "rarity_name": "强强",
+      "level": 200,
+      "stats": {
+        "attack": 682,
+        "defense": 652,
+        "speed": 675,
+        "attack_speed": 662,
+        "dodge": 1392,
+        "hp": 2311
+      },
+      "special_attrs": {
+        "crit_rate": 0.09,
+        "crit_dmg": 0.238,
+        "exp_bonus": 0.087,
+        "lifesteal": 0.052
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:33.566Z"
+    },
+    {
+      "id": "6a44183d",
+      "name": "🦵荒原猎手护腿",
+      "type": "leggings",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 221,
+      "stats": {
+        "attack": 645,
+        "defense": 886,
+        "speed": 615,
+        "attack_speed": 1300,
+        "dodge": 645,
+        "hp": 1390
+      },
+      "special_attrs": {
+        "counter": 0.053,
+        "dmg_reduce": 0.059,
+        "hp": 17,
+        "defense": 13
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:33.582Z"
+    },
+    {
+      "id": "40e846cc",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 681,
+        "defense": 598,
+        "speed": 671,
+        "attack_speed": 623,
+        "dodge": 1322,
+        "hp": 2903
+      },
+      "special_attrs": {
+        "crit_rate": 0.095,
+        "crit_dmg": 0.273,
+        "exp_bonus": 0.111,
+        "coin_bonus": 0.111
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:33.723Z"
+    },
+    {
+      "id": "01e35c4c",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 4,
+      "rarity_name": "？强强？",
+      "level": 200,
+      "stats": {
+        "attack": 653,
+        "defense": 616,
+        "speed": 694,
+        "attack_speed": 622,
+        "dodge": 1176,
+        "hp": 2758
+      },
+      "special_attrs": {
+        "crit_rate": 0.108,
+        "crit_dmg": 0.246,
+        "exp_bonus": 0.114,
+        "dmg_reduce": 0.063
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:33.879Z"
+    },
+    {
+      "id": "7d2a5406",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 685,
+        "defense": 739,
+        "speed": 728,
+        "attack_speed": 608,
+        "dodge": 1375,
+        "hp": 2578
+      },
+      "special_attrs": {
+        "crit_rate": 0.09,
+        "crit_dmg": 0.257,
+        "exp_bonus": 0.101,
+        "fire_damage": 13,
+        "dmg_reduce": 0.054
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:33.885Z"
+    },
+    {
+      "id": "6febe74d",
+      "name": "🦵荒原猎手护腿",
+      "type": "leggings",
+      "rarity": 3,
+      "rarity_name": "强强",
+      "level": 218,
+      "stats": {
+        "attack": 527,
+        "defense": 829,
+        "speed": 513,
+        "attack_speed": 1092,
+        "dodge": 612,
+        "hp": 1277
+      },
+      "special_attrs": {
+        "counter": 0.059,
+        "hp": 20,
+        "defense": 14,
+        "dmg_reduce": 0.071
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:34.312Z"
+    },
+    {
+      "id": "c0993e94",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 2,
+      "rarity_name": "强",
+      "level": 200,
+      "stats": {
+        "attack": 548,
+        "defense": 582,
+        "speed": 578,
+        "attack_speed": 640,
+        "dodge": 1170,
+        "hp": 2213
+      },
+      "special_attrs": {
+        "crit_rate": 0.099,
+        "crit_dmg": 0.252,
+        "exp_bonus": 0.109,
+        "lifesteal": 0.041,
+        "dmg_reduce": 0.064
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:34.729Z"
+    },
+    {
+      "id": "f834780a",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 4,
+      "rarity_name": "？强强？",
+      "level": 200,
+      "stats": {
+        "attack": 616,
+        "defense": 1353,
+        "speed": 672,
+        "attack_speed": 602,
+        "dodge": 660,
+        "hp": 3631
+      },
+      "special_attrs": {
+        "crit_rate": 0.102,
+        "dmg_reduce": 0.08,
+        "exp_bonus": 0.179
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:35.477Z"
+    },
+    {
+      "id": "06e9527d",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 719,
+        "defense": 626,
+        "speed": 640,
+        "attack_speed": 598,
+        "dodge": 1208,
+        "hp": 2787
+      },
+      "special_attrs": {
+        "crit_rate": 0.103,
+        "crit_dmg": 0.227,
+        "exp_bonus": 0.107,
+        "dmg_reduce": 0.053,
+        "coin_bonus": 0.114
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:35.961Z"
+    },
+    {
+      "id": "9788dc79",
+      "name": "🦵荒原猎手护腿",
+      "type": "leggings",
+      "rarity": 1,
+      "rarity_name": "区",
+      "level": 216,
+      "stats": {
+        "attack": 524,
+        "defense": 754,
+        "speed": 566,
+        "attack_speed": 1067,
+        "dodge": 500,
+        "hp": 1180
+      },
+      "special_attrs": {
+        "counter": 0.063,
+        "hp": 17
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:37.395Z"
+    },
+    {
+      "id": "224abb0d",
+      "name": "🦵荒原猎手护腿",
+      "type": "leggings",
+      "rarity": 2,
+      "rarity_name": "强",
+      "level": 215,
+      "stats": {
+        "attack": 539,
+        "defense": 752,
+        "speed": 594,
+        "attack_speed": 1126,
+        "dodge": 603,
+        "hp": 1232
+      },
+      "special_attrs": {
+        "counter": 0.054,
+        "hp": 18
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:37.895Z"
+    },
+    {
+      "id": "70a5ca9f",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 3,
+      "rarity_name": "强强",
+      "level": 200,
+      "stats": {
+        "attack": 609,
+        "defense": 582,
+        "speed": 648,
+        "attack_speed": 577,
+        "dodge": 1175,
+        "hp": 2755
+      },
+      "special_attrs": {
+        "crit_rate": 0.095,
+        "crit_dmg": 0.272,
+        "exp_bonus": 0.095,
+        "fire_damage": 13
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:37.901Z"
+    },
+    {
+      "id": "0f4fa498",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 588,
+        "defense": 1142,
+        "speed": 672,
+        "attack_speed": 702,
+        "dodge": 566,
+        "hp": 3566
+      },
+      "special_attrs": {
+        "crit_rate": 0.095,
+        "dmg_reduce": 0.079,
+        "lifesteal": 0.068,
+        "fire_damage": 20,
+        "extra_atk": 0.08
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:37.906Z"
+    },
+    {
+      "id": "d568480b",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 4,
+      "rarity_name": "？强强？",
+      "level": 200,
+      "stats": {
+        "attack": 620,
+        "defense": 616,
+        "speed": 589,
+        "attack_speed": 728,
+        "dodge": 1223,
+        "hp": 2379
+      },
+      "special_attrs": {
+        "crit_rate": 0.102,
+        "crit_dmg": 0.272,
+        "exp_bonus": 0.105,
+        "dmg_reduce": 0.067,
+        "fire_damage": 17,
+        "lifesteal": 0.048
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:38.086Z"
+    },
+    {
+      "id": "d6f3ff16",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 3,
+      "rarity_name": "强强",
+      "level": 200,
+      "stats": {
+        "attack": 615,
+        "defense": 637,
+        "speed": 597,
+        "attack_speed": 607,
+        "dodge": 1363,
+        "hp": 2671
+      },
+      "special_attrs": {
+        "crit_rate": 0.113,
+        "crit_dmg": 0.253,
+        "exp_bonus": 0.102,
+        "dmg_reduce": 0.063,
+        "fire_damage": 17
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:38.091Z"
+    },
+    {
+      "id": "4b4059f4",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 3,
+      "rarity_name": "强强",
+      "level": 200,
+      "stats": {
+        "attack": 663,
+        "defense": 680,
+        "speed": 621,
+        "attack_speed": 571,
+        "dodge": 1391,
+        "hp": 2307
+      },
+      "special_attrs": {
+        "crit_rate": 0.092,
+        "crit_dmg": 0.262,
+        "exp_bonus": 0.101,
+        "fire_damage": 15
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:38.739Z"
+    },
+    {
+      "id": "06ede5c2",
+      "name": "🦵荒原猎手护腿",
+      "type": "leggings",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 227,
+      "stats": {
+        "attack": 596,
+        "defense": 888,
+        "speed": 670,
+        "attack_speed": 1312,
+        "dodge": 683,
+        "hp": 1546
+      },
+      "special_attrs": {
+        "counter": 0.056,
+        "hp": 21,
+        "defense": 10,
+        "dmg_reduce": 0.054
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:39.906Z"
+    },
+    {
+      "id": "cc33171f",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 647,
+        "defense": 1172,
+        "speed": 629,
+        "attack_speed": 615,
+        "dodge": 591,
+        "hp": 4045
+      },
+      "special_attrs": {
+        "crit_rate": 0.089,
+        "dmg_reduce": 0.075,
+        "extra_atk": 0.097,
+        "coin_bonus": 0.116,
+        "crit_dmg": 0.24,
+        "fire_damage": 23
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:40.890Z"
+    },
+    {
+      "id": "150d8d00",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 696,
+        "defense": 635,
+        "speed": 620,
+        "attack_speed": 685,
+        "dodge": 1459,
+        "hp": 2602
+      },
+      "special_attrs": {
+        "crit_rate": 0.089,
+        "crit_dmg": 0.231,
+        "exp_bonus": 0.091,
+        "fire_damage": 16,
+        "coin_bonus": 0.103,
+        "dmg_reduce": 0.067
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:40.897Z"
+    },
+    {
+      "id": "d7eca126",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 690,
+        "defense": 1444,
+        "speed": 748,
+        "attack_speed": 618,
+        "dodge": 605,
+        "hp": 3617
+      },
+      "special_attrs": {
+        "crit_rate": 0.094,
+        "dmg_reduce": 0.09,
+        "fire_damage": 22,
+        "extra_atk": 0.114,
+        "exp_bonus": 0.157
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:41.229Z"
+    },
+    {
+      "id": "1e5de3f1",
+      "name": "🦵荒原猎手护腿",
+      "type": "leggings",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 218,
+      "stats": {
+        "attack": 583,
+        "defense": 896,
+        "speed": 654,
+        "attack_speed": 1253,
+        "dodge": 710,
+        "hp": 1374
+      },
+      "special_attrs": {
+        "counter": 0.056,
+        "defense": 12,
+        "hp": 17,
+        "dmg_reduce": 0.054
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:41.241Z"
+    },
+    {
+      "id": "fe924f26",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 653,
+        "defense": 713,
+        "speed": 601,
+        "attack_speed": 651,
+        "dodge": 1278,
+        "hp": 2578
+      },
+      "special_attrs": {
+        "crit_rate": 0.108,
+        "crit_dmg": 0.245,
+        "exp_bonus": 0.109,
+        "dmg_reduce": 0.051,
+        "lifesteal": 0.058,
+        "coin_bonus": 0.119
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:41.388Z"
+    },
+    {
+      "id": "2d078cd9",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 3,
+      "rarity_name": "强强",
+      "level": 200,
+      "stats": {
+        "attack": 616,
+        "defense": 608,
+        "speed": 616,
+        "attack_speed": 644,
+        "dodge": 1278,
+        "hp": 2557
+      },
+      "special_attrs": {
+        "crit_rate": 0.102,
+        "crit_dmg": 0.258,
+        "exp_bonus": 0.113,
+        "dmg_reduce": 0.063
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:41.399Z"
+    },
+    {
+      "id": "ebbc078f",
+      "name": "🦵荒原猎手护腿",
+      "type": "leggings",
+      "rarity": 3,
+      "rarity_name": "强强",
+      "level": 226,
+      "stats": {
+        "attack": 504,
+        "defense": 884,
+        "speed": 577,
+        "attack_speed": 1088,
+        "dodge": 609,
+        "hp": 1206
+      },
+      "special_attrs": {
+        "counter": 0.051,
+        "dmg_reduce": 0.072,
+        "defense": 13,
+        "hp": 23
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:41.556Z"
+    },
+    {
+      "id": "e8c984e5",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 3,
+      "rarity_name": "强强",
+      "level": 200,
+      "stats": {
+        "attack": 676,
+        "defense": 594,
+        "speed": 614,
+        "attack_speed": 693,
+        "dodge": 1290,
+        "hp": 2538
+      },
+      "special_attrs": {
+        "crit_rate": 0.113,
+        "crit_dmg": 0.254,
+        "exp_bonus": 0.107,
+        "fire_damage": 17
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:41.719Z"
+    },
+    {
+      "id": "a82b5de4",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 3,
+      "rarity_name": "强强",
+      "level": 200,
+      "stats": {
+        "attack": 624,
+        "defense": 603,
+        "speed": 691,
+        "attack_speed": 622,
+        "dodge": 1228,
+        "hp": 2702
+      },
+      "special_attrs": {
+        "crit_rate": 0.086,
+        "crit_dmg": 0.27,
+        "exp_bonus": 0.113,
+        "dmg_reduce": 0.059
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:47.235Z"
+    },
+    {
+      "id": "7b484ce2",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 669,
+        "defense": 654,
+        "speed": 754,
+        "attack_speed": 640,
+        "dodge": 1461,
+        "hp": 3102
+      },
+      "special_attrs": {
+        "crit_rate": 0.089,
+        "crit_dmg": 0.25,
+        "exp_bonus": 0.112,
+        "dmg_reduce": 0.057
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:47.470Z"
+    },
+    {
+      "id": "7a1a353d",
+      "name": "🦵荒原猎手护腿",
+      "type": "leggings",
+      "rarity": 1,
+      "rarity_name": "区",
+      "level": 223,
+      "stats": {
+        "attack": 579,
+        "defense": 858,
+        "speed": 483,
+        "attack_speed": 1118,
+        "dodge": 487,
+        "hp": 1323
+      },
+      "special_attrs": {
+        "counter": 0.053
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:47.527Z"
+    },
+    {
+      "id": "78497c7a",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 2,
+      "rarity_name": "强",
+      "level": 200,
+      "stats": {
+        "attack": 548,
+        "defense": 649,
+        "speed": 545,
+        "attack_speed": 691,
+        "dodge": 1208,
+        "hp": 2427
+      },
+      "special_attrs": {
+        "crit_rate": 0.104,
+        "crit_dmg": 0.268,
+        "exp_bonus": 0.099,
+        "fire_damage": 12
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:47.847Z"
+    },
+    {
+      "id": "ceaf88f3",
+      "name": "🦵荒原猎手护腿",
+      "type": "leggings",
+      "rarity": 3,
+      "rarity_name": "强强",
+      "level": 224,
+      "stats": {
+        "attack": 515,
+        "defense": 763,
+        "speed": 541,
+        "attack_speed": 1150,
+        "dodge": 578,
+        "hp": 1286
+      },
+      "special_attrs": {
+        "counter": 0.053,
+        "hp": 21
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:48.166Z"
+    },
+    {
+      "id": "2f169778",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 2,
+      "rarity_name": "强",
+      "level": 200,
+      "stats": {
+        "attack": 574,
+        "defense": 580,
+        "speed": 558,
+        "attack_speed": 605,
+        "dodge": 1326,
+        "hp": 2297
+      },
+      "special_attrs": {
+        "crit_rate": 0.107,
+        "crit_dmg": 0.246,
+        "exp_bonus": 0.094,
+        "lifesteal": 0.05,
+        "fire_damage": 17
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:48.248Z"
+    },
+    {
+      "id": "b662e2b2",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 2,
+      "rarity_name": "强",
+      "level": 200,
+      "stats": {
+        "attack": 593,
+        "defense": 642,
+        "speed": 576,
+        "attack_speed": 598,
+        "dodge": 1327,
+        "hp": 2279
+      },
+      "special_attrs": {
+        "crit_rate": 0.113,
+        "crit_dmg": 0.24,
+        "exp_bonus": 0.095,
+        "coin_bonus": 0.107
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:48.250Z"
+    },
+    {
+      "id": "e0830b91",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 714,
+        "defense": 1334,
+        "speed": 688,
+        "attack_speed": 716,
+        "dodge": 675,
+        "hp": 3855
+      },
+      "special_attrs": {
+        "crit_rate": 0.093,
+        "dmg_reduce": 0.075,
+        "lifesteal": 0.068,
+        "exp_bonus": 0.134
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:48.355Z"
+    },
+    {
+      "id": "3eefa23d",
+      "name": "🦵荒原猎手护腿",
+      "type": "leggings",
+      "rarity": 2,
+      "rarity_name": "强",
+      "level": 217,
+      "stats": {
+        "attack": 521,
+        "defense": 756,
+        "speed": 594,
+        "attack_speed": 1096,
+        "dodge": 595,
+        "hp": 1145
+      },
+      "special_attrs": {
+        "counter": 0.063,
+        "dmg_reduce": 0.049,
+        "hp": 16
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:48.370Z"
+    },
+    {
+      "id": "d63cd8f9",
+      "name": "🦵荒原猎手护腿",
+      "type": "leggings",
+      "rarity": 4,
+      "rarity_name": "？强强？",
+      "level": 224,
+      "stats": {
+        "attack": 525,
+        "defense": 774,
+        "speed": 526,
+        "attack_speed": 1203,
+        "dodge": 561,
+        "hp": 1396
+      },
+      "special_attrs": {
+        "counter": 0.063,
+        "hp": 18,
+        "dmg_reduce": 0.048,
+        "defense": 10
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:48.520Z"
+    },
+    {
+      "id": "3c1d1822",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 3,
+      "rarity_name": "强强",
+      "level": 200,
+      "stats": {
+        "attack": 597,
+        "defense": 571,
+        "speed": 632,
+        "attack_speed": 622,
+        "dodge": 1248,
+        "hp": 2798
+      },
+      "special_attrs": {
+        "crit_rate": 0.102,
+        "crit_dmg": 0.218,
+        "exp_bonus": 0.087,
+        "coin_bonus": 0.116
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:48.788Z"
+    },
+    {
+      "id": "eba76bf9",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 3,
+      "rarity_name": "强强",
+      "level": 200,
+      "stats": {
+        "attack": 682,
+        "defense": 631,
+        "speed": 587,
+        "attack_speed": 698,
+        "dodge": 1349,
+        "hp": 2843
+      },
+      "special_attrs": {
+        "crit_rate": 0.111,
+        "crit_dmg": 0.223,
+        "exp_bonus": 0.108,
+        "fire_damage": 17,
+        "coin_bonus": 0.099,
+        "lifesteal": 0.051
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:49.067Z"
+    },
+    {
+      "id": "8c50c7bc",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 660,
+        "defense": 1374,
+        "speed": 638,
+        "attack_speed": 654,
+        "dodge": 684,
+        "hp": 3580
+      },
+      "special_attrs": {
+        "crit_rate": 0.099,
+        "dmg_reduce": 0.09,
+        "fire_damage": 23,
+        "extra_atk": 0.089
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:49.075Z"
+    },
+    {
+      "id": "de361efa",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 4,
+      "rarity_name": "？强强？",
+      "level": 200,
+      "stats": {
+        "attack": 633,
+        "defense": 615,
+        "speed": 707,
+        "attack_speed": 699,
+        "dodge": 1388,
+        "hp": 2822
+      },
+      "special_attrs": {
+        "crit_rate": 0.096,
+        "crit_dmg": 0.282,
+        "exp_bonus": 0.106,
+        "dmg_reduce": 0.065
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:49.175Z"
+    },
+    {
+      "id": "cdf6d2a1",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 603,
+        "defense": 1335,
+        "speed": 692,
+        "attack_speed": 733,
+        "dodge": 680,
+        "hp": 4349
+      },
+      "special_attrs": {
+        "crit_rate": 0.104,
+        "dmg_reduce": 0.078,
+        "fire_damage": 18,
+        "coin_bonus": 0.11,
+        "exp_bonus": 0.161
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:49.556Z"
+    },
+    {
+      "id": "cd75f5e8",
+      "name": "🦵荒原猎手护腿",
+      "type": "leggings",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 215,
+      "stats": {
+        "attack": 634,
+        "defense": 999,
+        "speed": 644,
+        "attack_speed": 1306,
+        "dodge": 574,
+        "hp": 1462
+      },
+      "special_attrs": {
+        "counter": 0.053,
+        "hp": 19,
+        "defense": 12,
+        "dmg_reduce": 0.051
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:49.698Z"
+    },
+    {
+      "id": "e27fd99a",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 99999,
+      "rarity_name": "",
+      "level": 200,
+      "stats": {
+        "attack": 698,
+        "defense": 1379,
+        "speed": 751,
+        "attack_speed": 783,
+        "dodge": 738,
+        "hp": 4703
+      },
+      "special_attrs": {
+        "crit_rate": 0.103,
+        "dmg_reduce": 0.08,
+        "fire_damage": 18,
+        "lifesteal": 0.066,
+        "coin_bonus": 0.096,
+        "extra_atk": 0.092,
+        "crit_dmg": 0.269
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:49.792Z"
+    },
+    {
+      "id": "99f7be81",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 99999,
+      "rarity_name": "",
+      "level": 200,
+      "stats": {
+        "attack": 669,
+        "defense": 1445,
+        "speed": 674,
+        "attack_speed": 643,
+        "dodge": 635,
+        "hp": 3786
+      },
+      "special_attrs": {
+        "crit_rate": 0.1,
+        "dmg_reduce": 0.078,
+        "exp_bonus": 0.154,
+        "lifesteal": 0.06
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:49.977Z"
+    },
+    {
+      "id": "620abfaf",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 604,
+        "defense": 1296,
+        "speed": 690,
+        "attack_speed": 745,
+        "dodge": 656,
+        "hp": 3823
+      },
+      "special_attrs": {
+        "crit_rate": 0.085,
+        "dmg_reduce": 0.082,
+        "lifesteal": 0.065,
+        "extra_atk": 0.085,
+        "coin_bonus": 0.101
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:50.094Z"
+    },
+    {
+      "id": "a2417aca",
+      "name": "🦵荒原猎手护腿",
+      "type": "leggings",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 230,
+      "stats": {
+        "attack": 572,
+        "defense": 963,
+        "speed": 670,
+        "attack_speed": 1358,
+        "dodge": 705,
+        "hp": 1451
+      },
+      "special_attrs": {
+        "counter": 0.068,
+        "defense": 14,
+        "dmg_reduce": 0.065,
+        "hp": 18
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:50.103Z"
+    },
+    {
+      "id": "d45469e9",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 3,
+      "rarity_name": "强强",
+      "level": 200,
+      "stats": {
+        "attack": 707,
+        "defense": 699,
+        "speed": 577,
+        "attack_speed": 660,
+        "dodge": 1223,
+        "hp": 2689
+      },
+      "special_attrs": {
+        "crit_rate": 0.106,
+        "crit_dmg": 0.265,
+        "exp_bonus": 0.096,
+        "coin_bonus": 0.09
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:50.557Z"
+    },
+    {
+      "id": "cbf386c7",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 790,
+        "defense": 778,
+        "speed": 779,
+        "attack_speed": 694,
+        "dodge": 1418,
+        "hp": 2763
+      },
+      "special_attrs": {
+        "crit_rate": 0.09,
+        "crit_dmg": 0.244,
+        "exp_bonus": 0.106,
+        "lifesteal": 0.045,
+        "coin_bonus": 0.094
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:50.558Z"
+    },
+    {
+      "id": "7ceb2a07",
+      "name": "🦵荒原猎手护腿",
+      "type": "leggings",
+      "rarity": 2,
+      "rarity_name": "强",
+      "level": 212,
+      "stats": {
+        "attack": 589,
+        "defense": 865,
+        "speed": 593,
+        "attack_speed": 1010,
+        "dodge": 572,
+        "hp": 1298
+      },
+      "special_attrs": {
+        "counter": 0.052,
+        "defense": 13
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:50.570Z"
+    },
+    {
+      "id": "90c23354",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 4,
+      "rarity_name": "？强强？",
+      "level": 200,
+      "stats": {
+        "attack": 646,
+        "defense": 1323,
+        "speed": 603,
+        "attack_speed": 563,
+        "dodge": 607,
+        "hp": 3995
+      },
+      "special_attrs": {
+        "crit_rate": 0.11,
+        "dmg_reduce": 0.075,
+        "exp_bonus": 0.145,
+        "fire_damage": 16
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:50.678Z"
+    },
+    {
+      "id": "ec61f65c",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 3,
+      "rarity_name": "强强",
+      "level": 200,
+      "stats": {
+        "attack": 648,
+        "defense": 1138,
+        "speed": 663,
+        "attack_speed": 534,
+        "dodge": 574,
+        "hp": 3167
+      },
+      "special_attrs": {
+        "crit_rate": 0.085,
+        "dmg_reduce": 0.074,
+        "extra_atk": 0.087,
+        "exp_bonus": 0.15
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:50.765Z"
+    },
+    {
+      "id": "37f38cd3",
+      "name": "🦵荒原猎手护腿",
+      "type": "leggings",
+      "rarity": 3,
+      "rarity_name": "强强",
+      "level": 224,
+      "stats": {
+        "attack": 616,
+        "defense": 750,
+        "speed": 556,
+        "attack_speed": 1101,
+        "dodge": 601,
+        "hp": 1343
+      },
+      "special_attrs": {
+        "counter": 0.061,
+        "defense": 11,
+        "dmg_reduce": 0.058,
+        "hp": 20
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:50.856Z"
+    },
+    {
+      "id": "c38ccac1",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 4,
+      "rarity_name": "？强强？",
+      "level": 200,
+      "stats": {
+        "attack": 547,
+        "defense": 1364,
+        "speed": 621,
+        "attack_speed": 568,
+        "dodge": 607,
+        "hp": 3746
+      },
+      "special_attrs": {
+        "crit_rate": 0.104,
+        "dmg_reduce": 0.085,
+        "extra_atk": 0.1
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:51.063Z"
+    },
+    {
+      "id": "424e5b36",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 4,
+      "rarity_name": "？强强？",
+      "level": 200,
+      "stats": {
+        "attack": 613,
+        "defense": 587,
+        "speed": 725,
+        "attack_speed": 727,
+        "dodge": 1183,
+        "hp": 2541
+      },
+      "special_attrs": {
+        "crit_rate": 0.105,
+        "crit_dmg": 0.281,
+        "exp_bonus": 0.103,
+        "coin_bonus": 0.098
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:51.280Z"
+    },
+    {
+      "id": "07614c06",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 562,
+        "defense": 1250,
+        "speed": 591,
+        "attack_speed": 670,
+        "dodge": 626,
+        "hp": 3795
+      },
+      "special_attrs": {
+        "crit_rate": 0.109,
+        "dmg_reduce": 0.071,
+        "crit_dmg": 0.225,
+        "fire_damage": 17,
+        "exp_bonus": 0.146
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:51.559Z"
+    },
+    {
+      "id": "e967acfc",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 3,
+      "rarity_name": "强强",
+      "level": 200,
+      "stats": {
+        "attack": 629,
+        "defense": 1110,
+        "speed": 658,
+        "attack_speed": 564,
+        "dodge": 597,
+        "hp": 3533
+      },
+      "special_attrs": {
+        "crit_rate": 0.088,
+        "dmg_reduce": 0.069,
+        "crit_dmg": 0.209
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:51.569Z"
+    },
+    {
+      "id": "91e69f45",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 3,
+      "rarity_name": "强强",
+      "level": 200,
+      "stats": {
+        "attack": 620,
+        "defense": 1164,
+        "speed": 660,
+        "attack_speed": 643,
+        "dodge": 578,
+        "hp": 3448
+      },
+      "special_attrs": {
+        "crit_rate": 0.101,
+        "dmg_reduce": 0.08,
+        "exp_bonus": 0.152
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:51.580Z"
+    },
+    {
+      "id": "83195ae6",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 4,
+      "rarity_name": "？强强？",
+      "level": 200,
+      "stats": {
+        "attack": 703,
+        "defense": 702,
+        "speed": 696,
+        "attack_speed": 597,
+        "dodge": 1274,
+        "hp": 2810
+      },
+      "special_attrs": {
+        "crit_rate": 0.091,
+        "crit_dmg": 0.238,
+        "exp_bonus": 0.086,
+        "coin_bonus": 0.091
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:51.783Z"
+    },
+    {
+      "id": "f9d70033",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 4,
+      "rarity_name": "？强强？",
+      "level": 200,
+      "stats": {
+        "attack": 649,
+        "defense": 1302,
+        "speed": 635,
+        "attack_speed": 659,
+        "dodge": 673,
+        "hp": 4060
+      },
+      "special_attrs": {
+        "crit_rate": 0.109,
+        "dmg_reduce": 0.081,
+        "fire_damage": 20,
+        "extra_atk": 0.1
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:51.988Z"
+    },
+    {
+      "id": "0207cf2b",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 4,
+      "rarity_name": "？强强？",
+      "level": 200,
+      "stats": {
+        "attack": 647,
+        "defense": 1259,
+        "speed": 640,
+        "attack_speed": 591,
+        "dodge": 673,
+        "hp": 3902
+      },
+      "special_attrs": {
+        "crit_rate": 0.097,
+        "dmg_reduce": 0.071,
+        "crit_dmg": 0.228,
+        "fire_damage": 20
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:52.395Z"
+    },
+    {
+      "id": "1a17fad6",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 753,
+        "defense": 651,
+        "speed": 742,
+        "attack_speed": 656,
+        "dodge": 1311,
+        "hp": 2474
+      },
+      "special_attrs": {
+        "crit_rate": 0.105,
+        "crit_dmg": 0.236,
+        "exp_bonus": 0.104,
+        "fire_damage": 14,
+        "lifesteal": 0.043
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:52.930Z"
+    },
+    {
+      "id": "d239f0dd",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 4,
+      "rarity_name": "？强强？",
+      "level": 200,
+      "stats": {
+        "attack": 593,
+        "defense": 1251,
+        "speed": 665,
+        "attack_speed": 626,
+        "dodge": 633,
+        "hp": 3626
+      },
+      "special_attrs": {
+        "crit_rate": 0.109,
+        "dmg_reduce": 0.079,
+        "crit_dmg": 0.219
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:53.457Z"
+    },
+    {
+      "id": "fd272efe",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 99999,
+      "rarity_name": "",
+      "level": 200,
+      "stats": {
+        "attack": 746,
+        "defense": 1519,
+        "speed": 643,
+        "attack_speed": 719,
+        "dodge": 788,
+        "hp": 4337
+      },
+      "special_attrs": {
+        "crit_rate": 0.111,
+        "dmg_reduce": 0.071,
+        "crit_dmg": 0.202,
+        "lifesteal": 0.068,
+        "fire_damage": 23
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:53.530Z"
+    },
+    {
+      "id": "423e4dbb",
+      "name": "🦵荒原猎手护腿",
+      "type": "leggings",
+      "rarity": 3,
+      "rarity_name": "强强",
+      "level": 214,
+      "stats": {
+        "attack": 542,
+        "defense": 872,
+        "speed": 615,
+        "attack_speed": 1131,
+        "dodge": 510,
+        "hp": 1291
+      },
+      "special_attrs": {
+        "counter": 0.062,
+        "defense": 13
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:53.637Z"
+    },
+    {
+      "id": "5c04ab48",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 4,
+      "rarity_name": "？强强？",
+      "level": 200,
+      "stats": {
+        "attack": 556,
+        "defense": 1091,
+        "speed": 580,
+        "attack_speed": 549,
+        "dodge": 633,
+        "hp": 3300
+      },
+      "special_attrs": {
+        "crit_rate": 0.103,
+        "dmg_reduce": 0.076,
+        "lifesteal": 0.06,
+        "exp_bonus": 0.153
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:54.190Z"
+    },
+    {
+      "id": "eb20ccae",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 799,
+        "defense": 642,
+        "speed": 679,
+        "attack_speed": 795,
+        "dodge": 1598,
+        "hp": 2587
+      },
+      "special_attrs": {
+        "crit_rate": 0.114,
+        "crit_dmg": 0.239,
+        "exp_bonus": 0.097,
+        "fire_damage": 13,
+        "lifesteal": 0.051,
+        "coin_bonus": 0.118
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:54.511Z"
+    },
+    {
+      "id": "92e8da8f",
+      "name": "🦵荒原猎手护腿",
+      "type": "leggings",
+      "rarity": 4,
+      "rarity_name": "？强强？",
+      "level": 212,
+      "stats": {
+        "attack": 634,
+        "defense": 770,
+        "speed": 581,
+        "attack_speed": 1105,
+        "dodge": 526,
+        "hp": 1358
+      },
+      "special_attrs": {
+        "counter": 0.063,
+        "dmg_reduce": 0.066,
+        "defense": 13,
+        "hp": 19
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:54.881Z"
+    },
+    {
+      "id": "a74e005b",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 4,
+      "rarity_name": "？强强？",
+      "level": 200,
+      "stats": {
+        "attack": 619,
+        "defense": 1278,
+        "speed": 624,
+        "attack_speed": 591,
+        "dodge": 555,
+        "hp": 3570
+      },
+      "special_attrs": {
+        "crit_rate": 0.108,
+        "dmg_reduce": 0.068,
+        "crit_dmg": 0.258
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:54.913Z"
+    },
+    {
+      "id": "c9b08572",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 695,
+        "defense": 708,
+        "speed": 604,
+        "attack_speed": 735,
+        "dodge": 1390,
+        "hp": 2703
+      },
+      "special_attrs": {
+        "crit_rate": 0.107,
+        "crit_dmg": 0.217,
+        "exp_bonus": 0.088,
+        "coin_bonus": 0.104,
+        "lifesteal": 0.041,
+        "fire_damage": 13
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:55.080Z"
+    },
+    {
+      "id": "a9fe6635",
+      "name": "🦵荒原猎手护腿",
+      "type": "leggings",
+      "rarity": 4,
+      "rarity_name": "？强强？",
+      "level": 225,
+      "stats": {
+        "attack": 560,
+        "defense": 893,
+        "speed": 522,
+        "attack_speed": 1249,
+        "dodge": 599,
+        "hp": 1320
+      },
+      "special_attrs": {
+        "counter": 0.062,
+        "hp": 22,
+        "dmg_reduce": 0.055
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:55.285Z"
+    },
+    {
+      "id": "05e2c12f",
+      "name": "🦵荒原猎手护腿",
+      "type": "leggings",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 215,
+      "stats": {
+        "attack": 609,
+        "defense": 1048,
+        "speed": 693,
+        "attack_speed": 1238,
+        "dodge": 560,
+        "hp": 1551
+      },
+      "special_attrs": {
+        "counter": 0.054,
+        "hp": 23,
+        "dmg_reduce": 0.05,
+        "defense": 10
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:55.348Z"
+    },
+    {
+      "id": "bc6971c2",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 4,
+      "rarity_name": "？强强？",
+      "level": 200,
+      "stats": {
+        "attack": 592,
+        "defense": 665,
+        "speed": 718,
+        "attack_speed": 601,
+        "dodge": 1304,
+        "hp": 2497
+      },
+      "special_attrs": {
+        "crit_rate": 0.105,
+        "crit_dmg": 0.252,
+        "exp_bonus": 0.114,
+        "coin_bonus": 0.111,
+        "fire_damage": 12,
+        "lifesteal": 0.042
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:55.553Z"
+    },
+    {
+      "id": "0bdcab06",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 674,
+        "defense": 742,
+        "speed": 648,
+        "attack_speed": 729,
+        "dodge": 1473,
+        "hp": 2747
+      },
+      "special_attrs": {
+        "crit_rate": 0.09,
+        "crit_dmg": 0.243,
+        "exp_bonus": 0.103,
+        "lifesteal": 0.053
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:55.811Z"
+    },
+    {
+      "id": "1e13cc8f",
+      "name": "🦵荒原猎手护腿",
+      "type": "leggings",
+      "rarity": 1,
+      "rarity_name": "区",
+      "level": 224,
+      "stats": {
+        "attack": 547,
+        "defense": 809,
+        "speed": 526,
+        "attack_speed": 1017,
+        "dodge": 586,
+        "hp": 1072
+      },
+      "special_attrs": {
+        "counter": 0.06
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:56.130Z"
+    },
+    {
+      "id": "0bf6e117",
+      "name": "🦵荒原猎手护腿",
+      "type": "leggings",
+      "rarity": 2,
+      "rarity_name": "强",
+      "level": 230,
+      "stats": {
+        "attack": 534,
+        "defense": 892,
+        "speed": 573,
+        "attack_speed": 1082,
+        "dodge": 561,
+        "hp": 1364
+      },
+      "special_attrs": {
+        "counter": 0.062,
+        "hp": 20,
+        "dmg_reduce": 0.058
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:56.277Z"
+    },
+    {
+      "id": "b518f0b4",
+      "name": "🦵荒原猎手护腿",
+      "type": "leggings",
+      "rarity": 2,
+      "rarity_name": "强",
+      "level": 230,
+      "stats": {
+        "attack": 609,
+        "defense": 774,
+        "speed": 487,
+        "attack_speed": 1096,
+        "dodge": 532,
+        "hp": 1232
+      },
+      "special_attrs": {
+        "counter": 0.063,
+        "dmg_reduce": 0.056,
+        "hp": 19
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:56.482Z"
+    },
+    {
+      "id": "5d42a606",
+      "name": "💫终焉之戒",
+      "type": "accessory",
+      "rarity": 4,
+      "rarity_name": "？强强？",
+      "level": 200,
+      "stats": {
+        "attack": 632,
+        "defense": 676,
+        "speed": 666,
+        "attack_speed": 679,
+        "dodge": 1194,
+        "hp": 2583
+      },
+      "special_attrs": {
+        "crit_rate": 0.114,
+        "crit_dmg": 0.214,
+        "exp_bonus": 0.092,
+        "coin_bonus": 0.1,
+        "fire_damage": 13
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:57.077Z"
+    },
+    {
+      "id": "038e10b7",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 200,
+      "stats": {
+        "attack": 751,
+        "defense": 1497,
+        "speed": 606,
+        "attack_speed": 624,
+        "dodge": 706,
+        "hp": 4135
+      },
+      "special_attrs": {
+        "crit_rate": 0.088,
+        "dmg_reduce": 0.073,
+        "extra_atk": 0.091,
+        "fire_damage": 21,
+        "coin_bonus": 0.127,
+        "lifesteal": 0.048
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:57.107Z"
+    },
+    {
+      "id": "aa6fad1e",
+      "name": "🌌虚空神盔",
+      "type": "helmet",
+      "rarity": 999,
+      "rarity_name": "？强强？！",
+      "level": 200,
+      "stats": {
+        "attack": 596,
+        "defense": 1282,
+        "speed": 593,
+        "attack_speed": 654,
+        "dodge": 603,
+        "hp": 4093
+      },
+      "special_attrs": {
+        "crit_rate": 0.106,
+        "dmg_reduce": 0.088,
+        "coin_bonus": 0.116,
+        "fire_damage": 20
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:57.163Z"
+    },
+    {
+      "id": "f7f04243",
+      "name": "🦵荒原猎手护腿",
+      "type": "leggings",
+      "rarity": 9999,
+      "rarity_name": "？区？！",
+      "level": 214,
+      "stats": {
+        "attack": 684,
+        "defense": 1047,
+        "speed": 560,
+        "attack_speed": 1374,
+        "dodge": 682,
+        "hp": 1475
+      },
+      "special_attrs": {
+        "counter": 0.066,
+        "defense": 11,
+        "hp": 24,
+        "dmg_reduce": 0.052
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": [],
+      "adventure_drop": true,
+      "created_at": "2026-07-11T09:02:57.658Z"
+    },
+    {
+      "id": "c77cba0c",
+      "name": "夏日泳衣",
+      "type": "armor",
+      "rarity": 3,
+      "rarity_name": "强强",
+      "stats": {
+        "attack": 77,
+        "defense": 68,
+        "speed": 146,
+        "attack_speed": 77,
+        "dodge": 85,
+        "hp": 111
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": []
+    },
+    {
+      "id": "55e7e261",
+      "name": "夏日沙滩鞋",
+      "type": "boots",
+      "rarity": 4,
+      "rarity_name": "？强强？",
+      "stats": {
+        "attack": 73,
+        "defense": 75,
+        "speed": 143,
+        "attack_speed": 88,
+        "dodge": 100,
+        "hp": 194
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": []
+    },
+    {
+      "id": "a1127dde",
+      "name": "夏日遮阳帽",
+      "type": "helmet",
+      "rarity": 3,
+      "rarity_name": "强强",
+      "stats": {
+        "attack": 94,
+        "defense": 98,
+        "speed": 95,
+        "attack_speed": 79,
+        "dodge": 83,
+        "hp": 172
+      },
+      "strengthen_count": 0,
+      "max_sockets": 3,
+      "sockets": []
+    }
+  ]
+}

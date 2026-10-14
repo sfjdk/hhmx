@@ -1,0 +1,104 @@
+{
+  "description": "天气和时段系统。时段每1小时轮换，天气每1-3个时段刷新。影响钓鱼和冒险。",
+  "time_periods": [
+    "早上",
+    "中午",
+    "下午",
+    "晚上"
+  ],
+  "weather_types": [
+    "晴天",
+    "多云",
+    "小雨",
+    "大雨",
+    "暴风雨",
+    "雾"
+  ],
+  "weather_effects": {
+    "晴天": {
+      "fish_bonus": 0,
+      "adventure_drop": 0,
+      "desc": "风和日丽",
+      "icon": "☀️"
+    },
+    "多云": {
+      "fish_bonus": -0.02,
+      "adventure_drop": 0,
+      "desc": "云层遮日",
+      "icon": "⛅"
+    },
+    "小雨": {
+      "fish_bonus": 0.03,
+      "adventure_drop": 0.05,
+      "desc": "细雨绵绵",
+      "icon": "🌧️"
+    },
+    "大雨": {
+      "fish_bonus": -0.05,
+      "adventure_drop": 0.03,
+      "desc": "大雨滂沱",
+      "icon": "🌧️"
+    },
+    "暴风雨": {
+      "fish_bonus": -0.12,
+      "adventure_drop": 0,
+      "rare_bonus": 0.15,
+      "desc": "狂风暴雨",
+      "icon": "⛈️"
+    },
+    "雾": {
+      "fish_bonus": 0.02,
+      "adventure_drop": -0.05,
+      "desc": "大雾弥漫",
+      "icon": "🌫️"
+    }
+  },
+  "time_effects": {
+    "早上": {
+      "fish_bonus": 0.02,
+      "adventure_monster_bonus": 0,
+      "adventure_drop": 0.05,
+      "desc": "晨光初现",
+      "icon": "🌅"
+    },
+    "中午": {
+      "fish_bonus": -0.03,
+      "adventure_monster_bonus": 0.05,
+      "desc": "烈日当空",
+      "icon": "☀️"
+    },
+    "下午": {
+      "fish_bonus": 0,
+      "adventure_monster_bonus": 0,
+      "adventure_drop": 0.03,
+      "desc": "日渐西斜",
+      "icon": "🌇"
+    },
+    "晚上": {
+      "fish_bonus": 0.04,
+      "adventure_monster_bonus": 0.1,
+      "desc": "夜幕降临",
+      "icon": "🌙",
+      "dark_monster_bonus": 0.15
+    }
+  },
+  "time_bonus_fish": {
+    "月神鱼": [
+      "晚上"
+    ],
+    "发光鱿鱼": [
+      "晚上",
+      "下午"
+    ],
+    "河神戒指": [
+      "晚上"
+    ],
+    "龙鲤": [
+      "早上",
+      "晚上"
+    ],
+    "金龙鱼": [
+      "中午"
+    ]
+  }
+}

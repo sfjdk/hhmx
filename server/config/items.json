@@ -1,0 +1,5930 @@
+{
+  "description": "禾禾小冒险 全物品整合文件。category: material=材料 ore=矿石 product=产物 fish=鱼 junk=垃圾 shop=商城物品 gem=宝石 special=特殊掉落 consume=消耗品 seed=种子 animal=动物幼崽。",
+  "items": {
+    "铁矿": {
+      "category": "ore",
+      "rarity": 1,
+      "source": "冒险掉落",
+      "use": "锻造武器 / 合成材料"
+    },
+    "铜矿": {
+      "category": "ore",
+      "rarity": 1,
+      "source": "冒险掉落",
+      "use": "锻造武器 / 合成材料"
+    },
+    "银矿": {
+      "category": "ore",
+      "rarity": 2,
+      "source": "冒险掉落",
+      "use": "锻造武器 / 合成材料"
+    },
+    "金矿": {
+      "category": "ore",
+      "rarity": 3,
+      "source": "冒险掉落",
+      "use": "锻造武器 / 合成材料"
+    },
+    "秘银矿": {
+      "category": "ore",
+      "rarity": 4,
+      "source": "冒险稀有掉落",
+      "use": "锻造高级武器 / 合成材料"
+    },
+    "奥金矿": {
+      "category": "ore",
+      "rarity": 999,
+      "source": "冒险稀有掉落",
+      "use": "锻造顶级武器 / 合成材料"
+    },
+    "史莱姆粘液": {
+      "category": "material",
+      "rarity": 1,
+      "source": "击败史莱姆",
+      "use": "锻造材料 / 合成材料"
+    },
+    "狼牙": {
+      "category": "material",
+      "rarity": 1,
+      "source": "击败野狼",
+      "use": "锻造材料 / 附魔材料"
+    },
+    "哥布林耳朵": {
+      "category": "material",
+      "rarity": 1,
+      "source": "击败哥布林",
+      "use": "锻造材料"
+    },
+    "蜘蛛丝": {
+      "category": "material",
+      "rarity": 1,
+      "source": "击败巨型蜘蛛",
+      "use": "锻造材料 / 合成材料"
+    },
+    "骨片": {
+      "category": "material",
+      "rarity": 1,
+      "source": "击败骷髅兵",
+      "use": "锻造材料 / 附魔材料"
+    },
+    "野猪獠牙": {
+      "category": "material",
+      "rarity": 1,
+      "source": "击败野猪",
+      "use": "锻造材料 / 附魔材料"
+    },
+    "水鬼之泪": {
+      "category": "material",
+      "rarity": 1,
+      "source": "击败水鬼",
+      "use": "锻造材料 / 附魔材料"
+    },
+    "石像碎片": {
+      "category": "material",
+      "rarity": 1,
+      "source": "击败石像鬼",
+      "use": "锻造材料 / 附魔材料"
+    },
+    "兔毛": {
+      "category": "material",
+      "rarity": 1,
+      "source": "击败疯狂的兔子",
+      "use": "出售 / 锻造材料"
+    },
+    "盗贼的匕首": {
+      "category": "material",
+      "rarity": 1,
+      "source": "击败盗贼",
+      "use": "出售 / 锻造材料"
+    },
+    "蜂蜜": {
+      "category": "material",
+      "rarity": 1,
+      "source": "蜂蜜采集",
+      "use": "出售 / 烹饪食材 / 合成材料"
+    },
+    "幽灵残渣": {
+      "category": "material",
+      "rarity": 2,
+      "source": "击败幽灵",
+      "use": "锻造材料 / 附魔材料"
+    },
+    "蜥蜴鳞片": {
+      "category": "material",
+      "rarity": 2,
+      "source": "击败石化蜥蜴",
+      "use": "锻造材料 / 附魔材料"
+    },
+    "食人花种子": {
+      "category": "seed",
+      "rarity": 2,
+      "source": "击败食人花",
+      "use": "种植 → 食人花"
+    },
+    "亡灵铁片": {
+      "category": "material",
+      "rarity": 2,
+      "source": "击败铠甲亡灵",
+      "use": "锻造材料 / 附魔材料"
+    },
+    "蛇毒": {
+      "category": "material",
+      "rarity": 2,
+      "source": "击败双头蛇",
+      "use": "锻造材料 / 附魔材料"
+    },
+    "火焰之心": {
+      "category": "material",
+      "rarity": 3,
+      "source": "击败炎魔",
+      "use": "锻造材料 / 附魔材料"
+    },
+    "寒冰核心": {
+      "category": "material",
+      "rarity": 3,
+      "source": "击败冰霜巨人",
+      "use": "锻造材料 / 附魔材料"
+    },
+    "狮鹫羽毛": {
+      "category": "material",
+      "rarity": 3,
+      "source": "击败狮鹫",
+      "use": "锻造材料 / 附魔材料"
+    },
+    "恶魔之角": {
+      "category": "material",
+      "rarity": 4,
+      "source": "击败恶魔统帅",
+      "use": "锻造材料 / 附魔材料"
+    },
+    "龙鳞": {
+      "category": "material",
+      "rarity": 4,
+      "source": "击败远古龙",
+      "use": "锻造材料 / 附魔材料 / 合成材料"
+    },
+    "堕落之羽": {
+      "category": "material",
+      "rarity": 4,
+      "source": "击败堕落天使",
+      "use": "锻造材料 / 附魔材料"
+    },
+    "暗影之尘": {
+      "category": "special",
+      "rarity": 2,
+      "source": "击败暗影刺客(稀有)",
+      "use": "锻造材料 / 附魔材料"
+    },
+    "幸运兔脚": {
+      "category": "adv_gear",
+      "rarity": 2,
+      "source": "商城/合成",
+      "use": "冒险稀有事件率+8%",
+      "durability": 100,
+      "gear_bonus": {
+        "rare_event": 0.08
+      }
+    },
+    "死灵法典": {
+      "category": "special",
+      "rarity": 3,
+      "source": "击败死灵法师(稀有)",
+      "use": "锻造材料"
+    },
+    "古代金币": {
+      "category": "special",
+      "rarity": 3,
+      "source": "老地窖",
+      "use": "出售"
+    },
+    "龙之心": {
+      "category": "special",
+      "rarity": 4,
+      "source": "击败远古龙(稀有)",
+      "use": "锻造传说武器"
+    },
+    "神之碎片": {
+      "category": "special",
+      "rarity": 999,
+      "source": "击败神罚之影(稀有)",
+      "use": "锻造神话武器"
+    },
+    "混沌之鳞": {
+      "category": "special",
+      "rarity": 999,
+      "source": "击败混沌之龙(稀有)",
+      "use": "锻造神话武器"
+    },
+    "诅咒金币": {
+      "category": "special",
+      "rarity": 2,
+      "source": "旧宝箱",
+      "use": "出售/收藏"
+    },
+    "小麦种子": {
+      "category": "seed",
+      "rarity": 1,
+      "source": "农场商城购买",
+      "use": "种植 → 小麦"
+    },
+    "胡萝卜种子": {
+      "category": "seed",
+      "rarity": 1,
+      "source": "农场商城购买",
+      "use": "种植 → 胡萝卜"
+    },
+    "玫瑰花种": {
+      "category": "seed",
+      "rarity": 2,
+      "source": "农场商城购买",
+      "use": "种植 → 玫瑰花束"
+    },
+    "南瓜种子": {
+      "category": "seed",
+      "rarity": 3,
+      "source": "农场商城购买",
+      "use": "种植 → 大南瓜"
+    },
+    "魔法蘑菇孢子": {
+      "category": "seed",
+      "rarity": 4,
+      "source": "农场商城购买",
+      "use": "种植 → 魔法蘑菇"
+    },
+    "小鸡崽": {
+      "category": "animal",
+      "rarity": 1,
+      "source": "农场商城购买",
+      "use": "养殖 → 鸡蛋"
+    },
+    "小羊羔": {
+      "category": "animal",
+      "rarity": 2,
+      "source": "农场商城购买",
+      "use": "养殖 → 羊毛"
+    },
+    "小奶牛": {
+      "category": "animal",
+      "rarity": 3,
+      "source": "农场商城购买",
+      "use": "养殖 → 牛奶"
+    },
+    "小麦": {
+      "category": "product",
+      "rarity": 1,
+      "source": "农场收割",
+      "use": "出售 / 烹饪食材"
+    },
+    "胡萝卜": {
+      "category": "product",
+      "rarity": 1,
+      "source": "农场收割",
+      "use": "出售 / 烹饪食材 / 合成材料"
+    },
+    "玫瑰花束": {
+      "category": "product",
+      "rarity": 2,
+      "source": "农场收割",
+      "use": "出售 / 烹饪食材"
+    },
+    "大南瓜": {
+      "category": "product",
+      "rarity": 3,
+      "source": "农场收割",
+      "use": "出售 / 烹饪食材"
+    },
+    "魔法蘑菇": {
+      "category": "product",
+      "rarity": 4,
+      "source": "农场收割",
+      "use": "出售 / 烹饪食材"
+    },
+    "鸡蛋": {
+      "category": "product",
+      "rarity": 1,
+      "source": "农场收割",
+      "use": "出售 / 烹饪食材"
+    },
+    "羊毛": {
+      "category": "material",
+      "rarity": 2,
+      "source": "农场收割",
+      "use": "出售 / 锻造材料"
+    },
+    "牛奶": {
+      "category": "product",
+      "rarity": 3,
+      "source": "农场收割",
+      "use": "出售 / 烹饪食材"
+    },
+    "小鲫鱼": {
+      "category": "fish",
+      "rarity": 1,
+      "source": "钓鱼",
+      "use": "出售"
+    },
+    "鲤鱼": {
+      "category": "fish",
+      "rarity": 1,
+      "source": "钓鱼",
+      "use": "出售"
+    },
+    "草鱼": {
+      "category": "fish",
+      "rarity": 1,
+      "source": "钓鱼",
+      "use": "出售"
+    },
+    "鳜鱼": {
+      "category": "fish",
+      "rarity": 2,
+      "source": "钓鱼",
+      "use": "出售"
+    },
+    "鲈鱼": {
+      "category": "fish",
+      "rarity": 2,
+      "source": "钓鱼",
+      "use": "出售"
+    },
+    "锦鲤": {
+      "category": "fish",
+      "rarity": 3,
+      "source": "钓鱼",
+      "use": "出售"
+    },
+    "金龙鱼": {
+      "category": "fish",
+      "rarity": 4,
+      "base_price": 800,
+      "source": "钓鱼",
+      "use": "出售"
+    },
+    "河神戒指": {
+      "category": "fish",
+      "rarity": 999,
+      "base_price": 5000,
+      "source": "钓鱼",
+      "use": "出售"
+    },
+    "吉米鱼": {
+      "category": "fish",
+      "rarity": 2,
+      "source": "钓鱼",
+      "use": "出售"
+    },
+    "破鞋子": {
+      "category": "junk",
+      "rarity": 0,
+      "source": "钓鱼",
+      "use": "出售"
+    },
+    "水草": {
+      "category": "junk",
+      "rarity": 0,
+      "source": "钓鱼",
+      "use": "出售"
+    },
+    "空罐头": {
+      "category": "junk",
+      "rarity": 0,
+      "source": "钓鱼",
+      "use": "出售"
+    },
+    "树枝": {
+      "category": "junk",
+      "rarity": 0,
+      "source": "钓鱼",
+      "use": "出售"
+    },
+    "碗": {
+      "category": "junk",
+      "rarity": 0,
+      "source": "钓鱼",
+      "use": "出售"
+    },
+    "经验宝珠(小)": {
+      "category": "consume",
+      "rarity": 1,
+      "source": "商城购买",
+      "use": "使用后获得50经验"
+    },
+    "经验宝珠(中)": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "商城购买",
+      "use": "使用后获得200经验"
+    },
+    "经验宝珠(大)": {
+      "category": "consume",
+      "rarity": 3,
+      "source": "商城购买",
+      "use": "使用后获得500经验"
+    },
+    "技能点书": {
+      "category": "consume",
+      "rarity": 4,
+      "source": "商城购买",
+      "use": "使用后获得1技能点"
+    },
+    "简易的生命药水": {
+      "category": "consume",
+      "rarity": 1,
+      "source": "商城购买",
+      "use": "使用后回复15%生命值"
+    },
+    "神秘药水": {
+      "category": "special",
+      "rarity": 1,
+      "source": "神秘商人",
+      "use": "效果不明的药水"
+    },
+    "力量卷轴": {
+      "category": "special",
+      "rarity": 1,
+      "source": "神秘商人",
+      "use": "临时提升攻击力"
+    },
+    "速度之羽": {
+      "category": "special",
+      "rarity": 2,
+      "source": "神秘商人",
+      "use": "永久提升少许速度"
+    },
+    "幸运硬币": {
+      "category": "special",
+      "rarity": 2,
+      "source": "神秘商人",
+      "use": "下次冒险金币翻倍"
+    },
+    "暗影斗篷": {
+      "category": "special",
+      "rarity": 3,
+      "source": "神秘商人",
+      "use": "提升闪避值"
+    },
+    "凤凰羽毛": {
+      "category": "special",
+      "rarity": 3,
+      "source": "神秘商人",
+      "use": "死亡时自动复活"
+    },
+    "龙鳞碎片": {
+      "category": "special",
+      "rarity": 4,
+      "base_price": 300,
+      "source": "神秘商人",
+      "use": "大幅提升防御"
+    },
+    "天使之泪": {
+      "category": "special",
+      "rarity": 4,
+      "source": "神秘商人",
+      "use": "所有属性提升（每人限用1次）"
+    },
+    "卡密祝福": {
+      "category": "special",
+      "rarity": 999,
+      "source": "神秘商人",
+      "use": "卡密的恩赐"
+    },
+    "混沌核心": {
+      "category": "special",
+      "rarity": 9999,
+      "base_price": 1500,
+      "source": "神秘商人",
+      "use": "蕴含混沌之力"
+    },
+    "玩家改名卡": {
+      "category": "special",
+      "rarity": 3,
+      "source": "合成/商城",
+      "use": "使用后修改玩家名字（1-12字）"
+    },
+    "武器改名卡": {
+      "category": "special",
+      "rarity": 3,
+      "source": "合成获得",
+      "use": "使用后修改锻造武器名字（1-12字）"
+    },
+    "宝石": {
+      "category": "gem",
+      "rarity": 1,
+      "source": "冒险掉落/合成宝石",
+      "use": "镶嵌到武器提升属性"
+    },
+    "神龙碎片": {
+      "category": "material",
+      "rarity": 9999,
+      "source": "击杀神龙",
+      "use": "锻造究极武器"
+    },
+    "滚木": {
+      "category": "junk",
+      "rarity": 0,
+      "source": "钓鱼",
+      "use": "无"
+    },
+    "小丑鱼": {
+      "category": "fish",
+      "rarity": 1,
+      "source": "河流钓鱼",
+      "use": "出售换金币 / 烹饪食材（小丑鱼味噌汤）"
+    },
+    "神之碎屑": {
+      "category": "material",
+      "rarity": 1,
+      "source": "冒险掉落",
+      "use": "出售/合成"
+    },
+    "锻造精魂": {
+      "category": "material",
+      "rarity": 1,
+      "base_price": 50,
+      "source": "冒险掉落 / 神秘商人",
+      "use": "锻造材料(全能) / /使用 获得100锻造经验"
+    },
+    "星之碎片": {
+      "category": "material",
+      "rarity": 1,
+      "source": "冒险掉落",
+      "use": "出售/合成"
+    },
+    "皇家碎片": {
+      "category": "material",
+      "rarity": 1,
+      "source": "冒险掉落",
+      "use": "出售/合成"
+    },
+    "饼干": {
+      "category": "material",
+      "rarity": 1,
+      "source": "冒险掉落",
+      "use": "出售/合成"
+    },
+    "糖果": {
+      "category": "material",
+      "rarity": 1,
+      "source": "冒险掉落",
+      "use": "出售/合成"
+    },
+    "骑士之魂": {
+      "category": "material",
+      "rarity": 4,
+      "source": "冒险掉落",
+      "use": "出售/合成"
+    },
+    "发光鱿鱼": {
+      "category": "fish",
+      "rarity": 1,
+      "source": "钓鱼掉落",
+      "use": "出售/合成"
+    },
+    "河豚": {
+      "category": "fish",
+      "rarity": 1,
+      "source": "钓鱼掉落",
+      "use": "出售/合成"
+    },
+    "煤炭": {
+      "category": "material",
+      "rarity": 1,
+      "source": "冒险掉落",
+      "use": "出售/合成"
+    },
+    "奥创矿": {
+      "category": "ore",
+      "rarity": 3,
+      "source": "冒险掉落",
+      "use": "出售/合成"
+    },
+    "萝莉糖果": {
+      "category": "consume",
+      "rarity": 1,
+      "source": "合成获得",
+      "use": "提升同伴100好感度",
+      "loli_exp": 100
+    },
+    "萝莉蛋糕": {
+      "category": "consume",
+      "rarity": 3,
+      "source": "商城购买",
+      "use": "提升萝莉500好感度",
+      "loli_exp": 500
+    },
+    "萝莉宝石": {
+      "category": "consume",
+      "rarity": 5,
+      "source": "商城购买/神秘商人",
+      "use": "提升萝莉2000好感度",
+      "loli_exp": 2000
+    },
+    "萝莉的谢礼": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "冒险-帮助萝莉",
+      "use": "提升萝莉30好感度",
+      "loli_exp": 30
+    },
+    "感谢信": {
+      "category": "consume",
+      "rarity": 3,
+      "source": "冒险-帮助萝莉",
+      "use": "提升萝莉60好感度",
+      "loli_exp": 60
+    },
+    "星光项链": {
+      "category": "consume",
+      "rarity": 4,
+      "base_price": 200,
+      "source": "冒险-帮助萝莉",
+      "use": "提升萝莉100好感度",
+      "loli_exp": 100
+    },
+    "猫": {
+      "category": "animal",
+      "rarity": 3,
+      "source": "购买",
+      "use": "养猫"
+    },
+    "稻草": {
+      "category": "material",
+      "rarity": 1,
+      "source": "农场副产物",
+      "use": "出售/合成"
+    },
+    "羽毛": {
+      "category": "material",
+      "rarity": 1,
+      "source": "农场副产物",
+      "use": "出售/合成"
+    },
+    "玫瑰花瓣": {
+      "category": "material",
+      "rarity": 2,
+      "source": "农场副产物",
+      "use": "出售/合成"
+    },
+    "奶酪": {
+      "category": "product",
+      "rarity": 2,
+      "source": "农场副产物",
+      "use": "出售/合成"
+    },
+    "猫薄荷": {
+      "category": "material",
+      "rarity": 4,
+      "source": "动物副产物",
+      "use": "出售金币 / 合成材料"
+    },
+    "猫毛": {
+      "category": "product",
+      "rarity": 4,
+      "source": "农场收割",
+      "use": "出售/合成"
+    },
+    "觉醒之石": {
+      "category": "consume",
+      "rarity": 5,
+      "source": "商城购买",
+      "use": "提升萝莉稀有度1级（最高👑神明）",
+      "loli_awaken": true
+    },
+    "婚戒": {
+      "category": "consume",
+      "rarity": 5,
+      "source": "商城购买（限购1次）",
+      "use": "与萝莉结婚的道具（/结婚 时自动消耗）",
+      "marry_ring": true
+    },
+    "神秘鱼饵": {
+      "category": "special",
+      "rarity": 1,
+      "source": "神秘商人",
+      "use": "随机属性的神秘鱼饵，钓鱼时获得随机增益效果"
+    },
+    "碳素鱼竿": {
+      "category": "special",
+      "rarity": 1,
+      "source": "神秘商人",
+      "use": "装备后钓鱼中钩率+5%，幸运+5%"
+    },
+    "大师钓竿": {
+      "category": "special",
+      "rarity": 1,
+      "source": "神秘商人",
+      "use": "装备后钓鱼中钩率+10%，幸运+10%"
+    },
+    "龙纹鱼竿": {
+      "category": "special",
+      "rarity": 1,
+      "source": "神秘商人",
+      "use": "装备后钓鱼中钩率+15%，幸运+20%"
+    },
+    "经验宝珠": {
+      "category": "consume",
+      "rarity": 1,
+      "source": "神秘商人",
+      "use": "使用后获得50经验"
+    },
+    "龙涎香": {
+      "category": "bait",
+      "rarity": 4,
+      "base_price": 800,
+      "source": "神秘商人",
+      "use": "顶级鱼饵，中钩率+10%，稀有+20%（持续消耗）"
+    },
+    "河神之竿": {
+      "category": "rod",
+      "rarity": 999,
+      "base_price": 50000,
+      "source": "神秘商人（极稀有）",
+      "use": "装备后钓鱼中钩率+20%，幸运+35%"
+    },
+    "土豆": {
+      "category": "seed",
+      "rarity": 3,
+      "source": "农场商城购买，或种植",
+      "use": "出售或种植"
+    },
+    "毒土豆": {
+      "category": "material",
+      "rarity": 1,
+      "source": "冒险掉落",
+      "use": "锻造武器 / 合成鱼饵 / 烹饪食材"
+    },
+    "羊蛋子": {
+      "category": "material",
+      "rarity": 1,
+      "source": "冒险掉落",
+      "use": "锻造武器 / 合成鱼饵 / 烹饪食材"
+    },
+    "蜜蜂": {
+      "category": "animal",
+      "rarity": 1,
+      "source": "农场商城购买",
+      "use": "养殖后收获产物"
+    },
+    "蜂王浆": {
+      "category": "material",
+      "rarity": 1,
+      "source": "冒险掉落",
+      "use": "锻造材料 / 合成材料 / 烹饪食材"
+    },
+    "番茄种子": {
+      "category": "seed",
+      "rarity": 1,
+      "source": "农场商城购买",
+      "use": "种植后收获产物"
+    },
+    "番茄": {
+      "category": "product",
+      "rarity": 1,
+      "source": "农场收获",
+      "use": "出售金币 / 合成材料"
+    },
+    "食人花": {
+      "category": "product",
+      "rarity": 1,
+      "source": "农场收获",
+      "use": "出售金币 / 合成材料"
+    },
+    "深海珍珠": {
+      "category": "material",
+      "rarity": 3,
+      "source": "钓鱼稀有掉落",
+      "use": "出售换金币 / 附魔材料"
+    },
+    "人鱼之歌": {
+      "category": "special",
+      "rarity": 4,
+      "source": "钓鱼稀有掉落",
+      "use": "出售换金币（高价值）"
+    },
+    "海神的三叉戟碎片": {
+      "category": "special",
+      "rarity": 999,
+      "source": "钓鱼稀有掉落",
+      "use": "出售换金币（极高价值）/ 锻造传说武器"
+    },
+    "神秘果实": {
+      "category": "consume",
+      "rarity": 3,
+      "source": "钓鱼稀有掉落",
+      "use": "使用后获得随机增益效果"
+    },
+    "宝石碎片": {
+      "category": "material",
+      "rarity": 2,
+      "source": "钓鱼稀有掉落",
+      "use": "锻造材料 / 出售换金币"
+    },
+    "鲶鱼": {
+      "category": "fish",
+      "rarity": 1,
+      "source": "钓鱼",
+      "use": "出售换金币 / 烹饪食材"
+    },
+    "鳊鱼": {
+      "category": "fish",
+      "rarity": 1,
+      "source": "钓鱼",
+      "use": "出售换金币 / 烹饪食材"
+    },
+    "泥鳅": {
+      "category": "fish",
+      "rarity": 1,
+      "source": "钓鱼",
+      "use": "出售换金币 / 烹饪食材"
+    },
+    "鲟鱼": {
+      "category": "fish",
+      "rarity": 2,
+      "source": "钓鱼",
+      "use": "出售换金币 / 烹饪食材"
+    },
+    "虹鳟鱼": {
+      "category": "fish",
+      "rarity": 2,
+      "source": "钓鱼",
+      "use": "出售换金币 / 烹饪食材"
+    },
+    "鳕鱼": {
+      "category": "fish",
+      "rarity": 2,
+      "source": "钓鱼",
+      "use": "出售换金币 / 烹饪食材"
+    },
+    "比目鱼": {
+      "category": "fish",
+      "rarity": 2,
+      "source": "钓鱼",
+      "use": "出售换金币 / 烹饪食材"
+    },
+    "石斑鱼": {
+      "category": "fish",
+      "rarity": 3,
+      "source": "钓鱼",
+      "use": "出售换金币 / 烹饪食材"
+    },
+    "金枪鱼": {
+      "category": "fish",
+      "rarity": 3,
+      "source": "钓鱼",
+      "use": "出售换金币 / 烹饪食材"
+    },
+    "黑鲷鱼": {
+      "category": "fish",
+      "rarity": 3,
+      "source": "钓鱼",
+      "use": "出售换金币 / 烹饪食材"
+    },
+    "鳐鱼": {
+      "category": "fish",
+      "rarity": 3,
+      "source": "钓鱼",
+      "use": "出售换金币 / 烹饪食材"
+    },
+    "月神鱼": {
+      "category": "fish",
+      "rarity": 4,
+      "source": "钓鱼稀有掉落",
+      "use": "出售换金币 / 烹饪高级食材"
+    },
+    "龙鲤": {
+      "category": "fish",
+      "rarity": 4,
+      "source": "钓鱼稀有掉落",
+      "use": "出售换金币 / 烹饪高级食材"
+    },
+    "大米": {
+      "category": "product",
+      "rarity": 1,
+      "source": "农场收获",
+      "use": "出售金币 / 烹饪食材"
+    },
+    "大豆": {
+      "category": "product",
+      "rarity": 1,
+      "source": "农场收获",
+      "use": "出售金币 / 烹饪食材"
+    },
+    "棉花": {
+      "category": "product",
+      "rarity": 2,
+      "source": "农场收获",
+      "use": "出售金币 / 合成材料"
+    },
+    "葡萄": {
+      "category": "product",
+      "rarity": 3,
+      "source": "农场收获",
+      "use": "出售金币 / 烹饪食材 / 酿造"
+    },
+    "葵花籽": {
+      "category": "product",
+      "rarity": 2,
+      "source": "农场收获",
+      "use": "出售金币 / 烹饪食材"
+    },
+    "薄荷": {
+      "category": "product",
+      "rarity": 2,
+      "source": "农场收获",
+      "use": "出售金币 / 烹饪食材 / 制药"
+    },
+    "可可豆": {
+      "category": "product",
+      "rarity": 3,
+      "source": "农场收获",
+      "use": "出售金币 / 烹饪食材"
+    },
+    "蚕丝": {
+      "category": "product",
+      "rarity": 2,
+      "source": "农场收获",
+      "use": "出售金币 / 合成材料"
+    },
+    "马奶": {
+      "category": "product",
+      "rarity": 4,
+      "source": "农场收获",
+      "use": "出售金币 / 烹饪食材"
+    },
+    "桃子": {
+      "category": "product",
+      "rarity": 2,
+      "source": "果树收获",
+      "use": "出售金币 / 烹饪食材"
+    },
+    "柠檬": {
+      "category": "product",
+      "rarity": 2,
+      "source": "果树收获",
+      "use": "出售金币 / 烹饪食材"
+    },
+    "椰子": {
+      "category": "product",
+      "rarity": 3,
+      "source": "果树收获",
+      "use": "出售金币 / 烹饪食材"
+    },
+    "火龙果": {
+      "category": "product",
+      "rarity": 4,
+      "source": "果树收获",
+      "use": "出售金币 / 烹饪食材"
+    },
+    "铁匠之魂": {
+      "category": "material",
+      "rarity": 2,
+      "source": "冒险/活动/BOSS掉落",
+      "use": "铁匠职业升级材料"
+    },
+    "渔夫之魂": {
+      "category": "material",
+      "rarity": 2,
+      "source": "冒险/活动/BOSS掉落",
+      "use": "渔夫职业升级材料"
+    },
+    "农夫之魂": {
+      "category": "material",
+      "rarity": 2,
+      "source": "冒险/活动/BOSS掉落",
+      "use": "农夫职业升级材料"
+    },
+    "厨师之魂": {
+      "category": "material",
+      "rarity": 2,
+      "source": "冒险/活动/BOSS掉落",
+      "use": "厨师职业升级材料"
+    },
+    "药师之魂": {
+      "category": "material",
+      "rarity": 2,
+      "source": "冒险/活动/BOSS掉落",
+      "use": "药师职业升级材料"
+    },
+    "矿工之魂": {
+      "category": "material",
+      "rarity": 2,
+      "source": "冒险/活动/BOSS掉落",
+      "use": "矿工职业升级材料"
+    },
+    "铁匠锤": {
+      "category": "special",
+      "rarity": 2,
+      "source": "铁匠职业解锁",
+      "use": "铁匠专属工具，锻造时额外+1材料效果",
+      "base_price": 500
+    },
+    "淬火油": {
+      "category": "consume",
+      "rarity": 3,
+      "source": "铁匠职业解锁",
+      "use": "锻造强化成功率+10%（一次性消耗）",
+      "base_price": 2000
+    },
+    "百炼钢": {
+      "category": "ore",
+      "rarity": 4,
+      "source": "铁匠职业解锁",
+      "use": "铁匠专属材料，锻造值53+攻8+防8，必出连击",
+      "base_price": 5000
+    },
+    "铁砧之心": {
+      "category": "material",
+      "rarity": 5,
+      "source": "铁匠职业解锁",
+      "use": "传说级锻造台核心，锻造值75+全属性+25%，必出经验加成",
+      "base_price": 10000
+    },
+    "神匠之锤": {
+      "category": "special",
+      "rarity": 999,
+      "source": "铁匠职业解锁",
+      "use": "终极锻造工具，锻造时属性翻倍（一次性消耗）",
+      "base_price": 20000
+    },
+    "渔夫斗笠": {
+      "category": "special",
+      "rarity": 2,
+      "source": "渔夫职业解锁",
+      "use": "渔夫专属装备，钓鱼经验+20%",
+      "base_price": 500
+    },
+    "彩虹鳟鱼": {
+      "category": "fish",
+      "rarity": 2,
+      "source": "渔夫职业专属钓鱼",
+      "use": "出售换金币（500）/ 烹饪食材（彩虹鳟鱼料理）",
+      "base_price": 500
+    },
+    "金鲤鱼": {
+      "category": "fish",
+      "rarity": 3,
+      "base_price": 2000,
+      "source": "渔夫职业专属钓鱼",
+      "use": "出售换金币（2000）"
+    },
+    "月光水母": {
+      "category": "fish",
+      "rarity": 4,
+      "base_price": 2500,
+      "source": "渔夫职业专属钓鱼",
+      "use": "食用永久+20速度（每人限用1次）"
+    },
+    "龙鱼": {
+      "category": "fish",
+      "rarity": 5,
+      "base_price": 5000,
+      "source": "渔夫职业专属钓鱼",
+      "use": "出售价值连城 / 食用后全属性+30（每人限用1次）"
+    },
+    "深海龙鲸": {
+      "category": "fish",
+      "rarity": 999,
+      "base_price": 7500,
+      "source": "渔夫职业专属钓鱼",
+      "use": "出售换金币（7500） / 食用全属性+50（每人限用1次）"
+    },
+    "农夫草帽": {
+      "category": "special",
+      "rarity": 2,
+      "source": "农夫职业解锁",
+      "use": "农夫专属，收获经验+20%",
+      "base_price": 500
+    },
+    "月光小麦种子": {
+      "category": "seed",
+      "rarity": 2,
+      "source": "农夫职业解锁",
+      "use": "种植 → 月光小麦（高价值作物）",
+      "base_price": 500
+    },
+    "月光小麦": {
+      "category": "product",
+      "rarity": 2,
+      "source": "农夫职业种植收获",
+      "use": "出售换金币（高价值）",
+      "base_price": 500
+    },
+    "金色麦穗": {
+      "category": "product",
+      "rarity": 3,
+      "source": "农夫职业收获",
+      "use": "出售换金币（极高价值）",
+      "base_price": 2000
+    },
+    "魔法浆果种子": {
+      "category": "seed",
+      "rarity": 3,
+      "source": "农夫职业解锁",
+      "use": "种植 → 魔法浆果（食用+100经验，每人限用1次）",
+      "base_price": 2000
+    },
+    "魔法浆果": {
+      "category": "product",
+      "rarity": 3,
+      "source": "农夫职业种植收获",
+      "use": "食用获得100经验（每人限用1次）",
+      "base_price": 2000
+    },
+    "生命果实": {
+      "category": "consume",
+      "rarity": 5,
+      "source": "农夫职业收获",
+      "use": "食用永久+20HP（每人限用1次）",
+      "base_price": 10000
+    },
+    "黄金果树苗": {
+      "category": "seed",
+      "rarity": 5,
+      "source": "农夫职业解锁",
+      "use": "种植 → 黄金果实（食用永久+5攻击，每人限用1次）",
+      "base_price": 10000
+    },
+    "黄金果实": {
+      "category": "product",
+      "rarity": 5,
+      "source": "农夫职业种植收获",
+      "use": "食用永久+5攻击（每人限用1次）",
+      "base_price": 10000
+    },
+    "厨师帽": {
+      "category": "special",
+      "rarity": 2,
+      "source": "厨师职业解锁",
+      "use": "厨师专属，烹饪经验+20%",
+      "base_price": 500
+    },
+    "秘制烤鱼": {
+      "category": "food",
+      "rarity": 3,
+      "source": "厨师职业解锁",
+      "use": "食用后全属性+30，持续2小时",
+      "base_price": 2000
+    },
+    "特级寿司": {
+      "category": "food",
+      "rarity": 4,
+      "source": "厨师职业解锁",
+      "use": "食用后暴击率+15%，持续1.5小时",
+      "base_price": 5000
+    },
+    "满汉全席": {
+      "category": "food",
+      "rarity": 5,
+      "source": "厨师职业解锁",
+      "use": "食用后全属性+80，持续4小时",
+      "base_price": 10000
+    },
+    "神之盛宴": {
+      "category": "food",
+      "rarity": 999,
+      "source": "厨师职业解锁",
+      "use": "食用后全属性+200持续8小时+恢复满血",
+      "base_price": 20000
+    },
+    "药师袍": {
+      "category": "special",
+      "rarity": 2,
+      "source": "药师职业解锁",
+      "use": "药师专属，炼药经验+20%",
+      "base_price": 500
+    },
+    "万能解毒药": {
+      "category": "consume",
+      "rarity": 3,
+      "source": "药师职业解锁",
+      "use": "使用后免疫毒系怪物特殊技能5次战斗",
+      "base_price": 2000
+    },
+    "迅捷药水": {
+      "category": "consume",
+      "rarity": 3,
+      "source": "药师职业解锁",
+      "use": "使用后5次战斗速度+80%",
+      "base_price": 2000
+    },
+    "贤者之石": {
+      "category": "material",
+      "rarity": 5,
+      "source": "药师职业解锁/合成",
+      "use": "传说级炼金材料，合成时替代任意材料",
+      "base_price": 10000
+    },
+    "不死鸟之泪": {
+      "category": "consume",
+      "rarity": 999,
+      "source": "药师职业解锁",
+      "use": "使用后死亡时自动复活+满血（1次）",
+      "base_price": 20000
+    },
+    "矿工头盔": {
+      "category": "special",
+      "rarity": 2,
+      "source": "矿工职业解锁",
+      "use": "矿工专属，冒险矿石掉落+15%",
+      "base_price": 500
+    },
+    "磁铁矿": {
+      "category": "ore",
+      "rarity": 2,
+      "source": "矿工职业冒险掉落",
+      "use": "锻造武器（锻造值24，额外+8攻击）",
+      "base_price": 500
+    },
+    "月光石": {
+      "category": "ore",
+      "rarity": 3,
+      "source": "矿工职业冒险掉落",
+      "use": "锻造武器（锻造值32，额外+8闪避）",
+      "base_price": 2000
+    },
+    "熔岩结晶": {
+      "category": "ore",
+      "rarity": 4,
+      "source": "矿工职业冒险掉落",
+      "use": "锻造武器（锻造值38，锻造必出🔥火焰伤害）",
+      "base_price": 5000
+    },
+    "星辰矿": {
+      "category": "ore",
+      "rarity": 5,
+      "source": "矿工职业冒险掉落",
+      "use": "传说级矿石，锻造值48+速度10+闪避5媲美奥金矿",
+      "base_price": 3000
+    },
+    "虚空晶矿": {
+      "category": "ore",
+      "rarity": 999,
+      "source": "矿工职业冒险掉落",
+      "use": "终极矿石，锻造值60+全属性+25%（锻造时消耗）",
+      "base_price": 20000
+    },
+    "黑曜石": {
+      "category": "ore",
+      "rarity": 3,
+      "source": "冒险掉落 / 神秘商人",
+      "use": "锻造武器（防御+40）",
+      "base_price": 3000
+    },
+    "翡翠矿": {
+      "category": "ore",
+      "rarity": 4,
+      "source": "冒险稀有掉落 / 矿工职业（Lv.6）/ 世界BOSS",
+      "use": "锻造武器（生命+45）",
+      "base_price": 5000
+    },
+    "魅影水晶": {
+      "category": "ore",
+      "rarity": 3,
+      "source": "冒险掉落 / 矿工职业",
+      "use": "锻造武器（闪避+38）",
+      "base_price": 3000
+    },
+    "泰坦神铁": {
+      "category": "ore",
+      "rarity": 4,
+      "source": "铁匠职业合成",
+      "use": "铁匠专属，锻造值67+额外防御12",
+      "base_price": 15000
+    },
+    "生命之源": {
+      "category": "consume",
+      "rarity": 999,
+      "source": "药师职业合成",
+      "use": "使用后生命值永久+50（每人限1次）",
+      "base_price": 20000
+    },
+    "幻影晶核": {
+      "category": "ore",
+      "rarity": 999,
+      "source": "冒险传说掉落 / 世界BOSS",
+      "use": "传说级矿石，锻造值60+额外闪避10",
+      "base_price": 15000
+    },
+    "神速之风": {
+      "category": "ore",
+      "rarity": 999,
+      "source": "冒险传说掉落 / 世界BOSS",
+      "use": "传说级矿石，锻造值65+额外速度10",
+      "base_price": 15000
+    },
+    "精炼铁矿": {
+      "category": "ore",
+      "rarity": 2,
+      "source": "铁匠职业合成",
+      "use": "高纯度铁矿（锻造值33）"
+    },
+    "精炼铜矿": {
+      "category": "ore",
+      "rarity": 2,
+      "source": "铁匠职业合成",
+      "use": "高纯度铜矿（锻造值33）"
+    },
+    "精炼银矿": {
+      "category": "ore",
+      "rarity": 3,
+      "source": "铁匠职业合成",
+      "use": "精炼银矿（锻造值48）"
+    },
+    "武器附魔卷轴": {
+      "category": "special",
+      "rarity": 3,
+      "source": "铁匠职业合成",
+      "use": "锻造时使用，武器必出1个特殊属性"
+    },
+    "精炼金矿": {
+      "category": "ore",
+      "rarity": 4,
+      "source": "铁匠职业合成",
+      "use": "精炼金矿（锻造值63，必出暴伤）"
+    },
+    "强化保护符": {
+      "category": "consume",
+      "rarity": 4,
+      "base_price": 300,
+      "source": "铁匠职业合成",
+      "use": "强化失败时不降级（一次性消耗）"
+    },
+    "锻造大师印记": {
+      "category": "special",
+      "rarity": 999,
+      "base_price": 800,
+      "source": "铁匠职业合成",
+      "use": "铁匠终极造物，锻造全属性+40%"
+    },
+    "特制鱼饵": {
+      "category": "bait",
+      "rarity": 2,
+      "source": "渔夫职业合成",
+      "use": "钓鱼成功率+15%"
+    },
+    "荧光鱼饵": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "渔夫职业合成",
+      "use": "合成材料（用于制作高级鱼饵）"
+    },
+    "芳香鱼饵": {
+      "category": "consume",
+      "rarity": 3,
+      "source": "渔夫职业合成",
+      "use": "合成材料（用于制作高级鱼饵和鱼群探测器）"
+    },
+    "捕鱼笼": {
+      "category": "special",
+      "rarity": 3,
+      "source": "渔夫职业合成",
+      "use": "放置后每小时自动获得1-3条鱼"
+    },
+    "渔网": {
+      "category": "special",
+      "rarity": 3,
+      "source": "渔夫职业合成",
+      "use": "一次获2-4条鱼"
+    },
+    "鱼群探测器": {
+      "category": "consume",
+      "rarity": 3,
+      "source": "渔夫职业合成",
+      "use": "下次钓鱼必得稀有以上品质"
+    },
+    "鱼王饵": {
+      "category": "bait",
+      "rarity": 4,
+      "base_price": 1500,
+      "source": "钓鱼饵料合成",
+      "use": "稀有鱼概率+25%（钓鱼消耗品）"
+    },
+    "鱼王之饵": {
+      "category": "consume",
+      "rarity": 4,
+      "source": "渔夫职业合成",
+      "use": "必定钓到稀有以上品质"
+    },
+    "海神钓竿": {
+      "category": "rod",
+      "rarity": 5,
+      "source": "渔夫职业合成",
+      "use": "传说钓竿，钓鱼全属性+30%（永久装备）"
+    },
+    "高效肥料": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "农夫职业合成",
+      "use": "减少生长时间30%"
+    },
+    "快速生长素": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "农夫职业合成",
+      "use": "缩短生长时间20%（消耗品）"
+    },
+    "超级肥料": {
+      "category": "consume",
+      "rarity": 3,
+      "source": "农夫职业合成",
+      "use": "减少生长时间60%"
+    },
+    "丰收护符": {
+      "category": "consume",
+      "rarity": 3,
+      "source": "农夫职业合成",
+      "use": "产量翻倍（消耗品）"
+    },
+    "双倍收获卷轴": {
+      "category": "consume",
+      "rarity": 4,
+      "base_price": 200,
+      "source": "农夫职业合成",
+      "use": "下次收割产量翻倍"
+    },
+    "生命之种": {
+      "category": "consume",
+      "rarity": 4,
+      "base_price": 200,
+      "source": "农夫职业合成",
+      "use": "使用后，下次种植的第一颗作物立即成熟"
+    },
+    "大地祝福": {
+      "category": "consume",
+      "rarity": 5,
+      "base_price": 500,
+      "source": "农夫职业合成",
+      "use": "所有农田立即成熟"
+    },
+    "秘制调味料": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "厨师职业合成",
+      "use": "食物效果+50%"
+    },
+    "保鲜盒": {
+      "category": "special",
+      "rarity": 2,
+      "source": "厨师职业合成",
+      "use": "食物持续+50%"
+    },
+    "急速烹饪石": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "厨师职业合成",
+      "use": "烹饪时间减半（消耗品）"
+    },
+    "黄金调味料": {
+      "category": "consume",
+      "rarity": 4,
+      "base_price": 300,
+      "source": "厨师职业合成",
+      "use": "食物效果翻倍"
+    },
+    "龙肉盛宴": {
+      "category": "consume",
+      "rarity": 4,
+      "source": "厨师职业合成",
+      "use": "食用后全属性+100，持续4小时"
+    },
+    "大厨勋章": {
+      "category": "special",
+      "rarity": 5,
+      "base_price": 800,
+      "source": "厨师职业合成",
+      "use": "所有烹饪效果+150%（永久装备）"
+    },
+    "强力治疗药水": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "药师职业合成",
+      "use": "使用后立即回复40%生命值"
+    },
+    "力量药剂": {
+      "category": "consume",
+      "rarity": 3,
+      "source": "药师职业合成",
+      "use": "5次战斗攻击+50%"
+    },
+    "护盾药剂": {
+      "category": "consume",
+      "rarity": 3,
+      "source": "药师职业合成",
+      "use": "5次战斗防御翻倍"
+    },
+    "大经验药水（强化）": {
+      "category": "consume",
+      "rarity": 3,
+      "source": "药师职业合成",
+      "use": "获得1500经验"
+    },
+    "暴击药剂": {
+      "category": "consume",
+      "rarity": 3,
+      "source": "药师职业合成",
+      "use": "5次战斗暴击率+30%"
+    },
+    "全能药剂": {
+      "category": "consume",
+      "rarity": 4,
+      "source": "药师职业合成",
+      "use": "5次战斗全属性+40%"
+    },
+    "经验圣水": {
+      "category": "consume",
+      "rarity": 4,
+      "source": "药师职业合成",
+      "use": "立即获得3000经验"
+    },
+    "矿工镐": {
+      "category": "special",
+      "rarity": 2,
+      "source": "矿工职业合成",
+      "use": "矿工专属，接下来10次冒险额外获得矿石"
+    },
+    "精炼煤炭": {
+      "category": "ore",
+      "rarity": 2,
+      "source": "矿工职业合成",
+      "use": "可替代任意矿石（锻造值25，全能）"
+    },
+    "矿石探测器": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "矿工职业合成",
+      "use": "接下来10次冒险矿石掉落翻倍（消耗品）"
+    },
+    "探矿罗盘": {
+      "category": "consume",
+      "rarity": 3,
+      "source": "矿工职业合成",
+      "use": "接下来10次冒险必遇奥创矿脉"
+    },
+    "矿脉之心": {
+      "category": "ore",
+      "rarity": 4,
+      "source": "矿工职业合成",
+      "use": "锻造值65（全能），超越奥金矿"
+    },
+    "矿脉炸弹": {
+      "category": "consume",
+      "rarity": 4,
+      "base_price": 300,
+      "source": "矿工职业合成",
+      "use": "接下来10次冒险必遇奥创矿脉且掉落翻倍"
+    },
+    "大地核心": {
+      "category": "ore",
+      "rarity": 5,
+      "source": "铁匠职业合成",
+      "use": "锻造时代替任意6个材料（锻造值126+全属性+20%，必出暴伤）"
+    },
+    "经验药水": {
+      "category": "consume",
+      "rarity": 1,
+      "source": "合成获得",
+      "use": "使用后获得300经验"
+    },
+    "大经验药水": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "合成获得",
+      "use": "使用后获得800经验"
+    },
+    "技能点药水": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "合成获得",
+      "use": "使用后获得2技能点"
+    },
+    "背包扩容符": {
+      "category": "consume",
+      "rarity": 4,
+      "source": "合成获得",
+      "use": "所有农场类型+1（上限各12个）"
+    },
+    "果树催熟剂": {
+      "category": "consume",
+      "rarity": 1,
+      "source": "合成获得",
+      "use": "使用后立即让一棵果树成熟"
+    },
+    "改名卡": {
+      "category": "special",
+      "rarity": 3,
+      "source": "合成获得",
+      "use": "使用后修改玩家名字（1-12字）"
+    },
+    "转职卡": {
+      "category": "special",
+      "rarity": 5,
+      "source": "合成获得",
+      "use": "重置职业等级为Lv.1，返还50%升级材料"
+    },
+    "烤鱼": {
+      "category": "food",
+      "rarity": 1,
+      "source": "烹饪获得",
+      "use": "食用后攻击力+15（30分钟）"
+    },
+    "苹果派": {
+      "category": "food",
+      "rarity": 1,
+      "source": "烹饪获得",
+      "use": "食用后经验获取+10%（60分钟）"
+    },
+    "烤肉大餐": {
+      "category": "food",
+      "rarity": 2,
+      "source": "烹饪获得",
+      "use": "食用后攻击力+30（60分钟）"
+    },
+    "蔬菜沙拉": {
+      "category": "food",
+      "rarity": 1,
+      "source": "烹饪获得",
+      "use": "食用后防御力+20（30分钟）"
+    },
+    "蜂蜜橙汁": {
+      "category": "food",
+      "rarity": 2,
+      "source": "烹饪获得",
+      "use": "食用后速度+15（45分钟）"
+    },
+    "樱桃蛋糕": {
+      "category": "food",
+      "rarity": 3,
+      "source": "烹饪获得",
+      "use": "食用后经验获取+25%（120分钟）"
+    },
+    "魔力果汁": {
+      "category": "food",
+      "rarity": 4,
+      "source": "烹饪获得",
+      "use": "食用后攻击力+60（120分钟）"
+    },
+    "矿石炖汤": {
+      "category": "food",
+      "rarity": 3,
+      "source": "烹饪获得",
+      "use": "食用后防御力+50（60分钟）"
+    },
+    "海味大餐": {
+      "category": "food",
+      "rarity": 3,
+      "source": "烹饪获得",
+      "use": "食用后攻击力+45（90分钟）"
+    },
+    "全能盛宴": {
+      "category": "food",
+      "rarity": 999,
+      "source": "烹饪获得",
+      "use": "终极料理！全属性+50（240分钟）"
+    },
+    "烤鲶鱼": {
+      "category": "food",
+      "rarity": 1,
+      "source": "烹饪获得",
+      "use": "食用后攻击力+12（25分钟）"
+    },
+    "鳕鱼排": {
+      "category": "food",
+      "rarity": 2,
+      "source": "烹饪获得",
+      "use": "食用后攻击力+35（60分钟）"
+    },
+    "刺身拼盘": {
+      "category": "food",
+      "rarity": 3,
+      "source": "烹饪获得",
+      "use": "食用后攻击力+55（90分钟）"
+    },
+    "月神鱼汤": {
+      "category": "food",
+      "rarity": 4,
+      "source": "烹饪获得",
+      "use": "食用后经验+30%（120分钟）"
+    },
+    "龙鲤天妇罗": {
+      "category": "food",
+      "rarity": 4,
+      "source": "烹饪获得",
+      "use": "食用后全属性+30（90分钟）"
+    },
+    "豆浆": {
+      "category": "food",
+      "rarity": 1,
+      "source": "烹饪获得",
+      "use": "食用后防御力+15（30分钟）"
+    },
+    "葡萄酒": {
+      "category": "food",
+      "rarity": 3,
+      "source": "烹饪获得",
+      "use": "食用后速度+25（60分钟）"
+    },
+    "桃子派": {
+      "category": "food",
+      "rarity": 2,
+      "source": "烹饪获得",
+      "use": "食用后经验获取+15%（60分钟）"
+    },
+    "柠檬烤鱼": {
+      "category": "food",
+      "rarity": 2,
+      "source": "烹饪获得",
+      "use": "食用后攻击力+25（45分钟）"
+    },
+    "椰子炖奶": {
+      "category": "food",
+      "rarity": 3,
+      "source": "烹饪获得",
+      "use": "食用后防御力+40（90分钟）"
+    },
+    "巧克力": {
+      "category": "food",
+      "rarity": 3,
+      "source": "烹饪获得",
+      "use": "食用后速度+20（60分钟）"
+    },
+    "麻辣鱼片": {
+      "category": "food",
+      "rarity": 2,
+      "source": "烹饪获得",
+      "use": "食用后攻击力+28（45分钟）"
+    },
+    "水果沙拉": {
+      "category": "food",
+      "rarity": 2,
+      "source": "烹饪获得",
+      "use": "食用后速度+18（45分钟）"
+    },
+    "海鲜浓汤": {
+      "category": "food",
+      "rarity": 3,
+      "source": "烹饪获得",
+      "use": "食用后防御力+45（90分钟）"
+    },
+    "棉花糖": {
+      "category": "food",
+      "rarity": 2,
+      "source": "烹饪获得",
+      "use": "食用后速度+15（30分钟）"
+    },
+    "烤猪肉串": {
+      "category": "food",
+      "rarity": 2,
+      "source": "烹饪获得",
+      "use": "食用后攻击力+32（60分钟）"
+    },
+    "火龙果冰沙": {
+      "category": "food",
+      "rarity": 4,
+      "source": "烹饪获得",
+      "use": "食用后全属性+20（60分钟）"
+    },
+    "火焰精华": {
+      "category": "material",
+      "rarity": 3,
+      "source": "神秘商人购买",
+      "use": "锻造材料（攻击+18）"
+    },
+    "寒冰碎片": {
+      "category": "material",
+      "rarity": 3,
+      "source": "神秘商人购买",
+      "use": "锻造材料（防御+18）"
+    },
+    "大地结晶": {
+      "category": "material",
+      "rarity": 3,
+      "source": "神秘商人购买",
+      "use": "锻造材料（生命+18）"
+    },
+    "风之羽毛": {
+      "category": "material",
+      "rarity": 3,
+      "source": "神秘商人购买",
+      "use": "锻造材料（速度+18）"
+    },
+    "精炼石": {
+      "category": "consume",
+      "rarity": 3,
+      "source": "神秘商人购买",
+      "use": "使用后提升一把锻造武器的稀有度1级（攻击时选择目标武器）"
+    },
+    "生命药剂": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "神秘商人购买",
+      "use": "使用后立即恢复30%生命值"
+    },
+    "大生命药剂": {
+      "category": "consume",
+      "rarity": 3,
+      "source": "神秘商人购买",
+      "use": "使用后立即恢复60%生命值"
+    },
+    "草莓种子": {
+      "category": "seed",
+      "rarity": 2,
+      "source": "农场商城购买",
+      "use": "种植 → 草莓"
+    },
+    "玉米种子": {
+      "category": "seed",
+      "rarity": 1,
+      "source": "农场商城购买",
+      "use": "种植 → 玉米"
+    },
+    "辣椒种子": {
+      "category": "seed",
+      "rarity": 2,
+      "source": "农场商城购买",
+      "use": "种植 → 辣椒"
+    },
+    "水稻种子": {
+      "category": "seed",
+      "rarity": 1,
+      "source": "农场商城购买",
+      "use": "种植 → 大米"
+    },
+    "大豆种子": {
+      "category": "seed",
+      "rarity": 1,
+      "source": "农场商城购买",
+      "use": "种植 → 大豆"
+    },
+    "棉花种子": {
+      "category": "seed",
+      "rarity": 2,
+      "source": "农场商城购买",
+      "use": "种植 → 棉花"
+    },
+    "葡萄种子": {
+      "category": "seed",
+      "rarity": 3,
+      "source": "农场商城购买",
+      "use": "种植 → 葡萄"
+    },
+    "向日葵种子": {
+      "category": "seed",
+      "rarity": 2,
+      "source": "农场商城购买",
+      "use": "种植 → 葵花籽"
+    },
+    "薄荷种子": {
+      "category": "seed",
+      "rarity": 2,
+      "source": "农场商城购买",
+      "use": "种植 → 薄荷"
+    },
+    "可可种子": {
+      "category": "seed",
+      "rarity": 3,
+      "source": "农场商城购买",
+      "use": "种植 → 可可豆"
+    },
+    "小鸭子": {
+      "category": "animal",
+      "rarity": 1,
+      "source": "农场商城购买",
+      "use": "养殖 → 鸭蛋"
+    },
+    "小猪": {
+      "category": "animal",
+      "rarity": 2,
+      "source": "农场商城购买",
+      "use": "养殖 → 猪肉"
+    },
+    "小兔子": {
+      "category": "animal",
+      "rarity": 1,
+      "source": "农场商城购买",
+      "use": "养殖 → 兔毛"
+    },
+    "蚕宝宝": {
+      "category": "animal",
+      "rarity": 2,
+      "source": "农场商城购买",
+      "use": "养殖 → 蚕丝"
+    },
+    "小马驹": {
+      "category": "animal",
+      "rarity": 4,
+      "source": "农场商城购买",
+      "use": "养殖 → 马奶"
+    },
+    "铁矿种子": {
+      "category": "seed",
+      "rarity": 2,
+      "source": "材料农场购买",
+      "use": "种植 → 铁矿"
+    },
+    "银矿种子": {
+      "category": "seed",
+      "rarity": 3,
+      "source": "材料农场购买",
+      "use": "种植 → 银矿"
+    },
+    "金矿种子": {
+      "category": "seed",
+      "rarity": 4,
+      "source": "材料农场购买",
+      "use": "种植 → 金矿"
+    },
+    "附魔草种子": {
+      "category": "seed",
+      "rarity": 3,
+      "source": "材料农场购买",
+      "use": "种植 → 附魔石"
+    },
+    "水晶花种": {
+      "category": "seed",
+      "rarity": 4,
+      "source": "材料农场购买",
+      "use": "种植 → 宝石碎片"
+    },
+    "史莱姆种子": {
+      "category": "seed",
+      "rarity": 2,
+      "source": "材料农场购买",
+      "use": "种植 → 史莱姆粘液"
+    },
+    "秘银种子": {
+      "category": "seed",
+      "rarity": 4,
+      "source": "材料农场购买",
+      "use": "种植 → 秘银矿"
+    },
+    "龙鳞种子": {
+      "category": "seed",
+      "rarity": 999,
+      "source": "材料农场购买",
+      "use": "种植 → 神龙碎片"
+    },
+    "苹果树苗": {
+      "category": "seed",
+      "rarity": 1,
+      "source": "果树农场购买",
+      "use": "种植 → 苹果（每日收获）"
+    },
+    "橙子树苗": {
+      "category": "seed",
+      "rarity": 2,
+      "source": "果树农场购买",
+      "use": "种植 → 橙子（每日收获）"
+    },
+    "樱桃树苗": {
+      "category": "seed",
+      "rarity": 3,
+      "source": "果树农场购买",
+      "use": "种植 → 樱桃（每日收获）"
+    },
+    "魔力果树苗": {
+      "category": "seed",
+      "rarity": 4,
+      "source": "果树农场购买",
+      "use": "种植 → 魔力果（每日收获）"
+    },
+    "桃子树苗": {
+      "category": "seed",
+      "rarity": 2,
+      "source": "果树农场购买",
+      "use": "种植 → 桃子（每日收获）"
+    },
+    "柠檬树苗": {
+      "category": "seed",
+      "rarity": 2,
+      "source": "果树农场购买",
+      "use": "种植 → 柠檬（每日收获）"
+    },
+    "椰子树苗": {
+      "category": "seed",
+      "rarity": 3,
+      "source": "果树农场购买",
+      "use": "种植 → 椰子（每日收获）"
+    },
+    "火龙果树苗": {
+      "category": "seed",
+      "rarity": 4,
+      "source": "果树农场购买",
+      "use": "种植 → 火龙果（每日收获）"
+    },
+    "草莓": {
+      "category": "product",
+      "rarity": 2,
+      "source": "农场收割",
+      "use": "出售/合成/烹饪食材"
+    },
+    "玉米": {
+      "category": "product",
+      "rarity": 1,
+      "source": "农场收割",
+      "use": "出售/合成/烹饪食材"
+    },
+    "辣椒": {
+      "category": "product",
+      "rarity": 2,
+      "source": "农场收割",
+      "use": "出售/合成/烹饪食材"
+    },
+    "苹果": {
+      "category": "product",
+      "rarity": 1,
+      "source": "果树收获/神秘商人",
+      "use": "出售/烹饪食材（苹果派）"
+    },
+    "橙子": {
+      "category": "product",
+      "rarity": 2,
+      "source": "果树收获",
+      "use": "出售/合成/烹饪食材"
+    },
+    "樱桃": {
+      "category": "product",
+      "rarity": 3,
+      "source": "果树收获",
+      "use": "出售/合成/烹饪食材"
+    },
+    "魔力果": {
+      "category": "product",
+      "rarity": 4,
+      "source": "果树收获",
+      "use": "出售/合成/烹饪食材"
+    },
+    "鸭蛋": {
+      "category": "product",
+      "rarity": 1,
+      "source": "农场收割",
+      "use": "出售/合成/烹饪食材"
+    },
+    "猪肉": {
+      "category": "product",
+      "rarity": 2,
+      "source": "农场收割",
+      "use": "出售/合成/烹饪食材"
+    },
+    "冒险者护符": {
+      "category": "adv_gear",
+      "rarity": 2,
+      "source": "商城/合成",
+      "use": "冒险掉落率+5%",
+      "durability": 100,
+      "gear_bonus": {
+        "drop": 0.05
+      }
+    },
+    "战士勋章": {
+      "category": "adv_gear",
+      "rarity": 3,
+      "source": "商城/合成",
+      "use": "冒险战斗经验+15%",
+      "durability": 100,
+      "gear_bonus": {
+        "exp": 0.15
+      }
+    },
+    "探宝罗盘": {
+      "category": "adv_gear",
+      "rarity": 3,
+      "source": "商城/合成",
+      "use": "冒险宝箱金币+20%",
+      "durability": 100,
+      "gear_bonus": {
+        "coin": 0.2
+      }
+    },
+    "勇气纹章": {
+      "category": "adv_gear",
+      "rarity": 4,
+      "source": "商城/合成",
+      "use": "冒险精英怪概率+50%",
+      "durability": 100,
+      "gear_bonus": {
+        "elite_resist": -0.5
+      }
+    },
+    "探险家背包": {
+      "category": "adv_gear",
+      "rarity": 4,
+      "source": "商城/合成",
+      "use": "冒险全加成：掉率+3% 经验+8% 金币+8%",
+      "durability": 100,
+      "gear_bonus": {
+        "drop": 0.03,
+        "exp": 0.08,
+        "coin": 0.08
+      }
+    },
+    "精钢鱼钩": {
+      "category": "consume",
+      "rarity": 3,
+      "source": "铁匠职业合成（联动渔夫）",
+      "use": "钓鱼稀有率+10%（20次钓鱼）"
+    },
+    "鲜鱼食材包": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "渔夫职业合成（联动厨师）",
+      "use": "下次烹饪效果翻倍"
+    },
+    "活力便当": {
+      "category": "consume",
+      "rarity": 3,
+      "source": "厨师职业合成（联动农夫）",
+      "use": "5次战斗全属性+25%"
+    },
+    "锻造催化剂": {
+      "category": "consume",
+      "rarity": 3,
+      "source": "药师职业合成（联动铁匠）",
+      "use": "下次锻造失败率-15%"
+    },
+    "护体矿石": {
+      "category": "consume",
+      "rarity": 3,
+      "source": "矿工职业合成（联动药师）",
+      "use": "5次战斗减伤+10%"
+    },
+    "混沌原矿": {
+      "category": "ore",
+      "rarity": 999,
+      "source": "矿工职业合成",
+      "use": "矿工终极矿石，锻造值150+全属性+25%",
+      "base_price": 50000
+    },
+    "转职证明": {
+      "category": "special",
+      "rarity": 5,
+      "source": "活动商店",
+      "use": "可重置一次职业（保留等级），使用后获得转职卡",
+      "base_price": 30000
+    },
+    "蜜汁烤鸡": {
+      "category": "food",
+      "rarity": 2,
+      "source": "烹饪获得",
+      "use": "食用后生命+60，持续60分钟"
+    },
+    "辣椒炒肉": {
+      "category": "food",
+      "rarity": 2,
+      "source": "烹饪获得",
+      "use": "食用后攻速+15，持续40分钟"
+    },
+    "鱼子酱": {
+      "category": "food",
+      "rarity": 3,
+      "source": "烹饪获得",
+      "use": "珍贵的鱼子酱，奢华享受。暴击率+12%（60回合）"
+    },
+    "蘑菇浓汤": {
+      "category": "food",
+      "rarity": 2,
+      "source": "烹饪获得",
+      "use": "加了魔法蘑菇的浓汤，头脑清醒。经验+18%（60回合）"
+    },
+    "牛肉炖土豆": {
+      "category": "food",
+      "rarity": 2,
+      "source": "烹饪获得",
+      "use": "食用后防御+25，持续50分钟"
+    },
+    "草莓蛋糕": {
+      "category": "food",
+      "rarity": 3,
+      "source": "烹饪获得",
+      "use": "食用后全属性+30，持续90分钟"
+    },
+    "烤玉米": {
+      "category": "food",
+      "rarity": 1,
+      "source": "烹饪获得",
+      "use": "食用后攻击+10，持续20分钟"
+    },
+    "可可热饮": {
+      "category": "food",
+      "rarity": 2,
+      "source": "烹饪获得",
+      "use": "食用后速度+25，持续45分钟"
+    },
+    "薄荷茶": {
+      "category": "food",
+      "rarity": 1,
+      "source": "烹饪获得",
+      "use": "食用后闪避+0.08，持续30分钟"
+    },
+    "龙鳞饺子": {
+      "category": "food",
+      "rarity": 4,
+      "source": "烹饪获得",
+      "use": "食用后全属性+60，持续120分钟"
+    },
+    "海鲜拼盘": {
+      "category": "food",
+      "rarity": 3,
+      "source": "烹饪获得",
+      "use": "三种海鲜精心拼制。经验+25%（60回合）"
+    },
+    "南瓜派": {
+      "category": "food",
+      "rarity": 2,
+      "source": "烹饪获得",
+      "use": "食用后生命+80，持续60分钟"
+    },
+    "葵花籽饼干": {
+      "category": "food",
+      "rarity": 1,
+      "source": "烹饪获得",
+      "use": "食用后攻速+8，持续30分钟"
+    },
+    "大米饭": {
+      "category": "food",
+      "rarity": 1,
+      "source": "烹饪获得",
+      "use": "食用后生命+30，持续30分钟"
+    },
+    "奶酪拼盘": {
+      "category": "food",
+      "rarity": 2,
+      "source": "烹饪获得",
+      "use": "食用后防御+20，持续40分钟"
+    },
+    "蜂王浆蜜水": {
+      "category": "food",
+      "rarity": 3,
+      "source": "烹饪获得",
+      "use": "蜂王浆与蜂蜜的完美融合。经验+20%（60回合）"
+    },
+    "咸鸭蛋": {
+      "category": "food",
+      "rarity": 1,
+      "source": "烹饪获得",
+      "use": "食用后攻击+12，持续30分钟"
+    },
+    "马奶酒": {
+      "category": "food",
+      "rarity": 2,
+      "source": "烹饪获得",
+      "use": "食用后速度+30，持续45分钟"
+    },
+    "玫瑰花茶": {
+      "category": "food",
+      "rarity": 2,
+      "source": "烹饪获得",
+      "use": "食用后闪避+0.1，持续45分钟"
+    },
+    "猫薄荷茶": {
+      "category": "food",
+      "rarity": 2,
+      "source": "烹饪获得",
+      "use": "食用后速度+35，持续30分钟"
+    },
+    "毒土豆炖肉": {
+      "category": "food",
+      "rarity": 3,
+      "source": "烹饪获得",
+      "use": "食用后攻击+50，持续60分钟"
+    },
+    "食人花沙拉": {
+      "category": "food",
+      "rarity": 3,
+      "source": "烹饪获得",
+      "use": "食用后全属性+25，持续50分钟"
+    },
+    "清蒸鳜鱼": {
+      "category": "food",
+      "rarity": 2,
+      "source": "烹饪获得",
+      "use": "食用后生命+50，持续40分钟"
+    },
+    "锦鲤寿司": {
+      "category": "food",
+      "rarity": 3,
+      "source": "烹饪获得",
+      "use": "食用后全属性+20，持续60分钟"
+    },
+    "金龙鱼汤": {
+      "category": "food",
+      "rarity": 4,
+      "source": "烹饪获得",
+      "use": "食用后全属性+45，持续90分钟"
+    },
+    "河豚刺身": {
+      "category": "food",
+      "rarity": 4,
+      "source": "烹饪获得",
+      "use": "顶级河豚刺身，鲜美至极。暴击率+18%（60回合）"
+    },
+    "干炸泥鳅": {
+      "category": "food",
+      "rarity": 1,
+      "source": "烹饪获得",
+      "use": "食用后攻击+20，持续30分钟"
+    },
+    "虹鳟鱼排": {
+      "category": "food",
+      "rarity": 2,
+      "source": "烹饪获得",
+      "use": "食用后攻速+12，持续40分钟"
+    },
+    "比目鱼寿司": {
+      "category": "food",
+      "rarity": 2,
+      "source": "烹饪获得",
+      "use": "食用后闪避+0.12，持续40分钟"
+    },
+    "鳐鱼翅羹": {
+      "category": "food",
+      "rarity": 3,
+      "source": "烹饪获得",
+      "use": "食用后防御+35，持续60分钟"
+    },
+    "吉米鱼干": {
+      "category": "food",
+      "rarity": 1,
+      "source": "烹饪获得",
+      "use": "食用后攻击+8，持续20分钟"
+    },
+    "红烧鳊鱼": {
+      "category": "food",
+      "rarity": 1,
+      "source": "烹饪获得",
+      "use": "食用后生命+40，持续40分钟"
+    },
+    "小丑鱼味噌汤": {
+      "category": "food",
+      "rarity": 2,
+      "source": "烹饪获得",
+      "use": "食用后速度+20，持续45分钟"
+    },
+    "羊蛋子炒饭": {
+      "category": "food",
+      "rarity": 2,
+      "source": "烹饪获得",
+      "use": "食用后攻速+10，持续40分钟"
+    },
+    "幸运兔脚汤": {
+      "category": "food",
+      "rarity": 3,
+      "source": "烹饪获得",
+      "use": "据说喝了会有好运的汤。暴击率+15%（50回合）"
+    },
+    "玫瑰花瓣糕": {
+      "category": "food",
+      "rarity": 2,
+      "source": "烹饪获得",
+      "use": "食用后闪避+0.08，持续45分钟"
+    },
+    "鸭蛋面": {
+      "category": "food",
+      "rarity": 1,
+      "source": "烹饪获得",
+      "use": "食用后生命+35，持续30分钟"
+    },
+    "奶酪焗饭": {
+      "category": "food",
+      "rarity": 2,
+      "source": "烹饪获得",
+      "use": "食用后防御+25，持续50分钟"
+    },
+    "蜂王浆面包": {
+      "category": "food",
+      "rarity": 2,
+      "source": "烹饪获得",
+      "use": "蜂王浆加入面团烤制的面包。经验+22%（60回合）"
+    },
+    "彩虹鳟鱼料理": {
+      "category": "food",
+      "rarity": 2,
+      "source": "烹饪获得",
+      "use": "食用后全属性+15，持续60分钟"
+    },
+    "清明柳枝": {
+      "category": "special",
+      "rarity": 2,
+      "source": "节气活动-清明",
+      "use": "冒险掉率+5%（持续1小时）"
+    },
+    "夏至凉符": {
+      "category": "special",
+      "rarity": 2,
+      "source": "节气活动-夏至",
+      "use": "战斗减伤+5%（持续1小时）"
+    },
+    "白露凝珠": {
+      "category": "special",
+      "rarity": 3,
+      "source": "节气活动-白露",
+      "use": "下次制药效果翻倍"
+    },
+    "菊花酿": {
+      "category": "food",
+      "rarity": 2,
+      "source": "节气活动-寒露",
+      "use": "食用后全属性+15（持续30分钟）"
+    },
+    "雪莲花": {
+      "category": "consume",
+      "rarity": 3,
+      "source": "节气活动-大雪",
+      "use": "使用后永久+10HP"
+    },
+    "冬至暖符": {
+      "category": "special",
+      "rarity": 3,
+      "source": "节气活动-冬至",
+      "use": "全属性+20（持续2小时）"
+    },
+    "岁末礼盒": {
+      "category": "consume",
+      "rarity": 4,
+      "source": "节气活动-大寒",
+      "use": "使用后获得随机珍稀物品"
+    },
+    "古代银币": {
+      "category": "material",
+      "rarity": 1,
+      "source": "废墟探险",
+      "use": "出售换金币"
+    },
+    "火把": {
+      "category": "material",
+      "rarity": 0,
+      "source": "废墟探险",
+      "use": "废墟中照明使用"
+    },
+    "丝绸": {
+      "category": "product",
+      "rarity": 1,
+      "source": "废墟探险",
+      "use": "出售换金币"
+    },
+    "香料": {
+      "category": "material",
+      "rarity": 1,
+      "source": "废墟探险",
+      "use": "出售换金币/烹饪材料"
+    },
+    "废墟探索卷轴": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "合成/商城",
+      "use": "通用探索券，可进入任意废墟一次"
+    },
+    "哥布林巢穴探索卷轴": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "冒险掉落",
+      "use": "使用后可进入哥布林巢穴探险一次"
+    },
+    "古代墓穴探索卷轴": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "冒险掉落",
+      "use": "使用后可进入老墓穴探险一次"
+    },
+    "水晶洞穴探索卷轴": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "冒险掉落",
+      "use": "使用后可进入水晶洞探险一次"
+    },
+    "鬼影城堡探索卷轴": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "冒险掉落",
+      "use": "使用后可进入旧城堡探险一次"
+    },
+    "遗忘神庙探索卷轴": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "冒险掉落",
+      "use": "使用后可进入旧庙宇探险一次"
+    },
+    "诅咒沉船探索卷轴": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "冒险掉落",
+      "use": "使用后可进入沉船探险一次"
+    },
+    "龙巢遗迹探索卷轴": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "冒险掉落",
+      "use": "使用后可进入蛇窝遗迹探险一次"
+    },
+    "虚空裂隙探索卷轴": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "冒险掉落",
+      "use": "使用后可进入大地裂缝探险一次"
+    },
+    "时光废墟探索卷轴": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "冒险掉落",
+      "use": "可进入对应的废墟探险"
+    },
+    "龙神废墟探索卷轴": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "冒险掉落",
+      "use": "可进入对应的废墟探险"
+    },
+    "混沌遗迹探索卷轴": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "冒险掉落",
+      "use": "可进入对应的废墟探险"
+    },
+    "陨神废墟探索卷轴": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "冒险掉落",
+      "use": "可进入对应的废墟探险"
+    },
+    "创世废墟探索卷轴": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "冒险掉落",
+      "use": "可进入对应的废墟探险"
+    },
+    "终焉废墟探索卷轴": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "冒险掉落",
+      "use": "可进入对应的废墟探险"
+    },
+    "哥布林巢穴套装图纸·武器": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索掉落",
+      "use": "解锁制作哥布林巢穴套装的武器",
+      "set_id": "goblin_den_set",
+      "slot": "weapon"
+    },
+    "哥布林巢穴套装图纸·头盔": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索掉落",
+      "use": "解锁制作哥布林巢穴套装的头盔",
+      "set_id": "goblin_den_set",
+      "slot": "helmet"
+    },
+    "哥布林巢穴套装图纸·护甲": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索掉落",
+      "use": "解锁制作哥布林巢穴套装的护甲",
+      "set_id": "goblin_den_set",
+      "slot": "armor"
+    },
+    "哥布林巢穴套装图纸·靴子": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索掉落",
+      "use": "解锁制作哥布林巢穴套装的靴子",
+      "set_id": "goblin_den_set",
+      "slot": "boots"
+    },
+    "哥布林巢穴套装图纸·护腿": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索掉落",
+      "use": "解锁制作哥布林巢穴套装的护腿",
+      "set_id": "goblin_den_set",
+      "slot": "leggings"
+    },
+    "哥布林巢穴套装图纸·饰品": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索掉落",
+      "use": "解锁制作哥布林巢穴套装的饰品",
+      "set_id": "goblin_den_set",
+      "slot": "accessory"
+    },
+    "古代陵墓套装图纸·武器": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索掉落",
+      "use": "解锁制作古代陵墓套装的武器",
+      "set_id": "ancient_tomb_set",
+      "slot": "weapon"
+    },
+    "古代陵墓套装图纸·头盔": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索掉落",
+      "use": "解锁制作古代陵墓套装的头盔",
+      "set_id": "ancient_tomb_set",
+      "slot": "helmet"
+    },
+    "古代陵墓套装图纸·护甲": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索掉落",
+      "use": "解锁制作古代陵墓套装的护甲",
+      "set_id": "ancient_tomb_set",
+      "slot": "armor"
+    },
+    "古代陵墓套装图纸·靴子": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索掉落",
+      "use": "解锁制作古代陵墓套装的靴子",
+      "set_id": "ancient_tomb_set",
+      "slot": "boots"
+    },
+    "古代陵墓套装图纸·护腿": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索掉落",
+      "use": "解锁制作古代陵墓套装的护腿",
+      "set_id": "ancient_tomb_set",
+      "slot": "leggings"
+    },
+    "古代陵墓套装图纸·饰品": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索掉落",
+      "use": "解锁制作古代陵墓套装的饰品",
+      "set_id": "ancient_tomb_set",
+      "slot": "accessory"
+    },
+    "水晶矿洞套装图纸·武器": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索掉落",
+      "use": "解锁制作水晶矿洞套装的武器",
+      "set_id": "crystal_cave_set",
+      "slot": "weapon"
+    },
+    "水晶矿洞套装图纸·头盔": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索掉落",
+      "use": "解锁制作水晶矿洞套装的头盔",
+      "set_id": "crystal_cave_set",
+      "slot": "helmet"
+    },
+    "水晶矿洞套装图纸·护甲": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索掉落",
+      "use": "解锁制作水晶矿洞套装的护甲",
+      "set_id": "crystal_cave_set",
+      "slot": "armor"
+    },
+    "水晶矿洞套装图纸·靴子": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索掉落",
+      "use": "解锁制作水晶矿洞套装的靴子",
+      "set_id": "crystal_cave_set",
+      "slot": "boots"
+    },
+    "水晶矿洞套装图纸·护腿": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索掉落",
+      "use": "解锁制作水晶矿洞套装的护腿",
+      "set_id": "crystal_cave_set",
+      "slot": "leggings"
+    },
+    "水晶矿洞套装图纸·饰品": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索掉落",
+      "use": "解锁制作水晶矿洞套装的饰品",
+      "set_id": "crystal_cave_set",
+      "slot": "accessory"
+    },
+    "荒废古堡套装图纸·武器": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索掉落",
+      "use": "解锁制作荒废古堡套装的武器",
+      "set_id": "haunted_castle_set",
+      "slot": "weapon"
+    },
+    "荒废古堡套装图纸·头盔": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索掉落",
+      "use": "解锁制作荒废古堡套装的头盔",
+      "set_id": "haunted_castle_set",
+      "slot": "helmet"
+    },
+    "荒废古堡套装图纸·护甲": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索掉落",
+      "use": "解锁制作荒废古堡套装的护甲",
+      "set_id": "haunted_castle_set",
+      "slot": "armor"
+    },
+    "荒废古堡套装图纸·靴子": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索掉落",
+      "use": "解锁制作荒废古堡套装的靴子",
+      "set_id": "haunted_castle_set",
+      "slot": "boots"
+    },
+    "荒废古堡套装图纸·护腿": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索掉落",
+      "use": "解锁制作荒废古堡套装的护腿",
+      "set_id": "haunted_castle_set",
+      "slot": "leggings"
+    },
+    "荒废古堡套装图纸·饰品": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索掉落",
+      "use": "解锁制作荒废古堡套装的饰品",
+      "set_id": "haunted_castle_set",
+      "slot": "accessory"
+    },
+    "荒凉庙宇套装图纸·武器": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索掉落",
+      "use": "解锁制作荒凉庙宇套装的武器",
+      "set_id": "forgotten_temple_set",
+      "slot": "weapon"
+    },
+    "荒凉庙宇套装图纸·头盔": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索掉落",
+      "use": "解锁制作荒凉庙宇套装的头盔",
+      "set_id": "forgotten_temple_set",
+      "slot": "helmet"
+    },
+    "荒凉庙宇套装图纸·护甲": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索掉落",
+      "use": "解锁制作荒凉庙宇套装的护甲",
+      "set_id": "forgotten_temple_set",
+      "slot": "armor"
+    },
+    "荒凉庙宇套装图纸·靴子": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索掉落",
+      "use": "解锁制作荒凉庙宇套装的靴子",
+      "set_id": "forgotten_temple_set",
+      "slot": "boots"
+    },
+    "荒凉庙宇套装图纸·护腿": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索掉落",
+      "use": "解锁制作荒凉庙宇套装的护腿",
+      "set_id": "forgotten_temple_set",
+      "slot": "leggings"
+    },
+    "荒凉庙宇套装图纸·饰品": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索掉落",
+      "use": "解锁制作荒凉庙宇套装的饰品",
+      "set_id": "forgotten_temple_set",
+      "slot": "accessory"
+    },
+    "沉船遗骸套装图纸·武器": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索掉落",
+      "use": "解锁制作沉船遗骸套装的武器",
+      "set_id": "cursed_shipwreck_set",
+      "slot": "weapon"
+    },
+    "沉船遗骸套装图纸·头盔": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索掉落",
+      "use": "解锁制作沉船遗骸套装的头盔",
+      "set_id": "cursed_shipwreck_set",
+      "slot": "helmet"
+    },
+    "沉船遗骸套装图纸·护甲": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索掉落",
+      "use": "解锁制作沉船遗骸套装的护甲",
+      "set_id": "cursed_shipwreck_set",
+      "slot": "armor"
+    },
+    "沉船遗骸套装图纸·靴子": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索掉落",
+      "use": "解锁制作沉船遗骸套装的靴子",
+      "set_id": "cursed_shipwreck_set",
+      "slot": "boots"
+    },
+    "沉船遗骸套装图纸·护腿": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索掉落",
+      "use": "解锁制作沉船遗骸套装的护腿",
+      "set_id": "cursed_shipwreck_set",
+      "slot": "leggings"
+    },
+    "沉船遗骸套装图纸·饰品": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索掉落",
+      "use": "解锁制作沉船遗骸套装的饰品",
+      "set_id": "cursed_shipwreck_set",
+      "slot": "accessory"
+    },
+    "巨兽巢穴套装图纸·武器": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索掉落",
+      "use": "解锁制作巨兽巢穴套装的武器",
+      "set_id": "dragon_ruins_set",
+      "slot": "weapon"
+    },
+    "巨兽巢穴套装图纸·头盔": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索掉落",
+      "use": "解锁制作巨兽巢穴套装的头盔",
+      "set_id": "dragon_ruins_set",
+      "slot": "helmet"
+    },
+    "巨兽巢穴套装图纸·护甲": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索掉落",
+      "use": "解锁制作巨兽巢穴套装的护甲",
+      "set_id": "dragon_ruins_set",
+      "slot": "armor"
+    },
+    "巨兽巢穴套装图纸·靴子": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索掉落",
+      "use": "解锁制作巨兽巢穴套装的靴子",
+      "set_id": "dragon_ruins_set",
+      "slot": "boots"
+    },
+    "巨兽巢穴套装图纸·护腿": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索掉落",
+      "use": "解锁制作巨兽巢穴套装的护腿",
+      "set_id": "dragon_ruins_set",
+      "slot": "leggings"
+    },
+    "巨兽巢穴套装图纸·饰品": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索掉落",
+      "use": "解锁制作巨兽巢穴套装的饰品",
+      "set_id": "dragon_ruins_set",
+      "slot": "accessory"
+    },
+    "地层裂隙套装图纸·武器": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索掉落",
+      "use": "解锁制作地层裂隙套装的武器",
+      "set_id": "void_rift_set",
+      "slot": "weapon"
+    },
+    "地层裂隙套装图纸·头盔": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索掉落",
+      "use": "解锁制作地层裂隙套装的头盔",
+      "set_id": "void_rift_set",
+      "slot": "helmet"
+    },
+    "地层裂隙套装图纸·护甲": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索掉落",
+      "use": "解锁制作地层裂隙套装的护甲",
+      "set_id": "void_rift_set",
+      "slot": "armor"
+    },
+    "地层裂隙套装图纸·靴子": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索掉落",
+      "use": "解锁制作地层裂隙套装的靴子",
+      "set_id": "void_rift_set",
+      "slot": "boots"
+    },
+    "地层裂隙套装图纸·护腿": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索掉落",
+      "use": "解锁制作地层裂隙套装的护腿",
+      "set_id": "void_rift_set",
+      "slot": "leggings"
+    },
+    "地层裂隙套装图纸·饰品": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索掉落",
+      "use": "解锁制作地层裂隙套装的饰品",
+      "set_id": "void_rift_set",
+      "slot": "accessory"
+    },
+    "时光废墟套装图纸·武器": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索掉落",
+      "use": "解锁制作时光废墟套装的武器",
+      "set_id": "time_ruins_set",
+      "slot": "weapon"
+    },
+    "时光废墟套装图纸·头盔": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索掉落",
+      "use": "解锁制作时光废墟套装的头盔",
+      "set_id": "time_ruins_set",
+      "slot": "helmet"
+    },
+    "时光废墟套装图纸·护甲": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索掉落",
+      "use": "解锁制作时光废墟套装的护甲",
+      "set_id": "time_ruins_set",
+      "slot": "armor"
+    },
+    "时光废墟套装图纸·靴子": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索掉落",
+      "use": "解锁制作时光废墟套装的靴子",
+      "set_id": "time_ruins_set",
+      "slot": "boots"
+    },
+    "时光废墟套装图纸·护腿": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索掉落",
+      "use": "解锁制作时光废墟套装的护腿",
+      "set_id": "time_ruins_set",
+      "slot": "leggings"
+    },
+    "时光废墟套装图纸·饰品": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索掉落",
+      "use": "解锁制作时光废墟套装的饰品",
+      "set_id": "time_ruins_set",
+      "slot": "accessory"
+    },
+    "石殿残垣套装图纸·武器": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作石殿残垣套装的武器",
+      "set_id": "dragon_god_ruins_set",
+      "slot": "weapon"
+    },
+    "石殿残垣套装图纸·头盔": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作石殿残垣套装的头盔",
+      "set_id": "dragon_god_ruins_set",
+      "slot": "helmet"
+    },
+    "石殿残垣套装图纸·护甲": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作石殿残垣套装的护甲",
+      "set_id": "dragon_god_ruins_set",
+      "slot": "armor"
+    },
+    "石殿残垣套装图纸·靴子": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作石殿残垣套装的靴子",
+      "set_id": "dragon_god_ruins_set",
+      "slot": "boots"
+    },
+    "石殿残垣套装图纸·护腿": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作石殿残垣套装的护腿",
+      "set_id": "dragon_god_ruins_set",
+      "slot": "leggings"
+    },
+    "石殿残垣套装图纸·饰品": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作石殿残垣套装的饰品",
+      "set_id": "dragon_god_ruins_set",
+      "slot": "accessory"
+    },
+    "乱石遗址套装图纸·武器": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作乱石遗址套装的武器",
+      "set_id": "chaos_relic_set",
+      "slot": "weapon"
+    },
+    "乱石遗址套装图纸·头盔": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作乱石遗址套装的头盔",
+      "set_id": "chaos_relic_set",
+      "slot": "helmet"
+    },
+    "乱石遗址套装图纸·护甲": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作乱石遗址套装的护甲",
+      "set_id": "chaos_relic_set",
+      "slot": "armor"
+    },
+    "乱石遗址套装图纸·靴子": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作乱石遗址套装的靴子",
+      "set_id": "chaos_relic_set",
+      "slot": "boots"
+    },
+    "乱石遗址套装图纸·护腿": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作乱石遗址套装的护腿",
+      "set_id": "chaos_relic_set",
+      "slot": "leggings"
+    },
+    "乱石遗址套装图纸·饰品": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作乱石遗址套装的饰品",
+      "set_id": "chaos_relic_set",
+      "slot": "accessory"
+    },
+    "广袤废墟套装图纸·武器": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作广袤废墟套装的武器",
+      "set_id": "fallen_god_ruins_set",
+      "slot": "weapon"
+    },
+    "广袤废墟套装图纸·头盔": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作广袤废墟套装的头盔",
+      "set_id": "fallen_god_ruins_set",
+      "slot": "helmet"
+    },
+    "广袤废墟套装图纸·护甲": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作广袤废墟套装的护甲",
+      "set_id": "fallen_god_ruins_set",
+      "slot": "armor"
+    },
+    "广袤废墟套装图纸·靴子": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作广袤废墟套装的靴子",
+      "set_id": "fallen_god_ruins_set",
+      "slot": "boots"
+    },
+    "广袤废墟套装图纸·护腿": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作广袤废墟套装的护腿",
+      "set_id": "fallen_god_ruins_set",
+      "slot": "leggings"
+    },
+    "广袤废墟套装图纸·饰品": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作广袤废墟套装的饰品",
+      "set_id": "fallen_god_ruins_set",
+      "slot": "accessory"
+    },
+    "远古遗址套装图纸·武器": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作远古遗址套装的武器",
+      "set_id": "genesis_ruins_set",
+      "slot": "weapon"
+    },
+    "远古遗址套装图纸·头盔": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作远古遗址套装的头盔",
+      "set_id": "genesis_ruins_set",
+      "slot": "helmet"
+    },
+    "远古遗址套装图纸·护甲": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作远古遗址套装的护甲",
+      "set_id": "genesis_ruins_set",
+      "slot": "armor"
+    },
+    "远古遗址套装图纸·靴子": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作远古遗址套装的靴子",
+      "set_id": "genesis_ruins_set",
+      "slot": "boots"
+    },
+    "远古遗址套装图纸·护腿": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作远古遗址套装的护腿",
+      "set_id": "genesis_ruins_set",
+      "slot": "leggings"
+    },
+    "远古遗址套装图纸·饰品": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作远古遗址套装的饰品",
+      "set_id": "genesis_ruins_set",
+      "slot": "accessory"
+    },
+    "荒废遗迹套装图纸·武器": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作荒废遗迹套装的武器",
+      "set_id": "omega_ruins_set",
+      "slot": "weapon"
+    },
+    "荒废遗迹套装图纸·头盔": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作荒废遗迹套装的头盔",
+      "set_id": "omega_ruins_set",
+      "slot": "helmet"
+    },
+    "荒废遗迹套装图纸·护甲": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作荒废遗迹套装的护甲",
+      "set_id": "omega_ruins_set",
+      "slot": "armor"
+    },
+    "荒废遗迹套装图纸·靴子": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作荒废遗迹套装的靴子",
+      "set_id": "omega_ruins_set",
+      "slot": "boots"
+    },
+    "荒废遗迹套装图纸·护腿": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作荒废遗迹套装的护腿",
+      "set_id": "omega_ruins_set",
+      "slot": "leggings"
+    },
+    "荒废遗迹套装图纸·饰品": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作荒废遗迹套装的饰品",
+      "set_id": "omega_ruins_set",
+      "slot": "accessory"
+    },
+    "滨海石殿套装图纸·武器": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索掉落",
+      "use": "解锁制作滨海石殿套装的武器",
+      "set_id": "sunken_temple_set",
+      "slot": "weapon"
+    },
+    "滨海石殿套装图纸·头盔": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索掉落",
+      "use": "解锁制作滨海石殿套装的头盔",
+      "set_id": "sunken_temple_set",
+      "slot": "helmet"
+    },
+    "滨海石殿套装图纸·护甲": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索掉落",
+      "use": "解锁制作滨海石殿套装的护甲",
+      "set_id": "sunken_temple_set",
+      "slot": "armor"
+    },
+    "滨海石殿套装图纸·靴子": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索掉落",
+      "use": "解锁制作滨海石殿套装的靴子",
+      "set_id": "sunken_temple_set",
+      "slot": "boots"
+    },
+    "滨海石殿套装图纸·护腿": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索掉落",
+      "use": "解锁制作滨海石殿套装的护腿",
+      "set_id": "sunken_temple_set",
+      "slot": "leggings"
+    },
+    "滨海石殿套装图纸·饰品": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索掉落",
+      "use": "解锁制作滨海石殿套装的饰品",
+      "set_id": "sunken_temple_set",
+      "slot": "accessory"
+    },
+    "遗忘村落套装图纸·武器": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索掉落",
+      "use": "解锁制作遗忘村落套装的武器",
+      "set_id": "elven_capital_set",
+      "slot": "weapon"
+    },
+    "遗忘村落套装图纸·头盔": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索掉落",
+      "use": "解锁制作遗忘村落套装的头盔",
+      "set_id": "elven_capital_set",
+      "slot": "helmet"
+    },
+    "遗忘村落套装图纸·护甲": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索掉落",
+      "use": "解锁制作遗忘村落套装的护甲",
+      "set_id": "elven_capital_set",
+      "slot": "armor"
+    },
+    "遗忘村落套装图纸·靴子": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索掉落",
+      "use": "解锁制作遗忘村落套装的靴子",
+      "set_id": "elven_capital_set",
+      "slot": "boots"
+    },
+    "遗忘村落套装图纸·护腿": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索掉落",
+      "use": "解锁制作遗忘村落套装的护腿",
+      "set_id": "elven_capital_set",
+      "slot": "leggings"
+    },
+    "遗忘村落套装图纸·饰品": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索掉落",
+      "use": "解锁制作遗忘村落套装的饰品",
+      "set_id": "elven_capital_set",
+      "slot": "accessory"
+    },
+    "天坑巨洞套装图纸·武器": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索掉落",
+      "use": "解锁制作天坑巨洞套装的武器",
+      "set_id": "meteor_crater_set",
+      "slot": "weapon"
+    },
+    "天坑巨洞套装图纸·头盔": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索掉落",
+      "use": "解锁制作天坑巨洞套装的头盔",
+      "set_id": "meteor_crater_set",
+      "slot": "helmet"
+    },
+    "天坑巨洞套装图纸·护甲": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索掉落",
+      "use": "解锁制作天坑巨洞套装的护甲",
+      "set_id": "meteor_crater_set",
+      "slot": "armor"
+    },
+    "天坑巨洞套装图纸·靴子": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索掉落",
+      "use": "解锁制作天坑巨洞套装的靴子",
+      "set_id": "meteor_crater_set",
+      "slot": "boots"
+    },
+    "天坑巨洞套装图纸·护腿": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索掉落",
+      "use": "解锁制作天坑巨洞套装的护腿",
+      "set_id": "meteor_crater_set",
+      "slot": "leggings"
+    },
+    "天坑巨洞套装图纸·饰品": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索掉落",
+      "use": "解锁制作天坑巨洞套装的饰品",
+      "set_id": "meteor_crater_set",
+      "slot": "accessory"
+    },
+    "无尽长廊套装图纸·武器": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索掉落",
+      "use": "解锁制作无尽长廊套装的武器",
+      "set_id": "eternal_corridor_set",
+      "slot": "weapon"
+    },
+    "无尽长廊套装图纸·头盔": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索掉落",
+      "use": "解锁制作无尽长廊套装的头盔",
+      "set_id": "eternal_corridor_set",
+      "slot": "helmet"
+    },
+    "无尽长廊套装图纸·护甲": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索掉落",
+      "use": "解锁制作无尽长廊套装的护甲",
+      "set_id": "eternal_corridor_set",
+      "slot": "armor"
+    },
+    "无尽长廊套装图纸·靴子": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索掉落",
+      "use": "解锁制作无尽长廊套装的靴子",
+      "set_id": "eternal_corridor_set",
+      "slot": "boots"
+    },
+    "无尽长廊套装图纸·护腿": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索掉落",
+      "use": "解锁制作无尽长廊套装的护腿",
+      "set_id": "eternal_corridor_set",
+      "slot": "leggings"
+    },
+    "无尽长廊套装图纸·饰品": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索掉落",
+      "use": "解锁制作无尽长廊套装的饰品",
+      "set_id": "eternal_corridor_set",
+      "slot": "accessory"
+    },
+    "巨兽坟场套装图纸·武器": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作巨兽坟场套装的武器",
+      "set_id": "dragon_graveyard_set",
+      "slot": "weapon"
+    },
+    "巨兽坟场套装图纸·头盔": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作巨兽坟场套装的头盔",
+      "set_id": "dragon_graveyard_set",
+      "slot": "helmet"
+    },
+    "巨兽坟场套装图纸·护甲": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作巨兽坟场套装的护甲",
+      "set_id": "dragon_graveyard_set",
+      "slot": "armor"
+    },
+    "巨兽坟场套装图纸·靴子": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作巨兽坟场套装的靴子",
+      "set_id": "dragon_graveyard_set",
+      "slot": "boots"
+    },
+    "巨兽坟场套装图纸·护腿": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作巨兽坟场套装的护腿",
+      "set_id": "dragon_graveyard_set",
+      "slot": "leggings"
+    },
+    "巨兽坟场套装图纸·饰品": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作巨兽坟场套装的饰品",
+      "set_id": "dragon_graveyard_set",
+      "slot": "accessory"
+    },
+    "幽暗石殿套装图纸·武器": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作幽暗石殿套装的武器",
+      "set_id": "void_sanctum_set",
+      "slot": "weapon"
+    },
+    "幽暗石殿套装图纸·头盔": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作幽暗石殿套装的头盔",
+      "set_id": "void_sanctum_set",
+      "slot": "helmet"
+    },
+    "幽暗石殿套装图纸·护甲": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作幽暗石殿套装的护甲",
+      "set_id": "void_sanctum_set",
+      "slot": "armor"
+    },
+    "幽暗石殿套装图纸·靴子": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作幽暗石殿套装的靴子",
+      "set_id": "void_sanctum_set",
+      "slot": "boots"
+    },
+    "幽暗石殿套装图纸·护腿": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作幽暗石殿套装的护腿",
+      "set_id": "void_sanctum_set",
+      "slot": "leggings"
+    },
+    "幽暗石殿套装图纸·饰品": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作幽暗石殿套装的饰品",
+      "set_id": "void_sanctum_set",
+      "slot": "accessory"
+    },
+    "古旧工坊套装图纸·武器": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作古旧工坊套装的武器",
+      "set_id": "celestial_forge_set",
+      "slot": "weapon"
+    },
+    "古旧工坊套装图纸·头盔": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作古旧工坊套装的头盔",
+      "set_id": "celestial_forge_set",
+      "slot": "helmet"
+    },
+    "古旧工坊套装图纸·护甲": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作古旧工坊套装的护甲",
+      "set_id": "celestial_forge_set",
+      "slot": "armor"
+    },
+    "古旧工坊套装图纸·靴子": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作古旧工坊套装的靴子",
+      "set_id": "celestial_forge_set",
+      "slot": "boots"
+    },
+    "古旧工坊套装图纸·护腿": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作古旧工坊套装的护腿",
+      "set_id": "celestial_forge_set",
+      "slot": "leggings"
+    },
+    "古旧工坊套装图纸·饰品": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作古旧工坊套装的饰品",
+      "set_id": "celestial_forge_set",
+      "slot": "accessory"
+    },
+    "地下暗湖套装图纸·武器": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作地下暗湖套装的武器",
+      "set_id": "primordial_sea_set",
+      "slot": "weapon"
+    },
+    "地下暗湖套装图纸·头盔": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作地下暗湖套装的头盔",
+      "set_id": "primordial_sea_set",
+      "slot": "helmet"
+    },
+    "地下暗湖套装图纸·护甲": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作地下暗湖套装的护甲",
+      "set_id": "primordial_sea_set",
+      "slot": "armor"
+    },
+    "地下暗湖套装图纸·靴子": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作地下暗湖套装的靴子",
+      "set_id": "primordial_sea_set",
+      "slot": "boots"
+    },
+    "地下暗湖套装图纸·护腿": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作地下暗湖套装的护腿",
+      "set_id": "primordial_sea_set",
+      "slot": "leggings"
+    },
+    "地下暗湖套装图纸·饰品": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作地下暗湖套装的饰品",
+      "set_id": "primordial_sea_set",
+      "slot": "accessory"
+    },
+    "幽暗回廊套装图纸·武器": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作幽暗回廊套装的武器",
+      "set_id": "omega_corridor_set",
+      "slot": "weapon"
+    },
+    "幽暗回廊套装图纸·头盔": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作幽暗回廊套装的头盔",
+      "set_id": "omega_corridor_set",
+      "slot": "helmet"
+    },
+    "幽暗回廊套装图纸·护甲": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作幽暗回廊套装的护甲",
+      "set_id": "omega_corridor_set",
+      "slot": "armor"
+    },
+    "幽暗回廊套装图纸·靴子": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作幽暗回廊套装的靴子",
+      "set_id": "omega_corridor_set",
+      "slot": "boots"
+    },
+    "幽暗回廊套装图纸·护腿": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作幽暗回廊套装的护腿",
+      "set_id": "omega_corridor_set",
+      "slot": "leggings"
+    },
+    "幽暗回廊套装图纸·饰品": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索掉落",
+      "use": "解锁制作幽暗回廊套装的饰品",
+      "set_id": "omega_corridor_set",
+      "slot": "accessory"
+    },
+    "辽阔草原之刃图纸": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "辽阔草原套装掉落",
+      "use": "解锁制作辽阔草原套装的武器",
+      "set_id": "region_plains",
+      "slot": "weapon"
+    },
+    "辽阔草原之甲图纸": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "辽阔草原套装掉落",
+      "use": "解锁制作辽阔草原套装的护甲",
+      "set_id": "region_plains",
+      "slot": "armor"
+    },
+    "辽阔草原之证图纸": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "辽阔草原套装掉落",
+      "use": "解锁制作辽阔草原套装的饰品",
+      "set_id": "region_plains",
+      "slot": "accessory"
+    },
+    "茂密森林之刃图纸": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "茂密森林套装掉落",
+      "use": "解锁制作茂密森林套装的武器",
+      "set_id": "region_forest",
+      "slot": "weapon"
+    },
+    "茂密森林之甲图纸": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "茂密森林套装掉落",
+      "use": "解锁制作茂密森林套装的护甲",
+      "set_id": "region_forest",
+      "slot": "armor"
+    },
+    "茂密森林之证图纸": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "茂密森林套装掉落",
+      "use": "解锁制作茂密森林套装的饰品",
+      "set_id": "region_forest",
+      "slot": "accessory"
+    },
+    "赤沙荒漠之刃图纸": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "赤沙荒漠套装掉落",
+      "use": "解锁制作赤沙荒漠套装的武器",
+      "set_id": "region_desert",
+      "slot": "weapon"
+    },
+    "赤沙荒漠之甲图纸": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "赤沙荒漠套装掉落",
+      "use": "解锁制作赤沙荒漠套装的护甲",
+      "set_id": "region_desert",
+      "slot": "armor"
+    },
+    "赤沙荒漠之证图纸": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "赤沙荒漠套装掉落",
+      "use": "解锁制作赤沙荒漠套装的饰品",
+      "set_id": "region_desert",
+      "slot": "accessory"
+    },
+    "雪山高地之刃图纸": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "雪山高地套装掉落",
+      "use": "解锁制作雪山高地套装的武器",
+      "set_id": "region_snow_mountain",
+      "slot": "weapon"
+    },
+    "雪山高地之甲图纸": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "雪山高地套装掉落",
+      "use": "解锁制作雪山高地套装的护甲",
+      "set_id": "region_snow_mountain",
+      "slot": "armor"
+    },
+    "雪山高地之证图纸": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "雪山高地套装掉落",
+      "use": "解锁制作雪山高地套装的饰品",
+      "set_id": "region_snow_mountain",
+      "slot": "accessory"
+    },
+    "热泉山谷之刃图纸": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "热泉山谷套装掉落",
+      "use": "解锁制作热泉山谷套装的武器",
+      "set_id": "region_volcano",
+      "slot": "weapon"
+    },
+    "热泉山谷之甲图纸": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "热泉山谷套装掉落",
+      "use": "解锁制作热泉山谷套装的护甲",
+      "set_id": "region_volcano",
+      "slot": "armor"
+    },
+    "热泉山谷之证图纸": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "热泉山谷套装掉落",
+      "use": "解锁制作热泉山谷套装的饰品",
+      "set_id": "region_volcano",
+      "slot": "accessory"
+    },
+    "幽深裂谷之刃图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "幽深裂谷套装掉落",
+      "use": "解锁制作幽深裂谷套装的武器",
+      "set_id": "region_abyss",
+      "slot": "weapon"
+    },
+    "幽深裂谷之甲图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "幽深裂谷套装掉落",
+      "use": "解锁制作幽深裂谷套装的护甲",
+      "set_id": "region_abyss",
+      "slot": "armor"
+    },
+    "幽深裂谷之证图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "幽深裂谷套装掉落",
+      "use": "解锁制作幽深裂谷套装的饰品",
+      "set_id": "region_abyss",
+      "slot": "accessory"
+    },
+    "古道之刃图纸": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "古道套装掉落",
+      "use": "解锁制作古道套装的武器",
+      "set_id": "region_royal_road",
+      "slot": "weapon"
+    },
+    "古道之甲图纸": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "古道套装掉落",
+      "use": "解锁制作古道套装的护甲",
+      "set_id": "region_royal_road",
+      "slot": "armor"
+    },
+    "古道之证图纸": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "古道套装掉落",
+      "use": "解锁制作古道套装的饰品",
+      "set_id": "region_royal_road",
+      "slot": "accessory"
+    },
+    "矿山区之刃图纸": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "矿山区套装掉落",
+      "use": "解锁制作矿山区套装的武器",
+      "set_id": "region_mine",
+      "slot": "weapon"
+    },
+    "矿山区之甲图纸": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "矿山区套装掉落",
+      "use": "解锁制作矿山区套装的护甲",
+      "set_id": "region_mine",
+      "slot": "armor"
+    },
+    "矿山区之证图纸": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "矿山区套装掉落",
+      "use": "解锁制作矿山区套装的饰品",
+      "set_id": "region_mine",
+      "slot": "accessory"
+    },
+    "海湾沙滩之刃图纸": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "海湾沙滩套装掉落",
+      "use": "解锁制作海湾沙滩套装的武器",
+      "set_id": "region_golden_coast",
+      "slot": "weapon"
+    },
+    "海湾沙滩之甲图纸": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "海湾沙滩套装掉落",
+      "use": "解锁制作海湾沙滩套装的护甲",
+      "set_id": "region_golden_coast",
+      "slot": "armor"
+    },
+    "海湾沙滩之证图纸": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "海湾沙滩套装掉落",
+      "use": "解锁制作海湾沙滩套装的饰品",
+      "set_id": "region_golden_coast",
+      "slot": "accessory"
+    },
+    "幽静山谷之刃图纸": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "幽静山谷套装掉落",
+      "use": "解锁制作幽静山谷套装的武器",
+      "set_id": "region_elven_deepwood",
+      "slot": "weapon"
+    },
+    "幽静山谷之甲图纸": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "幽静山谷套装掉落",
+      "use": "解锁制作幽静山谷套装的护甲",
+      "set_id": "region_elven_deepwood",
+      "slot": "armor"
+    },
+    "幽静山谷之证图纸": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "幽静山谷套装掉落",
+      "use": "解锁制作幽静山谷套装的饰品",
+      "set_id": "region_elven_deepwood",
+      "slot": "accessory"
+    },
+    "砾石荒地之刃图纸": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "砾石荒地套装掉落",
+      "use": "解锁制作砾石荒地套装的武器",
+      "set_id": "region_starfall_wastes",
+      "slot": "weapon"
+    },
+    "砾石荒地之甲图纸": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "砾石荒地套装掉落",
+      "use": "解锁制作砾石荒地套装的护甲",
+      "set_id": "region_starfall_wastes",
+      "slot": "armor"
+    },
+    "砾石荒地之证图纸": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "砾石荒地套装掉落",
+      "use": "解锁制作砾石荒地套装的饰品",
+      "set_id": "region_starfall_wastes",
+      "slot": "accessory"
+    },
+    "地裂峡谷之刃图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "地裂峡谷套装掉落",
+      "use": "解锁制作地裂峡谷套装的武器",
+      "set_id": "region_time_rift",
+      "slot": "weapon"
+    },
+    "地裂峡谷之甲图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "地裂峡谷套装掉落",
+      "use": "解锁制作地裂峡谷套装的护甲",
+      "set_id": "region_time_rift",
+      "slot": "armor"
+    },
+    "地裂峡谷之证图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "地裂峡谷套装掉落",
+      "use": "解锁制作地裂峡谷套装的饰品",
+      "set_id": "region_time_rift",
+      "slot": "accessory"
+    },
+    "起伏丘陵之刃图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "起伏丘陵套装掉落",
+      "use": "解锁制作起伏丘陵套装的武器",
+      "set_id": "region_dragon_domain",
+      "slot": "weapon"
+    },
+    "起伏丘陵之甲图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "起伏丘陵套装掉落",
+      "use": "解锁制作起伏丘陵套装的护甲",
+      "set_id": "region_dragon_domain",
+      "slot": "armor"
+    },
+    "起伏丘陵之证图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "起伏丘陵套装掉落",
+      "use": "解锁制作起伏丘陵套装的饰品",
+      "set_id": "region_dragon_domain",
+      "slot": "accessory"
+    },
+    "深邃谷地之刃图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "深邃谷地套装掉落",
+      "use": "解锁制作深邃谷地套装的武器",
+      "set_id": "region_chaos_abyss",
+      "slot": "weapon"
+    },
+    "深邃谷地之甲图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "深邃谷地套装掉落",
+      "use": "解锁制作深邃谷地套装的护甲",
+      "set_id": "region_chaos_abyss",
+      "slot": "armor"
+    },
+    "深邃谷地之证图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "深邃谷地套装掉落",
+      "use": "解锁制作深邃谷地套装的饰品",
+      "set_id": "region_chaos_abyss",
+      "slot": "accessory"
+    },
+    "边陲地带之刃图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "边陲地带套装掉落",
+      "use": "解锁制作边陲地带套装的武器",
+      "set_id": "region_divine_border",
+      "slot": "weapon"
+    },
+    "边陲地带之甲图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "边陲地带套装掉落",
+      "use": "解锁制作边陲地带套装的护甲",
+      "set_id": "region_divine_border",
+      "slot": "armor"
+    },
+    "边陲地带之证图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "边陲地带套装掉落",
+      "use": "解锁制作边陲地带套装的饰品",
+      "set_id": "region_divine_border",
+      "slot": "accessory"
+    },
+    "远古遗址之刃图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "远古遗址套装掉落",
+      "use": "解锁制作远古遗址套装的武器",
+      "set_id": "region_creation_ruins",
+      "slot": "weapon"
+    },
+    "远古遗址之甲图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "远古遗址套装掉落",
+      "use": "解锁制作远古遗址套装的护甲",
+      "set_id": "region_creation_ruins",
+      "slot": "armor"
+    },
+    "远古遗址之证图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "远古遗址套装掉落",
+      "use": "解锁制作远古遗址套装的饰品",
+      "set_id": "region_creation_ruins",
+      "slot": "accessory"
+    },
+    "苍茫荒原之刃图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "苍茫荒原套装掉落",
+      "use": "解锁制作苍茫荒原套装的武器",
+      "set_id": "region_final_realm",
+      "slot": "weapon"
+    },
+    "苍茫荒原之甲图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "苍茫荒原套装掉落",
+      "use": "解锁制作苍茫荒原套装的护甲",
+      "set_id": "region_final_realm",
+      "slot": "armor"
+    },
+    "苍茫荒原之证图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "苍茫荒原套装掉落",
+      "use": "解锁制作苍茫荒原套装的饰品",
+      "set_id": "region_final_realm",
+      "slot": "accessory"
+    },
+    "冒险者之戒图纸": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "冒险/废墟掉落",
+      "use": "解锁制作冒险者之戒",
+      "set_id": null,
+      "slot": "accessory"
+    },
+    "猎人之弓图纸": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "冒险/废墟掉落",
+      "use": "解锁制作猎人之弓",
+      "set_id": null,
+      "slot": "weapon"
+    },
+    "矿工灯盔图纸": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "冒险/废墟掉落",
+      "use": "解锁制作矿工灯盔",
+      "set_id": null,
+      "slot": "helmet"
+    },
+    "渔夫雨衣图纸": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "冒险/废墟掉落",
+      "use": "解锁制作渔夫雨衣",
+      "set_id": null,
+      "slot": "armor"
+    },
+    "旅行者长靴图纸": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "冒险/废墟掉落",
+      "use": "解锁制作旅行者长靴",
+      "set_id": null,
+      "slot": "boots"
+    },
+    "山民护腿图纸": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "冒险/废墟掉落",
+      "use": "解锁制作山民护腿",
+      "set_id": null,
+      "slot": "leggings"
+    },
+    "商人戒指图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "冒险/废墟掉落",
+      "use": "解锁制作商人戒指",
+      "set_id": null,
+      "slot": "accessory"
+    },
+    "佣兵大剑图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "冒险/废墟掉落",
+      "use": "解锁制作佣兵大剑",
+      "set_id": null,
+      "slot": "weapon"
+    },
+    "将军头盔图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "冒险/废墟掉落",
+      "use": "解锁制作将军头盔",
+      "set_id": null,
+      "slot": "helmet"
+    },
+    "贤者之靴图纸": {
+      "category": "blueprint",
+      "rarity": 5,
+      "source": "冒险/废墟掉落",
+      "use": "解锁制作贤者之靴",
+      "set_id": null,
+      "slot": "boots"
+    },
+    "合金锭配方": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "冒险/废墟掉落",
+      "use": "学会合成合金锭",
+      "unlocks_recipe": "合金锭"
+    },
+    "附魔合金配方": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "冒险/废墟掉落",
+      "use": "学会合成附魔合金",
+      "unlocks_recipe": "附魔合金"
+    },
+    "星核合金配方": {
+      "category": "blueprint",
+      "rarity": 5,
+      "source": "高级废墟掉落",
+      "use": "学会合成星核合金",
+      "unlocks_recipe": "星核合金"
+    },
+    "神锻钢配方": {
+      "category": "blueprint",
+      "rarity": 6,
+      "source": "顶级废墟掉落",
+      "use": "学会合成神锻钢",
+      "unlocks_recipe": "神锻钢"
+    },
+    "淬火油配方": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "冒险掉落",
+      "use": "学会制作淬火油",
+      "unlocks_recipe": "淬火油"
+    },
+    "开孔器图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟掉落",
+      "use": "学会制作开孔器",
+      "unlocks_recipe": "开孔器"
+    },
+    "锻造大师心得": {
+      "category": "blueprint",
+      "rarity": 5,
+      "source": "高级掉落",
+      "use": "学会制作锻造大师证明",
+      "unlocks_recipe": "锻造大师证明"
+    },
+    "宝石合成术": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "冒险掉落",
+      "use": "学会合成宝石",
+      "unlocks_recipe": "宝石合成符"
+    },
+    "精炼金矿配方": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "冒险掉落",
+      "use": "学会精炼金矿",
+      "unlocks_recipe": "精炼金矿"
+    },
+    "精炼银矿配方": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "冒险掉落",
+      "use": "学会精炼银矿",
+      "unlocks_recipe": "精炼银矿"
+    },
+    "生命之泉": {
+      "category": "consume",
+      "rarity": 5,
+      "source": "铁匠合成",
+      "use": "恢复全部生命值"
+    },
+    "治疗药水": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "药师合成",
+      "use": "恢复40%生命值"
+    },
+    "经验珠(大)": {
+      "category": "consume",
+      "rarity": 3,
+      "source": "活动商店 / 烟花礼盒",
+      "use": "使用后获得500经验"
+    },
+    "炸药": {
+      "category": "consume",
+      "rarity": 3,
+      "source": "矿工合成",
+      "use": "开矿获得大量矿石"
+    },
+    "罗盘": {
+      "category": "consume",
+      "rarity": 3,
+      "source": "矿工合成",
+      "use": "探矿，下次冒险矿石掉落翻倍"
+    },
+    "解毒药": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "药师合成",
+      "use": "解除中毒状态"
+    },
+    "开孔器": {
+      "category": "consume",
+      "rarity": 4,
+      "source": "合成获得",
+      "use": "给武器增加1个宝石孔(最多3个)"
+    },
+    "宝石合成符": {
+      "category": "consume",
+      "rarity": 3,
+      "source": "合成获得",
+      "use": "3颗同稀有度宝石合成1颗更高稀有度"
+    },
+    "锻造大师证明": {
+      "category": "consume",
+      "rarity": 5,
+      "source": "合成获得",
+      "use": "直接提升1级锻造等级"
+    },
+    "随机材料配方": {
+      "category": "consume",
+      "rarity": 3,
+      "source": "合成获得",
+      "use": "使用后随机获得一种稀有锻造材料"
+    },
+    "初级强化石": {
+      "category": "consume",
+      "rarity": 1,
+      "source": "合成、冒险掉落、钓鱼",
+      "use": "强化武器属性+12%，适用于+0~+3，成功率90%"
+    },
+    "中级强化石": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "合成、冒险掉落、钓鱼",
+      "use": "强化武器属性+12%，适用于+0~+7，成功率75%"
+    },
+    "高级强化石": {
+      "category": "consume",
+      "rarity": 3,
+      "source": "合成、冒险掉落、钓鱼",
+      "use": "强化武器属性+12%，适用于+0~+12，成功率60%"
+    },
+    "特级强化石": {
+      "category": "consume",
+      "rarity": 4,
+      "source": "合成、冒险掉落、钓鱼",
+      "use": "强化武器属性+12%，适用于+0~+20，成功率40%"
+    },
+    "鱼骨碎片": {
+      "category": "material",
+      "rarity": 1,
+      "source": "钓鱼获得",
+      "use": "合成鱼骨武器的材料"
+    },
+    "深海鳞片": {
+      "category": "material",
+      "rarity": 2,
+      "source": "深水区钓鱼获得",
+      "use": "合成深海装备的材料"
+    },
+    "人鱼之鳞": {
+      "category": "material",
+      "rarity": 3,
+      "source": "深水区稀有钓鱼获得",
+      "use": "合成高级水系装备的材料"
+    },
+    "幸运强化石": {
+      "category": "consume",
+      "rarity": 3,
+      "source": "神秘商人、世界BOSS稀有掉落、活动",
+      "use": "100%成功率的强化石，适用于+0~+5"
+    },
+    "攻击强化石": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "合成、火山/深渊冒险掉落",
+      "use": "专注提升攻击/速度/攻速的强化石，适用于+0~+10"
+    },
+    "防御强化石": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "合成、雪山/矿区冒险掉落",
+      "use": "专注提升防御/生命/闪避的强化石，适用于+0~+10"
+    },
+    "觉醒强化石": {
+      "category": "consume",
+      "rarity": 4,
+      "source": "深水区极稀有钓鱼、高阶废墟BOSS房间",
+      "use": "必定获得特殊属性的强化石，适用于+0~+10"
+    },
+    "突破强化石": {
+      "category": "consume",
+      "rarity": 4,
+      "source": "世界BOSS击杀、高阶废墟终极宝箱",
+      "use": "必定触发品质突破的强化石，适用于+0~+15"
+    },
+    "混沌强化石": {
+      "category": "consume",
+      "rarity": 5,
+      "source": "世界BOSS稀有掉落、限时活动",
+      "use": "50%双倍效果/30%正常/20%削弱，适用于+0~+20"
+    },
+    "哥布林巢穴之刃图纸": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「哥布林巢穴之刃」（需Lv.5）",
+      "base_price": 350,
+      "set_id": "goblin_den_set",
+      "set_name": "哥布林巢穴套装",
+      "min_level": 5
+    },
+    "哥布林巢穴头盔图纸": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「哥布林巢穴头盔」（需Lv.5）",
+      "base_price": 350,
+      "set_id": "goblin_den_set",
+      "set_name": "哥布林巢穴套装",
+      "min_level": 5
+    },
+    "哥布林巢穴护甲图纸": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「哥布林巢穴护甲」（需Lv.5）",
+      "base_price": 350,
+      "set_id": "goblin_den_set",
+      "set_name": "哥布林巢穴套装",
+      "min_level": 5
+    },
+    "哥布林巢穴靴子图纸": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「哥布林巢穴靴子」（需Lv.5）",
+      "base_price": 350,
+      "set_id": "goblin_den_set",
+      "set_name": "哥布林巢穴套装",
+      "min_level": 5
+    },
+    "哥布林巢穴护腿图纸": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「哥布林巢穴护腿」（需Lv.5）",
+      "base_price": 350,
+      "set_id": "goblin_den_set",
+      "set_name": "哥布林巢穴套装",
+      "min_level": 5
+    },
+    "哥布林巢穴饰品图纸": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「哥布林巢穴饰品」（需Lv.5）",
+      "base_price": 350,
+      "set_id": "goblin_den_set",
+      "set_name": "哥布林巢穴套装",
+      "min_level": 5
+    },
+    "古代陵墓之刃图纸": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「古代陵墓之刃」（需Lv.10）",
+      "base_price": 600,
+      "set_id": "ancient_tomb_set",
+      "set_name": "古代陵墓套装",
+      "min_level": 10
+    },
+    "古代陵墓头盔图纸": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「古代陵墓头盔」（需Lv.10）",
+      "base_price": 600,
+      "set_id": "ancient_tomb_set",
+      "set_name": "古代陵墓套装",
+      "min_level": 10
+    },
+    "古代陵墓护甲图纸": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「古代陵墓护甲」（需Lv.10）",
+      "base_price": 600,
+      "set_id": "ancient_tomb_set",
+      "set_name": "古代陵墓套装",
+      "min_level": 10
+    },
+    "古代陵墓靴子图纸": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「古代陵墓靴子」（需Lv.10）",
+      "base_price": 600,
+      "set_id": "ancient_tomb_set",
+      "set_name": "古代陵墓套装",
+      "min_level": 10
+    },
+    "古代陵墓护腿图纸": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「古代陵墓护腿」（需Lv.10）",
+      "base_price": 600,
+      "set_id": "ancient_tomb_set",
+      "set_name": "古代陵墓套装",
+      "min_level": 10
+    },
+    "古代陵墓饰品图纸": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「古代陵墓饰品」（需Lv.10）",
+      "base_price": 600,
+      "set_id": "ancient_tomb_set",
+      "set_name": "古代陵墓套装",
+      "min_level": 10
+    },
+    "水晶矿洞之刃图纸": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「水晶矿洞之刃」（需Lv.15）",
+      "base_price": 850,
+      "set_id": "crystal_cave_set",
+      "set_name": "水晶矿洞套装",
+      "min_level": 15
+    },
+    "水晶矿洞头盔图纸": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「水晶矿洞头盔」（需Lv.15）",
+      "base_price": 850,
+      "set_id": "crystal_cave_set",
+      "set_name": "水晶矿洞套装",
+      "min_level": 15
+    },
+    "水晶矿洞护甲图纸": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「水晶矿洞护甲」（需Lv.15）",
+      "base_price": 850,
+      "set_id": "crystal_cave_set",
+      "set_name": "水晶矿洞套装",
+      "min_level": 15
+    },
+    "水晶矿洞靴子图纸": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「水晶矿洞靴子」（需Lv.15）",
+      "base_price": 850,
+      "set_id": "crystal_cave_set",
+      "set_name": "水晶矿洞套装",
+      "min_level": 15
+    },
+    "水晶矿洞护腿图纸": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「水晶矿洞护腿」（需Lv.15）",
+      "base_price": 850,
+      "set_id": "crystal_cave_set",
+      "set_name": "水晶矿洞套装",
+      "min_level": 15
+    },
+    "水晶矿洞饰品图纸": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「水晶矿洞饰品」（需Lv.15）",
+      "base_price": 850,
+      "set_id": "crystal_cave_set",
+      "set_name": "水晶矿洞套装",
+      "min_level": 15
+    },
+    "荒废古堡之刃图纸": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「荒废古堡之刃」（需Lv.20）",
+      "base_price": 1100,
+      "set_id": "haunted_castle_set",
+      "set_name": "荒废古堡套装",
+      "min_level": 20
+    },
+    "荒废古堡头盔图纸": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「荒废古堡头盔」（需Lv.20）",
+      "base_price": 1100,
+      "set_id": "haunted_castle_set",
+      "set_name": "荒废古堡套装",
+      "min_level": 20
+    },
+    "荒废古堡护甲图纸": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「荒废古堡护甲」（需Lv.20）",
+      "base_price": 1100,
+      "set_id": "haunted_castle_set",
+      "set_name": "荒废古堡套装",
+      "min_level": 20
+    },
+    "荒废古堡靴子图纸": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「荒废古堡靴子」（需Lv.20）",
+      "base_price": 1100,
+      "set_id": "haunted_castle_set",
+      "set_name": "荒废古堡套装",
+      "min_level": 20
+    },
+    "荒废古堡护腿图纸": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「荒废古堡护腿」（需Lv.20）",
+      "base_price": 1100,
+      "set_id": "haunted_castle_set",
+      "set_name": "荒废古堡套装",
+      "min_level": 20
+    },
+    "荒废古堡饰品图纸": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「荒废古堡饰品」（需Lv.20）",
+      "base_price": 1100,
+      "set_id": "haunted_castle_set",
+      "set_name": "荒废古堡套装",
+      "min_level": 20
+    },
+    "荒凉庙宇之刃图纸": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「荒凉庙宇之刃」（需Lv.25）",
+      "base_price": 1350,
+      "set_id": "forgotten_temple_set",
+      "set_name": "荒凉庙宇套装",
+      "min_level": 25
+    },
+    "荒凉庙宇头盔图纸": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「荒凉庙宇头盔」（需Lv.25）",
+      "base_price": 1350,
+      "set_id": "forgotten_temple_set",
+      "set_name": "荒凉庙宇套装",
+      "min_level": 25
+    },
+    "荒凉庙宇护甲图纸": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「荒凉庙宇护甲」（需Lv.25）",
+      "base_price": 1350,
+      "set_id": "forgotten_temple_set",
+      "set_name": "荒凉庙宇套装",
+      "min_level": 25
+    },
+    "荒凉庙宇靴子图纸": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「荒凉庙宇靴子」（需Lv.25）",
+      "base_price": 1350,
+      "set_id": "forgotten_temple_set",
+      "set_name": "荒凉庙宇套装",
+      "min_level": 25
+    },
+    "荒凉庙宇护腿图纸": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「荒凉庙宇护腿」（需Lv.25）",
+      "base_price": 1350,
+      "set_id": "forgotten_temple_set",
+      "set_name": "荒凉庙宇套装",
+      "min_level": 25
+    },
+    "荒凉庙宇饰品图纸": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「荒凉庙宇饰品」（需Lv.25）",
+      "base_price": 1350,
+      "set_id": "forgotten_temple_set",
+      "set_name": "荒凉庙宇套装",
+      "min_level": 25
+    },
+    "沉船遗骸之刃图纸": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「沉船遗骸之刃」（需Lv.40）",
+      "base_price": 2100,
+      "set_id": "cursed_shipwreck_set",
+      "set_name": "沉船遗骸套装",
+      "min_level": 40
+    },
+    "沉船遗骸头盔图纸": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「沉船遗骸头盔」（需Lv.40）",
+      "base_price": 2100,
+      "set_id": "cursed_shipwreck_set",
+      "set_name": "沉船遗骸套装",
+      "min_level": 40
+    },
+    "沉船遗骸护甲图纸": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「沉船遗骸护甲」（需Lv.40）",
+      "base_price": 2100,
+      "set_id": "cursed_shipwreck_set",
+      "set_name": "沉船遗骸套装",
+      "min_level": 40
+    },
+    "沉船遗骸靴子图纸": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「沉船遗骸靴子」（需Lv.40）",
+      "base_price": 2100,
+      "set_id": "cursed_shipwreck_set",
+      "set_name": "沉船遗骸套装",
+      "min_level": 40
+    },
+    "沉船遗骸护腿图纸": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「沉船遗骸护腿」（需Lv.40）",
+      "base_price": 2100,
+      "set_id": "cursed_shipwreck_set",
+      "set_name": "沉船遗骸套装",
+      "min_level": 40
+    },
+    "沉船遗骸饰品图纸": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「沉船遗骸饰品」（需Lv.40）",
+      "base_price": 2100,
+      "set_id": "cursed_shipwreck_set",
+      "set_name": "沉船遗骸套装",
+      "min_level": 40
+    },
+    "巨兽巢穴之刃图纸": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「巨兽巢穴之刃」（需Lv.55）",
+      "base_price": 2850,
+      "set_id": "dragon_ruins_set",
+      "set_name": "巨兽巢穴套装",
+      "min_level": 55
+    },
+    "巨兽巢穴头盔图纸": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「巨兽巢穴头盔」（需Lv.55）",
+      "base_price": 2850,
+      "set_id": "dragon_ruins_set",
+      "set_name": "巨兽巢穴套装",
+      "min_level": 55
+    },
+    "巨兽巢穴护甲图纸": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「巨兽巢穴护甲」（需Lv.55）",
+      "base_price": 2850,
+      "set_id": "dragon_ruins_set",
+      "set_name": "巨兽巢穴套装",
+      "min_level": 55
+    },
+    "巨兽巢穴靴子图纸": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「巨兽巢穴靴子」（需Lv.55）",
+      "base_price": 2850,
+      "set_id": "dragon_ruins_set",
+      "set_name": "巨兽巢穴套装",
+      "min_level": 55
+    },
+    "巨兽巢穴护腿图纸": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「巨兽巢穴护腿」（需Lv.55）",
+      "base_price": 2850,
+      "set_id": "dragon_ruins_set",
+      "set_name": "巨兽巢穴套装",
+      "min_level": 55
+    },
+    "巨兽巢穴饰品图纸": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「巨兽巢穴饰品」（需Lv.55）",
+      "base_price": 2850,
+      "set_id": "dragon_ruins_set",
+      "set_name": "巨兽巢穴套装",
+      "min_level": 55
+    },
+    "地层裂隙之刃图纸": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「地层裂隙之刃」（需Lv.75）",
+      "base_price": 3850,
+      "set_id": "void_rift_set",
+      "set_name": "地层裂隙套装",
+      "min_level": 75
+    },
+    "地层裂隙头盔图纸": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「地层裂隙头盔」（需Lv.75）",
+      "base_price": 3850,
+      "set_id": "void_rift_set",
+      "set_name": "地层裂隙套装",
+      "min_level": 75
+    },
+    "地层裂隙护甲图纸": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「地层裂隙护甲」（需Lv.75）",
+      "base_price": 3850,
+      "set_id": "void_rift_set",
+      "set_name": "地层裂隙套装",
+      "min_level": 75
+    },
+    "地层裂隙靴子图纸": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「地层裂隙靴子」（需Lv.75）",
+      "base_price": 3850,
+      "set_id": "void_rift_set",
+      "set_name": "地层裂隙套装",
+      "min_level": 75
+    },
+    "地层裂隙护腿图纸": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「地层裂隙护腿」（需Lv.75）",
+      "base_price": 3850,
+      "set_id": "void_rift_set",
+      "set_name": "地层裂隙套装",
+      "min_level": 75
+    },
+    "地层裂隙饰品图纸": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「地层裂隙饰品」（需Lv.75）",
+      "base_price": 3850,
+      "set_id": "void_rift_set",
+      "set_name": "地层裂隙套装",
+      "min_level": 75
+    },
+    "时光废墟之刃图纸": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「时光废墟之刃」（需Lv.85）",
+      "base_price": 4350,
+      "set_id": "time_ruins_set",
+      "set_name": "时光废墟套装",
+      "min_level": 85
+    },
+    "时光废墟头盔图纸": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「时光废墟头盔」（需Lv.85）",
+      "base_price": 4350,
+      "set_id": "time_ruins_set",
+      "set_name": "时光废墟套装",
+      "min_level": 85
+    },
+    "时光废墟护甲图纸": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「时光废墟护甲」（需Lv.85）",
+      "base_price": 4350,
+      "set_id": "time_ruins_set",
+      "set_name": "时光废墟套装",
+      "min_level": 85
+    },
+    "时光废墟靴子图纸": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「时光废墟靴子」（需Lv.85）",
+      "base_price": 4350,
+      "set_id": "time_ruins_set",
+      "set_name": "时光废墟套装",
+      "min_level": 85
+    },
+    "时光废墟护腿图纸": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「时光废墟护腿」（需Lv.85）",
+      "base_price": 4350,
+      "set_id": "time_ruins_set",
+      "set_name": "时光废墟套装",
+      "min_level": 85
+    },
+    "时光废墟饰品图纸": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「时光废墟饰品」（需Lv.85）",
+      "base_price": 4350,
+      "set_id": "time_ruins_set",
+      "set_name": "时光废墟套装",
+      "min_level": 85
+    },
+    "石殿残垣之刃图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「石殿残垣之刃」（需Lv.100）",
+      "base_price": 5100,
+      "set_id": "dragon_god_ruins_set",
+      "set_name": "石殿残垣套装",
+      "min_level": 100
+    },
+    "石殿残垣头盔图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「石殿残垣头盔」（需Lv.100）",
+      "base_price": 5100,
+      "set_id": "dragon_god_ruins_set",
+      "set_name": "石殿残垣套装",
+      "min_level": 100
+    },
+    "石殿残垣护甲图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「石殿残垣护甲」（需Lv.100）",
+      "base_price": 5100,
+      "set_id": "dragon_god_ruins_set",
+      "set_name": "石殿残垣套装",
+      "min_level": 100
+    },
+    "石殿残垣靴子图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「石殿残垣靴子」（需Lv.100）",
+      "base_price": 5100,
+      "set_id": "dragon_god_ruins_set",
+      "set_name": "石殿残垣套装",
+      "min_level": 100
+    },
+    "石殿残垣护腿图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「石殿残垣护腿」（需Lv.100）",
+      "base_price": 5100,
+      "set_id": "dragon_god_ruins_set",
+      "set_name": "石殿残垣套装",
+      "min_level": 100
+    },
+    "石殿残垣饰品图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「石殿残垣饰品」（需Lv.100）",
+      "base_price": 5100,
+      "set_id": "dragon_god_ruins_set",
+      "set_name": "石殿残垣套装",
+      "min_level": 100
+    },
+    "乱石遗址之刃图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「乱石遗址之刃」（需Lv.120）",
+      "base_price": 6100,
+      "set_id": "chaos_relic_set",
+      "set_name": "乱石遗址套装",
+      "min_level": 120
+    },
+    "乱石遗址头盔图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「乱石遗址头盔」（需Lv.120）",
+      "base_price": 6100,
+      "set_id": "chaos_relic_set",
+      "set_name": "乱石遗址套装",
+      "min_level": 120
+    },
+    "乱石遗址护甲图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「乱石遗址护甲」（需Lv.120）",
+      "base_price": 6100,
+      "set_id": "chaos_relic_set",
+      "set_name": "乱石遗址套装",
+      "min_level": 120
+    },
+    "乱石遗址靴子图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「乱石遗址靴子」（需Lv.120）",
+      "base_price": 6100,
+      "set_id": "chaos_relic_set",
+      "set_name": "乱石遗址套装",
+      "min_level": 120
+    },
+    "乱石遗址护腿图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「乱石遗址护腿」（需Lv.120）",
+      "base_price": 6100,
+      "set_id": "chaos_relic_set",
+      "set_name": "乱石遗址套装",
+      "min_level": 120
+    },
+    "乱石遗址饰品图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「乱石遗址饰品」（需Lv.120）",
+      "base_price": 6100,
+      "set_id": "chaos_relic_set",
+      "set_name": "乱石遗址套装",
+      "min_level": 120
+    },
+    "广袤废墟之刃图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「广袤废墟之刃」（需Lv.145）",
+      "base_price": 7350,
+      "set_id": "fallen_god_ruins_set",
+      "set_name": "广袤废墟套装",
+      "min_level": 145
+    },
+    "广袤废墟头盔图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「广袤废墟头盔」（需Lv.145）",
+      "base_price": 7350,
+      "set_id": "fallen_god_ruins_set",
+      "set_name": "广袤废墟套装",
+      "min_level": 145
+    },
+    "广袤废墟护甲图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「广袤废墟护甲」（需Lv.145）",
+      "base_price": 7350,
+      "set_id": "fallen_god_ruins_set",
+      "set_name": "广袤废墟套装",
+      "min_level": 145
+    },
+    "广袤废墟靴子图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「广袤废墟靴子」（需Lv.145）",
+      "base_price": 7350,
+      "set_id": "fallen_god_ruins_set",
+      "set_name": "广袤废墟套装",
+      "min_level": 145
+    },
+    "广袤废墟护腿图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「广袤废墟护腿」（需Lv.145）",
+      "base_price": 7350,
+      "set_id": "fallen_god_ruins_set",
+      "set_name": "广袤废墟套装",
+      "min_level": 145
+    },
+    "广袤废墟饰品图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「广袤废墟饰品」（需Lv.145）",
+      "base_price": 7350,
+      "set_id": "fallen_god_ruins_set",
+      "set_name": "广袤废墟套装",
+      "min_level": 145
+    },
+    "远古遗址头盔图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「远古遗址头盔」（需Lv.170）",
+      "base_price": 8600,
+      "set_id": "genesis_ruins_set",
+      "set_name": "远古遗址套装",
+      "min_level": 170
+    },
+    "远古遗址护甲图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「远古遗址护甲」（需Lv.170）",
+      "base_price": 8600,
+      "set_id": "genesis_ruins_set",
+      "set_name": "远古遗址套装",
+      "min_level": 170
+    },
+    "远古遗址靴子图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「远古遗址靴子」（需Lv.170）",
+      "base_price": 8600,
+      "set_id": "genesis_ruins_set",
+      "set_name": "远古遗址套装",
+      "min_level": 170
+    },
+    "远古遗址护腿图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「远古遗址护腿」（需Lv.170）",
+      "base_price": 8600,
+      "set_id": "genesis_ruins_set",
+      "set_name": "远古遗址套装",
+      "min_level": 170
+    },
+    "远古遗址饰品图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「远古遗址饰品」（需Lv.170）",
+      "base_price": 8600,
+      "set_id": "genesis_ruins_set",
+      "set_name": "远古遗址套装",
+      "min_level": 170
+    },
+    "荒废遗迹之刃图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「荒废遗迹之刃」（需Lv.200）",
+      "base_price": 10100,
+      "set_id": "omega_ruins_set",
+      "set_name": "荒废遗迹套装",
+      "min_level": 200
+    },
+    "荒废遗迹头盔图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「荒废遗迹头盔」（需Lv.200）",
+      "base_price": 10100,
+      "set_id": "omega_ruins_set",
+      "set_name": "荒废遗迹套装",
+      "min_level": 200
+    },
+    "荒废遗迹护甲图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「荒废遗迹护甲」（需Lv.200）",
+      "base_price": 10100,
+      "set_id": "omega_ruins_set",
+      "set_name": "荒废遗迹套装",
+      "min_level": 200
+    },
+    "荒废遗迹靴子图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「荒废遗迹靴子」（需Lv.200）",
+      "base_price": 10100,
+      "set_id": "omega_ruins_set",
+      "set_name": "荒废遗迹套装",
+      "min_level": 200
+    },
+    "荒废遗迹护腿图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「荒废遗迹护腿」（需Lv.200）",
+      "base_price": 10100,
+      "set_id": "omega_ruins_set",
+      "set_name": "荒废遗迹套装",
+      "min_level": 200
+    },
+    "荒废遗迹饰品图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「荒废遗迹饰品」（需Lv.200）",
+      "base_price": 10100,
+      "set_id": "omega_ruins_set",
+      "set_name": "荒废遗迹套装",
+      "min_level": 200
+    },
+    "滨海石殿之刃图纸": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「滨海石殿之刃」（需Lv.35）",
+      "base_price": 1850,
+      "set_id": "sunken_temple_set",
+      "set_name": "滨海石殿套装",
+      "min_level": 35
+    },
+    "滨海石殿头盔图纸": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「滨海石殿头盔」（需Lv.35）",
+      "base_price": 1850,
+      "set_id": "sunken_temple_set",
+      "set_name": "滨海石殿套装",
+      "min_level": 35
+    },
+    "滨海石殿护甲图纸": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「滨海石殿护甲」（需Lv.35）",
+      "base_price": 1850,
+      "set_id": "sunken_temple_set",
+      "set_name": "滨海石殿套装",
+      "min_level": 35
+    },
+    "滨海石殿靴子图纸": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「滨海石殿靴子」（需Lv.35）",
+      "base_price": 1850,
+      "set_id": "sunken_temple_set",
+      "set_name": "滨海石殿套装",
+      "min_level": 35
+    },
+    "滨海石殿护腿图纸": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「滨海石殿护腿」（需Lv.35）",
+      "base_price": 1850,
+      "set_id": "sunken_temple_set",
+      "set_name": "滨海石殿套装",
+      "min_level": 35
+    },
+    "滨海石殿饰品图纸": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「滨海石殿饰品」（需Lv.35）",
+      "base_price": 1850,
+      "set_id": "sunken_temple_set",
+      "set_name": "滨海石殿套装",
+      "min_level": 35
+    },
+    "遗忘村落之刃图纸": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「遗忘村落之刃」（需Lv.50）",
+      "base_price": 2600,
+      "set_id": "elven_capital_set",
+      "set_name": "遗忘村落套装",
+      "min_level": 50
+    },
+    "遗忘村落头盔图纸": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「遗忘村落头盔」（需Lv.50）",
+      "base_price": 2600,
+      "set_id": "elven_capital_set",
+      "set_name": "遗忘村落套装",
+      "min_level": 50
+    },
+    "遗忘村落护甲图纸": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「遗忘村落护甲」（需Lv.50）",
+      "base_price": 2600,
+      "set_id": "elven_capital_set",
+      "set_name": "遗忘村落套装",
+      "min_level": 50
+    },
+    "遗忘村落靴子图纸": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「遗忘村落靴子」（需Lv.50）",
+      "base_price": 2600,
+      "set_id": "elven_capital_set",
+      "set_name": "遗忘村落套装",
+      "min_level": 50
+    },
+    "遗忘村落护腿图纸": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「遗忘村落护腿」（需Lv.50）",
+      "base_price": 2600,
+      "set_id": "elven_capital_set",
+      "set_name": "遗忘村落套装",
+      "min_level": 50
+    },
+    "遗忘村落饰品图纸": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「遗忘村落饰品」（需Lv.50）",
+      "base_price": 2600,
+      "set_id": "elven_capital_set",
+      "set_name": "遗忘村落套装",
+      "min_level": 50
+    },
+    "天坑巨洞之刃图纸": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「天坑巨洞之刃」（需Lv.70）",
+      "base_price": 3600,
+      "set_id": "meteor_crater_set",
+      "set_name": "天坑巨洞套装",
+      "min_level": 70
+    },
+    "天坑巨洞头盔图纸": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「天坑巨洞头盔」（需Lv.70）",
+      "base_price": 3600,
+      "set_id": "meteor_crater_set",
+      "set_name": "天坑巨洞套装",
+      "min_level": 70
+    },
+    "天坑巨洞护甲图纸": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「天坑巨洞护甲」（需Lv.70）",
+      "base_price": 3600,
+      "set_id": "meteor_crater_set",
+      "set_name": "天坑巨洞套装",
+      "min_level": 70
+    },
+    "天坑巨洞靴子图纸": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「天坑巨洞靴子」（需Lv.70）",
+      "base_price": 3600,
+      "set_id": "meteor_crater_set",
+      "set_name": "天坑巨洞套装",
+      "min_level": 70
+    },
+    "天坑巨洞护腿图纸": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「天坑巨洞护腿」（需Lv.70）",
+      "base_price": 3600,
+      "set_id": "meteor_crater_set",
+      "set_name": "天坑巨洞套装",
+      "min_level": 70
+    },
+    "天坑巨洞饰品图纸": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「天坑巨洞饰品」（需Lv.70）",
+      "base_price": 3600,
+      "set_id": "meteor_crater_set",
+      "set_name": "天坑巨洞套装",
+      "min_level": 70
+    },
+    "无尽长廊之刃图纸": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「无尽长廊之刃」（需Lv.85）",
+      "base_price": 4350,
+      "set_id": "eternal_corridor_set",
+      "set_name": "无尽长廊套装",
+      "min_level": 85
+    },
+    "无尽长廊头盔图纸": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「无尽长廊头盔」（需Lv.85）",
+      "base_price": 4350,
+      "set_id": "eternal_corridor_set",
+      "set_name": "无尽长廊套装",
+      "min_level": 85
+    },
+    "无尽长廊护甲图纸": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「无尽长廊护甲」（需Lv.85）",
+      "base_price": 4350,
+      "set_id": "eternal_corridor_set",
+      "set_name": "无尽长廊套装",
+      "min_level": 85
+    },
+    "无尽长廊靴子图纸": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「无尽长廊靴子」（需Lv.85）",
+      "base_price": 4350,
+      "set_id": "eternal_corridor_set",
+      "set_name": "无尽长廊套装",
+      "min_level": 85
+    },
+    "无尽长廊护腿图纸": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「无尽长廊护腿」（需Lv.85）",
+      "base_price": 4350,
+      "set_id": "eternal_corridor_set",
+      "set_name": "无尽长廊套装",
+      "min_level": 85
+    },
+    "无尽长廊饰品图纸": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「无尽长廊饰品」（需Lv.85）",
+      "base_price": 4350,
+      "set_id": "eternal_corridor_set",
+      "set_name": "无尽长廊套装",
+      "min_level": 85
+    },
+    "巨兽坟场之刃图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「巨兽坟场之刃」（需Lv.100）",
+      "base_price": 5100,
+      "set_id": "dragon_graveyard_set",
+      "set_name": "巨兽坟场套装",
+      "min_level": 100
+    },
+    "巨兽坟场头盔图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「巨兽坟场头盔」（需Lv.100）",
+      "base_price": 5100,
+      "set_id": "dragon_graveyard_set",
+      "set_name": "巨兽坟场套装",
+      "min_level": 100
+    },
+    "巨兽坟场护甲图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「巨兽坟场护甲」（需Lv.100）",
+      "base_price": 5100,
+      "set_id": "dragon_graveyard_set",
+      "set_name": "巨兽坟场套装",
+      "min_level": 100
+    },
+    "巨兽坟场靴子图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「巨兽坟场靴子」（需Lv.100）",
+      "base_price": 5100,
+      "set_id": "dragon_graveyard_set",
+      "set_name": "巨兽坟场套装",
+      "min_level": 100
+    },
+    "巨兽坟场护腿图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「巨兽坟场护腿」（需Lv.100）",
+      "base_price": 5100,
+      "set_id": "dragon_graveyard_set",
+      "set_name": "巨兽坟场套装",
+      "min_level": 100
+    },
+    "巨兽坟场饰品图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「巨兽坟场饰品」（需Lv.100）",
+      "base_price": 5100,
+      "set_id": "dragon_graveyard_set",
+      "set_name": "巨兽坟场套装",
+      "min_level": 100
+    },
+    "幽暗石殿之刃图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「幽暗石殿之刃」（需Lv.120）",
+      "base_price": 6100,
+      "set_id": "void_sanctum_set",
+      "set_name": "幽暗石殿套装",
+      "min_level": 120
+    },
+    "幽暗石殿头盔图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「幽暗石殿头盔」（需Lv.120）",
+      "base_price": 6100,
+      "set_id": "void_sanctum_set",
+      "set_name": "幽暗石殿套装",
+      "min_level": 120
+    },
+    "幽暗石殿护甲图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「幽暗石殿护甲」（需Lv.120）",
+      "base_price": 6100,
+      "set_id": "void_sanctum_set",
+      "set_name": "幽暗石殿套装",
+      "min_level": 120
+    },
+    "幽暗石殿靴子图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「幽暗石殿靴子」（需Lv.120）",
+      "base_price": 6100,
+      "set_id": "void_sanctum_set",
+      "set_name": "幽暗石殿套装",
+      "min_level": 120
+    },
+    "幽暗石殿护腿图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「幽暗石殿护腿」（需Lv.120）",
+      "base_price": 6100,
+      "set_id": "void_sanctum_set",
+      "set_name": "幽暗石殿套装",
+      "min_level": 120
+    },
+    "幽暗石殿饰品图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「幽暗石殿饰品」（需Lv.120）",
+      "base_price": 6100,
+      "set_id": "void_sanctum_set",
+      "set_name": "幽暗石殿套装",
+      "min_level": 120
+    },
+    "古旧工坊之刃图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「古旧工坊之刃」（需Lv.145）",
+      "base_price": 7350,
+      "set_id": "celestial_forge_set",
+      "set_name": "古旧工坊套装",
+      "min_level": 145
+    },
+    "古旧工坊头盔图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「古旧工坊头盔」（需Lv.145）",
+      "base_price": 7350,
+      "set_id": "celestial_forge_set",
+      "set_name": "古旧工坊套装",
+      "min_level": 145
+    },
+    "古旧工坊护甲图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「古旧工坊护甲」（需Lv.145）",
+      "base_price": 7350,
+      "set_id": "celestial_forge_set",
+      "set_name": "古旧工坊套装",
+      "min_level": 145
+    },
+    "古旧工坊靴子图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「古旧工坊靴子」（需Lv.145）",
+      "base_price": 7350,
+      "set_id": "celestial_forge_set",
+      "set_name": "古旧工坊套装",
+      "min_level": 145
+    },
+    "古旧工坊护腿图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「古旧工坊护腿」（需Lv.145）",
+      "base_price": 7350,
+      "set_id": "celestial_forge_set",
+      "set_name": "古旧工坊套装",
+      "min_level": 145
+    },
+    "古旧工坊饰品图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「古旧工坊饰品」（需Lv.145）",
+      "base_price": 7350,
+      "set_id": "celestial_forge_set",
+      "set_name": "古旧工坊套装",
+      "min_level": 145
+    },
+    "地下暗湖之刃图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「地下暗湖之刃」（需Lv.170）",
+      "base_price": 8600,
+      "set_id": "primordial_sea_set",
+      "set_name": "地下暗湖套装",
+      "min_level": 170
+    },
+    "地下暗湖头盔图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「地下暗湖头盔」（需Lv.170）",
+      "base_price": 8600,
+      "set_id": "primordial_sea_set",
+      "set_name": "地下暗湖套装",
+      "min_level": 170
+    },
+    "地下暗湖护甲图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「地下暗湖护甲」（需Lv.170）",
+      "base_price": 8600,
+      "set_id": "primordial_sea_set",
+      "set_name": "地下暗湖套装",
+      "min_level": 170
+    },
+    "地下暗湖靴子图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「地下暗湖靴子」（需Lv.170）",
+      "base_price": 8600,
+      "set_id": "primordial_sea_set",
+      "set_name": "地下暗湖套装",
+      "min_level": 170
+    },
+    "地下暗湖护腿图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「地下暗湖护腿」（需Lv.170）",
+      "base_price": 8600,
+      "set_id": "primordial_sea_set",
+      "set_name": "地下暗湖套装",
+      "min_level": 170
+    },
+    "地下暗湖饰品图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「地下暗湖饰品」（需Lv.170）",
+      "base_price": 8600,
+      "set_id": "primordial_sea_set",
+      "set_name": "地下暗湖套装",
+      "min_level": 170
+    },
+    "幽暗回廊之刃图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「幽暗回廊之刃」（需Lv.200）",
+      "base_price": 10100,
+      "set_id": "omega_corridor_set",
+      "set_name": "幽暗回廊套装",
+      "min_level": 200
+    },
+    "幽暗回廊头盔图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「幽暗回廊头盔」（需Lv.200）",
+      "base_price": 10100,
+      "set_id": "omega_corridor_set",
+      "set_name": "幽暗回廊套装",
+      "min_level": 200
+    },
+    "幽暗回廊护甲图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「幽暗回廊护甲」（需Lv.200）",
+      "base_price": 10100,
+      "set_id": "omega_corridor_set",
+      "set_name": "幽暗回廊套装",
+      "min_level": 200
+    },
+    "幽暗回廊靴子图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「幽暗回廊靴子」（需Lv.200）",
+      "base_price": 10100,
+      "set_id": "omega_corridor_set",
+      "set_name": "幽暗回廊套装",
+      "min_level": 200
+    },
+    "幽暗回廊护腿图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「幽暗回廊护腿」（需Lv.200）",
+      "base_price": 10100,
+      "set_id": "omega_corridor_set",
+      "set_name": "幽暗回廊套装",
+      "min_level": 200
+    },
+    "幽暗回廊饰品图纸": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "废墟探索 / 全球市场",
+      "use": "使用后学会制作「幽暗回廊饰品」（需Lv.200）",
+      "base_price": 10100,
+      "set_id": "omega_corridor_set",
+      "set_name": "幽暗回廊套装",
+      "min_level": 200
+    },
+    "精炼铁矿配方": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "合成 / 冒险掉落 / 全球市场",
+      "use": "使用后解锁合成配方「精炼铁矿」",
+      "base_price": 400
+    },
+    "精炼铜矿配方": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "合成 / 冒险掉落 / 全球市场",
+      "use": "使用后解锁合成配方「精炼铜矿」",
+      "base_price": 400
+    },
+    "初级强化石配方": {
+      "category": "blueprint",
+      "rarity": 1,
+      "source": "合成 / 冒险掉落 / 全球市场",
+      "use": "使用后解锁合成配方「初级强化石」",
+      "base_price": 200
+    },
+    "中级强化石配方": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "合成 / 冒险掉落 / 全球市场",
+      "use": "使用后解锁合成配方「中级强化石」",
+      "base_price": 400
+    },
+    "高级强化石配方": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "合成 / 冒险掉落 / 全球市场",
+      "use": "使用后解锁合成配方「高级强化石」",
+      "base_price": 600
+    },
+    "特级强化石配方": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "合成 / 冒险掉落 / 全球市场",
+      "use": "使用后解锁合成配方「特级强化石」",
+      "base_price": 800
+    },
+    "强化保护符配方": {
+      "category": "blueprint",
+      "rarity": 3,
+      "source": "合成 / 冒险掉落 / 全球市场",
+      "use": "使用后解锁合成配方「强化保护符」",
+      "base_price": 600
+    },
+    "鱼骨剑配方": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "合成 / 冒险掉落 / 全球市场",
+      "use": "使用后解锁合成配方「鱼骨剑」",
+      "base_price": 400
+    },
+    "鳞甲护甲配方": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "合成 / 冒险掉落 / 全球市场",
+      "use": "使用后解锁合成配方「鳞甲护甲」",
+      "base_price": 400
+    },
+    "攻击强化石配方": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "合成 / 冒险掉落 / 全球市场",
+      "use": "使用后解锁合成配方「攻击强化石」",
+      "base_price": 400
+    },
+    "防御强化石配方": {
+      "category": "blueprint",
+      "rarity": 2,
+      "source": "合成 / 冒险掉落 / 全球市场",
+      "use": "使用后解锁合成配方「防御强化石」",
+      "base_price": 400
+    },
+    "觉醒强化石配方": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "合成 / 冒险掉落 / 全球市场",
+      "use": "使用后解锁合成配方「觉醒强化石」",
+      "base_price": 800
+    },
+    "突破强化石配方": {
+      "category": "blueprint",
+      "rarity": 4,
+      "source": "合成 / 冒险掉落 / 全球市场",
+      "use": "使用后解锁合成配方「突破强化石」",
+      "base_price": 800
+    },
+    "幻影迷宫探索卷轴": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "冒险掉落",
+      "use": "使用后可进入对应的遗迹探险一次"
+    },
+    "风暴之眼探索卷轴": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "冒险掉落",
+      "use": "使用后可进入对应的遗迹探险一次"
+    },
+    "冰封王座探索卷轴": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "冒险掉落",
+      "use": "使用后可进入对应的遗迹探险一次"
+    },
+    "熔火之心探索卷轴": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "冒险掉落",
+      "use": "使用后可进入对应的遗迹探险一次"
+    },
+    "暗影圣殿探索卷轴": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "冒险掉落",
+      "use": "使用后可进入对应的遗迹探险一次"
+    },
+    "梦境深渊探索卷轴": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "冒险掉落",
+      "use": "使用后可进入对应的遗迹探险一次"
+    },
+    "苍穹之塔探索卷轴": {
+      "category": "consume",
+      "rarity": 4,
+      "source": "冒险掉落/合成",
+      "use": "使用后可进入苍穹之塔探险一次"
+    },
+    "深渊王座探索卷轴": {
+      "category": "consume",
+      "rarity": 4,
+      "source": "冒险掉落/合成",
+      "use": "使用后可进入深渊王座探险一次"
+    },
+    "雷鸣峡谷探索卷轴": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "冒险掉落",
+      "use": "使用后可进入对应的遗迹探险一次"
+    },
+    "水晶深矿探索卷轴": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "冒险掉落",
+      "use": "使用后可进入对应的遗迹探险一次"
+    },
+    "附魔石": {
+      "category": "material",
+      "rarity": 2,
+      "source": "冒险掉落 / 附魔草种植",
+      "use": "锻造材料 / 附魔材料"
+    },
+    "皮革": {
+      "category": "material",
+      "rarity": 1,
+      "source": "冒险掉落",
+      "use": "锻造材料 / 合成材料"
+    },
+    "大鲤鱼": {
+      "category": "fish",
+      "rarity": 2,
+      "source": "钓鱼",
+      "use": "出售换金币 / 烹饪食材"
+    },
+    "冰晶石": {
+      "category": "ore",
+      "rarity": 3,
+      "source": "冒险掉落",
+      "use": "锻造武器（寒冰属性加成）"
+    },
+    "磨刀石": {
+      "category": "consume",
+      "rarity": 2,
+      "source": "冒险/任务奖励",
+      "use": "使用后下次锻造攻击力+5（一次性消耗）"
+    },
+    "绷带": {
+      "category": "material",
+      "rarity": 1,
+      "source": "击败干枯尸骸",
+      "use": "出售/合成材料"
+    },
+    "创世结晶": {
+      "category": "special",
+      "rarity": 999,
+      "source": "击败终焉级怪物",
+      "use": "锻造神话武器 / 合成材料"
+    },
+    "亮碎片": {
+      "category": "material",
+      "rarity": 4,
+      "source": "击败苍穹级怪物",
+      "use": "锻造顶级武器 / 合成材料"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "description": "新用户初始资源。coins: 初始金币。items: 背包初始物品列表。skill_points: 初始技能点。version: 修改此文件后递增，已有玩家登录时自动获得新增内容。",
+  "version": 1,
+  "coins": 100,
+  "skill_points": 10,
+  "items": [
+    "小麦种子",
+    "小麦种子",
+    "小鸡崽"
+  ]
+}
